@@ -13,6 +13,7 @@ User-agent: cohere-ai
 User-agent: DataForSeoBot
 User-agent: FacebookBot
 User-agent: Google-Extended
+User-agent: GoogleOther
 User-agent: GPTBot
 User-agent: ImagesiftBot
 User-agent: magpie-crawler
