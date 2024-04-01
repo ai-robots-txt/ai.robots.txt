@@ -1,0 +1,6 @@
+# Spawning AI
+# Prevent datasets from using the following file types
+
+User-Agent: *
+Disallow: /
+Disallow: *
