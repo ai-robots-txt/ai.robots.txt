@@ -17,6 +17,7 @@ User-agent: GoogleOther
 User-agent: GPTBot
 User-agent: ImagesiftBot
 User-agent: magpie-crawler
+User-agent: Meltwater
 User-agent: omgili
 User-agent: omgilibot
 User-agent: peer39_crawler
