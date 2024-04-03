@@ -22,5 +22,6 @@ User-agent: omgilibot
 User-agent: peer39_crawler
 User-agent: peer39_crawler/1.0
 User-agent: PerplexityBot
+User-agent: Seekr
 User-agent: YouBot
 Disallow: /
