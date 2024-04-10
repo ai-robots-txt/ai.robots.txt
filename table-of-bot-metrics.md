@@ -8,7 +8,7 @@
 |AwarioSmartBot |         |                       |          |                  |             |
 |Bytespider    |         |                       |          |                  |             |
 |CCBot         |         |                       |          |                  |             |
-|ChatGPT-User   |         |                       |          |                  |             |
+|ChatGPT-User   | [OpenAI](https://openai.com) | Yes | Takes action based on user prompts. | Only when prompted by a user. | Used by plugins in ChatGPT to answer queries based on user input. |
 |ClaudeBot      |         |                       |          |                  |             |
 |Claude-Web    |         |                       |          |                  |             |
 |coher-ai       |         |                       |          |                  |             |
