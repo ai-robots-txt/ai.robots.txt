@@ -2,7 +2,7 @@
 |----------------|---------|-----------------------|----------|------------------|-------------|
 | AdsBot-Google   | Google  | Yes (Exceptions for Dynamic Search Ads) | Analyzes website content for ad relevancy, improves ad serving for Google Ads. Data anonymized according to Google's Privacy Policy (https://policies.google.com/privacy?hl=en-US). Unclear on data retention or use by other products. | Varies depending on campaign activity and website updates. Crawls optimized to minimize impact, specific frequency not public. | Web crawler by Google Ads to analyze websites for ad effectiveness and ensure ad relevancy to webpage content. |
 |Amazonbot      | Amazon | Yes | Service improvement and enabling answers for Alexa users. | No information provided. | Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses. |
-|anthropic-ai  | [Anthropic](https://www.anthropic.com) | Unclear at this time | Obtains training data for Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
+|anthropic-ai  | [Anthropic](https://www.anthropic.com) | Unclear at this time | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |Applebot      | Apple         | Yes | Indexes sites to provide answers and search results for Siri users. | Irregular and may be prompted by user queries. | Used to answer queries from users; may included references to the indexed site. |
 |AwarioRssBot   |         |                       |          |                  |             |
 |AwarioSmartBot |         |                       |          |                  |             |
@@ -16,7 +16,7 @@
 |FacebookBot    |         |                       |          |                  |             |
 |Google-Extended|         |                       |          |                  |             |
 |GoogleOther    |         |                       |          |                  |             |
-|GPTBot        |         |                       |          |                  |             |
+|GPTBot        | [OpenAI](https://openai.com) | Yes | Scrapes data to train OpenAI's products. | No information provided. | Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies. |
 |ImagesiftBot  |         |                       |          |                  |             |
 |magpie-crawler |         |                       |          |                  |             |
 |Meltwater     |         |                       |          |                  |             |
