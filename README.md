@@ -10,24 +10,4 @@ If you'd like to add information about a crawler to the list, please make a pull
 
 ---
 
-## Additional resources
-
-**Spawning.ai**    
-[Create an ai.txt](https://spawning.ai/ai-txt#create): an additional avenue to block crawlers. Example file:
-
-```text
-# Spawning AI
-# Prevent datasets from using the following file types
-
-User-Agent: *
-Disallow: /
-Disallow: *
-```
-
-**[Have I Been Trained?](https://haveibeentrained.com/)**    
-Search datasets for your content and request its removal.
-
-
----
-
 Thank you to [Glyn](https://github.com/glyn) for pushing [me](https://coryd.dev) to set this up after [I posted about blocking these crawlers](https://coryd.dev/posts/2024/go-ahead-and-block-ai-web-crawlers/).
