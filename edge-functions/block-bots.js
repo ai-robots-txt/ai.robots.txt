@@ -9,6 +9,8 @@
 * path = "/*"
 *
 * Place at `netlify/edge-functions/block-bots.js`
+*
+* (Or adapt for your edge function-supporting platform of choice.)
 */
 
 // inspired (and taken) from ethan marcotte's blog post
