@@ -17,6 +17,7 @@
 |Google-Extended|         |                       |          |                  |             |
 |GoogleOther    |         |                       |          |                  |             |
 |GPTBot        | [OpenAI](https://openai.com) | Yes | Scrapes data to train OpenAI's products. | No information provided. | Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies. |
+| img2dataset |         |                       |          |                  |             |
 |ImagesiftBot  |         |                       |          |                  |             |
 |magpie-crawler |         |                       |          |                  |             |
 |Meltwater     |         |                       |          |                  |             |
