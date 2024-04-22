@@ -16,6 +16,7 @@ User-agent: FriendlyCrawler
 User-agent: Google-Extended
 User-agent: GoogleOther
 User-agent: GPTBot
+User-agent: img2dataset
 User-agent: ImagesiftBot
 User-agent: magpie-crawler
 User-agent: Meltwater
