@@ -29,6 +29,7 @@ const botUas = [
   'Claude-Web',
   'cohere-ai',
   'DataForSeoBot',
+  'Diffbot',
   'FacebookBot',
   'FriendlyCrawler',
   'Google-Extended',
@@ -44,6 +45,7 @@ const botUas = [
   'peer39_crawler/1.0',
   'PerplexityBot',
   'PiplBot',
+  'scoop.it',
   'Seekr',
   'YouBot',
 ]

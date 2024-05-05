@@ -13,6 +13,7 @@
 |Claude-Web    |         |                       |          |                  |             |
 |coher-ai       |         |                       |          |                  |             |
 |DataForSeoBot |         |                       |          |                  |             |
+|Diffbot |         |                       |          |                  |             |
 |FacebookBot    |         |                       |          |                  |             |
 |Google-Extended|         |                       |          |                  |             |
 |GoogleOther    |         |                       |          |                  |             |
@@ -27,5 +28,6 @@
 |peer39_crawler/1.0|         |                       |          |                  |             |
 |PerplexityBot |         |                       |          |                  |             |
 |PiplBot       |         |                       |          |                  |             |
+|scoop.it      |         |                       |          |                  |             |
 |Seekr         |         |                       |          |                  |             |
 |YouBot        |         |                       |          |                  |             |
