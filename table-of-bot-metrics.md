@@ -11,7 +11,7 @@
 |ChatGPT-User   | [OpenAI](https://openai.com) | Yes | Takes action based on user prompts. | Only when prompted by a user. | Used by plugins in ChatGPT to answer queries based on user input. |
 |ClaudeBot      | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |Claude-Web [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
-|cohere-ai       |         |                       |          |                  |             |
+|cohere-ai | [Cohere](https://cohere.com) | Unclear at this time. | Retrieves data to provide responses to user-initiated prompts. | Takes action based on user prompts. | Retrieves data based on user prompts. |
 |DataForSeoBot |         |                       |          |                  |             |
 |Diffbot |         |                       |          |                  |             |
 |FacebookBot    |         |                       |          |                  |             |
