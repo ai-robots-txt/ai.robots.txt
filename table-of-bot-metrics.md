@@ -7,7 +7,7 @@
 |AwarioRssBot   |         |                       |          |                  |             |
 |AwarioSmartBot |         |                       |          |                  |             |
 |Bytespider    |         |                       |          |                  |             |
-|CCBot         |         |                       |          |                  |             |
+|CCBot         | [Common Crawl](https://commoncrawl.org) | [Yes](https://commoncrawl.org/ccbot) | Provides crawl data for an open source repository that has been used to train LLMs. | Unclear at this tiem. | Sources data that is made openly available and is used to train AI models. |
 |ChatGPT-User   | [OpenAI](https://openai.com) | Yes | Takes action based on user prompts. | Only when prompted by a user. | Used by plugins in ChatGPT to answer queries based on user input. |
 |ClaudeBot      |         |                       |          |                  |             |
 |Claude-Web    |         |                       |          |                  |             |
