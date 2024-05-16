@@ -10,7 +10,7 @@
 |CCBot         | [Common Crawl](https://commoncrawl.org) | [Yes](https://commoncrawl.org/ccbot) | Provides crawl data for an open source repository that has been used to train LLMs. | Unclear at this time. | Sources data that is made openly available and is used to train AI models. |
 |ChatGPT-User   | [OpenAI](https://openai.com) | Yes | Takes action based on user prompts. | Only when prompted by a user. | Used by plugins in ChatGPT to answer queries based on user input. |
 |ClaudeBot      | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
-|Claude-Web [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
+|Claude-Web | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |cohere-ai | [Cohere](https://cohere.com) | Unclear at this time. | Retrieves data to provide responses to user-initiated prompts. | Takes action based on user prompts. | Retrieves data based on user prompts. |
 |DataForSeoBot |         |                       |          |                  |             |
 |Diffbot |         |                       |          |                  |             |
