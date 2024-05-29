@@ -12,8 +12,8 @@
 |ClaudeBot      | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |Claude-Web | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |cohere-ai | [Cohere](https://cohere.com) | Unclear at this time. | Retrieves data to provide responses to user-initiated prompts. | Takes action based on user prompts. | Retrieves data based on user prompts. |
-|DataForSeoBot |         |                       |          |                  |             |
-|Diffbot |         |                       |          |                  |             |
+|DataForSeoBot | [DataForSEO](https://dataforseo.com/) | [Yes](https://dataforseo.com/dataforseo-bot) | Backlink checking and SEO data collection to be resolt to clients. | As often as every 5 seconds. | Operated by DataForSEO to check backlinks and scrape SEO data for resale. |
+|Diffbot | [Diffbot](https://www.diffbot.com/) | At the discretion of Diffbot users. | Aggregates structured web data for monitoring and AI model training. | Unclear at this time. | Diffbot is an application used to parse web pages into structured data; this data is used for monitoring or AI model training. |
 |FacebookBot    |         |                       |          |                  |             |
 |Google-Extended|         |                       |          |                  |             |
 |GoogleOther    |         |                       |          |                  |             |
