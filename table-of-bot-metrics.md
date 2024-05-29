@@ -1,6 +1,6 @@
 |Name            |Operator |Respects `robots.txt`  |Data use  |Visit regularity  |Description  |
 |----------------|---------|-----------------------|----------|------------------|-------------|
-| AdsBot-Google   | Google  | Yes (Exceptions for Dynamic Search Ads) | Analyzes website content for ad relevancy, improves ad serving for Google Ads. Data anonymized according to Google's Privacy Policy (https://policies.google.com/privacy?hl=en-US). Unclear on data retention or use by other products. | Varies depending on campaign activity and website updates. Crawls optimized to minimize impact, specific frequency not public. | Web crawler by Google Ads to analyze websites for ad effectiveness and ensure ad relevancy to webpage content. |
+| AdsBot-Google   | Google  | Yes (Exceptions for Dynamic Search Ads) | Analyzes website content for ad relevancy, improves ad serving for Google Ads. Data anonymized according to [Google's Privacy Policy](https://policies.google.com/privacy). Unclear on data retention or use by other products. | Varies depending on campaign activity and website updates. Crawls optimized to minimize impact, specific frequency not public. | Web crawler by Google Ads to analyze websites for ad effectiveness and ensure ad relevancy to webpage content. |
 |Amazonbot      | Amazon | Yes | Service improvement and enabling answers for Alexa users. | No information provided. | Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses. |
 |anthropic-ai  | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |Applebot      | Apple         | Yes | Indexes sites to provide answers and search results for Siri users. | Irregular and may be prompted by user queries. | Used to answer queries from users; may included references to the indexed site. |
@@ -26,7 +26,7 @@
 |omgilibot     |         |                       |          |                  |             |
 |peer39_crawler|         |                       |          |                  |             |
 |peer39_crawler/1.0|         |                       |          |                  |             |
-|PerplexityBot |         |                       |          |                  |             |
+|PerplexityBot | [Perplexity](https://www.perplexity.ai/) | [Yes](https://docs.perplexity.ai/docs/perplexitybot) | Used to answer queries at the request of users. | Takes action based on user prompts.  | Operated by Perplexity to obtain results in response to user queries. |
 |PiplBot       |         |                       |          |                  |             |
 |scoop.it      |         |                       |          |                  |             |
 |Seekr         |         |                       |          |                  |             |
