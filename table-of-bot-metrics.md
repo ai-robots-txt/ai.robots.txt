@@ -4,6 +4,7 @@
 |Amazonbot      | Amazon | Yes | Service improvement and enabling answers for Alexa users. | No information provided. | Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses. |
 |anthropic-ai  | [Anthropic](https://www.anthropic.com) | Unclear at this time. | Scrapes data to train Anthropic's AI products. | No information provided. | Scrapes data to train LLMs and AI products offered by Anthropic. |
 |Applebot      | Apple         | Yes | Indexes sites to provide answers and search results for Siri users. | Irregular and may be prompted by user queries. | Used to answer queries from users; may included references to the indexed site. |
+|Applebot-Extended   |         |                       |          |                  |             |
 |AwarioRssBot   |         |                       |          |                  |             |
 |AwarioSmartBot |         |                       |          |                  |             |
 |Bytespider    | ByteDance | No | LLM training. | Unclear at this time. | Downloads data to train LLMS, including ChatGPT competitors. |

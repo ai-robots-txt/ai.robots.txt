@@ -20,6 +20,7 @@ const botUas = [
   'Amazonbot',
   'anthropic-ai',
   'Applebot',
+  'Applebot-Extended',
   'AwarioRssBot',
   'AwarioSmartBot',
   'Bytespider',
