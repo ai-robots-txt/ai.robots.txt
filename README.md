@@ -2,7 +2,7 @@
 
 <img src="/assets/images/noai-logo.png" width="100" />
 
-**[Subscribe to updates via RSS/Atom by clicking on this link.](https://github.com/ai-robots-txt/ai.robots.txt/commits/main/robots.txt.atom)**
+**[Subscribe to updates via RSS/Atom by clicking on this link.](https://github.com/ai-robots-txt/ai.robots.txt/releases.atom)**
 
 _(Or paste the link into your preferred feed reader.)_
 
