@@ -19,7 +19,6 @@ const botUas = [
   'AdsBot-Google',
   'Amazonbot',
   'anthropic-ai',
-  'Applebot',
   'Applebot-Extended',
   'AwarioRssBot',
   'AwarioSmartBot',
