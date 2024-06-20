@@ -14,6 +14,12 @@ A number of these crawlers have been sourced from [Dark Visitors](https://darkvi
 
 If you'd like to add information about a crawler to the list, please make a pull request with the bot name added to `robots.txt`, `ai.txt`, and any relevant details in `table-of-bot-metrics.md` to help people understand what's crawling.
 
+## Additional resources
+
+- [Blocking Bots with Nginx](https://rknight.me/blog/blocking-bots-with-nginx/) by Robb Knight
+- [Blockin' bots.](https://ethanmarcotte.com/wrote/blockin-bots/) by Ethan Marcotte
+- [Blocking Bots With 11ty And Apache](https://flamedfury.com/posts/blocking-bots-with-11ty-and-apache/) by fLaMEd fury
+
 ---
 
 Thank you to [Glyn](https://github.com/glyn) for pushing [me](https://coryd.dev) to set this up after [I posted about blocking these crawlers](https://coryd.dev/posts/2024/go-ahead-and-block-ai-web-crawlers/).
