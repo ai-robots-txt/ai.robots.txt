@@ -24,6 +24,7 @@ You can subscribe with [Feedly](https://feedly.com/i/subscription/feed/https://g
 - [Blockin' bots.](https://ethanmarcotte.com/wrote/blockin-bots/) by Ethan Marcotte
 - [Blocking Bots With 11ty And Apache](https://flamedfury.com/posts/blocking-bots-with-11ty-and-apache/) by fLaMEd fury
 - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
+- [Blocking AI web crawlers](https://underlap.org/blocking-ai-web-crawlers) by Glyn Normington
 
 ---
 
