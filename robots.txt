@@ -17,8 +17,6 @@ User-agent: GPTBot
 User-agent: img2dataset
 User-agent: omgili
 User-agent: omgilibot
-User-agent: peer39_crawler
-User-agent: peer39_crawler/1.0
 User-agent: PerplexityBot
 User-agent: YouBot
 Disallow: /
