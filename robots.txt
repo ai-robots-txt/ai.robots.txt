@@ -10,6 +10,7 @@ User-agent: cohere-ai
 User-agent: Diffbot
 User-agent: FacebookBot
 User-agent: FriendlyCrawler
+User-agent: facebookexternalhit
 User-agent: Google-Extended
 User-agent: GoogleOther
 User-agent: GoogleOther-Image
