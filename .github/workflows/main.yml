@@ -1,0 +1,25 @@
+on: [push]
+
+jobs:
+  ai-robots-txt:
+    runs-on: ubuntu-latest
+    name: ai-robots-txt
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - run: |
+          git config --global user.name "ai.robots.txt"
+          git config --global user.email "ai.robots.txt@users.noreply.github.com"
+          git rm robots.txt
+          git rm table-of-bot-metrics.md
+          git add -A
+          git commit -m "Removing previously generated files"
+          git push
+          php -f code/action.php
+          git config --global user.name "ai.robots.txt"
+          git config --global user.email "ai.robots.txt@users.noreply.github.com"
+          git add -A
+          git commit -m "${{ github.event.head_commit.message }}"
+          git push
+        shell: bash
