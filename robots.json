@@ -180,12 +180,5 @@
         "function": "Scrapes data for search engine and LLMs.",
         "frequency": "No information.",
         "description": "Retrieves data used for You.com web search engine and LLMs."
-    },
-    "TestBot2": {
-        "operator": "Testing operator",
-        "respect": "Testing respect",
-        "function": "Testing function",
-        "frequency": "Testing frequency",
-        "description": "Testing description"
     }
 }
