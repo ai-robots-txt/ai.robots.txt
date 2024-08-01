@@ -76,6 +76,13 @@
         "frequency": "Up to 1 page per second",
         "description": "Officially used for training Meta \"speech recognition technology,\" unknown if used to train Meta AI specifically."
     },
+    "facebookexternalhit": {
+        "operator": "Meta\/Facebook",
+        "respect": "[Yes](https:\/\/developers.facebook.com\/docs\/sharing\/bot\/)",
+        "function": "No information.",
+        "frequency": "Unclear at this time.",
+        "description": "Unclear at this time."
+    },
     "Google-Extended": {
         "operator": "Google",
         "respect": "[Yes](https:\/\/developers.google.com\/search\/docs\/crawling-indexing\/overview-google-crawlers)",
@@ -152,6 +159,13 @@
         "function": "Used to answer queries at the request of users.",
         "frequency": "Takes action based on user prompts.",
         "description": "Operated by Perplexity to obtain results in response to user queries."
+    },
+    "PetalBot": {
+        "operator": "[Huawei](https:\/\/huawei.com\/)",
+        "respect": "Yes",
+        "function": "Used to provide recommendations in Hauwei assistant and AI search services.",
+        "frequency": "No explicit frequency provided.",
+        "description": "Operated by Huawei to provide search and AI assistant services."
     },
     "Scrapy": {
         "operator": "[Zyte](https:\/\/www.zyte.com)",
