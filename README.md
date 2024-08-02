@@ -8,6 +8,10 @@ A number of these crawlers have been sourced from [Dark Visitors](https://darkvi
 
 If you'd like to add information about a crawler to the list, please make a pull request with the bot name added to `robots.txt`, `ai.txt`, and any relevant details in `table-of-bot-metrics.md` to help people understand what's crawling.
 
+## Contributing
+
+A note about contributing: updates should be added/made to `robots.json`. A GitHub action, courtesy of [Adam](https://github.com/newbold), will then generate the updated `robots.txt` and `table-of-bot-metrics.md`.
+
 ## Subscribe to updates
 
 You can subscribe to list updates via RSS/Atom with the releases feed:
