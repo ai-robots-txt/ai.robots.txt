@@ -22,6 +22,8 @@ That depends on your stack.
 > The snippets in these articles all use `mod_rewrite`, which [should be considered a last resort](https://httpd.apache.org/docs/trunk/rewrite/avoid.html). A good alternative that's less resource-intensive is `mod_setenvif`; see [httpd docs](https://httpd.apache.org/docs/trunk/rewrite/access.html#blocking-of-robots) for an example.
 - Netlify
   - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
+- Cloudflare
+  - [I’m blocking AI crawlers](https://roelant.net/en/2024/im-blocking-ai-crawlers-part-2/) by Roelant
 
 ## Why should we block these crawlers?
 
