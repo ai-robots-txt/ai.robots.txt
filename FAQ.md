@@ -8,6 +8,21 @@ The short answer is that we don't. `robots.txt` is a well-established standard b
 
 Yes, provided the crawlers identify themselves and your application/hosting supports doing so.
 
+## What can we do if a bot doesn't respect `robots.txt`?
+
+That depends on your stack.
+
+- Nginx
+  - [Blocking Bots with Nginx](https://rknight.me/blog/blocking-bots-with-nginx/) by Robb Knight
+  - [Blocking AI web crawlers](https://underlap.org/blocking-ai-web-crawlers) by Glyn Normington
+- Apache httpd
+  - [Blockin' bots.](https://ethanmarcotte.com/wrote/blockin-bots/) by Ethan Marcotte
+  - [Blocking Bots With 11ty And Apache](https://flamedfury.com/posts/blocking-bots-with-11ty-and-apache/) by fLaMEd fury
+> [!TIP]
+> The snippets in these articles all use `mod_rewrite`, which [should be considered a last resort](https://httpd.apache.org/docs/trunk/rewrite/avoid.html). A good alternative that's less resource-intensive is `mod_setenvif`; see [httpd docs](https://httpd.apache.org/docs/trunk/rewrite/access.html#blocking-of-robots) for an example.
+- Netlify
+  - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
+
 ## Why should we block these crawlers?
 
 They're extractive, confer no benefit to the creators of data they're ingesting and also have wide-ranging negative externalities.
