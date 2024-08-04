@@ -1,4 +1,7 @@
-on: [push]
+on:
+  push:
+    paths:
+      - 'robots.json'
 
 jobs:
   ai-robots-txt:
