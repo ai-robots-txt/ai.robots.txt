@@ -23,6 +23,7 @@ That depends on your stack.
 - Netlify
   - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
 - Cloudflare
+  - [Block AI bots, scrapers and crawlers with a single click](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) by Cloudflare
   - [I’m blocking AI crawlers](https://roelant.net/en/2024/im-blocking-ai-crawlers-part-2/) by Roelant
 
 ## Why should we block these crawlers?
