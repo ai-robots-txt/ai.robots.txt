@@ -83,6 +83,13 @@
         "frequency": "Unclear at this time.",
         "description": "Unclear at this time."
     },
+    "FriendlyCrawler": {
+        "operator": "Unknown",
+        "respect": "[Yes](https:\/\/imho.alex-kunz.com\/2024\/01\/25\/an-update-on-friendly-crawler)",
+        "function": "We are using the data from the crawler to build datasets for machine learning experiments.",
+        "frequency": "Unclear at this time.",
+        "description": "Unclear who the operator is; but data is used for training/machine learning."
+    },
     "Google-Extended": {
         "operator": "Google",
         "respect": "[Yes](https:\/\/developers.google.com\/search\/docs\/crawling-indexing\/overview-google-crawlers)",
@@ -124,6 +131,13 @@
         "function": "Scrapes data to train and support AI technologies.",
         "frequency": "No information.",
         "description": "Use the collected data for artificial intelligence technologies; provide data to third parties, including commercial companies; those companies can use the data for their own business."
+    },
+    "ImageSift": {
+        "operator": "[ImageSift](https:\/\/imagesift.com)",
+        "respect": "[Yes](https:\/\/imagesift.com\/about)",
+        "function": "ImageSiftBot is a web crawler that scrapes the internet for publicly available images to support our suite of web intelligence products",
+        "frequency": "No information.",
+        "description": "Once images and text are downloaded from a webpage, ImageSift analyzes this data from the page and stores the information in an index. Our web intelligence products use this index to enable search and retrieval of similar images."
     },
     "img2dataset": {
         "operator": "[img2dataset](https:\/\/github.com\/rom1504\/img2dataset)",
