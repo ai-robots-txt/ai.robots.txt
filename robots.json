@@ -118,6 +118,13 @@
         "frequency": "No information.",
         "description": "Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies."
     },
+    "ICC-Crawler": {
+        "operator": "[NICT](https:\/\/nict.go.jp)",
+        "respect": "Yes",
+        "function": "Scrapes data to train and support AI technologies.",
+        "frequency": "No information.",
+        "description": "Use the collected data for artificial intelligence technologies; provide data to third parties, including commercial companies; those companies can use the data for their own business."
+    },
     "img2dataset": {
         "operator": "[img2dataset](https:\/\/github.com\/rom1504\/img2dataset)",
         "respect": "Unclear at this time.",
