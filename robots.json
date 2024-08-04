@@ -132,7 +132,7 @@
         "frequency": "No information.",
         "description": "Use the collected data for artificial intelligence technologies; provide data to third parties, including commercial companies; those companies can use the data for their own business."
     },
-    "ImageSift": {
+    "ImagesiftBot": {
         "operator": "[ImageSift](https:\/\/imagesift.com)",
         "respect": "[Yes](https:\/\/imagesift.com\/about)",
         "function": "ImageSiftBot is a web crawler that scrapes the internet for publicly available images to support our suite of web intelligence products",
