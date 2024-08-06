@@ -9,6 +9,21 @@ response = session.get("https://darkvisitors.com/agents")
 soup = BeautifulSoup(response.text, "html.parser")
 
 existing_content = json.loads(Path("./robots.json").read_text())
+added = 0
+to_include = [
+    "AI Assistants",
+    "AI Data Scrapers",
+    "AI Search Crawlers",
+    "Archivers",
+    "Developer Helpers",
+    "Fetchers",
+    "Intelligence Gatherers",
+    "Scrapers",
+    "Search Engine Crawlers",
+    "SEO Crawlers",
+    "Uncategorized",
+    "Undocumented AI Agents"
+]
 
 for section in soup.find_all("div", {"class": "agent-links-section"}):
     category = section.find("h2").get_text()
@@ -17,7 +32,6 @@ for section in soup.find_all("div", {"class": "agent-links-section"}):
         desc = agent.find("p").get_text().strip()
         
         if name in existing_content:
-            print(f"{name} already exists in robots.json")
             continue
         # Template:
         # "Claude-Web": {
@@ -30,9 +44,11 @@ for section in soup.find_all("div", {"class": "agent-links-section"}):
         existing_content[name] = {
             "operator": "Unclear at this time.",
             "respect": "Unclear at this time.",
-            "function": "Unclear at this time.",
+            "function": f"{category}",
             "frequency": "Unclear at this time.",
             "description": f"{desc} More info can be found at https://darkvisitors.com/agents{agent['href']}"
         }
+        added += 1
 
+print(f"Added {added} new agents, total is now {len(existing_content)}")
 Path("./robots.json").write_text(json.dumps(existing_content, indent=4))
