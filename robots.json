@@ -3,14 +3,14 @@
         "operator": "Amazon",
         "respect": "Yes",
         "function": "Service improvement and enabling answers for Alexa users.",
-        "frequency": "No information. provided.",
+        "frequency": "Unclear at this time.",
         "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
     },
     "anthropic-ai": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
-        "frequency": "No information. provided.",
+        "frequency": "Unclear at this time.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "Applebot-Extended": {
@@ -45,14 +45,14 @@
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
-        "frequency": "No information. provided.",
+        "frequency": "Unclear at this time.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "Claude-Web": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
-        "frequency": "No information. provided.",
+        "frequency": "Unclear at this time.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "cohere-ai": {
@@ -79,9 +79,9 @@
     "facebookexternalhit": {
         "operator": "Meta/Facebook",
         "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)",
-        "function": "No information.",
+        "function": "Fetchers",
         "frequency": "Unclear at this time.",
-        "description": "Unclear at this time."
+        "description": "facebookexternalhit is a fetcher operated by Meta. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/facebookexternalhit"
     },
     "FriendlyCrawler": {
         "operator": "Unknown",
@@ -94,14 +94,14 @@
         "operator": "Google",
         "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
         "function": "LLM training.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Used to train Gemini and Vertex AI generative APIs. Does not impact a site's inclusion or ranking in Google Search."
     },
     "GoogleOther": {
         "operator": "Google",
         "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
         "function": "Scrapes data.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\""
     },
     "GoogleOther-Image": {
@@ -122,21 +122,21 @@
         "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
         "function": "Scrapes data to train OpenAI's products.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies."
     },
     "ICC-Crawler": {
         "operator": "[NICT](https://nict.go.jp)",
         "respect": "Yes",
         "function": "Scrapes data to train and support AI technologies.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Use the collected data for artificial intelligence technologies; provide data to third parties, including commercial companies; those companies can use the data for their own business."
     },
     "ImagesiftBot": {
         "operator": "[ImageSift](https://imagesift.com)",
         "respect": "[Yes](https://imagesift.com/about)",
         "function": "ImageSiftBot is a web crawler that scrapes the internet for publicly available images to support our suite of web intelligence products",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Once images and text are downloaded from a webpage, ImageSift analyzes this data from the page and stores the information in an index. Our web intelligence products use this index to enable search and retrieval of similar images."
     },
     "img2dataset": {
@@ -150,28 +150,28 @@
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
         "respect": "Yes.",
         "function": "Used to train models and improve products.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "\"The Meta-ExternalAgent crawler crawls the web for use cases such as training AI models or improving products by indexing content directly.\""
     },
     "OAI-SearchBot": {
         "operator": "[OpenAI](https://openai.com)",
         "respect": "[Yes](https://platform.openai.com/docs/bots)",
         "function": "Search result generation.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Crawls sites to surface as results in SearchGPT."
     },
     "omgili": {
         "operator": "[Webz.io](https://webz.io/)",
         "respect": "[Yes](https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/)",
         "function": "Data is sold.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Crawls sites for APIs used by Hootsuite, Sprinklr, NetBase, and other companies. Data also sold for research purposes or LLM training."
     },
     "omgilibot": {
         "operator": "[Webz.io](https://webz.io/)",
         "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)",
         "function": "Data is sold.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Legacy user agent initially used for Omgili search engine. Unknown if still used, `omgili` agent still used by Webz.io."
     },
     "PerplexityBot": {
@@ -185,35 +185,35 @@
         "operator": "[Huawei](https://huawei.com/)",
         "respect": "Yes",
         "function": "Used to provide recommendations in Hauwei assistant and AI search services.",
-        "frequency": "No explicit frequency provided.",
+        "frequency": "Unclear at this time.",
         "description": "Operated by Huawei to provide search and AI assistant services."
     },
     "Scrapy": {
         "operator": "[Zyte](https://www.zyte.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data a variety of uses including training AI.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "\"AI and machine learning applications often need large amounts of quality data, and web data extraction is a fast, efficient way to build structured data sets.\""
     },
     "Timpibot": {
         "operator": "[Timpi](https://timpi.io)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data for use in training LLMs.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Makes data available for training AI models."
     },
     "VelenPublicWebCrawler": {
         "operator": "[Velen Crawler](https://velen.io)",
         "respect": "[Yes](https://velen.io)",
         "function": "Scrapes data for business data sets and machine learning models.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "\"Our goal with this crawler is to build business datasets and machine learning models to better understand the web.\""
     },
     "YouBot": {
         "operator": "[You](https://about.you.com/youchat/)",
         "respect": "[Yes](https://about.you.com/youbot/)",
         "function": "Scrapes data for search engine and LLMs.",
-        "frequency": "No information.",
+        "frequency": "Unclear at this time.",
         "description": "Retrieves data used for You.com web search engine and LLMs."
     },
     "Meta-ExternalFetcher": {
@@ -231,721 +231,721 @@
         "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://darkvisitors.com/agents/agents/applebot"
     },
     "archive.org_bot": {
-        "operator": "Unclear at this time.",
+        "operator": "Internet Archive",
         "respect": "Unclear at this time.",
         "function": "Archivers",
         "frequency": "Unclear at this time.",
         "description": "archive.org_bot is an archiver operated by Internet Archive. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/archive-org-bot"
     },
     "Arquivo-web-crawler": {
-        "operator": "Unclear at this time.",
+        "operator": "Arquivo",
         "respect": "Unclear at this time.",
         "function": "Archivers",
         "frequency": "Unclear at this time.",
         "description": "Arquivo-web-crawler is an archiver operated by Arquivo.pt. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/arquivo-web-crawler"
     },
     "heritrix": {
-        "operator": "Unclear at this time.",
+        "operator": "Internet Archive",
         "respect": "Unclear at this time.",
         "function": "Archivers",
         "frequency": "Unclear at this time.",
         "description": "heritrix is an archiver operated by Internet Archive. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/heritrix"
     },
     "ia_archiver": {
-        "operator": "Unclear at this time.",
+        "operator": "Internet Archive",
         "respect": "Unclear at this time.",
         "function": "Archivers",
         "frequency": "Unclear at this time.",
         "description": "ia_archiver is an archiver operated by Internet Archive. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/ia-archiver"
     },
     "ia_archiver-web.archive.org": {
-        "operator": "Unclear at this time.",
+        "operator": "Internet Archive",
         "respect": "Unclear at this time.",
         "function": "Archivers",
         "frequency": "Unclear at this time.",
         "description": "ia_archiver-web.archive.org is an archiver operated by Internet Archive. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/ia-archiver-web-archive-org"
     },
     "Nicecrawler": {
-        "operator": "Unclear at this time.",
+        "operator": "NiceCrawler",
         "respect": "Unclear at this time.",
         "function": "Archivers",
         "frequency": "Unclear at this time.",
         "description": "Nicecrawler is an archiver operated by NiceCrawler. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/nicecrawler"
     },
     "2ip bot": {
-        "operator": "Unclear at this time.",
+        "operator": "2IP",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "2ip bot is a developer helper operated by 2IP. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/2ip-bot"
     },
     "AhrefsSiteAudit": {
-        "operator": "Unclear at this time.",
+        "operator": "Ahrefs",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "AhrefsSiteAudit is a developer helper operated by Ahrefs. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/ahrefssiteaudit"
     },
     "BingPreview": {
-        "operator": "Unclear at this time.",
+        "operator": "Microsoft",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "BingPreview is a developer helper operated by Microsoft. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/bingpreview"
     },
     "Chrome-Lighthouse": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "Chrome-Lighthouse is a developer helper operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/chrome-lighthouse"
     },
     "Dark Visitor": {
-        "operator": "Unclear at this time.",
+        "operator": "Dark Visitors",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "Dark Visitor is a developer helper operated by Dark Visitors. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/dark-visitor"
     },
     "deadlinkchecker": {
-        "operator": "Unclear at this time.",
+        "operator": "Dead Link Checker",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "deadlinkchecker is a developer helper operated by Dead Link Checker. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/deadlinkchecker"
     },
     "Google-InspectionTool": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "Google-InspectionTool is a developer helper operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/google-inspectiontool"
     },
     "rogerbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Moz",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "rogerbot is a developer helper operated by Moz. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/rogerbot"
     },
     "SiteAuditBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Semrush",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "SiteAuditBot is a developer helper operated by Semrush. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/siteauditbot"
     },
     "t3versionsBot": {
-        "operator": "Unclear at this time.",
+        "operator": "T3Versions",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "t3versionsBot is a developer helper operated by T3Versions. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/t3versionsbot"
     },
     "W3C_CSS_Validator": {
-        "operator": "Unclear at this time.",
+        "operator": "W3C",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "W3C_CSS_Validator is a developer helper operated by W3C. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/w3c-css-validator"
     },
     "W3C_Validator": {
-        "operator": "Unclear at this time.",
+        "operator": "W3C",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "W3C_Validator is a developer helper operated by W3C. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/w3c-validator"
     },
     "WellKnownBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Well-Known",
         "respect": "Unclear at this time.",
         "function": "Developer Helpers",
         "frequency": "Unclear at this time.",
         "description": "WellKnownBot is a developer helper operated by Well-Known. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/wellknownbot"
     },
     "BazQux": {
-        "operator": "Unclear at this time.",
+        "operator": "BazQux",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "BazQux is a fetcher operated by BazQux. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/bazqux"
     },
     "bitlybot": {
-        "operator": "Unclear at this time.",
+        "operator": "Bitly",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "bitlybot is a fetcher operated by Bitly. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/bitlybot"
     },
     "BublupBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Bublup",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "BublupBot is a fetcher operated by Bublup. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/bublupbot"
     },
     "Discordbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Discord",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Discordbot is a fetcher operated by Discord. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/discordbot"
     },
     "Embedly": {
-        "operator": "Unclear at this time.",
+        "operator": "Embedly",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Embedly is a fetcher operated by Embedly. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/embedly"
     },
     "Feedly": {
-        "operator": "Unclear at this time.",
+        "operator": "Feedly",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Feedly is a fetcher operated by Feedly. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/feedly"
     },
     "FlipboardProxy": {
-        "operator": "Unclear at this time.",
+        "operator": "Flipboard",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "FlipboardProxy is a fetcher operated by Flipboard. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/flipboardproxy"
     },
     "FreshRSS": {
-        "operator": "Unclear at this time.",
+        "operator": "FreshRSS",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "FreshRSS is a fetcher operated by FreshRSS. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/freshrss"
     },
     "Friendica": {
-        "operator": "Unclear at this time.",
+        "operator": "Friendica",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Friendica is a fetcher operated by Friendica. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/friendica"
     },
     "Google Web Preview": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Google Web Preview is a fetcher operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/google-web-preview"
     },
     "Google-Read-Aloud": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Google-Read-Aloud is a fetcher operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/google-read-aloud"
     },
     "Hatena": {
-        "operator": "Unclear at this time.",
+        "operator": "Hatena",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Hatena is a fetcher operated by Hatena. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/hatena"
     },
     "Iframely": {
-        "operator": "Unclear at this time.",
+        "operator": "Iframely",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Iframely is a fetcher operated by Iframely. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/iframely"
     },
     "inoreader": {
-        "operator": "Unclear at this time.",
+        "operator": "Inoreader",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "inoreader is a fetcher operated by Inoreader. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/inoreader"
     },
     "LinkedInBot": {
-        "operator": "Unclear at this time.",
+        "operator": "LinkedIn",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "LinkedInBot is a fetcher operated by LinkedIn. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/linkedinbot"
     },
     "Mail.RU_Bot": {
-        "operator": "Unclear at this time.",
+        "operator": "VK",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Mail.RU_Bot is a fetcher operated by VK. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mail-ru-bot"
     },
     "Mastodon": {
-        "operator": "Unclear at this time.",
+        "operator": "Mastodon",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Mastodon is a fetcher operated by Mastodon. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mastodon"
     },
     "Miniflux": {
-        "operator": "Unclear at this time.",
+        "operator": "Miniflux",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Miniflux is a fetcher operated by Miniflux. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/miniflux"
     },
     "NewsBlur": {
-        "operator": "Unclear at this time.",
+        "operator": "NewsBlur",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "NewsBlur is a fetcher operated by NewsBlur. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/newsblur"
     },
     "Nextcloud": {
-        "operator": "Unclear at this time.",
+        "operator": "Nextcloud",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Nextcloud is a fetcher operated by Nextcloud. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/nextcloud"
     },
     "Pinterestbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Pinterest",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Pinterestbot is a fetcher operated by Pinterest. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/pinterestbot"
     },
     "PocketParser": {
-        "operator": "Unclear at this time.",
+        "operator": "Pocket",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "PocketParser is a fetcher operated by Pocket. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/pocketparser"
     },
     "redditbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Reddit",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "redditbot is a fetcher operated by Reddit. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/redditbot"
     },
     "SerendeputyBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Serendeputy",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "SerendeputyBot is a fetcher operated by Serendeputy. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/serendeputybot"
     },
     "SimplePie": {
-        "operator": "Unclear at this time.",
+        "operator": "SimplePie",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "SimplePie is a fetcher operated by SimplePie. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/simplepie"
     },
     "SkypeUriPreview": {
-        "operator": "Unclear at this time.",
+        "operator": "Microsoft",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "SkypeUriPreview is a fetcher operated by Microsoft. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/skypeuripreview"
     },
     "Slackbot-LinkExpanding": {
-        "operator": "Unclear at this time.",
+        "operator": "Slack",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Slackbot-LinkExpanding is a fetcher operated by Slack. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/slackbot-linkexpanding"
     },
     "Snap URL Preview Service": {
-        "operator": "Unclear at this time.",
+        "operator": "Snap",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Snap URL Preview Service is a fetcher operated by Snap. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/snap-url-preview-service"
     },
     "snapchat": {
-        "operator": "Unclear at this time.",
+        "operator": "Snapchat",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "snapchat is a fetcher operated by Snapchat. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/snapchat"
     },
     "startmebot": {
-        "operator": "Unclear at this time.",
+        "operator": "Start",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "startmebot is a fetcher operated by Start.me. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/startmebot"
     },
     "Superfeedr": {
-        "operator": "Unclear at this time.",
+        "operator": "Superfeedr",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Superfeedr is a fetcher operated by Superfeedr. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/superfeedr"
     },
     "SurdotlyBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Sur",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "SurdotlyBot is a fetcher operated by Sur.ly. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/surdotlybot"
     },
     "Synapse": {
-        "operator": "Unclear at this time.",
+        "operator": "Matrix",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Synapse is a fetcher operated by Matrix. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/synapse"
     },
     "TelegramBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Telegram",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "TelegramBot is a fetcher operated by Telegram. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/telegrambot"
     },
     "Tiny Tiny RSS": {
-        "operator": "Unclear at this time.",
+        "operator": "Tiny Tiny RSS",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Tiny Tiny RSS is a fetcher operated by Tiny Tiny RSS. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/tiny-tiny-rss"
     },
     "Twitterbot": {
-        "operator": "Unclear at this time.",
+        "operator": "X",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Twitterbot is a fetcher operated by X. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/twitterbot"
     },
     "Viber": {
-        "operator": "Unclear at this time.",
+        "operator": "Viber",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Viber is a fetcher operated by Viber. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/viber"
     },
     "vkShare": {
-        "operator": "Unclear at this time.",
+        "operator": "VK",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "vkShare is a fetcher operated by VK. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/vkshare"
     },
     "WhatsApp": {
-        "operator": "Unclear at this time.",
+        "operator": "Meta",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "WhatsApp is a fetcher operated by Meta. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/whatsapp"
     },
     "Yahoo Link Preview": {
-        "operator": "Unclear at this time.",
+        "operator": "Yahoo",
         "respect": "Unclear at this time.",
         "function": "Fetchers",
         "frequency": "Unclear at this time.",
         "description": "Yahoo Link Preview is a fetcher operated by Yahoo. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yahoo-link-preview"
     },
     "adbeat_bot": {
-        "operator": "Unclear at this time.",
+        "operator": "Adbeat",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "adbeat_bot is an intelligence gatherer operated by Adbeat. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/adbeat-bot"
     },
     "AdsBot-Google": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "AdsBot-Google is an intelligence gatherer operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/adsbot-google"
     },
     "AdsBot-Google-Mobile": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "AdsBot-Google-Mobile is an intelligence gatherer operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/adsbot-google-mobile"
     },
     "aiHitBot": {
-        "operator": "Unclear at this time.",
+        "operator": "aiHit",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "aiHitBot is an intelligence gatherer operated by aiHit. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/aihitbot"
     },
     "AndersPinkBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Anders Pink",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "AndersPinkBot is an intelligence gatherer operated by Anders Pink. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/anderspinkbot"
     },
     "ArchiveBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Wikimedia",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "ArchiveBot is an intelligence gatherer operated by Wikimedia. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/archivebot"
     },
     "AwarioBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Awario",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "AwarioBot is an intelligence gatherer operated by Awario. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/awariobot"
     },
     "AwarioSmartBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Awario",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "AwarioSmartBot is an intelligence gatherer operated by Awario. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/awariosmartbot"
     },
     "BitSightBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Bitsight",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "BitSightBot is an intelligence gatherer operated by Bitsight. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/bitsightbot"
     },
     "Blackboard": {
-        "operator": "Unclear at this time.",
+        "operator": "Anthology",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Blackboard is an intelligence gatherer operated by Anthology. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/blackboard"
     },
     "BrandVerity": {
-        "operator": "Unclear at this time.",
+        "operator": "BrandVerity",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "BrandVerity is an intelligence gatherer operated by BrandVerity. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/brandverity"
     },
     "Cincraw": {
-        "operator": "Unclear at this time.",
+        "operator": "CINC",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Cincraw is an intelligence gatherer operated by CINC. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/cincraw"
     },
     "ev-crawler": {
-        "operator": "Unclear at this time.",
+        "operator": "Headline",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "ev-crawler is an intelligence gatherer operated by Headline. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/ev-crawler"
     },
     "Google-Safety": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Google-Safety is an intelligence gatherer operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/google-safety"
     },
     "HubSpot": {
-        "operator": "Unclear at this time.",
+        "operator": "HubSpot",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "HubSpot is an intelligence gatherer operated by HubSpot. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/hubspot"
     },
     "IonCrawl": {
-        "operator": "Unclear at this time.",
+        "operator": "IONOS",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "IonCrawl is an intelligence gatherer operated by IONOS. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/ioncrawl"
     },
     "Jugendschutzprogramm-Crawler": {
-        "operator": "Unclear at this time.",
+        "operator": "JusProg",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Jugendschutzprogramm-Crawler is an intelligence gatherer operated by JusProg. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/jugendschutzprogramm-crawler"
     },
     "KStandBot": {
-        "operator": "Unclear at this time.",
+        "operator": "URL Classification",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "KStandBot is an intelligence gatherer operated by URL Classification. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/kstandbot"
     },
     "LightspeedSystemsCrawler": {
-        "operator": "Unclear at this time.",
+        "operator": "Lightspeed Systems",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "LightspeedSystemsCrawler is an intelligence gatherer operated by Lightspeed Systems. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/lightspeedsystemscrawler"
     },
     "linkfluence": {
-        "operator": "Unclear at this time.",
+        "operator": "Meltwater",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "linkfluence is an intelligence gatherer operated by Meltwater. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/linkfluence"
     },
     "LinkWalker": {
-        "operator": "Unclear at this time.",
+        "operator": "Fortra",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "LinkWalker is an intelligence gatherer operated by Fortra. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/linkwalker"
     },
     "magpie-crawler": {
-        "operator": "Unclear at this time.",
+        "operator": "Brandwatch",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "magpie-crawler is an intelligence gatherer operated by Brandwatch. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/magpie-crawler"
     },
     "Mediapartners-Google": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Mediapartners-Google is an intelligence gatherer operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mediapartners-google"
     },
     "Mediatoolkitbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Determ",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Mediatoolkitbot is an intelligence gatherer operated by Determ. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mediatoolkitbot"
     },
     "MuckRack": {
-        "operator": "Unclear at this time.",
+        "operator": "Muck Rack",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "MuckRack is an intelligence gatherer operated by Muck Rack. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/muckrack"
     },
     "NetcraftSurveyAgent": {
-        "operator": "Unclear at this time.",
+        "operator": "Netcraft",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "NetcraftSurveyAgent is an intelligence gatherer operated by Netcraft. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/netcraftsurveyagent"
     },
     "Netvibes": {
-        "operator": "Unclear at this time.",
+        "operator": "Netvibes",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Netvibes is an intelligence gatherer operated by Netvibes. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/netvibes"
     },
     "Pandalytics": {
-        "operator": "Unclear at this time.",
+        "operator": "Domainsbot",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Pandalytics is an intelligence gatherer operated by Domainsbot. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/pandalytics"
     },
     "panscient.com": {
-        "operator": "Unclear at this time.",
+        "operator": "Panscient",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "panscient.com is an intelligence gatherer operated by Panscient. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/panscient-com"
     },
     "proximic": {
-        "operator": "Unclear at this time.",
+        "operator": "Comscore",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "proximic is an intelligence gatherer operated by Comscore. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/proximic"
     },
     "scoop.it": {
-        "operator": "Unclear at this time.",
+        "operator": "Meltwater",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "scoop.it is an intelligence gatherer operated by Meltwater. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/scoop-it"
     },
     "SeekportBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Seekport",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "SeekportBot is an intelligence gatherer operated by Seekport. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/seekportbot"
     },
     "SMTBot": {
-        "operator": "Unclear at this time.",
+        "operator": "SimilarTech",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "SMTBot is an intelligence gatherer operated by SimilarTech. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/smtbot"
     },
     "trendictionbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Trendiction",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "trendictionbot is an intelligence gatherer operated by Trendiction. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/trendictionbot"
     },
     "TrendsmapResolver": {
-        "operator": "Unclear at this time.",
+        "operator": "Trendsmap",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "TrendsmapResolver is an intelligence gatherer operated by Trendsmap. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/trendsmapresolver"
     },
     "Turnitin": {
-        "operator": "Unclear at this time.",
+        "operator": "Turnitin",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Turnitin is an intelligence gatherer operated by Turnitin. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/turnitin"
     },
     "TurnitinBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Turnitin",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "TurnitinBot is an intelligence gatherer operated by Turnitin. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/turnitinbot"
     },
     "TweetmemeBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Meltwater",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "TweetmemeBot is an intelligence gatherer operated by Meltwater. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/tweetmemebot"
     },
     "Twingly": {
-        "operator": "Unclear at this time.",
+        "operator": "Twingly",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "Twingly is an intelligence gatherer operated by Twingly. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/twingly"
     },
     "um-LN": {
-        "operator": "Unclear at this time.",
+        "operator": "Ubermetrics",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "um-LN is an intelligence gatherer operated by Ubermetrics. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/um-ln"
     },
     "virustotal": {
-        "operator": "Unclear at this time.",
+        "operator": "VirusTotal",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "virustotal is an intelligence gatherer operated by VirusTotal. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/virustotal"
     },
     "ZoominfoBot": {
-        "operator": "Unclear at this time.",
+        "operator": "ZoomInfo",
         "respect": "Unclear at this time.",
         "function": "Intelligence Gatherers",
         "frequency": "Unclear at this time.",
         "description": "ZoominfoBot is an intelligence gatherer operated by ZoomInfo. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/zoominfobot"
     },
     "008": {
-        "operator": "Unclear at this time.",
+        "operator": "80legs",
         "respect": "Unclear at this time.",
         "function": "Scrapers",
         "frequency": "Unclear at this time.",
         "description": "008 is a scraper operated by 80legs. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/008"
     },
     "Dataprovider.com": {
-        "operator": "Unclear at this time.",
+        "operator": "Dataprovider",
         "respect": "Unclear at this time.",
         "function": "Scrapers",
         "frequency": "Unclear at this time.",
@@ -994,441 +994,441 @@
         "description": "Nutch is a scraper. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/nutch"
     },
     "Offline Explorer": {
-        "operator": "Unclear at this time.",
+        "operator": "MetaProducts",
         "respect": "Unclear at this time.",
         "function": "Scrapers",
         "frequency": "Unclear at this time.",
         "description": "Offline Explorer is a scraper operated by MetaProducts. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/offline-explorer"
     },
     "OpenindexSpider": {
-        "operator": "Unclear at this time.",
+        "operator": "Openindex",
         "respect": "Unclear at this time.",
         "function": "Scrapers",
         "frequency": "Unclear at this time.",
         "description": "OpenindexSpider is a scraper operated by Openindex. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/openindexspider"
     },
     "360Spider": {
-        "operator": "Unclear at this time.",
+        "operator": "Qihoo 360",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "360Spider is a search engine crawler operated by Qihoo 360. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/360spider"
     },
     "AlexandriaOrgBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Alexandria",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "AlexandriaOrgBot is a search engine crawler operated by Alexandria.org. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/alexandriaorgbot"
     },
     "Atom Feed Robot": {
-        "operator": "Unclear at this time.",
+        "operator": "RSSMicro",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Atom Feed Robot is a search engine crawler operated by RSSMicro. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/atom-feed-robot"
     },
     "Baiduspider": {
-        "operator": "Unclear at this time.",
+        "operator": "Baidu",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Baiduspider is a search engine crawler operated by Baidu. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/baiduspider"
     },
     "bingbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Microsoft",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "bingbot is a search engine crawler operated by Microsoft. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/bingbot"
     },
     "coccocbot-web": {
-        "operator": "Unclear at this time.",
+        "operator": "Coc Coc",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "coccocbot-web is a search engine crawler operated by Coc Coc. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/coccocbot-web"
     },
     "Daum": {
-        "operator": "Unclear at this time.",
+        "operator": "Daum",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Daum is a search engine crawler operated by Daum. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/daum"
     },
     "DuckDuckBot": {
-        "operator": "Unclear at this time.",
+        "operator": "DuckDuckGo",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "DuckDuckBot is a search engine crawler operated by DuckDuckGo. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/duckduckbot"
     },
     "DuckDuckGo-Favicons-Bot": {
-        "operator": "Unclear at this time.",
+        "operator": "DuckDuckGo",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "DuckDuckGo-Favicons-Bot is a search engine crawler operated by DuckDuckGo. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/duckduckgo-favicons-bot"
     },
     "Feedfetcher-Google": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Feedfetcher-Google is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/feedfetcher-google"
     },
     "Google Favicon": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Google Favicon is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/google-favicon"
     },
     "Googlebot": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Googlebot is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/googlebot"
     },
     "Googlebot-Image": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Googlebot-Image is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/googlebot-image"
     },
     "Googlebot-Mobile": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Googlebot-Mobile is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/googlebot-mobile"
     },
     "Googlebot-News": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Googlebot-News is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/googlebot-news"
     },
     "Googlebot-Video": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Googlebot-Video is a search engine crawler operated by Google. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/googlebot-video"
     },
     "HaoSouSpider": {
-        "operator": "Unclear at this time.",
+        "operator": "Qihoo 360",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "HaoSouSpider is a search engine crawler operated by Qihoo 360. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/haosouspider"
     },
     "MojeekBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Mojeek",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "MojeekBot is a search engine crawler operated by Mojeek. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mojeekbot"
     },
     "msnbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Microsoft",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "msnbot is a search engine crawler operated by Microsoft. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/msnbot"
     },
     "msnbot-media": {
-        "operator": "Unclear at this time.",
+        "operator": "Microsoft",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "msnbot-media is a search engine crawler operated by Microsoft. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/msnbot-media"
     },
     "Qwantify": {
-        "operator": "Unclear at this time.",
+        "operator": "Qwant",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Qwantify is a search engine crawler operated by Qwant. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/qwantify"
     },
     "SemanticScholarBot": {
-        "operator": "Unclear at this time.",
+        "operator": "AI2",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SemanticScholarBot is a search engine crawler operated by AI2. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/semanticscholarbot"
     },
     "SeznamBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Senzam",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SeznamBot is a search engine crawler operated by Senzam. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/seznambot"
     },
     "Sogou web spider": {
-        "operator": "Unclear at this time.",
+        "operator": "Sogou",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Sogou web spider is a search engine crawler operated by Sogou. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/sogou-web-spider"
     },
     "teoma": {
-        "operator": "Unclear at this time.",
+        "operator": "Ask",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "teoma is a search engine crawler operated by Ask. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/teoma"
     },
     "TinEye": {
-        "operator": "Unclear at this time.",
+        "operator": "TinEye",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "TinEye is a search engine crawler operated by TinEye. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/tineye"
     },
     "TinEye-bot": {
-        "operator": "Unclear at this time.",
+        "operator": "TinEye",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "TinEye-bot is a search engine crawler operated by TinEye. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/tineye-bot"
     },
     "yacybot": {
-        "operator": "Unclear at this time.",
+        "operator": "YaCy",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "yacybot is a search engine crawler operated by YaCy. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yacybot"
     },
     "Yahoo! Slurp": {
-        "operator": "Unclear at this time.",
+        "operator": "Yahoo",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Yahoo! Slurp is a search engine crawler operated by Yahoo. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yahoo-slurp"
     },
     "Yandex": {
-        "operator": "Unclear at this time.",
+        "operator": "Yandex",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Yandex is a search engine crawler operated by Yandex. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yandex"
     },
     "YandexBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Yandex",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "YandexBot is a search engine crawler operated by Yandex. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yandexbot"
     },
     "YandexImages": {
-        "operator": "Unclear at this time.",
+        "operator": "Yandex",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "YandexImages is a search engine crawler operated by Yandex. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yandeximages"
     },
     "YandexRenderResourcesBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Yandex",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "YandexRenderResourcesBot is a search engine crawler operated by Yandex. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yandexrenderresourcesbot"
     },
     "Yeti": {
-        "operator": "Unclear at this time.",
+        "operator": "Naver",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Yeti is a search engine crawler operated by Naver. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yeti"
     },
     "YisouSpider": {
-        "operator": "Unclear at this time.",
+        "operator": "Yisou",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "YisouSpider is a search engine crawler operated by Yisou. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/yisouspider"
     },
     "ZumBot": {
-        "operator": "Unclear at this time.",
+        "operator": "ZUM Internet",
         "respect": "Unclear at this time.",
         "function": "Search Engine Crawlers",
         "frequency": "Unclear at this time.",
         "description": "ZumBot is a search engine crawler operated by ZUM Internet. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/zumbot"
     },
     "AhrefsBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Ahrefs",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "AhrefsBot is an SEO crawler operated by Ahrefs. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/ahrefsbot"
     },
     "Barkrowler": {
-        "operator": "Unclear at this time.",
+        "operator": "Babbar",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Barkrowler is an SEO crawler operated by Babbar. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/barkrowler"
     },
     "BLEXBot": {
-        "operator": "Unclear at this time.",
+        "operator": "SEO PowerSuite",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "BLEXBot is an SEO crawler operated by SEO PowerSuite. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/blexbot"
     },
     "BrightEdge Crawler": {
-        "operator": "Unclear at this time.",
+        "operator": "BrightEdge",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "BrightEdge Crawler is an SEO crawler operated by BrightEdge. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/brightedge-crawler"
     },
     "Cocolyzebot": {
-        "operator": "Unclear at this time.",
+        "operator": "Cocolyze",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Cocolyzebot is an SEO crawler operated by Cocolyze. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/cocolyzebot"
     },
     "DataForSeoBot": {
-        "operator": "Unclear at this time.",
+        "operator": "DataForSEO",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "DataForSeoBot is an SEO crawler operated by DataForSEO. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/dataforseobot"
     },
     "DomainStatsBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Domainstats",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "DomainStatsBot is an SEO crawler operated by Domainstats. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/domainstatsbot"
     },
     "dotbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Moz",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "dotbot is an SEO crawler operated by Moz. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/dotbot"
     },
     "hypestat": {
-        "operator": "Unclear at this time.",
+        "operator": "HypeStat",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "hypestat is an SEO crawler operated by HypeStat. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/hypestat"
     },
     "linkdexbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Linkdex",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "linkdexbot is an SEO crawler operated by Linkdex. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/linkdexbot"
     },
     "MJ12bot": {
-        "operator": "Unclear at this time.",
+        "operator": "Majestic",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "MJ12bot is an SEO crawler operated by Majestic. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mj12bot"
     },
     "online-webceo-bot": {
-        "operator": "Unclear at this time.",
+        "operator": "WebCEO",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "online-webceo-bot is an SEO crawler operated by WebCEO. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/online-webceo-bot"
     },
     "Screaming Frog SEO Spider": {
-        "operator": "Unclear at this time.",
+        "operator": "Screaming Frog",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Screaming Frog SEO Spider is an SEO crawler operated by Screaming Frog. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/screaming-frog-seo-spider"
     },
     "SemrushBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Semrush",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SemrushBot is an SEO crawler operated by Semrush. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/semrushbot"
     },
     "SemrushBot-BA": {
-        "operator": "Unclear at this time.",
+        "operator": "Semrush",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SemrushBot-BA is an SEO crawler operated by Semrush. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/semrushbot-ba"
     },
     "SemrushBot-CT": {
-        "operator": "Unclear at this time.",
+        "operator": "Semrush",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SemrushBot-CT is an SEO crawler operated by Semrush. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/semrushbot-ct"
     },
     "SemrushBot-SI": {
-        "operator": "Unclear at this time.",
+        "operator": "Semrush",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SemrushBot-SI is an SEO crawler operated by Semrush. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/semrushbot-si"
     },
     "SemrushBot-SWA": {
-        "operator": "Unclear at this time.",
+        "operator": "Semrush",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SemrushBot-SWA is an SEO crawler operated by Semrush. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/semrushbot-swa"
     },
     "SenutoBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Senuto",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SenutoBot is an SEO crawler operated by Senuto. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/senutobot"
     },
     "SeobilityBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Seobility",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SeobilityBot is an SEO crawler operated by Seobility. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/seobilitybot"
     },
     "SEOkicks": {
-        "operator": "Unclear at this time.",
+        "operator": "SEOkicks",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SEOkicks is an SEO crawler operated by SEOkicks. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/seokicks"
     },
     "SEOlizer": {
-        "operator": "Unclear at this time.",
+        "operator": "SEOLizer",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SEOlizer is an SEO crawler operated by SEOLizer. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/seolizer"
     },
     "serpstatbot": {
-        "operator": "Unclear at this time.",
+        "operator": "Serpstat",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "serpstatbot is an SEO crawler operated by Serpstat. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/serpstatbot"
     },
     "SiteCheckerBotCrawler": {
-        "operator": "Unclear at this time.",
+        "operator": "Sitechecker",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
         "description": "SiteCheckerBotCrawler is an SEO crawler operated by Sitechecker. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/sitecheckerbotcrawler"
     },
     "ZoomBot": {
-        "operator": "Unclear at this time.",
+        "operator": "SEOZoom",
         "respect": "Unclear at this time.",
         "function": "SEO Crawlers",
         "frequency": "Unclear at this time.",
