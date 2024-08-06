@@ -2,7 +2,13 @@
 
 ## How do we know AI companies/bots respect `robots.txt`?
 
-The short answer is that we don't. `robots.txt` is a well-established standard but compliance is voluntary. There is no enforcement mechanism.
+The short answer is that we don't. `robots.txt` is a well-established standard, but compliance is voluntary. There is no enforcement mechanism.
+
+## Why might AI web crawlers respect `robots.txt`?
+
+Larger and/or reputable companies developing AI models probably wouldn't want to damage their reputation by ignoring `robots.txt`.
+
+Also, given the contentious nature of AI and the possibility of legislation limiting its development, companies developing AI models will probably want to be seen to be behaving ethically, and so should (eventually) respect `robots.txt`.
 
 ## Can we block crawlers based on user agent strings?
 
