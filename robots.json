@@ -7,14 +7,14 @@
         "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
     },
     "anthropic-ai": {
-        "operator": "[Anthropic](https:\/\/www.anthropic.com)",
+        "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
         "frequency": "No information. provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "Applebot-Extended": {
-        "operator": "[Apple](https:\/\/support.apple.com\/en-us\/119829#datausage)",
+        "operator": "[Apple](https://support.apple.com/en-us/119829#datausage)",
         "respect": "Yes",
         "function": "Powers features in Siri, Spotlight, Safari, Apple Intelligence, and others.",
         "frequency": "Unclear at this time.",
@@ -28,192 +28,206 @@
         "description": "Downloads data to train LLMS, including ChatGPT competitors."
     },
     "CCBot": {
-        "operator": "[Common Crawl](https:\/\/commoncrawl.org)",
-        "respect": "[Yes](https:\/\/commoncrawl.org\/ccbot)",
+        "operator": "[Common Crawl](https://commoncrawl.org)",
+        "respect": "[Yes](https://commoncrawl.org/ccbot)",
         "function": "Provides crawl data for an open source repository that has been used to train LLMs.",
         "frequency": "Unclear at this time.",
         "description": "Sources data that is made openly available and is used to train AI models."
     },
     "ChatGPT-User": {
-        "operator": "[OpenAI](https:\/\/openai.com)",
+        "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
         "function": "Takes action based on user prompts.",
         "frequency": "Only when prompted by a user.",
         "description": "Used by plugins in ChatGPT to answer queries based on user input."
     },
     "ClaudeBot": {
-        "operator": "[Anthropic](https:\/\/www.anthropic.com)",
+        "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
         "frequency": "No information. provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "Claude-Web": {
-        "operator": "[Anthropic](https:\/\/www.anthropic.com)",
+        "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
         "frequency": "No information. provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "cohere-ai": {
-        "operator": "[Cohere](https:\/\/cohere.com)",
+        "operator": "[Cohere](https://cohere.com)",
         "respect": "Unclear at this time.",
         "function": "Retrieves data to provide responses to user-initiated prompts.",
         "frequency": "Takes action based on user prompts.",
         "description": "Retrieves data based on user prompts."
     },
     "Diffbot": {
-        "operator": "[Diffbot](https:\/\/www.diffbot.com\/)",
+        "operator": "[Diffbot](https://www.diffbot.com/)",
         "respect": "At the discretion of Diffbot users.",
         "function": "Aggregates structured web data for monitoring and AI model training.",
         "frequency": "Unclear at this time.",
         "description": "Diffbot is an application used to parse web pages into structured data; this data is used for monitoring or AI model training."
     },
     "FacebookBot": {
-        "operator": "Meta\/Facebook",
-        "respect": "[Yes](https:\/\/developers.facebook.com\/docs\/sharing\/bot\/)",
+        "operator": "Meta/Facebook",
+        "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)",
         "function": "Training language models",
         "frequency": "Up to 1 page per second",
         "description": "Officially used for training Meta \"speech recognition technology,\" unknown if used to train Meta AI specifically."
     },
     "facebookexternalhit": {
-        "operator": "Meta\/Facebook",
-        "respect": "[Yes](https:\/\/developers.facebook.com\/docs\/sharing\/bot\/)",
+        "operator": "Meta/Facebook",
+        "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)",
         "function": "No information.",
         "frequency": "Unclear at this time.",
         "description": "Unclear at this time."
     },
     "FriendlyCrawler": {
         "operator": "Unknown",
-        "respect": "[Yes](https:\/\/imho.alex-kunz.com\/2024\/01\/25\/an-update-on-friendly-crawler)",
+        "respect": "[Yes](https://imho.alex-kunz.com/2024/01/25/an-update-on-friendly-crawler)",
         "function": "We are using the data from the crawler to build datasets for machine learning experiments.",
         "frequency": "Unclear at this time.",
         "description": "Unclear who the operator is; but data is used for training/machine learning."
     },
     "Google-Extended": {
         "operator": "Google",
-        "respect": "[Yes](https:\/\/developers.google.com\/search\/docs\/crawling-indexing\/overview-google-crawlers)",
+        "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
         "function": "LLM training.",
         "frequency": "No information.",
         "description": "Used to train Gemini and Vertex AI generative APIs. Does not impact a site's inclusion or ranking in Google Search."
     },
     "GoogleOther": {
         "operator": "Google",
-        "respect": "[Yes](https:\/\/developers.google.com\/search\/docs\/crawling-indexing\/overview-google-crawlers)",
+        "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
         "function": "Scrapes data.",
         "frequency": "No information.",
         "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\""
     },
     "GoogleOther-Image": {
         "operator": "Google",
-        "respect": "[Yes](https:\/\/developers.google.com\/search\/docs\/crawling-indexing\/overview-google-crawlers)",
+        "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
         "function": "Scrapes data.",
         "frequency": "No information.",
         "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\""
     },
     "GoogleOther-Video": {
         "operator": "Google",
-        "respect": "[Yes](https:\/\/developers.google.com\/search\/docs\/crawling-indexing\/overview-google-crawlers)",
+        "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
         "function": "Scrapes data.",
         "frequency": "No information.",
         "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\""
     },
     "GPTBot": {
-        "operator": "[OpenAI](https:\/\/openai.com)",
+        "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
         "function": "Scrapes data to train OpenAI's products.",
         "frequency": "No information.",
         "description": "Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies."
     },
     "ICC-Crawler": {
-        "operator": "[NICT](https:\/\/nict.go.jp)",
+        "operator": "[NICT](https://nict.go.jp)",
         "respect": "Yes",
         "function": "Scrapes data to train and support AI technologies.",
         "frequency": "No information.",
         "description": "Use the collected data for artificial intelligence technologies; provide data to third parties, including commercial companies; those companies can use the data for their own business."
     },
     "ImagesiftBot": {
-        "operator": "[ImageSift](https:\/\/imagesift.com)",
-        "respect": "[Yes](https:\/\/imagesift.com\/about)",
+        "operator": "[ImageSift](https://imagesift.com)",
+        "respect": "[Yes](https://imagesift.com/about)",
         "function": "ImageSiftBot is a web crawler that scrapes the internet for publicly available images to support our suite of web intelligence products",
         "frequency": "No information.",
         "description": "Once images and text are downloaded from a webpage, ImageSift analyzes this data from the page and stores the information in an index. Our web intelligence products use this index to enable search and retrieval of similar images."
     },
     "img2dataset": {
-        "operator": "[img2dataset](https:\/\/github.com\/rom1504\/img2dataset)",
+        "operator": "[img2dataset](https://github.com/rom1504/img2dataset)",
         "respect": "Unclear at this time.",
         "function": "Scrapes images for use in LLMs.",
         "frequency": "At the discretion of img2dataset users.",
         "description": "Downloads large sets of images into datasets for LLM training or other purposes."
     },
     "Meta-ExternalAgent": {
-        "operator": "[Meta](https:\/\/developers.facebook.com\/docs\/sharing\/webmasters\/web-crawlers)",
+        "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
         "respect": "Yes.",
         "function": "Used to train models and improve products.",
         "frequency": "No information.",
         "description": "\"The Meta-ExternalAgent crawler crawls the web for use cases such as training AI models or improving products by indexing content directly.\""
     },
     "OAI-SearchBot": {
-        "operator": "[OpenAI](https:\/\/openai.com)",
-        "respect": "[Yes](https:\/\/platform.openai.com\/docs\/bots)",
+        "operator": "[OpenAI](https://openai.com)",
+        "respect": "[Yes](https://platform.openai.com/docs/bots)",
         "function": "Search result generation.",
         "frequency": "No information.",
         "description": "Crawls sites to surface as results in SearchGPT."
     },
     "omgili": {
-        "operator": "[Webz.io](https:\/\/webz.io\/)",
-        "respect": "[Yes](https:\/\/webz.io\/blog\/web-data\/what-is-the-omgili-bot-and-why-is-it-crawling-your-website\/)",
+        "operator": "[Webz.io](https://webz.io/)",
+        "respect": "[Yes](https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/)",
         "function": "Data is sold.",
         "frequency": "No information.",
         "description": "Crawls sites for APIs used by Hootsuite, Sprinklr, NetBase, and other companies. Data also sold for research purposes or LLM training."
     },
     "omgilibot": {
-        "operator": "[Webz.io](https:\/\/webz.io\/)",
-        "respect": "[Yes](https:\/\/web.archive.org\/web\/20170704003301\/http:\/\/omgili.com\/Crawler.html)",
+        "operator": "[Webz.io](https://webz.io/)",
+        "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)",
         "function": "Data is sold.",
         "frequency": "No information.",
         "description": "Legacy user agent initially used for Omgili search engine. Unknown if still used, `omgili` agent still used by Webz.io."
     },
     "PerplexityBot": {
-        "operator": "[Perplexity](https:\/\/www.perplexity.ai\/)",
-        "respect": "[No](https:\/\/www.macstories.net\/stories\/wired-confirms-perplexity-is-bypassing-efforts-by-websites-to-block-its-web-crawler\/)",
+        "operator": "[Perplexity](https://www.perplexity.ai/)",
+        "respect": "[No](https://www.macstories.net/stories/wired-confirms-perplexity-is-bypassing-efforts-by-websites-to-block-its-web-crawler/)",
         "function": "Used to answer queries at the request of users.",
         "frequency": "Takes action based on user prompts.",
         "description": "Operated by Perplexity to obtain results in response to user queries."
     },
     "PetalBot": {
-        "operator": "[Huawei](https:\/\/huawei.com\/)",
+        "operator": "[Huawei](https://huawei.com/)",
         "respect": "Yes",
         "function": "Used to provide recommendations in Hauwei assistant and AI search services.",
         "frequency": "No explicit frequency provided.",
         "description": "Operated by Huawei to provide search and AI assistant services."
     },
     "Scrapy": {
-        "operator": "[Zyte](https:\/\/www.zyte.com)",
+        "operator": "[Zyte](https://www.zyte.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data a variety of uses including training AI.",
         "frequency": "No information.",
         "description": "\"AI and machine learning applications often need large amounts of quality data, and web data extraction is a fast, efficient way to build structured data sets.\""
     },
     "Timpibot": {
-        "operator": "[Timpi](https:\/\/timpi.io)",
+        "operator": "[Timpi](https://timpi.io)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data for use in training LLMs.",
         "frequency": "No information.",
         "description": "Makes data available for training AI models."
     },
     "VelenPublicWebCrawler": {
-        "operator": "[Velen Crawler](https:\/\/velen.io)",
-        "respect": "[Yes](https:\/\/velen.io)",
+        "operator": "[Velen Crawler](https://velen.io)",
+        "respect": "[Yes](https://velen.io)",
         "function": "Scrapes data for business data sets and machine learning models.",
         "frequency": "No information.",
         "description": "\"Our goal with this crawler is to build business datasets and machine learning models to better understand the web.\""
     },
     "YouBot": {
-        "operator": "[You](https:\/\/about.you.com\/youchat\/)",
-        "respect": "[Yes](https:\/\/about.you.com\/youbot\/)",
+        "operator": "[You](https://about.you.com/youchat/)",
+        "respect": "[Yes](https://about.you.com/youbot/)",
         "function": "Scrapes data for search engine and LLMs.",
         "frequency": "No information.",
         "description": "Retrieves data used for You.com web search engine and LLMs."
+    },
+    "Meta-ExternalFetcher": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
+    },
+    "Applebot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://darkvisitors.com/agents/agents/applebot"
     }
 }

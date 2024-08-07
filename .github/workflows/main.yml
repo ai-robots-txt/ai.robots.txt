@@ -1,4 +1,10 @@
 on:
+  workflow_call:
+    inputs:
+      message:
+        type: string
+        required: true
+        description: The message to commit
   push:
     paths:
       - 'robots.json'
@@ -23,6 +29,10 @@ jobs:
           git config --global user.name "ai.robots.txt"
           git config --global user.email "ai.robots.txt@users.noreply.github.com"
           git add -A
-          git commit -m "${{ github.event.head_commit.message }}"
+          if [ -n "${{ inputs.message }}" ]; then
+            git commit -m "${{ inputs.message }}"
+          else
+            git commit -m "${{ github.event.head_commit.message }}"
+          fi
           git push
         shell: bash

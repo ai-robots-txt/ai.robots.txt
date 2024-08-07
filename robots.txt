@@ -29,4 +29,6 @@ User-agent: Scrapy
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: YouBot
+User-agent: Meta-ExternalFetcher
+User-agent: Applebot
 Disallow: /
