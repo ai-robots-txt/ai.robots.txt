@@ -26,6 +26,8 @@ to_include = [
 
 for section in soup.find_all("div", {"class": "agent-links-section"}):
     category = section.find("h2").get_text()
+    if category not in to_include:
+        continue
     for agent in section.find_all("a", href=True):
         name = agent.find("div", {"class": "agent-name"}).get_text().strip()
         desc = agent.find("p").get_text().strip()

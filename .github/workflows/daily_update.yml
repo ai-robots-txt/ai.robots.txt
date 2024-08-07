@@ -1,7 +1,7 @@
 name: Daily Update from Dark Visitors
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/10 * * * *"
 
 jobs:
   dark-visitors:
@@ -19,3 +19,6 @@ jobs:
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Daily update from Dark Visitors" && git push)
         shell: bash
+  call-main:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit

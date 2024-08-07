@@ -1,4 +1,5 @@
 on:
+  workflow_call:
   push:
     paths:
       - 'robots.json'
