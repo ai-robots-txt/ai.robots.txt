@@ -23,3 +23,5 @@ jobs:
     needs: dark-visitors
     uses: ./.github/workflows/main.yml
     secrets: inherit
+    with:
+      message: "Daily update from Dark Visitors"
