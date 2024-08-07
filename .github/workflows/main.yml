@@ -29,8 +29,8 @@ jobs:
           git config --global user.name "ai.robots.txt"
           git config --global user.email "ai.robots.txt@users.noreply.github.com"
           git add -A
-          if [ -n "${{ github.event.inputs.message }}" ]; then
-            git commit -m "${{ github.event.inputs.message }}"
+          if [ -n "${{ inputs.message }}" ]; then
+            git commit -m "${{ inputs.message }}"
           else
             git commit -m "${{ github.event.head_commit.message }}"
           fi
