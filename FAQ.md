@@ -14,6 +14,8 @@ Also, given the contentious nature of AI and the possibility of legislation limi
 
 Yes, provided the crawlers identify themselves and your application/hosting supports doing so.
 
+Some crawlers — [such as Perplexity](https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/) — do not identify themselves via their user agent strings and, as such, are difficult to block.
+
 ## What can we do if a bot doesn't respect `robots.txt`?
 
 That depends on your stack.
