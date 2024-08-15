@@ -70,4 +70,4 @@ for section in soup.find_all("div", {"class": "agent-links-section"}):
         }
 
 print(f"Total: {len(existing_content)}")
-Path("./robots.json").write_text(json.dumps(existing_content, indent=4))
+Path("./robots.json").write_text(json.dumps(existing_content, indent=4, sort_keys=True))
