@@ -181,6 +181,13 @@
         "operator": "[Velen Crawler](https://velen.io)",
         "respect": "[Yes](https://velen.io)"
     },
+    "Webzio-Extended": {
+        "description": "Webzio-Extended is a web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models. More info can be found at https://darkvisitors.com/agents/agents/webzio-extended",
+        "frequency": "Unclear at this time.",
+        "function": "AI Data Scrapers",
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time."
+    },
     "YouBot": {
         "description": "Retrieves data used for You.com web search engine and LLMs.",
         "frequency": "No information.",
