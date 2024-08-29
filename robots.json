@@ -1,4 +1,18 @@
 {
+    "AI2Bot": {
+        "description": "Explores 'certain domains' to find web content.",
+        "frequency": "No information. provided.",
+        "function": "Content is used to train open language models.",
+        "operator": "[Ai2](https://allenai.org/crawler)",
+        "respect": "Yes"
+    },
+    "Ai2Bot-Dolma": {
+        "description": "Explores 'certain domains' to find web content.",
+        "frequency": "No information. provided.",
+        "function": "Content is used to train open language models.",
+        "operator": "[Ai2](https://allenai.org/crawler)",
+        "respect": "Yes"
+    },
     "Amazonbot": {
         "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses.",
         "frequency": "No information. provided.",
