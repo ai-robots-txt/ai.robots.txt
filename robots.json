@@ -125,6 +125,13 @@
         "operator": "Google",
         "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)"
     },
+    "iaskspider/2.0": {
+        "description": "Used to provide answers to user queries.",
+        "frequency": "Unclear at this time.",
+        "function": "Crawls sites to provide answers to user queries.",
+        "operator": "iAsk",
+        "respect": "No"
+    },
     "ICC-Crawler": {
         "description": "Use the collected data for artificial intelligence technologies; provide data to third parties, including commercial companies; those companies can use the data for their own business.",
         "frequency": "No information.",
