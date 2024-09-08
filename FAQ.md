@@ -33,6 +33,8 @@ That depends on your stack.
 - Cloudflare
   - [Block AI bots, scrapers and crawlers with a single click](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) by Cloudflare
   - [I’m blocking AI crawlers](https://roelant.net/en/2024/im-blocking-ai-crawlers-part-2/) by Roelant
+- Vercel
+  - [Block AI Bots Firewall Rule](https://vercel.com/templates/firewall/block-ai-bots-firewall-rule) by Vercel
 
 ## Why should we block these crawlers?
 
