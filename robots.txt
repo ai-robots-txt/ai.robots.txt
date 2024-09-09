@@ -16,7 +16,6 @@ User-agent: Google-Extended
 User-agent: GoogleOther
 User-agent: GoogleOther-Image
 User-agent: GoogleOther-Video
-User-agent: iaskspider/2.0
 User-agent: ICC-Crawler
 User-agent: ImagesiftBot
 User-agent: Meta-ExternalAgent
@@ -32,6 +31,7 @@ User-agent: YouBot
 User-agent: anthropic-ai
 User-agent: cohere-ai
 User-agent: facebookexternalhit
+User-agent: iaskspider/2.0
 User-agent: img2dataset
 User-agent: omgili
 User-agent: omgilibot
