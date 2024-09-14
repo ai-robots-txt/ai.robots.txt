@@ -69,6 +69,13 @@
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time."
     },
+    "Dataprovider": {
+        "description": "We’ve summarized the web, so you can find the exact information you need, whether it be technology trends, hosting, security risks, business information, website traffic or content.",
+        "frequency": "Unclear at this time.",
+        "function": "Aggregates structured web data for searching and AI model training.",
+        "operator": "[Dataprovider.com](https://www.dataprovider.com/)",
+        "respect": "[Yes](https://www.dataprovider.com/spider/)."
+    },
     "Diffbot": {
         "description": "Diffbot is an application used to parse web pages into structured data; this data is used for monitoring or AI model training.",
         "frequency": "Unclear at this time.",
