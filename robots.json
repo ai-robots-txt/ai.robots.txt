@@ -1,4 +1,11 @@
 {
+    "AI": {
+        "description": "PostOpen recommendation.",
+        "frequency": "No information. provided.",
+        "function": "Content is used to train artificial intelligence (AI), large language models (LLM), machine learning systems or neural networks.",
+        "operator": "[Various](https://postopen.org/content-protection-project/)",
+        "respect": "Yes"
+    },
     "AI2Bot": {
         "description": "Explores 'certain domains' to find web content.",
         "frequency": "No information. provided.",
