@@ -22,6 +22,8 @@ https://github.com/ai-robots-txt/ai.robots.txt/releases.atom
 
 You can subscribe with [Feedly](https://feedly.com/i/subscription/feed/https://github.com/ai-robots-txt/ai.robots.txt/releases.atom), [Inoreader](https://www.inoreader.com/?add_feed=https://github.com/ai-robots-txt/ai.robots.txt/releases.atom), [The Old Reader](https://theoldreader.com/feeds/subscribe?url=https://github.com/ai-robots-txt/ai.robots.txt/releases.atom), [Feedbin](https://feedbin.me/?subscribe=https://github.com/ai-robots-txt/ai.robots.txt/releases.atom), or any other reader app.
 
+Alternatively, you can also subscribe to new releases with your GitHub account by clicking the ⬇️ on "Watch" button at the top of this page, clicking "Custom" and selecting "Releases".
+
 ## Report abusive crawlers
 
 If you use [Cloudflare's hard block](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) alongside this list, you can report abusive crawlers that don't respect `robots.txt` [here](https://docs.google.com/forms/d/e/1FAIpQLScbUZ2vlNSdcsb8LyTeSF7uLzQI96s0BKGoJ6wQ6ocUFNOKEg/viewform).
