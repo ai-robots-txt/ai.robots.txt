@@ -42,10 +42,10 @@
         "respect": "No"
     },
     "CCBot": {
-        "description": "Sources data that is made openly available and is used to train AI models.",
-        "frequency": "Unclear at this time.",
-        "function": "Provides crawl data for an open source repository that has been used to train LLMs.",
-        "operator": "[Common Crawl](https://commoncrawl.org)",
+        "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers).",
+        "frequency": "Monthly at present.",
+        "function": "Provides open crawl dataset, used for many purposes, including Machine Learning/AI.",
+        "operator": "[Common Crawl Foundation](https://commoncrawl.org)",
         "respect": "[Yes](https://commoncrawl.org/ccbot)"
     },
     "ChatGPT-User": {
