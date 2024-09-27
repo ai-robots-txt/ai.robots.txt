@@ -139,6 +139,13 @@
         "operator": "[ImageSift](https://imagesift.com)",
         "respect": "[Yes](https://imagesift.com/about)"
     },
+    "Kangaroo Bot": {
+        "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot",
+        "frequency": "Unclear at this time.",
+        "function": "AI Data Scrapers",
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time."
+    },
     "Meta-ExternalAgent": {
         "description": "\"The Meta-ExternalAgent crawler crawls the web for use cases such as training AI models or improving products by indexing content directly.\"",
         "frequency": "No information.",
