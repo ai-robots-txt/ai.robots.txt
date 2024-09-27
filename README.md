@@ -35,3 +35,4 @@ If you use [Cloudflare's hard block](https://blog.cloudflare.com/declaring-your-
 - [Blocking Bots With 11ty And Apache](https://flamedfury.com/posts/blocking-bots-with-11ty-and-apache/) by fLaMEd fury
 - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
 - [Blocking AI web crawlers](https://underlap.org/blocking-ai-web-crawlers) by Glyn Normington
+- [Block AI Bots from Crawling Websites Using Robots.txt](https://originality.ai/ai-bot-blocking) by Jonathan Gillham, Originality.AI
