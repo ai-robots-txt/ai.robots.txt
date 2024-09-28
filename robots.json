@@ -184,8 +184,15 @@
     "Scrapy": {
         "description": "\"AI and machine learning applications often need large amounts of quality data, and web data extraction is a fast, efficient way to build structured data sets.\"",
         "frequency": "No information.",
-        "function": "Scrapes data a variety of uses including training AI.",
+        "function": "Scrapes data for a variety of uses including training AI.",
         "operator": "[Zyte](https://www.zyte.com)",
+        "respect": "Unclear at this time."
+    },
+    "Sidetrade indexer bot": {
+        "description": "AI product training.",
+        "frequency": "No information.",
+        "function": "Extracts data for a variety of uses including training AI.",
+        "operator": "[Sidetrade](https://www.sidetrade.com)",
         "respect": "Unclear at this time."
     },
     "Timpibot": {
