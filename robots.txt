@@ -25,6 +25,7 @@ User-agent: OAI-SearchBot
 User-agent: PerplexityBot
 User-agent: PetalBot
 User-agent: Scrapy
+User-agent: Sidetrade indexer bot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
