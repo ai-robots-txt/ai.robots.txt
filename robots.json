@@ -132,6 +132,13 @@
         "operator": "[NICT](https://nict.go.jp)",
         "respect": "Yes"
     },
+    "ISSCyberRiskCrawler": {
+        "description": "Used to train machine learning based models to quantify cyber risk.",
+        "frequency": "No information.",
+        "function": "Scrapes data to train machine learning models.",
+        "operator": "[ISS-Corporate](https://iss-cyber.com)",
+        "respect": "No"
+    },
     "ImagesiftBot": {
         "description": "Once images and text are downloaded from a webpage, ImageSift analyzes this data from the page and stores the information in an index. Our web intelligence products use this index to enable search and retrieval of similar images.",
         "frequency": "No information.",
