@@ -17,6 +17,7 @@ User-agent: GoogleOther
 User-agent: GoogleOther-Image
 User-agent: GoogleOther-Video
 User-agent: ICC-Crawler
+User-agent: ISSCyberRiskCrawler
 User-agent: ImagesiftBot
 User-agent: Kangaroo Bot
 User-agent: Meta-ExternalAgent
