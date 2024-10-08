@@ -67,7 +67,7 @@
         "frequency": "No information. provided.",
         "function": "Scrapes data to train Anthropic's AI products.",
         "operator": "[Anthropic](https://www.anthropic.com)",
-        "respect": "Unclear at this time."
+        "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)"
     },
     "Diffbot": {
         "description": "Diffbot is an application used to parse web pages into structured data; this data is used for monitoring or AI model training.",
