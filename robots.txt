@@ -1,3 +1,4 @@
+User-agent: AI
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot

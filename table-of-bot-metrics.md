@@ -1,5 +1,6 @@
 | Name | Operator | Respects `robots.txt` | Data use | Visit regularity | Description |
 |-----|----------|-----------------------|----------|------------------|-------------|
+| AI | [Various](https://postopen.org/content-protection-project/) | Yes | Content is used to train artificial intelligence (AI), large language models (LLM), machine learning systems or neural networks. | No information. provided. | PostOpen recommendation. | 
 | AI2Bot | [Ai2](https://allenai.org/crawler) | Yes | Content is used to train open language models. | No information. provided. | Explores 'certain domains' to find web content. | 
 | Ai2Bot-Dolma | [Ai2](https://allenai.org/crawler) | Yes | Content is used to train open language models. | No information. provided. | Explores 'certain domains' to find web content. | 
 | Amazonbot | Amazon | Yes | Service improvement and enabling answers for Alexa users. | No information. provided. | Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses. | 
