@@ -10,6 +10,8 @@ They're extractive, confer no benefit to the creators of data they're ingesting 
 **[How AI copyright lawsuits could make the whole industry go extinct](https://www.theverge.com/24062159/ai-copyright-fair-use-lawsuits-new-york-times-openai-chatgpt-decoder-podcast)**
 > The New York Times' lawsuit against OpenAI is part of a broader, industry-shaking copyright challenge that could define the future of AI.
 
+Crawlers also sometimes impact the performance of crawled sites, or even take them down.
+
 ## How do we know AI companies/bots respect `robots.txt`?
 
 The short answer is that we don't. `robots.txt` is a well-established standard, but compliance is voluntary. There is no enforcement mechanism.
