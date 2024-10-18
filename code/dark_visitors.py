@@ -70,4 +70,6 @@ for section in soup.find_all("div", {"class": "agent-links-section"}):
         }
 
 print(f"Total: {len(existing_content)}")
-Path("./robots.json").write_text(json.dumps(existing_content, indent=4, sort_keys=True))
+sorted_keys = sorted(existing_content, key=lambda k: k.lower())
+existing_content = {k: existing_content[k] for k in sorted_keys}
+Path("./robots.json").write_text(json.dumps(existing_content, indent=4))
