@@ -21,6 +21,7 @@ jobs:
           git config --global user.name "ai.robots.txt"
           git config --global user.email "ai.robots.txt@users.noreply.github.com"
           php -f code/action.php
+          git --no-pager diff
           git add -A
           if [ -n "${{ inputs.message }}" ]; then
             git commit -m "${{ inputs.message }}"
