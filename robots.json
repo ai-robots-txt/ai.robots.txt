@@ -1,14 +1,14 @@
 {
     "AI2Bot": {
         "description": "Explores 'certain domains' to find web content.",
-        "frequency": "No information. provided.",
+        "frequency": "No information provided.",
         "function": "Content is used to train open language models.",
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes"
     },
     "Ai2Bot-Dolma": {
         "description": "Explores 'certain domains' to find web content.",
-        "frequency": "No information. provided.",
+        "frequency": "No information provided.",
         "function": "Content is used to train open language models.",
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes"
@@ -17,14 +17,14 @@
         "operator": "Amazon",
         "respect": "Yes",
         "function": "Service improvement and enabling answers for Alexa users.",
-        "frequency": "No information. provided.",
+        "frequency": "No information provided.",
         "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
     },
     "anthropic-ai": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
-        "frequency": "No information. provided.",
+        "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "Applebot": {
@@ -66,14 +66,14 @@
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "Unclear at this time.",
         "function": "Scrapes data to train Anthropic's AI products.",
-        "frequency": "No information. provided.",
+        "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "ClaudeBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
         "function": "Scrapes data to train Anthropic's AI products.",
-        "frequency": "No information. provided.",
+        "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "cohere-ai": {

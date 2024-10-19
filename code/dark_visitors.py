@@ -34,7 +34,7 @@ for section in soup.find_all("div", {"class": "agent-links-section"}):
         
         default_values = {
             "Unclear at this time.", 
-            "No information. provided.", 
+            "No information provided.",
             "No information.",
             "No explicit frequency provided."
         }
