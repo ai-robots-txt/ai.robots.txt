@@ -20,7 +20,12 @@ jobs:
       - run: |
           git config --global user.name "ai.robots.txt"
           git config --global user.email "ai.robots.txt@users.noreply.github.com"
+          git log -1
+          git status
+          echo "Running update script ..."
           php -f code/action.php
+          echo "... done."
+          git --no-pager diff
           git add -A
           if [ -n "${{ inputs.message }}" ]; then
             git commit -m "${{ inputs.message }}"
