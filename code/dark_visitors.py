@@ -5,12 +5,27 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def get_updated_robots_json():
-    session = requests.Session()
-    response = session.get("https://darkvisitors.com/agents")
-    soup = BeautifulSoup(response.text, "html.parser")
+def load_robots_json():
+    """Load the robots.json contents into a dictionary."""
+    return json.loads(Path("./robots.json").read_text(encoding="utf-8"))
 
-    existing_content = json.loads(Path("./robots.json").read_text())
+
+def get_agent_soup():
+    """Retrieve current known agents from darkvisitors.com"""
+    session = requests.Session()
+    try:
+        response = session.get("https://darkvisitors.com/agents")
+    except requests.exceptions.ConnectionError:
+        print(
+            "ERROR: Could not gather the current agents from https://darkvisitors.com/agents"
+        )
+        return
+    return BeautifulSoup(response.text, "html.parser")
+
+
+def updated_robots_json(soup):
+    """Update AI scraper information with data from darkvisitors."""
+    existing_content = load_robots_json()
     to_include = [
         "AI Assistants",
         "AI Data Scrapers",
@@ -83,13 +98,31 @@ def get_updated_robots_json():
     return sorted_robots
 
 
+def ingest_darkvisitors():
+
+    old_robots_json = load_robots_json()
+    soup = get_agent_soup()
+    if soup:
+        robots_json = updated_robots_json(soup)
+        print(
+            "robots.json is unchanged."
+            if robots_json == old_robots_json
+            else "robots.json got updates."
+        )
+        Path("./robots.json").write_text(
+            json.dumps(robots_json, indent=4), encoding="utf-8"
+        )
+
+
 def json_to_txt(robots_json):
+    """Compose the robots.txt from the robots.json file."""
     robots_txt = "\n".join(f"User-agent: {k}" for k in robots_json.keys())
     robots_txt += "\nDisallow: /\n"
     return robots_txt
 
 
 def json_to_table(robots_json):
+    """Compose a markdown table with the information in robots.json"""
     table = "| Name | Operator | Respects `robots.txt` | Data use | Visit regularity | Description |\n"
     table += "|-----|----------|-----------------------|----------|------------------|-------------|\n"
 
@@ -99,8 +132,26 @@ def json_to_table(robots_json):
     return table
 
 
+def update_file_if_changed(file_name, converter):
+    """Update files if newer content is available and log the (in)actions."""
+    new_content = converter(load_robots_json())
+    old_content = Path(file_name).read_text(encoding="utf-8")
+    if old_content == new_content:
+        print(f"{file_name} is already up to date.")
+    else:
+        Path(file_name).write_text(new_content, encoding="utf-8")
+        print(f"{file_name} has been updated.")
+
+
+def conversions():
+    """Triggers the conversions from the json file."""
+    update_file_if_changed(file_name="./robots.txt", converter=json_to_txt)
+    update_file_if_changed(
+        file_name="./table-of-bot-metrics.md",
+        converter=json_to_table,
+    )
+
+
 if __name__ == "__main__":
-    robots_json = get_updated_robots_json()
-    Path("./robots.json").write_text(json.dumps(robots_json, indent=4))
-    Path("./robots.txt").write_text(json_to_txt(robots_json))
-    Path("./table-of-bot-metrics.md").write_text(json_to_table(robots_json))
+    ingest_darkvisitors()
+    conversions()
