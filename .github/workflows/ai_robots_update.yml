@@ -1,0 +1,34 @@
+name: Updates for AI robots files
+on:
+  push:
+    branches:
+    - "main"
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  dark-visitors:
+    runs-on: ubuntu-latest
+    name: dark-visitors
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - run: |
+          pip install beautifulsoup4 requests
+          git config --global user.name "dark-visitors"
+          git config --global user.email "dark-visitors@users.noreply.github.com"
+          echo "Updating robots.json with data from darkvisitor.com ..."
+          python code/dark_visitors.py --update
+          echo "... done."
+          git --no-pager diff
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update from Dark Visitors" && git push)
+          
+          echo "Updating robots.txt and table-of-bot-metrics.md if necessary ..."
+          python code/dark_visitors.py --convert
+          echo "... done."
+          git --no-pager diff
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Updated from new robots.json" && git push)
+        shell: bash
