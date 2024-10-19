@@ -18,10 +18,17 @@ jobs:
           pip install beautifulsoup4 requests
           git config --global user.name "dark-visitors"
           git config --global user.email "dark-visitors@users.noreply.github.com"
-          echo "Running update script ..."
-          python code/dark_visitors.py
+          echo "Updating robots.json with data from darkvisitor.com ..."
+          python code/dark_visitors.py --update
           echo "... done."
           git --no-pager diff
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Daily update from Dark Visitors" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update from Dark Visitors" && git push)
+          
+          echo "Updating robots.txt and table-of-bot-metrics.md if necessary ..."
+          python code/dark_visitors.py --convert
+          echo "... done."
+          git --no-pager diff
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Updated from new robots.json" && git push)
         shell: bash

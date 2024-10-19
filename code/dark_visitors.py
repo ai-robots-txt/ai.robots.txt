@@ -153,5 +153,31 @@ def conversions():
 
 
 if __name__ == "__main__":
-    ingest_darkvisitors()
-    conversions()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        prog="ai-robots",
+        description="Collects and updates information about web scrapers of AI companies.",
+        epilog="One of the flags must be set.\n",
+    )
+    parser.add_argument(
+        "--update",
+        action="store_true",
+        help="Update the robots.json file with data from darkvisitors.com/agents",
+    )
+    parser.add_argument(
+        "--convert",
+        action="store_true",
+        help="Create the robots.txt and markdown table from robots.json",
+    )
+    args = parser.parse_args()
+
+    if not (args.update or args.convert):
+        print("ERROR: please provide one of the possible flags.")
+        parser.print_help()
+
+    if args.update:
+        ingest_darkvisitors()
+    if args.convert:
+        conversions()
