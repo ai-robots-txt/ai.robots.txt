@@ -1,4 +1,4 @@
-name: Daily Update from Dark Visitors
+name: Updates for AI robots files
 on:
   push:
     branches:
