@@ -1,10 +1,10 @@
 {
     "AI2Bot": {
-        "description": "Explores 'certain domains' to find web content.",
-        "frequency": "No information provided.",
-        "function": "Content is used to train open language models.",
         "operator": "[Ai2](https://allenai.org/crawler)",
-        "respect": "Yes"
+        "respect": "Yes",
+        "function": "Content is used to train open language models.",
+        "frequency": "No information provided.",
+        "description": "Explores 'certain domains' to find web content."
     },
     "Ai2Bot-Dolma": {
         "description": "Explores 'certain domains' to find web content.",
