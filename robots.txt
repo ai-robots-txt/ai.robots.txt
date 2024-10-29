@@ -11,6 +11,7 @@ User-agent: Claude-Web
 User-agent: ClaudeBot
 User-agent: cohere-ai
 User-agent: Diffbot
+User-agent: DuckAssistBot
 User-agent: FacebookBot
 User-agent: facebookexternalhit
 User-agent: FriendlyCrawler
