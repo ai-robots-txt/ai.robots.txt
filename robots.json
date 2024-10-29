@@ -90,6 +90,13 @@
         "frequency": "Unclear at this time.",
         "description": "Diffbot is an application used to parse web pages into structured data; this data is used for monitoring or AI model training."
     },
+    "DuckAssistBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "DuckAssistBot is used by DuckDuckGo's DuckAssist feature to fetch content and generate realtime AI answers to user searches. More info can be found at https://darkvisitors.com/agents/agents/duckassistbot"
+    },
     "FacebookBot": {
         "operator": "Meta/Facebook",
         "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)",
