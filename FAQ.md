@@ -42,8 +42,8 @@ That depends on your stack.
 - Apache httpd
   - [Blockin' bots.](https://ethanmarcotte.com/wrote/blockin-bots/) by Ethan Marcotte
   - [Blocking Bots With 11ty And Apache](https://flamedfury.com/posts/blocking-bots-with-11ty-and-apache/) by fLaMEd fury
-> [!TIP]
-> The snippets in these articles all use `mod_rewrite`, which [should be considered a last resort](https://httpd.apache.org/docs/trunk/rewrite/avoid.html). A good alternative that's less resource-intensive is `mod_setenvif`; see [httpd docs](https://httpd.apache.org/docs/trunk/rewrite/access.html#blocking-of-robots) for an example. You should also consider [setting this up in `httpd.conf` instead of `.htaccess`](https://httpd.apache.org/docs/trunk/howto/htaccess.html#when) if it's available to you.
+  > [!TIP]
+  > The snippets in these articles all use `mod_rewrite`, which [should be considered a last resort](https://httpd.apache.org/docs/trunk/rewrite/avoid.html). A good alternative that's less resource-intensive is `mod_setenvif`; see [httpd docs](https://httpd.apache.org/docs/trunk/rewrite/access.html#blocking-of-robots) for an example. You should also consider [setting this up in `httpd.conf` instead of `.htaccess`](https://httpd.apache.org/docs/trunk/howto/htaccess.html#when) if it's available to you.
 - Netlify
   - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
 - Cloudflare
