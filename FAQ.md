@@ -10,10 +10,10 @@ They're extractive, confer no benefit to the creators of data they're ingesting 
 **[How AI copyright lawsuits could make the whole industry go extinct](https://www.theverge.com/24062159/ai-copyright-fair-use-lawsuits-new-york-times-openai-chatgpt-decoder-podcast)**
 > The New York Times' lawsuit against OpenAI is part of a broader, industry-shaking copyright challenge that could define the future of AI.
 
-**[Reconciling the contrasting narratives on the environmental impact of large language models](https://www.nature.com/articles/s41598-024-76682-6)
+**[Reconciling the contrasting narratives on the environmental impact of large language models](https://www.nature.com/articles/s41598-024-76682-6)**
 > Studies have shown that the training of just one LLM can consume as much energy as five cars do across their lifetimes. The water footprint of AI is also substantial; for example, recent work has highlighted that water consumption associated with AI models involves data centers using millions of gallons of water per day for cooling. Additionally, the energy consumption and carbon emissions of AI are projected to grow quickly in the coming years [...].
 
-**[Scientists Predict AI to Generate Millions of Tons of E-Waste](https://www.sciencealert.com/scientists-predict-ai-to-generate-millions-of-tons-of-e-waste)
+**[Scientists Predict AI to Generate Millions of Tons of E-Waste](https://www.sciencealert.com/scientists-predict-ai-to-generate-millions-of-tons-of-e-waste)**
 > we could end up with between 1.2 million and 5 million metric tons of additional electronic waste by the end of this decade [the 2020's].
 
 ## How do we know AI companies/bots respect `robots.txt`?
