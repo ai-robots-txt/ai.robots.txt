@@ -8,6 +8,9 @@ on:
     types:
       - published
 
+permissions:
+  contents: write
+
 jobs:
   upload-robots-txt-file-to-release:
     name: "Upload robots.txt file to release"
@@ -19,5 +22,6 @@ jobs:
       - name: "Upload"
         run: gh --repo "${REPO}" release upload "${TAG}" robots.txt
         env:
+          GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           TAG: ${{ github.event.release.tag_name }}
