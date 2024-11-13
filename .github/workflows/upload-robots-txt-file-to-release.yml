@@ -1,0 +1,29 @@
+---
+
+name: "Upload robots.txt file to release"
+run-name: "Upload robots.txt file to release"
+
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
+
+jobs:
+  upload-robots-txt-file-to-release:
+    name: "Upload robots.txt file to release"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+
+      - name: "Upload"
+        run: gh --repo "${REPO}" release upload "${TAG}" robots.txt
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name }}
