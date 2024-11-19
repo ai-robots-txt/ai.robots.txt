@@ -104,13 +104,6 @@
         "frequency": "Up to 1 page per second",
         "description": "Officially used for training Meta \"speech recognition technology,\" unknown if used to train Meta AI specifically."
     },
-    "facebookexternalhit": {
-        "description": "Unclear at this time.",
-        "frequency": "Unclear at this time.",
-        "function": "No information.",
-        "operator": "Meta/Facebook",
-        "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)"
-    },
     "FriendlyCrawler": {
         "description": "Unclear who the operator is; but data is used for training/machine learning.",
         "frequency": "Unclear at this time.",
