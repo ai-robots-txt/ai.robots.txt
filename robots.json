@@ -223,6 +223,13 @@
         "operator": "[Webz.io](https://webz.io/)",
         "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)"
     },
+    "PanguBot": {
+        "operator": "the Chinese company Huawei",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Scrapers",
+        "frequency": "Unclear at this time.",
+        "description": "PanguBot is a web crawler operated by the Chinese company Huawei. It's used to download training data for its multimodal LLM (Large Language Model) called PanGu. More info can be found at https://darkvisitors.com/agents/agents/pangubot"
+    },
     "PerplexityBot": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
         "respect": "[No](https://www.macstories.net/stories/wired-confirms-perplexity-is-bypassing-efforts-by-websites-to-block-its-web-crawler/)",
