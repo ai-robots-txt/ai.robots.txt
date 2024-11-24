@@ -30,6 +30,7 @@ User-agent: Meta-ExternalFetcher
 User-agent: OAI-SearchBot
 User-agent: omgili
 User-agent: omgilibot
+User-agent: PanguBot
 User-agent: PerplexityBot
 User-agent: PetalBot
 User-agent: Scrapy
