@@ -1,0 +1,38 @@
+on:
+  workflow_call:
+    inputs:
+      message:
+        type: string
+        required: true
+        description: The message to commit
+  push:
+    paths:
+      - 'robots.json'
+    branches:
+      - "main"
+
+jobs:
+  ai-robots-txt:
+    runs-on: ubuntu-latest
+    name: ai-robots-txt
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - run: |
+          git config --global user.name "ai.robots.txt"
+          git config --global user.email "ai.robots.txt@users.noreply.github.com"
+          git log -1
+          git status
+          echo "Updating robots.txt and table-of-bot-metrics.md if necessary ..."
+          python code/dark_visitors.py --convert
+          echo "... done."
+          git --no-pager diff
+          git add -A
+          if [ -n "${{ inputs.message }}" ]; then
+            git commit -m "${{ inputs.message }}"
+          else
+            git commit -m "${{ github.event.head_commit.message }}"
+          fi
+          git push
+        shell: bash

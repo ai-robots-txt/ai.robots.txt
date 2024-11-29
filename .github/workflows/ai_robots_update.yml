@@ -1,8 +1,5 @@
 name: Updates for AI robots files
 on:
-  push:
-    branches:
-    - "main"
   schedule:
     - cron: "0 0 * * *"
 
@@ -24,11 +21,10 @@ jobs:
           git --no-pager diff
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update from Dark Visitors" && git push)
-          
-          echo "Updating robots.txt and table-of-bot-metrics.md if necessary ..."
-          python code/dark_visitors.py --convert
-          echo "... done."
-          git --no-pager diff
-          git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Updated from new robots.json" && git push)
         shell: bash
+  call-main:
+    needs: dark-visitors
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      message: "Update from Dark Visitors"
