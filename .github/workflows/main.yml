@@ -25,7 +25,7 @@ jobs:
           git log -1
           git status
           echo "Updating robots.txt and table-of-bot-metrics.md if necessary ..."
-          python code/dark_visitors.py --convert
+          python code/robots.py --convert
           echo "... done."
           git --no-pager diff
           git add -A

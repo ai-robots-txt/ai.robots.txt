@@ -16,7 +16,7 @@ jobs:
           git config --global user.name "dark-visitors"
           git config --global user.email "dark-visitors@users.noreply.github.com"
           echo "Updating robots.json with data from darkvisitor.com ..."
-          python code/dark_visitors.py --update
+          python code/robots.py --update
           echo "... done."
           git --no-pager diff
           git add -A
