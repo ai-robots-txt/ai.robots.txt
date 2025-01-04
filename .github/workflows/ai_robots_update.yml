@@ -22,7 +22,8 @@ jobs:
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update from Dark Visitors" && git push)
         shell: bash
-  call-main:
+  convert:
+    name: convert
     needs: dark-visitors
     uses: ./.github/workflows/main.yml
     secrets: inherit
