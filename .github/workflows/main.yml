@@ -8,6 +8,8 @@ on:
   push:
     paths:
       - 'robots.json'
+      - '.github/workflows/**'
+      - 'code/**'
     branches:
       - "main"
 
