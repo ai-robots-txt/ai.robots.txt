@@ -1,0 +1,6 @@
+# Ai bots don't respect robots.txt files. You can use the following .htaccess rule to block them. 
+# Use user-agent names from robots.txt file in this repository to edit the following rule. Replace or add bot names with ones that cause your website trouble.
+
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} ^.*(ClaudeBot|NBot|GPTBot|).*$ [NC]
+RewriteRule .* - [F,L]
