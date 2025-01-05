@@ -10,6 +10,7 @@ User-agent: ChatGPT-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
 User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
 User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: FacebookBot
