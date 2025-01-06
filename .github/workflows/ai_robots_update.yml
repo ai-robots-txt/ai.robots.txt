@@ -16,13 +16,14 @@ jobs:
           git config --global user.name "dark-visitors"
           git config --global user.email "dark-visitors@users.noreply.github.com"
           echo "Updating robots.json with data from darkvisitor.com ..."
-          python code/dark_visitors.py --update
+          python code/robots.py --update
           echo "... done."
           git --no-pager diff
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update from Dark Visitors" && git push)
         shell: bash
-  call-main:
+  convert:
+    name: convert
     needs: dark-visitors
     uses: ./.github/workflows/main.yml
     secrets: inherit

@@ -6,7 +6,7 @@ cd to the `code` directory and run `pytest`
 import json
 from pathlib import Path
 
-from dark_visitors import json_to_txt, json_to_table
+from robots import json_to_txt, json_to_table
 
 
 def test_robots_txt_creation():
