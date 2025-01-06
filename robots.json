@@ -258,6 +258,13 @@
         "operator": "[Zyte](https://www.zyte.com)",
         "respect": "Unclear at this time."
     },
+    "SemrushBot": {
+        "operator": "[Semrush](https://www.semrush.com/)",
+        "respect": "[Yes](https://www.semrush.com/bot/)",
+        "function": "Scrapes data for use in LLM article-writing tool.",
+        "frequency": "Roughly once every 10 seconds.",
+        "description": "SemrushBot is a bot which, among other functions, scrapes data for use in ContentShake AI tool reports."
+    },
     "Sidetrade indexer bot": {
         "description": "AI product training.",
         "frequency": "No information.",
