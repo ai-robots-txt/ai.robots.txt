@@ -32,6 +32,13 @@ jobs:
           echo "... done."
           git --no-pager diff
           git add -A
+          if [ -z "$(git diff --staged)" ]; then
+            # To have the action run successfully, if no changes are staged, we
+            # manually skip the later commits because they fail with exit code 1
+            # and this would then display as a failure for the Action.
+            echo "No staged changes to commit. Skipping commit and push."
+            exit 0
+          fi
           if [ -n "${{ inputs.message }}" ]; then
             git commit -m "${{ inputs.message }}"
           else
