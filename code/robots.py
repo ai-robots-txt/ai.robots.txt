@@ -132,10 +132,26 @@ def json_to_table(robots_json):
     return table
 
 
+def json_to_htaccess(robot_json):
+    htaccess = "RewriteEngine On\n"
+    htaccess += "RewriteCond %{HTTP_USER_AGENT} ^.*("
+
+    robots = map(lambda el: el.replace(" ", "\\ "), robot_json.keys())
+    htaccess += "|".join(robots)
+    htaccess += ").*$ [NC]\n"
+    htaccess += "RewriteRule .* - [F,L]"
+    return htaccess
+
+
 def update_file_if_changed(file_name, converter):
     """Update files if newer content is available and log the (in)actions."""
     new_content = converter(load_robots_json())
-    old_content = Path(file_name).read_text(encoding="utf-8")
+    filepath = Path(file_name)
+    if not filepath.exists():
+        filepath.write_text(new_content, encoding="utf-8")
+        print(f"{file_name} has been created.")
+        return
+    old_content = filepath.read_text(encoding="utf-8")
     if old_content == new_content:
         print(f"{file_name} is already up to date.")
     else:
@@ -149,6 +165,10 @@ def conversions():
     update_file_if_changed(
         file_name="./table-of-bot-metrics.md",
         converter=json_to_table,
+    )
+    update_file_if_changed(
+        file_name="./.htaccess",
+        converter=json_to_htaccess,
     )
 
 
