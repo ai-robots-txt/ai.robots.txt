@@ -8,6 +8,19 @@ A number of these crawlers have been sourced from [Dark Visitors](https://darkvi
 
 If you'd like to add information about a crawler to the list, please make a pull request with the bot name added to `robots.txt`, `ai.txt`, and any relevant details in `table-of-bot-metrics.md` to help people understand what's crawling.
 
+## Usage
+
+Many visitors will find these files from this repository most useful:
+- `robots.txt`
+- `.htaccess`
+
+The first one tells search engine and AI crawlers which parts of your website should be scanned or avoided. The webpages of your server are returned anyway, but the crawler "pledges" not to use them. By default, the provided `robots.txt` tells every AI crawler not to scan any page in your website. This is not bulletproof, as an evil crawler could simply ignore the `robots.txt` content.
+
+The second one tells your own webserver to return an error page when one of the listed AI crawlers tries to request a page from your website. A `.htaccess` file does not work on every webserver, but works correctly on most common and cheap shared hosting providers. The majority of AI crawlers set a "User Agent" string in every request they send, by which they are identifiable: this string is used to filter the request. Instead of simply hoping the crawler pledges to respect our intention, this solution actively sends back a bad webpage (an error or an empty page). Note that this solution isn't bulletproof either, as anyone can fake the sent User Agent.
+
+We suggest adding both files, as some crawlers may respect `robots.txt` while not having an identifiable User Agent; on the other hand, other crawlers may not respect the `robots.txt`, but they provide a identifiable User Agent by which we can filter them out.
+
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action, courtesy of [Adam](https://github.com/newbold), will then generate the updated `robots.txt` and `table-of-bot-metrics.md`.
