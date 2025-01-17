@@ -18,8 +18,9 @@ The first one tells search engine and AI crawlers which parts of your website sh
 
 The second one tells your own webserver to return an error page when one of the listed AI crawlers tries to request a page from your website. A `.htaccess` file does not work on every webserver, but works correctly on most common and cheap shared hosting providers. The majority of AI crawlers set a "User Agent" string in every request they send, by which they are identifiable: this string is used to filter the request. Instead of simply hoping the crawler pledges to respect our intention, this solution actively sends back a bad webpage (an error or an empty page). Note that this solution isn't bulletproof either, as anyone can fake the sent User Agent.
 
-We suggest adding both files, as some crawlers may respect `robots.txt` while not having an identifiable User Agent; on the other hand, other crawlers may not respect the `robots.txt`, but they provide a identifiable User Agent by which we can filter them out.
+Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist. Nevertheless, most shared hosting providers only allow `.htaccess` configuration.
 
+We suggest adding both files, as some crawlers may respect `robots.txt` while not having an identifiable User Agent; on the other hand, other crawlers may not respect the `robots.txt`, but they provide a identifiable User Agent by which we can filter them out.
 
 ## Contributing
 
