@@ -134,7 +134,7 @@ def json_to_table(robots_json):
 
 def json_to_htaccess(robot_json):
     # Creates a .htaccess filter file. It uses a regular expression to filter out
-    #User agents that contain any of the blocked values.
+    # User agents that contain any of the blocked values.
     htaccess += "RewriteEngine On\n"
     htaccess += "RewriteCond %{HTTP_USER_AGENT} ^.*("
 
