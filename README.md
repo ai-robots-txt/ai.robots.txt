@@ -20,7 +20,6 @@ The second one tells your own webserver to return an error page when one of the 
 
 Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist. Nevertheless, most shared hosting providers only allow `.htaccess` configuration.
 
-We suggest adding both files, as some crawlers may respect `robots.txt` while not having an identifiable User Agent; on the other hand, other crawlers may not respect the `robots.txt`, but they provide a identifiable User Agent by which we can filter them out.
 
 ## Contributing
 
