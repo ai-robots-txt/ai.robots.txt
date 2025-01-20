@@ -8,9 +8,21 @@ A number of these crawlers have been sourced from [Dark Visitors](https://darkvi
 
 If you'd like to add information about a crawler to the list, please make a pull request with the bot name added to `robots.txt`, `ai.txt`, and any relevant details in `table-of-bot-metrics.md` to help people understand what's crawling.
 
+## Usage
+
+This repository provides the following files:
+- `robots.txt`
+- `.htaccess`
+
+`robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
+
+`.htaccess` may be used to configure web servers such as [Apache httpd](https://httpd.apache.org/) to return an error page when one of the listed AI crawlers sends a request to the web server.
+Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist.
+
+
 ## Contributing
 
-A note about contributing: updates should be added/made to `robots.json`. A GitHub action, courtesy of [Adam](https://github.com/newbold), will then generate the updated `robots.txt` and `table-of-bot-metrics.md`.
+A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, and `.htaccess`.
 
 ## Subscribe to updates
 
