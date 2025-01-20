@@ -10,9 +10,11 @@ If you'd like to add information about a crawler to the list, please make a pull
 
 ## Usage
 
-Many visitors will find these files from this repository most useful:
+This repository provides the following files:
 - `robots.txt`
 - `.htaccess`
+
+### `robots.txt`
 
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
