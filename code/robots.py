@@ -135,9 +135,10 @@ def json_to_table(robots_json):
 def json_to_htaccess(robot_json):
     # Creates a .htaccess filter file. It uses a regular expression to filter out
     # User agents that contain any of the blocked values.
-    htaccess += "RewriteEngine On\n"
+    htaccess = "RewriteEngine On\n"
     htaccess += "RewriteCond %{HTTP_USER_AGENT} ^.*("
 
+    # Escape spaces in each User Agent to build the regular expression
     robots = map(lambda el: el.replace(" ", "\\ "), robot_json.keys())
     htaccess += "|".join(robots)
     htaccess += ").*$ [NC]\n"
@@ -149,10 +150,8 @@ def update_file_if_changed(file_name, converter):
     """Update files if newer content is available and log the (in)actions."""
     new_content = converter(load_robots_json())
     filepath = Path(file_name)
-    if not filepath.exists():
-        filepath.write_text(new_content, encoding="utf-8")
-        print(f"{file_name} has been created.")
-        return
+    # "touch" will create the file if it doesn't exist yet
+    filepath.touch()
     old_content = filepath.read_text(encoding="utf-8")
     if old_content == new_content:
         print(f"{file_name} is already up to date.")
