@@ -95,7 +95,7 @@
         "respect": "[Yes](https://news.ycombinator.com/item?id=42756654)",
         "function": "Scrapes data",
         "frequency": "Unclear at this time.",
-        "description": "Provides crawling services for any purpose, but most likely to be used for AI model training."
+        "description": "Provides crawling services for any purpose, probably including AI model training."
     },
     "Diffbot": {
         "operator": "[Diffbot](https://www.diffbot.com/)",
