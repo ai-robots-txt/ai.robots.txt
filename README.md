@@ -20,7 +20,7 @@ Many visitors will find these files from this repository most useful:
 
 `.htaccess` may be used to configure web servers such as [Apache httpd](https://httpd.apache.org/) to return an error page when one of the listed AI crawlers sends a request to the web server.
 
-Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist. Nevertheless, most shared hosting providers only allow `.htaccess` configuration.
+Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist.
 
 
 ## Contributing
