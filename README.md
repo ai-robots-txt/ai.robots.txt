@@ -14,14 +14,9 @@ This repository provides the following files:
 - `robots.txt`
 - `.htaccess`
 
-### `robots.txt`
-
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
-### `.htaccess`
-
 `.htaccess` may be used to configure web servers such as [Apache httpd](https://httpd.apache.org/) to return an error page when one of the listed AI crawlers sends a request to the web server.
-
 Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist.
 
 
