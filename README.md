@@ -23,7 +23,7 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
 
 ## Contributing
 
-A note about contributing: updates should be added/made to `robots.json`. A GitHub action, courtesy of [Adam](https://github.com/newbold), will then generate the updated `robots.txt` and `table-of-bot-metrics.md`.
+A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, and `.htaccess`.
 
 ## Subscribe to updates
 
