@@ -16,7 +16,9 @@ Many visitors will find these files from this repository most useful:
 
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
-The second one tells your own webserver to return an error page when one of the listed AI crawlers tries to request a page from your website. A `.htaccess` file does not work on every webserver, but works correctly on most common and cheap shared hosting providers. The majority of AI crawlers set a "User Agent" string in every request they send, by which they are identifiable: this string is used to filter the request. Instead of simply hoping the crawler pledges to respect our intention, this solution actively sends back a bad webpage (an error or an empty page). Note that this solution isn't bulletproof either, as anyone can fake the sent User Agent.
+### `.htaccess`
+
+`.htaccess` may be used to configure web servers such as [Apache httpd](https://httpd.apache.org/) to return an error page when one of the listed AI crawlers sends a request to the web server.
 
 Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist. Nevertheless, most shared hosting providers only allow `.htaccess` configuration.
 
