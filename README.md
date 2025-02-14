@@ -41,6 +41,7 @@ Alternatively, you can also subscribe to new releases with your GitHub account b
 If you use [Cloudflare's hard block](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) alongside this list, you can report abusive crawlers that don't respect `robots.txt` [here](https://docs.google.com/forms/d/e/1FAIpQLScbUZ2vlNSdcsb8LyTeSF7uLzQI96s0BKGoJ6wQ6ocUFNOKEg/viewform).
 
 ## Cloudflare Verified Bots
+
 If you are unable to make use of [Cloudflare's hard block](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) and/or have WAF rules that use the `cf.bot_management.verified_bot` condition based on [Cloudflare's Verified Bots](https://radar.cloudflare.com/traffic/verified-bots), please note that the following AI web crawlers are considered verified bots by Cloudflare:
 - Amazonbot
 - Applebot
