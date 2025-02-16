@@ -39,7 +39,7 @@ Alternatively, you can also subscribe to new releases with your GitHub account b
 ## Report abusive crawlers
 
 If you use [Cloudflare's hard block](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) alongside this list, you can report abusive crawlers that don't respect `robots.txt` [here](https://docs.google.com/forms/d/e/1FAIpQLScbUZ2vlNSdcsb8LyTeSF7uLzQI96s0BKGoJ6wQ6ocUFNOKEg/viewform).
-
+But even if you don't use Cloudflare's hard block, their list of [verified bots](https://radar.cloudflare.com/traffic/verified-bots) may come in handy.
 ## Additional resources
 
 - [Blocking Bots with Nginx](https://rknight.me/blog/blocking-bots-with-nginx/) by Robb Knight
