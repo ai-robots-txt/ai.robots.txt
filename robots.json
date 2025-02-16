@@ -41,6 +41,13 @@
         "frequency": "Unclear at this time.",
         "description": "Apple has a secondary user agent, Applebot-Extended ... [that is] used to train Apple's foundation models powering generative AI features across Apple products, including Apple Intelligence, Services, and Developer Tools."
     },
+    "Brightbot 1.0": {
+        "operator": "Browsing.ai",
+        "respect": "Unclear at this time.",
+        "function": "LLM/AI training.",
+        "frequency": "Unclear at this time.",
+        "description": "Scrapes data to train LLMs and AI products focused on website customer support."
+    },
     "Bytespider": {
         "operator": "ByteDance",
         "respect": "No",
