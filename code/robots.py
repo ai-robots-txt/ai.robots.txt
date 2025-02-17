@@ -142,7 +142,7 @@ def json_to_htaccess(robot_json):
     robots = map(lambda el: el.replace(" ", "\\ "), robot_json.keys())
     htaccess += "|".join(robots)
     htaccess += ").*$ [NC]\n"
-    htaccess += "RewriteRule .* - [F,L]"
+    htaccess += "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
     return htaccess
 
 
