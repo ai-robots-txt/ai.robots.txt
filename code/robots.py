@@ -1,8 +1,9 @@
 import json
-from pathlib import Path
-
+import re
 import requests
+
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 
 def load_robots_json():
@@ -99,7 +100,6 @@ def updated_robots_json(soup):
 
 
 def ingest_darkvisitors():
-
     old_robots_json = load_robots_json()
     soup = get_agent_soup()
     if soup:
@@ -132,16 +132,17 @@ def json_to_table(robots_json):
     return table
 
 
+def list_to_pcre(lst):
+    # Python re is not 100% identical to PCRE which is used by Apache, but it
+    # should probably be close enough in the real world for re.escape to work.
+    return f"({"|".join(map(re.escape, lst))})"
+
+
 def json_to_htaccess(robot_json):
     # Creates a .htaccess filter file. It uses a regular expression to filter out
     # User agents that contain any of the blocked values.
     htaccess = "RewriteEngine On\n"
-    htaccess += "RewriteCond %{HTTP_USER_AGENT} ^.*("
-
-    # Escape spaces in each User Agent to build the regular expression
-    robots = map(lambda el: el.replace(" ", "\\ "), robot_json.keys())
-    htaccess += "|".join(robots)
-    htaccess += ").*$ [NC]\n"
+    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json.keys())} [NC]\n"
     htaccess += "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
     return htaccess
 
