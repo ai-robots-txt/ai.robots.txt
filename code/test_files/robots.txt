@@ -38,4 +38,10 @@ User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
 User-agent: YouBot
+User-agent: crawler.with.dots
+User-agent: star***crawler
+User-agent: Is this a crawler?
+User-agent: a[mazing]{42}(robot)
+User-agent: 2^32$
+User-agent: curl|sudo bash
 Disallow: /

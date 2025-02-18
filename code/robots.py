@@ -1,8 +1,11 @@
-import json
-from pathlib import Path
+#!/usr/bin/env python3
 
+import json
+import re
 import requests
+
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 
 def load_robots_json():
@@ -99,7 +102,6 @@ def updated_robots_json(soup):
 
 
 def ingest_darkvisitors():
-
     old_robots_json = load_robots_json()
     soup = get_agent_soup()
     if soup:
@@ -121,28 +123,33 @@ def json_to_txt(robots_json):
     return robots_txt
 
 
+def escape_md(s):
+    return re.sub(r"([]*\\|`(){}<>#+-.!_[])", r"\\\1", s)
+
+
 def json_to_table(robots_json):
     """Compose a markdown table with the information in robots.json"""
     table = "| Name | Operator | Respects `robots.txt` | Data use | Visit regularity | Description |\n"
-    table += "|-----|----------|-----------------------|----------|------------------|-------------|\n"
+    table += "|------|----------|-----------------------|----------|------------------|-------------|\n"
 
     for name, robot in robots_json.items():
-        table += f'| {name} | {robot["operator"]} | {robot["respect"]} | {robot["function"]} | {robot["frequency"]} | {robot["description"]} |\n'
+        table += f'| {escape_md(name)} | {robot["operator"]} | {robot["respect"]} | {robot["function"]} | {robot["frequency"]} | {robot["description"]} |\n'
 
     return table
+
+
+def list_to_pcre(lst):
+    # Python re is not 100% identical to PCRE which is used by Apache, but it
+    # should probably be close enough in the real world for re.escape to work.
+    return f"({"|".join(map(re.escape, lst))})"
 
 
 def json_to_htaccess(robot_json):
     # Creates a .htaccess filter file. It uses a regular expression to filter out
     # User agents that contain any of the blocked values.
     htaccess = "RewriteEngine On\n"
-    htaccess += "RewriteCond %{HTTP_USER_AGENT} ^.*("
-
-    # Escape spaces in each User Agent to build the regular expression
-    robots = map(lambda el: el.replace(" ", "\\ "), robot_json.keys())
-    htaccess += "|".join(robots)
-    htaccess += ").*$ [NC]\n"
-    htaccess += "RewriteRule .* - [F,L]"
+    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json.keys())} [NC]\n"
+    htaccess += "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
     return htaccess
 
 
