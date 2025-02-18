@@ -121,13 +121,17 @@ def json_to_txt(robots_json):
     return robots_txt
 
 
+def escape_md(s):
+    return re.sub(r"([]*\\|`(){}<>#+-.!_[])", r"\\\1", s)
+
+
 def json_to_table(robots_json):
     """Compose a markdown table with the information in robots.json"""
     table = "| Name | Operator | Respects `robots.txt` | Data use | Visit regularity | Description |\n"
-    table += "|-----|----------|-----------------------|----------|------------------|-------------|\n"
+    table += "|------|----------|-----------------------|----------|------------------|-------------|\n"
 
     for name, robot in robots_json.items():
-        table += f'| {name} | {robot["operator"]} | {robot["respect"]} | {robot["function"]} | {robot["frequency"]} | {robot["description"]} |\n'
+        table += f'| {escape_md(name)} | {robot["operator"]} | {robot["respect"]} | {robot["function"]} | {robot["frequency"]} | {robot["description"]} |\n'
 
     return table
 
