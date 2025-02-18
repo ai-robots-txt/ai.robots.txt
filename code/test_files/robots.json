@@ -278,5 +278,47 @@
         "function": "Scrapes data for search engine and LLMs.",
         "frequency": "No information.",
         "description": "Retrieves data used for You.com web search engine and LLMs."
+    },
+    "crawler.with.dots": {
+        "operator": "Test suite",
+        "respect": "No",
+        "function": "To ensure the code works correctly.",
+        "frequency": "No information.",
+        "description": "When used in the .htaccess regular expression dots need to be escaped."
+    },
+    "star***crawler": {
+        "operator": "Test suite",
+        "respect": "No",
+        "function": "To ensure the code works correctly.",
+        "frequency": "No information.",
+        "description": "When used in the .htaccess regular expression stars need to be escaped."
+    },
+    "Is this a crawler?": {
+        "operator": "Test suite",
+        "respect": "No",
+        "function": "To ensure the code works correctly.",
+        "frequency": "No information.",
+        "description": "When used in the .htaccess regular expression spaces and question marks need to be escaped."
+    },
+    "a[mazing]{42}(robot)": {
+        "operator": "Test suite",
+        "respect": "No",
+        "function": "To ensure the code works correctly.",
+        "frequency": "No information.",
+        "description": "When used in the .htaccess regular expression parantheses, braces, etc. need to be escaped."
+    },
+    "2^32$": {
+        "operator": "Test suite",
+        "respect": "No",
+        "function": "To ensure the code works correctly.",
+        "frequency": "No information.",
+        "description": "When used in the .htaccess regular expression RE anchor characters need to be escaped."
+    },
+    "curl|sudo bash": {
+        "operator": "Test suite",
+        "respect": "No",
+        "function": "To ensure the code works correctly.",
+        "frequency": "No information.",
+        "description": "When used in the .htaccess regular expression pipes need to be escaped."
     }
 }
