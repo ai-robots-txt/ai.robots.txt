@@ -24,6 +24,11 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, and `.htaccess`.
 
+You can run the tests by [installing](https://www.python.org/about/gettingstarted/) Python 3 and issuing:
+```console
+code/tests.py
+```
+
 ## Subscribe to updates
 
 You can subscribe to list updates via RSS/Atom with the releases feed:
