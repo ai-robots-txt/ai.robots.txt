@@ -20,6 +20,13 @@
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes"
     },
+    "AhrefsBot/7.0": {
+        "operator": "[Ahrefs](ahrefs.com)",
+        "respect": "[Yes](https://ahrefs.com/robot/)"
+        "function": "marketing",
+        "frequency": "15-30 min",
+        "description": "AhrefsBot is a web crawler that powers the database for both Ahrefs, an online data toolset, and Yep, a revenue-sharing web search engine.",
+    },
     "Amazonbot": {
         "operator": "Amazon",
         "respect": "Yes",
