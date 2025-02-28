@@ -286,6 +286,13 @@
         "frequency": "Roughly once every 10 seconds.",
         "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
     },
+    "SemrushBot/7~bl": {
+        "operator": "[Semrush](https://www.semrush.com/)",
+        "respect": "Yes",
+        "function": "Regularly crawls sites",
+        "frequency": "Every 2 days",
+        "description": "N/A"
+    },
     "Sidetrade indexer bot": {
         "description": "AI product training.",
         "frequency": "No information.",
