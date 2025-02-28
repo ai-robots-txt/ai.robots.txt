@@ -1,4 +1,11 @@
 {
+    "adidxbot/2.0": {
+        "operator": "[Bing](bing.com)",
+        "respect": "[Yes](https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0)",
+        "function": "Crawler",
+        "frequency": "Unknown",
+        "description": "AdIdxBot is the crawler used by Bing Ads. AdIdxBot crawls ads and follows the websites from those ads for quality control. Just like Bingbot, AdIdxBot has both “desktop” and “mobile” variants."
+    },
     "AI2Bot": {
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes",
@@ -40,6 +47,13 @@
         "function": "Powers features in Siri, Spotlight, Safari, Apple Intelligence, and others.",
         "frequency": "Unclear at this time.",
         "description": "Apple has a secondary user agent, Applebot-Extended ... [that is] used to train Apple's foundation models powering generative AI features across Apple products, including Apple Intelligence, Services, and Developer Tools."
+    },
+    "bingbot/2.0": {
+        "operator": "[Bing](bing.com)",
+        "respect": "[Yes](https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0)",
+        "function": "Crawler",
+        "frequency": "Days",
+        "description": "Bingbot is our standard crawler and handles most of our crawling needs each day. Bingbot uses different types of user agent strings."
     },
     "Brightbot 1.0": {
         "operator": "Browsing.ai",
@@ -222,6 +236,13 @@
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
+    },
+    "MicrosoftPreview/2.0": {
+        "operator": "[Microsoft](microsoft.com)",
+        "respect": "[Yes](https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0)",
+        "function": "Crawler",
+        "frequency": "Days",
+        "description": "MicrosoftPreview generates page snapshots for Microsoft products. Note that MicrosoftPreview has \"desktop\" and \"mobile\" variants."
     },
     "OAI-SearchBot": {
         "operator": "[OpenAI](https://openai.com)",
