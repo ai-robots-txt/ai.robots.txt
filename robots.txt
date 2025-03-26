@@ -27,6 +27,7 @@ User-agent: ICC-Crawler
 User-agent: ImagesiftBot
 User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
+User-agent: Kagibot
 User-agent: Kangaroo Bot
 User-agent: Meta-ExternalAgent
 User-agent: Meta-ExternalFetcher
