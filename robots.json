@@ -202,7 +202,7 @@
         "operator": "[ISS-Corporate](https://iss-cyber.com)",
         "respect": "No"
     },
-    "KagiBot": {
+    "Kagibot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "Web crawler for Kagi search engine",
