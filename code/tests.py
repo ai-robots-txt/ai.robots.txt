@@ -4,7 +4,7 @@
 import json
 import unittest
 
-from robots import json_to_txt, json_to_table, json_to_htaccess
+from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx
 
 class RobotsUnittestExtensions:
     def loadJson(self, pathname):
@@ -49,6 +49,16 @@ class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
     def test_htaccess_generation(self):
         robots_htaccess = json_to_htaccess(self.robots_dict)
         self.assertEqualsFile("test_files/.htaccess", robots_htaccess)
+
+class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
+    maxDiff = 8192
+
+    def setUp(self):
+        self.robots_dict = self.loadJson("test_files/robots.json")
+
+    def test_nginx_generation(self):
+        robots_nginx = json_to_nginx(self.robots_dict)
+        self.assertEqualsFile("test_files/nginx-block-ai-bots.conf", robots_nginx)
 
 
 if __name__ == "__main__":

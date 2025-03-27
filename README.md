@@ -13,16 +13,19 @@ If you'd like to add information about a crawler to the list, please make a pull
 This repository provides the following files:
 - `robots.txt`
 - `.htaccess`
+- `nginx-block-ai-bots.conf`
 
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
 `.htaccess` may be used to configure web servers such as [Apache httpd](https://httpd.apache.org/) to return an error page when one of the listed AI crawlers sends a request to the web server.
 Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/current/howto/htaccess.html), more performant methods than an `.htaccess` file exist.
 
+`nginx-block-ai-bots.conf` implements a Nginx configuration snippet that can be included in any virtual host `server {}` block via the `include` directive.
+
 
 ## Contributing
 
-A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, and `.htaccess`.
+A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
 
 You can run the tests by [installing](https://www.python.org/about/gettingstarted/) Python 3 and issuing:
 ```console

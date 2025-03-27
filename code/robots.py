@@ -152,6 +152,12 @@ def json_to_htaccess(robot_json):
     htaccess += "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
     return htaccess
 
+def json_to_nginx(robot_json):
+    # Creates an Nginx config file. This config snippet can be included in 
+    # nginx server{} blocks to block AI bots.
+    config = f"if ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    return 403;\n}}"
+    return config
+
 
 def update_file_if_changed(file_name, converter):
     """Update files if newer content is available and log the (in)actions."""
@@ -177,6 +183,10 @@ def conversions():
     update_file_if_changed(
         file_name="./.htaccess",
         converter=json_to_htaccess,
+    )
+    update_file_if_changed(
+        file_name="./nginx-block-ai-bots.conf",
+        converter=json_to_nginx,
     )
 
 
