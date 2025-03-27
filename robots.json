@@ -253,10 +253,17 @@
     },
     "PerplexityBot": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
-        "respect": "[No](https://www.macstories.net/stories/wired-confirms-perplexity-is-bypassing-efforts-by-websites-to-block-its-web-crawler/)",
+        "respect": "[Yes](https://docs.perplexity.ai/guides/bots)",
+        "function": "Search result generation.",
+        "frequency": "No information.",
+        "description": "Crawls sites to surface as results in Perplexity."
+    },
+    "Perplexity‑User": {
+        "operator": "[Perplexity](https://www.perplexity.ai/)",
+        "respect": "[No](https://docs.perplexity.ai/guides/bots)",
         "function": "Used to answer queries at the request of users.",
-        "frequency": "Takes action based on user prompts.",
-        "description": "Operated by Perplexity to obtain results in response to user queries."
+        "frequency": "Only when prompted by a user.",
+        "description": "Visit web pages to help provide an accurate answer and include links to the page in Perplexity response."
     },
     "PetalBot": {
         "description": "Operated by Huawei to provide search and AI assistant services.",
