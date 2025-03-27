@@ -209,6 +209,13 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
     },
+    "Lightpanda": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Scraper",
+        "frequency": "Unclear at this time.",
+        "description": "Lightpanda is a headless browser intended for 'AI agents, LLM training, scraping and testing': https://github.com/lightpanda-io/browser"
+    },
     "Meta-ExternalAgent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
         "respect": "Yes.",
