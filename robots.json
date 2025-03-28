@@ -258,7 +258,7 @@
         "frequency": "No information.",
         "description": "Crawls sites to surface as results in Perplexity."
     },
-    "Perplexity‑User": {
+    "Perplexity\u2011User": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
         "respect": "[No](https://docs.perplexity.ai/guides/bots)",
         "function": "Used to answer queries at the request of users.",
