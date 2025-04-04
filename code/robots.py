@@ -141,7 +141,8 @@ def json_to_table(robots_json):
 def list_to_pcre(lst):
     # Python re is not 100% identical to PCRE which is used by Apache, but it
     # should probably be close enough in the real world for re.escape to work.
-    return f"({"|".join(map(re.escape, lst))})"
+    formatted = "|".join(map(re.escape, lst))
+    return f"({formatted})"
 
 
 def json_to_htaccess(robot_json):
