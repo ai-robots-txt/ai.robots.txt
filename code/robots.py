@@ -107,13 +107,16 @@ def clean_robot_name(name):
     # This was specifically spotted in "Perplexity-User"
     # Looks like a non-breaking hyphen introduced by the HTML rendering software
     # Reading the source page for Perplexity: https://docs.perplexity.ai/guides/bots
-    # You can see the bot is listed several times as "Perplexity‑User" with a normal hyphen, 
+    # You can see the bot is listed several times as "Perplexity-User" with a normal hyphen, 
     # and it's only the Row-Heading that has the special hyphen
     # 
     # Technically, there's no reason there wouldn't someday be a bot that 
     # actually uses a non-breaking hyphen, but that seems unlikely,
     # so this solution should be fine for now.
-    return re.sub(r"\u2011", "-", name)
+    result = re.sub(r"\u2011", "-", name)
+    if result != name:
+        print(f"\tCleaned '{name}' to '{result}' - unicode/html mangled chars normalized.")
+    return result
 
 
 def ingest_darkvisitors():
