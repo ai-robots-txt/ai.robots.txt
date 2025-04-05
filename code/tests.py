@@ -60,6 +60,11 @@ class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
         robots_nginx = json_to_nginx(self.robots_dict)
         self.assertEqualsFile("test_files/nginx-block-ai-bots.conf", robots_nginx)
 
+class TestRobotsNameCleaning(unittest.TestCase):
+    def test_clean_name(self):
+        from robots import clean_robot_name
+
+        self.assertEqual(clean_robot_name("Perplexity‑User"), "Perplexity-User")
 
 if __name__ == "__main__":
     import os

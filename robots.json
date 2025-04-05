@@ -251,19 +251,19 @@
         "frequency": "Unclear at this time.",
         "description": "PanguBot is a web crawler operated by the Chinese company Huawei. It's used to download training data for its multimodal LLM (Large Language Model) called PanGu. More info can be found at https://darkvisitors.com/agents/agents/pangubot"
     },
+    "Perplexity-User": {
+        "operator": "[Perplexity](https://www.perplexity.ai/)",
+        "respect": "[No](https://docs.perplexity.ai/guides/bots)",
+        "function": "Used to answer queries at the request of users.",
+        "frequency": "Only when prompted by a user.",
+        "description": "Visit web pages to help provide an accurate answer and include links to the page in Perplexity response."
+    },
     "PerplexityBot": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
         "respect": "[Yes](https://docs.perplexity.ai/guides/bots)",
         "function": "Search result generation.",
         "frequency": "No information.",
         "description": "Crawls sites to surface as results in Perplexity."
-    },
-    "Perplexity\u2011User": {
-        "operator": "[Perplexity](https://www.perplexity.ai/)",
-        "respect": "[No](https://docs.perplexity.ai/guides/bots)",
-        "function": "Used to answer queries at the request of users.",
-        "frequency": "Only when prompted by a user.",
-        "description": "Visit web pages to help provide an accurate answer and include links to the page in Perplexity response."
     },
     "PetalBot": {
         "description": "Operated by Huawei to provide search and AI assistant services.",
