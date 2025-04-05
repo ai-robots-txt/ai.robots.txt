@@ -223,6 +223,13 @@
         "operator": "[Webz.io](https://webz.io/)",
         "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)"
     },
+    "Perplexity-User": {
+        "operator": "[Perplexity](https://www.perplexity.ai/)",
+        "respect": "[No](https://docs.perplexity.ai/guides/bots)",
+        "function": "Used to answer queries at the request of users.",
+        "frequency": "Only when prompted by a user.",
+        "description": "Visit web pages to help provide an accurate answer and include links to the page in Perplexity response."
+    },
     "PerplexityBot": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
         "respect": "[No](https://www.macstories.net/stories/wired-confirms-perplexity-is-bypassing-efforts-by-websites-to-block-its-web-crawler/)",
