@@ -26,6 +26,7 @@ User-agent: iaskspider/2.0
 User-agent: ICC-Crawler
 User-agent: ImagesiftBot
 User-agent: img2dataset
+User-agent: imgproxy
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: Meta-ExternalAgent
