@@ -195,6 +195,13 @@
         "operator": "[img2dataset](https://github.com/rom1504/img2dataset)",
         "respect": "Unclear at this time."
     },
+    "imgproxy": {
+        "frequency": "No information.",
+        "function": "Not documented or explained on operator's site.",
+        "operator": "[imgproxy](https://imgproxy.net)",
+        "respect": "Unclear at this time.",
+        "description": "AI-powered image processing."
+    },
     "ISSCyberRiskCrawler": {
         "description": "Used to train machine learning based models to quantify cyber risk.",
         "frequency": "No information.",
