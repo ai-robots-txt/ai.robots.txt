@@ -30,6 +30,7 @@ def updated_robots_json(soup):
     """Update AI scraper information with data from darkvisitors."""
     existing_content = load_robots_json()
     to_include = [
+        "AI Agents",
         "AI Assistants",
         "AI Data Scrapers",
         "AI Search Crawlers",
