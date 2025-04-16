@@ -78,7 +78,7 @@
     },
     "Claude-User": {
         "operator": "[Anthropic](https://www.anthropic.com)",
-        "respect": "Unclear at this time.",
+        "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
         "function": "Claude-User supports Claude AI users. When individuals ask questions to Claude, it may access websites using a Claude-User agent.",
         "frequency": "No information provided.",
         "description": "Claude-User supports Claude AI users. When individuals ask questions to Claude, it may access websites using a Claude-User agent."
