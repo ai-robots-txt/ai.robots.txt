@@ -85,7 +85,7 @@
     },
     "Claude-SearchBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
-        "respect": "Unclear at this time.",
+        "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
         "function": "Claude-SearchBot navigates the web to improve search result quality for users. It analyzes online content specifically to enhance the relevance and accuracy of search responses.",
         "frequency": "No information provided.",
         "description": "Claude-SearchBot navigates the web to improve search result quality for users. It analyzes online content specifically to enhance the relevance and accuracy of search responses."
