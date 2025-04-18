@@ -55,3 +55,7 @@ That depends on your stack.
 ## How can I contribute?
 
 Open a pull request. It will be reviewed and acted upon appropriately. **We really appreciate contributions** — this is a community effort.
+
+## Can my company sponsor ai.robots.txt?
+
+No, thank you. We do not accept sponsorship of any kind. We prefer to maintain our independence. Our costs are negligible as we are entirely volunteer-based and community-driven.
