@@ -55,3 +55,11 @@ That depends on your stack.
 ## How can I contribute?
 
 Open a pull request. It will be reviewed and acted upon appropriately. **We really appreciate contributions** — this is a community effort.
+
+## I'd like to donate money
+
+That's kind of you, but we don't need your money. If you insist, we'd love you to make a donation to the [American Civil Liberties Union](https://www.aclu.org/), the [Disasters Emergency Committee](https://www.dec.org.uk/), or a similar organisation.
+
+## Can my company sponsor ai.robots.txt?
+
+No, thank you. We do not accept sponsorship of any kind. We prefer to maintain our independence. Our costs are negligible as we are entirely volunteer-based and community-driven.
