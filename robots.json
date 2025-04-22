@@ -13,6 +13,13 @@
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes"
     },
+    "aiHitBot": {
+        "operator": "[aiHit](https://www.aihitdata.com/about)",
+        "respect": "Yes",
+        "function": "A massive, artificial intelligence/machine learning, automated system.",
+        "frequency": "No information provided.",
+        "description": "Scrapes data for AI systems."
+    },
     "Amazonbot": {
         "operator": "Amazon",
         "respect": "Yes",
@@ -97,6 +104,13 @@
         "frequency": "Unclear at this time.",
         "description": "cohere-training-data-crawler is a web crawler operated by Cohere to download training data for its LLMs (Large Language Models) that power its enterprise AI products. More info can be found at https://darkvisitors.com/agents/agents/cohere-training-data-crawler"
     },
+    "Cotoyogi": {
+        "operator": "[ROIS](https://ds.rois.ac.jp/en_center8/en_crawler/)",
+        "respect": "Yes",
+        "function": "AI LLM Scraper.",
+        "frequency": "No information provided.",
+        "description": "Scrapes data for AI training in Japanese language."
+    },
     "Crawlspace": {
         "operator": "[Crawlspace](https://crawlspace.dev)",
         "respect": "[Yes](https://news.ycombinator.com/item?id=42756654)",
@@ -124,6 +138,20 @@
         "function": "Training language models",
         "frequency": "Up to 1 page per second",
         "description": "Officially used for training Meta \"speech recognition technology,\" unknown if used to train Meta AI specifically."
+    },
+    "Factset_spyderbot": {
+        "operator": "[Factset](https://www.factset.com/ai)",
+        "respect": "Unclear at this time.",
+        "function": "AI model training.",
+        "frequency": "No information provided.",
+        "description": "Scrapes data for AI training."
+    },
+    "FirecrawlAgent": {
+        "operator": "[Firecrawl](https://www.firecrawl.dev/)",
+        "respect": "Yes",
+        "function": "AI scraper and LLM training",
+        "frequency": "No information provided.",
+        "description": "Scrapes data for AI systems and LLM training."
     },
     "FriendlyCrawler": {
         "description": "Unclear who the operator is; but data is used for training/machine learning.",
@@ -320,6 +348,13 @@
         "function": "Extracts data for a variety of uses including training AI.",
         "operator": "[Sidetrade](https://www.sidetrade.com)",
         "respect": "Unclear at this time."
+    },
+    "TikTokSpider": {
+        "operator": "ByteDance",
+        "respect": "Unclear at this time.",
+        "function": "LLM training.",
+        "frequency": "Unclear at this time.",
+        "description": "Downloads data to train LLMS, as per Bytespider."
     },
     "Timpibot": {
         "operator": "[Timpi](https://timpi.io)",
