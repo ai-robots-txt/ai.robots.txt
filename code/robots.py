@@ -178,6 +178,12 @@ def json_to_nginx(robot_json):
     config = f"if ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    return 403;\n}}"
     return config
 
+def json_to_caddy(robot_json):
+    caddyfile = "@aibots {\n    "
+    caddyfile += "\n    ".join(f'header User-Agent "*{k}*"' for k in robot_json.keys())
+    caddyfile += "\n}"
+    return caddyfile
+
 
 def update_file_if_changed(file_name, converter):
     """Update files if newer content is available and log the (in)actions."""
@@ -207,6 +213,10 @@ def conversions():
     update_file_if_changed(
         file_name="./nginx-block-ai-bots.conf",
         converter=json_to_nginx,
+    )
+    update_file_if_changed(
+        file_name="./Caddyfile",
+        converter=json_to_caddy
     )
 
 
