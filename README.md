@@ -14,6 +14,7 @@ This repository provides the following files:
 - `robots.txt`
 - `.htaccess`
 - `nginx-block-ai-bots.conf`
+- `Caddyfile`
 
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
@@ -22,6 +23,7 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
 
 `nginx-block-ai-bots.conf` implements a Nginx configuration snippet that can be included in any virtual host `server {}` block via the `include` directive.
 
+`Caddyfile` includes a Header Regex matcher group you can copy or import into your Caddyfile, the rejection can then be handeld as followed `abort @aibots`
 
 ## Contributing
 

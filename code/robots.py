@@ -180,7 +180,7 @@ def json_to_nginx(robot_json):
 
 def json_to_caddy(robot_json):
     caddyfile = "@aibots {\n    "
-    caddyfile += "\n    ".join(f'header User-Agent "*{k}*"' for k in robot_json.keys())
+    caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json.keys())}"'
     caddyfile += "\n}"
     return caddyfile
 

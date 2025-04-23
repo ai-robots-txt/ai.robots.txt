@@ -4,7 +4,7 @@
 import json
 import unittest
 
-from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx
+from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_caddy
 
 class RobotsUnittestExtensions:
     def loadJson(self, pathname):
@@ -65,6 +65,17 @@ class TestRobotsNameCleaning(unittest.TestCase):
         from robots import clean_robot_name
 
         self.assertEqual(clean_robot_name("Perplexity‑User"), "Perplexity-User")
+
+class TestCaddyfileGeneration(unittest.TestCase, RobotsUnittestExtensions):
+    maxDiff = 8192
+
+    def setUp(self):
+        self.robots_dict = self.loadJson("test_files/robots.json")
+
+    def test_caddyfile_generation(self):
+        robots_caddyfile = json_to_caddy(self.robots_dict)
+        self.assertEqualsFile("test_files/Caddyfile", robots_caddyfile)
+
 
 if __name__ == "__main__":
     import os
