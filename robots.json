@@ -244,14 +244,14 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
     },
-    "Meta-ExternalAgent": {
+    "meta-externalagent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
-        "respect": "Yes.",
+        "respect": "Yes",
         "function": "Used to train models and improve products.",
         "frequency": "No information.",
         "description": "\"The Meta-ExternalAgent crawler crawls the web for use cases such as training AI models or improving products by indexing content directly.\""
     },
-    "Meta-ExternalFetcher": {
+    "meta-externalfetcher": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
