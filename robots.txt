@@ -33,8 +33,8 @@ User-agent: img2dataset
 User-agent: imgproxy
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
-User-agent: Meta-ExternalAgent
-User-agent: Meta-ExternalFetcher
+User-agent: meta-externalagent
+User-agent: meta-externalfetcher
 User-agent: NovaAct
 User-agent: OAI-SearchBot
 User-agent: omgili
