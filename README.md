@@ -30,7 +30,7 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
    acl ai_robot hdr_sub(user-agent) -i -f /etc/haproxy/haproxy-block-ai-bots.txt
    http-request deny if ai_robot
    ```
-   (Note that the path of the `haproxy-block-ai-bots.txt` may be different on your environment.)
+   (Note that the path of the `haproxy-block-ai-bots.txt` may be different in your environment.)
 
 ## Contributing
 
