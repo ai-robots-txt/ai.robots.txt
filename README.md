@@ -14,6 +14,7 @@ This repository provides the following files:
 - `robots.txt`
 - `.htaccess`
 - `nginx-block-ai-bots.conf`
+- `haproxy-block-ai-bots.txt`
 
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
@@ -22,6 +23,14 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
 
 `nginx-block-ai-bots.conf` implements a Nginx configuration snippet that can be included in any virtual host `server {}` block via the `include` directive.
 
+`haproxy-block-ai-bots.txt` may be used to configure HAProxy to block AI bots. To implement it;
+1. Add the file to the config directory of HAProxy
+2. Add the following lines in the `frontend` section;
+   ```
+   acl ai_robot hdr_sub(user-agent) -i -f /etc/haproxy/haproxy-block-ai-bots.txt
+   http-request deny if ai_robot
+   ```
+   (Note that the path of the `haproxy-block-ai-bots.txt` may be different on your environment.)
 
 ## Contributing
 
