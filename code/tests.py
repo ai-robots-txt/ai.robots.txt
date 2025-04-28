@@ -4,7 +4,7 @@
 import json
 import unittest
 
-from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx
+from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_haproxy
 
 class RobotsUnittestExtensions:
     def loadJson(self, pathname):
@@ -59,6 +59,16 @@ class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
     def test_nginx_generation(self):
         robots_nginx = json_to_nginx(self.robots_dict)
         self.assertEqualsFile("test_files/nginx-block-ai-bots.conf", robots_nginx)
+
+class TestHaproxyConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
+    maxDiff = 8192
+
+    def setUp(self):
+        self.robots_dict = self.loadJson("test_files/robots.json")
+
+    def test_haproxy_generation(self):
+        robots_haproxy = json_to_haproxy(self.robots_dict)
+        self.assertEqualsFile("test_files/haproxy-block-ai-bots.txt", robots_haproxy)
 
 class TestRobotsNameCleaning(unittest.TestCase):
     def test_clean_name(self):
