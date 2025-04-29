@@ -6,7 +6,7 @@ However, the current thinking is, blocking a search engine of this size using `r
 
 Additionally, Bing powers a number of search engines such as Yahoo and AOL, and its search results are also used in Duck Duck Go, amongst others.
 
-It does have a relatively simple opt-out method, but does require an additional step.
+Fortunately, Bing supports a relatively simple opt-out method, requiring an additional step.
 
 
 ## How to opt-out of AI training
