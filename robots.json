@@ -244,12 +244,26 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
     },
-    "Meta-ExternalAgent": {
+    "meta-externalagent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
-        "respect": "Yes.",
+        "respect": "Yes",
         "function": "Used to train models and improve products.",
         "frequency": "No information.",
         "description": "\"The Meta-ExternalAgent crawler crawls the web for use cases such as training AI models or improving products by indexing content directly.\""
+    },
+    "Meta-ExternalAgent": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Scrapers",
+        "frequency": "Unclear at this time.",
+        "description": "Meta-ExternalAgent is a web crawler used by Meta to download training data for its AI models and improve its products by indexing content directly. More info can be found at https://darkvisitors.com/agents/agents/meta-externalagent"
+    },
+    "meta-externalfetcher": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
     },
     "Meta-ExternalFetcher": {
         "operator": "Unclear at this time.",
