@@ -24,7 +24,7 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
 
 `nginx-block-ai-bots.conf` implements a Nginx configuration snippet that can be included in any virtual host `server {}` block via the `include` directive.
 
-`Caddyfile` includes a Header Regex matcher group you can copy or import into your Caddyfile, the rejection can then be handeld as followed `abort @aibots`
+`Caddyfile` includes a Header Regex matcher group you can copy or import into your Caddyfile, the rejection can then be handled as followed `abort @aibots`
 
 `haproxy-block-ai-bots.txt` may be used to configure HAProxy to block AI bots. To implement it;
 1. Add the file to the config directory of HAProxy
