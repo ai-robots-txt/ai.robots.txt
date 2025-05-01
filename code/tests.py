@@ -19,7 +19,6 @@ class RobotsUnittestExtensions:
 
 
 class TestRobotsTXTGeneration(unittest.TestCase, RobotsUnittestExtensions):
-    maxDiff = 8192
 
     def setUp(self):
         self.robots_dict = self.loadJson("test_files/robots.json")
@@ -30,7 +29,6 @@ class TestRobotsTXTGeneration(unittest.TestCase, RobotsUnittestExtensions):
 
 
 class TestTableMetricsGeneration(unittest.TestCase, RobotsUnittestExtensions):
-    maxDiff = 32768
 
     def setUp(self):
         self.robots_dict = self.loadJson("test_files/robots.json")
@@ -41,7 +39,6 @@ class TestTableMetricsGeneration(unittest.TestCase, RobotsUnittestExtensions):
 
 
 class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
-    maxDiff = 8192
 
     def setUp(self):
         self.robots_dict = self.loadJson("test_files/robots.json")
@@ -51,7 +48,6 @@ class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
         self.assertEqualsFile("test_files/.htaccess", robots_htaccess)
 
 class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
-    maxDiff = 8192
 
     def setUp(self):
         self.robots_dict = self.loadJson("test_files/robots.json")
@@ -61,7 +57,6 @@ class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
         self.assertEqualsFile("test_files/nginx-block-ai-bots.conf", robots_nginx)
 
 class TestHaproxyConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
-    maxDiff = 8192
 
     def setUp(self):
         self.robots_dict = self.loadJson("test_files/robots.json")
@@ -77,7 +72,6 @@ class TestRobotsNameCleaning(unittest.TestCase):
         self.assertEqual(clean_robot_name("Perplexity‑User"), "Perplexity-User")
 
 class TestCaddyfileGeneration(unittest.TestCase, RobotsUnittestExtensions):
-    maxDiff = 8192
 
     def setUp(self):
         self.robots_dict = self.loadJson("test_files/robots.json")
