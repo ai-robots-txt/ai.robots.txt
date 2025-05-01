@@ -178,10 +178,18 @@ def json_to_nginx(robot_json):
     config = f"if ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    return 403;\n}}"
     return config
 
+
+def json_to_caddy(robot_json):
+    caddyfile = "@aibots {\n    "
+    caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json.keys())}"'
+    caddyfile += "\n}"
+    return caddyfile
+
 def json_to_haproxy(robots_json):
     # Creates a source file for HAProxy. Follow instructions in the README to implement it.
     txt = "\n".join(f"{k}" for k in robots_json.keys())
     return txt
+
 
 
 def update_file_if_changed(file_name, converter):
@@ -213,6 +221,10 @@ def conversions():
         file_name="./nginx-block-ai-bots.conf",
         converter=json_to_nginx,
     )
+    update_file_if_changed(
+        file_name="./Caddyfile",
+        converter=json_to_caddy
+      
     update_file_if_changed(
         file_name="./haproxy-block-ai-bots.txt",
         converter=json_to_haproxy,
