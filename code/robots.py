@@ -223,7 +223,8 @@ def conversions():
     )
     update_file_if_changed(
         file_name="./Caddyfile",
-        converter=json_to_caddy
+        converter=json_to_caddy,
+    )
       
     update_file_if_changed(
         file_name="./haproxy-block-ai-bots.txt",
