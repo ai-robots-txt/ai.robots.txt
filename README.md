@@ -35,6 +35,8 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
    ```
    (Note that the path of the `haproxy-block-ai-bots.txt` may be different in your environment.)
 
+[Bing uses the data it crawls for AI and training, you may opt out by adding a `meta` tag to the `head` of your site.]((./docs/additional-steps/bing.md))
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
