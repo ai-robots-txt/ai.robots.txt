@@ -46,6 +46,7 @@ PanguBot
 Perplexity-User
 PerplexityBot
 PetalBot
+QualifiedBot
 Scrapy
 SemrushBot-OCOB
 SemrushBot-SWA
