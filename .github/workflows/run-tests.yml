@@ -19,3 +19,10 @@ jobs:
       - name: Run tests
         run: |
           code/tests.py
+  lint-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: JQ Json Lint
+        run: jq . robots.json
