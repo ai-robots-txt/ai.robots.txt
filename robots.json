@@ -340,7 +340,7 @@
       "frequency": "No explicit frequency provided.",
       "function": "Company offers AI agents and other related products; usage can be assumed to support said products.",
       "operator": "[Qualified](https://www.qualified.com)",
-      "respect": "Unclear at this time.",
+      "respect": "Unclear at this time."
     },
     "Scrapy": {
         "description": "\"AI and machine learning applications often need large amounts of quality data, and web data extraction is a fast, efficient way to build structured data sets.\"",
