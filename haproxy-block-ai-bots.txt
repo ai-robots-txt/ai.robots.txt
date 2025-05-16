@@ -21,6 +21,7 @@ FacebookBot
 Factset_spyderbot
 FirecrawlAgent
 FriendlyCrawler
+Google-CloudVertexBot
 Google-Extended
 GoogleOther
 GoogleOther-Image
