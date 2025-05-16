@@ -160,6 +160,13 @@
         "operator": "Unknown",
         "respect": "[Yes](https://imho.alex-kunz.com/2024/01/25/an-update-on-friendly-crawler)"
     },
+    "Google-CloudVertexBot": {
+        "operator": "Google",
+        "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
+        "function": "Build and manage AI models for businesses employing Vertex AI",
+        "frequency": "No information.",
+        "description": "Google-CloudVertexBot crawls sites on the site owners' request when building Vertex AI Agents."
+    },
     "Google-Extended": {
         "operator": "Google",
         "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
