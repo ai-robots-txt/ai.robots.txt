@@ -251,13 +251,6 @@
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalAgent is a web crawler used by Meta to download training data for its AI models and improve its products by indexing content directly. More info can be found at https://darkvisitors.com/agents/agents/meta-externalagent"
     },
-    "meta-externalfetcher": {
-        "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
-        "function": "AI Assistants",
-        "frequency": "Unclear at this time.",
-        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
-    },
     "Meta-ExternalFetcher": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
