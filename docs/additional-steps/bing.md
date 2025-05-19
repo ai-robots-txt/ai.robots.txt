@@ -10,15 +10,19 @@ Fortunately, Bing supports a relatively simple opt-out method, requiring an addi
 
 ## How to opt-out of AI training
 
-You must add a metatag in the `<head>` of your webpage. This also needs to be added to every page on your website.
+You must add a metatag in the `<head>` of your webpage or set the [X-Robots-Tag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Robots-Tag) HTTP header in your response. This also needs to be added to every page or response on your website.
 
-The line you need to add is:
+If using the metatag, the line you need to add is:
 
 ```plaintext
 <meta name="robots" content="noarchive">
 ```
+Or include the HTTP response header:
+```plaintext
+X-Robots-Tag: noarchive
+```
 
-By adding this line, you are signifying to Bing: "Do not use the content for training Microsoft's generative AI foundation models."
+By adding this line or header, you are signifying to Bing: "Do not use the content for training Microsoft's generative AI foundation models."
 
 ## Will my site be negatively affected
 
