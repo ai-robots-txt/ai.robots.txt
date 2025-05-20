@@ -2,7 +2,7 @@
 
 <img src="/assets/images/noai-logo.png" width="100" />
 
-This is an open list of web crawlers associated with AI companies and the training of LLMs to block. We encourage you to contribute to and implement this list on your own site. See [information about the listed crawlers](./table-of-bot-metrics.md) and the [FAQ](https://github.com/ai-robots-txt/ai.robots.txt/blob/main/FAQ.md).
+This list contains AI-related crawlers of all types, regardless of purpose. Users should consult [the table of bot metrics](./table-of-bot-metrics.md) to guide the implementation of their list. We encourage you to contribute to and implement this list on your own site. See [information about the listed crawlers](./table-of-bot-metrics.md) and the [FAQ](https://github.com/ai-robots-txt/ai.robots.txt/blob/main/FAQ.md).
 
 A number of these crawlers have been sourced from [Dark Visitors](https://darkvisitors.com) and we appreciate the ongoing effort they put in to track these crawlers. 
 
