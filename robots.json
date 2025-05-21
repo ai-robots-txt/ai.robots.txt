@@ -412,6 +412,13 @@
         "frequency": "Unclear at this time.",
         "description": "Webzio-Extended is a web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models. More info can be found at https://darkvisitors.com/agents/agents/webzio-extended"
     },
+    "wpbot": {
+        "operator": "[QuantumCloud](https://www.quantumcloud.com)",
+        "respect": "Unclear at this time; opt out provided via [Google Form](https://forms.gle/ajBaxygz9jSR8p8G9)",
+        "function": "Live chat support and lead generation.",
+        "frequency": "Unclear at this time.",
+        "description": "wpbot is a used to support the functionality of the AI Chatbot for WordPress plugin. It supports the use of customer models, data collection and customer support."
+    },
     "YouBot": {
         "operator": "[You](https://about.you.com/youchat/)",
         "respect": "[Yes](https://about.you.com/youbot/)",
