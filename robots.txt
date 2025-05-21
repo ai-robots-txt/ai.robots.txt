@@ -58,5 +58,6 @@ User-agent: TikTokSpider
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
+User-agent: wpbot
 User-agent: YouBot
 Disallow: /
