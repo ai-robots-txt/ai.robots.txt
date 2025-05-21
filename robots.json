@@ -279,6 +279,13 @@
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
     },
+    "MistralAI-User/1.0": {
+      "operator": "Mistral AI",
+      "function": "Takes action based on user prompts.",
+      "frequency": "Only when prompted by a user.",
+      "description": "MistralAI-User is for user actions in LeChat. When users ask LeChat a question, it may visit a web page to help answer and include a link to the source in its response.",
+      "respect": "Yes"
+    },
     "NovaAct": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
