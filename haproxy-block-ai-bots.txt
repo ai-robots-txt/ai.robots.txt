@@ -9,8 +9,9 @@ Brightbot 1.0
 Bytespider
 CCBot
 ChatGPT-User
-Claude-Web
 ClaudeBot
+Claude-User
+Claude-SearchBot
 cohere-ai
 cohere-training-data-crawler
 Cotoyogi
