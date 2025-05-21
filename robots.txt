@@ -38,6 +38,7 @@ User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher
 User-agent: Meta-ExternalFetcher
+User-agent: MistralAI-User/1.0
 User-agent: NovaAct
 User-agent: OAI-SearchBot
 User-agent: omgili

@@ -38,6 +38,7 @@ meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
 Meta-ExternalFetcher
+MistralAI-User/1.0
 NovaAct
 OAI-SearchBot
 omgili
