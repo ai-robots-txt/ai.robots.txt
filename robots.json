@@ -76,12 +76,12 @@
         "frequency": "Only when prompted by a user.",
         "description": "Used by plugins in ChatGPT to answer queries based on user input."
     },
-    "ClaudeBot": {
+    "Claude-SearchBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
-        "function": "Scrapes data to train Anthropic's AI products.",
+        "function": "Claude-SearchBot navigates the web to improve search result quality for users. It analyzes online content specifically to enhance the relevance and accuracy of search responses.",
         "frequency": "No information provided.",
-        "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
+        "description": "Claude-SearchBot navigates the web to improve search result quality for users. It analyzes online content specifically to enhance the relevance and accuracy of search responses."
     },
     "Claude-User": {
         "operator": "[Anthropic](https://www.anthropic.com)",
@@ -90,12 +90,19 @@
         "frequency": "No information provided.",
         "description": "Claude-User supports Claude AI users. When individuals ask questions to Claude, it may access websites using a Claude-User agent."
     },
-    "Claude-SearchBot": {
+    "Claude-Web": {
+        "operator": "Anthropic",
+        "respect": "Unclear at this time.",
+        "function": "Undocumented AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Claude-Web is an AI-related agent operated by Anthropic. It's currently unclear exactly what it's used for, since there's no official documentation. If you can provide more detail, please contact us. More info can be found at https://darkvisitors.com/agents/agents/claude-web"
+    },
+    "ClaudeBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
-        "function": "Claude-SearchBot navigates the web to improve search result quality for users. It analyzes online content specifically to enhance the relevance and accuracy of search responses.",
+        "function": "Scrapes data to train Anthropic's AI products.",
         "frequency": "No information provided.",
-        "description": "Claude-SearchBot navigates the web to improve search result quality for users. It analyzes online content specifically to enhance the relevance and accuracy of search responses."
+        "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
     "cohere-ai": {
         "operator": "[Cohere](https://cohere.com)",
@@ -287,11 +294,11 @@
         "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
     },
     "MistralAI-User/1.0": {
-      "operator": "Mistral AI",
-      "function": "Takes action based on user prompts.",
-      "frequency": "Only when prompted by a user.",
-      "description": "MistralAI-User is for user actions in LeChat. When users ask LeChat a question, it may visit a web page to help answer and include a link to the source in its response.",
-      "respect": "Yes"
+        "operator": "Mistral AI",
+        "function": "Takes action based on user prompts.",
+        "frequency": "Only when prompted by a user.",
+        "description": "MistralAI-User is for user actions in LeChat. When users ask LeChat a question, it may visit a web page to help answer and include a link to the source in its response.",
+        "respect": "Yes"
     },
     "NovaAct": {
         "operator": "Unclear at this time.",
