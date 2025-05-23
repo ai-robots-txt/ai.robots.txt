@@ -20,6 +20,13 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI systems."
     },
+    "Andibot": {
+        "operator": "[Andi](https://andisearch.com/)",
+        "respect": "Unclear at this time",
+        "function": "search engine using generative AI, AI Search Assistant",
+        "frequency": "No information provided.",
+        "description": "Scrapes website and provide genAI summary ."
+    },
     "Amazonbot": {
         "operator": "Amazon",
         "respect": "Yes",
@@ -362,6 +369,13 @@
         "function": "Used to provide recommendations in Hauwei assistant and AI search services.",
         "operator": "[Huawei](https://huawei.com/)",
         "respect": "Yes"
+    },
+    "PhindBot": {
+        "description": "Company offers AI agent that use genAI and generate extra web query on the fly",
+        "frequency": "No explicit frequency provided.",
+        "function": "AI-enhanced search engine.",
+        "operator": "[phind](https://www.phind.com/)",
+        "respect": "Unclear at this time."
     },
     "QualifiedBot": {
         "description": "Operated by Qualified as part of their suite of AI product offerings.",
