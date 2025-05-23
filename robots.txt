@@ -9,9 +9,10 @@ User-agent: Brightbot 1.0
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: ChatGPT-User
-User-agent: ClaudeBot
-User-agent: Claude-User
 User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Claude-Web
+User-agent: ClaudeBot
 User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
 User-agent: Cotoyogi
