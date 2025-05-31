@@ -25,7 +25,7 @@
         "respect": "Unclear at this time",
         "function": "Search engine using generative AI, AI Search Assistant",
         "frequency": "No information provided.",
-        "description": "Scrapes website and provide genAI summary ."
+        "description": "Scrapes website and provides AI summary."
     },
     "Amazonbot": {
         "operator": "Amazon",
