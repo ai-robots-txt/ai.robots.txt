@@ -23,7 +23,7 @@
     "Andibot": {
         "operator": "[Andi](https://andisearch.com/)",
         "respect": "Unclear at this time",
-        "function": "search engine using generative AI, AI Search Assistant",
+        "function": "Search engine using generative AI, AI Search Assistant",
         "frequency": "No information provided.",
         "description": "Scrapes website and provide genAI summary ."
     },
