@@ -12,6 +12,7 @@ on:
       - 'code/**'
     branches:
       - "main"
+      - "workflow-debug"
 
 jobs:
   ai-robots-txt:
