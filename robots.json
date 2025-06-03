@@ -440,6 +440,20 @@
         "frequency": "Unclear at this time.",
         "description": "wpbot is a used to support the functionality of the AI Chatbot for WordPress plugin. It supports the use of customer models, data collection and customer support."
     },
+    "YandexAdditional": {
+        "operator": "[Yandex](https://yandex.ru)",
+        "respect": "[Yes](https://yandex.ru/support/webmaster/en/search-appearance/fast.html?lang=en)",
+        "function": "Scrapes/analyzes data for the YandexGPT LLM.",
+        "frequency": "No information.",
+        "description": "Retrieves data used for YandexGPT quick answers features."
+    },
+    "YandexAdditionalBot": {
+        "operator": "[Yandex](https://yandex.ru)",
+        "respect": "[Yes](https://yandex.ru/support/webmaster/en/search-appearance/fast.html?lang=en)",
+        "function": "Scrapes/analyzes data for the YandexGPT LLM.",
+        "frequency": "No information.",
+        "description": "Retrieves data used for YandexGPT quick answers features."
+    },
     "YouBot": {
         "operator": "[You](https://about.you.com/youchat/)",
         "respect": "[Yes](https://about.you.com/youbot/)",
