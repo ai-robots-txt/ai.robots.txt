@@ -20,19 +20,19 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI systems."
     },
-    "Andibot": {
-        "operator": "[Andi](https://andisearch.com/)",
-        "respect": "Unclear at this time",
-        "function": "Search engine using generative AI, AI Search Assistant",
-        "frequency": "No information provided.",
-        "description": "Scrapes website and provides AI summary."
-    },
     "Amazonbot": {
         "operator": "Amazon",
         "respect": "Yes",
         "function": "Service improvement and enabling answers for Alexa users.",
         "frequency": "No information provided.",
         "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
+    },
+    "Andibot": {
+        "operator": "[Andi](https://andisearch.com/)",
+        "respect": "Unclear at this time",
+        "function": "Search engine using generative AI, AI Search Assistant",
+        "frequency": "No information provided.",
+        "description": "Scrapes website and provides AI summary."
     },
     "anthropic-ai": {
         "operator": "[Anthropic](https://www.anthropic.com)",
