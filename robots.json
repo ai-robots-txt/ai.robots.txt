@@ -377,6 +377,13 @@
         "operator": "[Qualified](https://www.qualified.com)",
         "respect": "Unclear at this time."
     },
+    "SBIntuitionsBot": {
+        "description": "AI development and information analysis",
+        "respect": "[Yes](https://www.sbintuitions.co.jp/en/bot/)",
+        "frequency": "No information.",
+        "function": "Uses data gathered in AI development and information analysis.",
+        "operator": "[SB Intuitions](https://www.sbintuitions.co.jp/en/)"
+    },
     "Scrapy": {
         "description": "\"AI and machine learning applications often need large amounts of quality data, and web data extraction is a fast, efficient way to build structured data sets.\"",
         "frequency": "No information.",
