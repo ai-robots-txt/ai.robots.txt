@@ -52,6 +52,7 @@ PerplexityBot
 PetalBot
 PhindBot
 QualifiedBot
+SBIntuitionsBot
 Scrapy
 SemrushBot-OCOB
 SemrushBot-SWA
