@@ -61,4 +61,6 @@ Timpibot
 VelenPublicWebCrawler
 Webzio-Extended
 wpbot
+YandexAdditional
+YandexAdditionalBot
 YouBot

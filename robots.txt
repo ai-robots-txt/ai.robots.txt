@@ -61,5 +61,7 @@ User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
 User-agent: wpbot
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
 User-agent: YouBot
 Disallow: /
