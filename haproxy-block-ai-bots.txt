@@ -2,6 +2,7 @@ AI2Bot
 Ai2Bot-Dolma
 aiHitBot
 Amazonbot
+Andibot
 anthropic-ai
 Applebot
 Applebot-Extended
@@ -33,7 +34,6 @@ iaskspider/2.0
 ICC-Crawler
 ImagesiftBot
 img2dataset
-imgproxy
 ISSCyberRiskCrawler
 Kangaroo Bot
 meta-externalagent
@@ -50,6 +50,7 @@ PanguBot
 Perplexity-User
 PerplexityBot
 PetalBot
+PhindBot
 QualifiedBot
 Scrapy
 SemrushBot-OCOB
