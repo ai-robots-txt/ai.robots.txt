@@ -377,6 +377,20 @@
         "operator": "[Qualified](https://www.qualified.com)",
         "respect": "Unclear at this time."
     },
+    "QuillBot": {
+        "description": "Operated by QuillBot as part of their suite of AI product offerings.",
+        "frequency": "No explicit frequency provided.",
+        "function": "Company offers AI detection, writing tools and other services.",
+        "operator": "[Quillbot](https://quillbot.com)",
+        "respect": "Unclear at this time."
+    },
+    "quillbot.com": {
+        "description": "Operated by QuillBot as part of their suite of AI product offerings.",
+        "frequency": "No explicit frequency provided.",
+        "function": "Company offers AI detection, writing tools and other services.",
+        "operator": "[Quillbot](https://quillbot.com)",
+        "respect": "Unclear at this time."
+    },
     "SBIntuitionsBot": {
         "description": "AI development and information analysis",
         "respect": "[Yes](https://www.sbintuitions.co.jp/en/bot/)",
