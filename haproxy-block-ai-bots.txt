@@ -52,6 +52,8 @@ PerplexityBot
 PetalBot
 PhindBot
 QualifiedBot
+QuillBot
+quillbot.com
 SBIntuitionsBot
 Scrapy
 SemrushBot-OCOB

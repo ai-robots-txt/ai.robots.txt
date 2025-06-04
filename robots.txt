@@ -52,6 +52,8 @@ User-agent: PerplexityBot
 User-agent: PetalBot
 User-agent: PhindBot
 User-agent: QualifiedBot
+User-agent: QuillBot
+User-agent: quillbot.com
 User-agent: SBIntuitionsBot
 User-agent: Scrapy
 User-agent: SemrushBot-OCOB
