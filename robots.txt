@@ -47,6 +47,8 @@ User-agent: omgili
 User-agent: omgilibot
 User-agent: Operator
 User-agent: PanguBot
+User-agent: Panscient
+User-agent: panscient.com
 User-agent: Perplexity-User
 User-agent: PerplexityBot
 User-agent: PetalBot

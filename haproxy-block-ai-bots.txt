@@ -47,6 +47,8 @@ omgili
 omgilibot
 Operator
 PanguBot
+Panscient
+panscient.com
 Perplexity-User
 PerplexityBot
 PetalBot
