@@ -55,6 +55,13 @@
         "frequency": "Unclear at this time.",
         "description": "Apple has a secondary user agent, Applebot-Extended ... [that is] used to train Apple's foundation models powering generative AI features across Apple products, including Apple Intelligence, Services, and Developer Tools."
     },
+    "bedrockbot": {
+        "operator": "[Amazon](https://amazon.com)",
+        "respect": "[Yes](https://docs.aws.amazon.com/bedrock/latest/userguide/webcrawl-data-source-connector.html#configuration-webcrawl-connector)",
+        "function": "Data scraping for custom AI applications.",
+        "frequency": "Unclear at this time.",
+        "description": "Connects to and crawls URLs that have been selected for use in a user's AWS bedrock application."
+    },
     "Brightbot 1.0": {
         "operator": "Browsing.ai",
         "respect": "Unclear at this time.",
