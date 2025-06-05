@@ -6,6 +6,7 @@ Andibot
 anthropic-ai
 Applebot
 Applebot-Extended
+bedrockbot
 Brightbot 1.0
 Bytespider
 CCBot
