@@ -160,6 +160,13 @@
         "frequency": "Unclear at this time.",
         "description": "DuckAssistBot is used by DuckDuckGo's DuckAssist feature to fetch content and generate realtime AI answers to user searches. More info can be found at https://darkvisitors.com/agents/agents/duckassistbot"
     },
+    "EchoboxBot": {
+        "operator": "[Echobox](https://echobox.com)",
+        "respect": "Unclear at this time.",
+        "function": "Data collection to support AI-powered products.",
+        "frequency": "Unclear at this time.",
+        "description": "Supports company's AI-powered social and email management products."
+    },
     "FacebookBot": {
         "operator": "Meta/Facebook",
         "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)",
