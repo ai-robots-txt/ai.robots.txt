@@ -21,6 +21,7 @@ Cotoyogi
 Crawlspace
 Diffbot
 DuckAssistBot
+EchoboxBot
 FacebookBot
 Factset_spyderbot
 FirecrawlAgent

@@ -21,6 +21,7 @@ User-agent: Cotoyogi
 User-agent: Crawlspace
 User-agent: Diffbot
 User-agent: DuckAssistBot
+User-agent: EchoboxBot
 User-agent: FacebookBot
 User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
