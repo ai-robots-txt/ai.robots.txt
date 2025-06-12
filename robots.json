@@ -314,6 +314,13 @@
         "description": "MistralAI-User is for user actions in LeChat. When users ask LeChat a question, it may visit a web page to help answer and include a link to the source in its response.",
         "respect": "Yes"
     },
+    "MyCentralAIScraperBot": {
+      "operator": "Unclear at this time.",
+      "respect": "Unclear at this time.",
+      "function": "AI data scraper",
+      "frequency": "Unclear at this time.",
+      "description": "Operator and data use is uncleaar at this time."
+    },
     "NovaAct": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
