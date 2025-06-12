@@ -60,7 +60,11 @@ QuillBot
 quillbot.com
 SBIntuitionsBot
 Scrapy
+SemrushBot
+SemrushBot-BA
+SemrushBot-CT
 SemrushBot-OCOB
+SemrushBot-SI
 SemrushBot-SWA
 Sidetrade indexer bot
 TikTokSpider

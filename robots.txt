@@ -60,7 +60,11 @@ User-agent: QuillBot
 User-agent: quillbot.com
 User-agent: SBIntuitionsBot
 User-agent: Scrapy
+User-agent: SemrushBot
+User-agent: SemrushBot-BA
+User-agent: SemrushBot-CT
 User-agent: SemrushBot-OCOB
+User-agent: SemrushBot-SI
 User-agent: SemrushBot-SWA
 User-agent: Sidetrade indexer bot
 User-agent: TikTokSpider
