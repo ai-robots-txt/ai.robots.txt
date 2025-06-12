@@ -433,7 +433,35 @@
         "operator": "[Zyte](https://www.zyte.com)",
         "respect": "Unclear at this time."
     },
+    "SemrushBot": {
+        "operator": "[Semrush](https://www.semrush.com/)",
+        "respect": "[Yes](https://www.semrush.com/bot/)",
+        "function": "Crawls your site for ContentShake AI tool.",
+        "frequency": "Roughly once every 10 seconds.",
+        "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
+    },
+    "SemrushBot-BA": {
+        "operator": "[Semrush](https://www.semrush.com/)",
+        "respect": "[Yes](https://www.semrush.com/bot/)",
+        "function": "Crawls your site for ContentShake AI tool.",
+        "frequency": "Roughly once every 10 seconds.",
+        "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
+    },
+    "SemrushBot-CT": {
+        "operator": "[Semrush](https://www.semrush.com/)",
+        "respect": "[Yes](https://www.semrush.com/bot/)",
+        "function": "Crawls your site for ContentShake AI tool.",
+        "frequency": "Roughly once every 10 seconds.",
+        "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
+    },
     "SemrushBot-OCOB": {
+        "operator": "[Semrush](https://www.semrush.com/)",
+        "respect": "[Yes](https://www.semrush.com/bot/)",
+        "function": "Crawls your site for ContentShake AI tool.",
+        "frequency": "Roughly once every 10 seconds.",
+        "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
+    },
+    "SemrushBot-SI": {
         "operator": "[Semrush](https://www.semrush.com/)",
         "respect": "[Yes](https://www.semrush.com/bot/)",
         "function": "Crawls your site for ContentShake AI tool.",
