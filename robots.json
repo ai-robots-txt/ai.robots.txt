@@ -315,11 +315,11 @@
         "respect": "Yes"
     },
     "MyCentralAIScraperBot": {
-      "operator": "Unclear at this time.",
-      "respect": "Unclear at this time.",
-      "function": "AI data scraper",
-      "frequency": "Unclear at this time.",
-      "description": "Operator and data use is unclear at this time."
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI data scraper",
+        "frequency": "Unclear at this time.",
+        "description": "Operator and data use is unclear at this time."
     },
     "NovaAct": {
         "operator": "Unclear at this time.",
