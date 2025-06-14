@@ -56,6 +56,7 @@ User-agent: Perplexity-User
 User-agent: PerplexityBot
 User-agent: PetalBot
 User-agent: PhindBot
+User-agent: Poseidon Research Crawler
 User-agent: QualifiedBot
 User-agent: QuillBot
 User-agent: quillbot.com
