@@ -405,6 +405,13 @@
         "operator": "[phind](https://www.phind.com/)",
         "respect": "Unclear at this time."
     },
+    "Poseidon Research Crawler": {
+        "operator": "[Poseidon Research](https://www.poseidonresearch.com)",
+        "description": "Lab focused on scaling the interpretability research necessary to make better AI systems possible.",
+        "frequency": "No explicit frequency provided.",
+        "function": "AI research crawler",
+        "respect": "Unclear at this time."
+    },
     "QualifiedBot": {
         "description": "Operated by Qualified as part of their suite of AI product offerings.",
         "frequency": "No explicit frequency provided.",
