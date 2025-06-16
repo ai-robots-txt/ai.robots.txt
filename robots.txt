@@ -23,6 +23,7 @@ User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: EchoboxBot
 User-agent: FacebookBot
+User-agent: facebookexternalhit
 User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler

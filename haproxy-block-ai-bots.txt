@@ -23,6 +23,7 @@ Diffbot
 DuckAssistBot
 EchoboxBot
 FacebookBot
+facebookexternalhit
 Factset_spyderbot
 FirecrawlAgent
 FriendlyCrawler
