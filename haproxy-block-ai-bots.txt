@@ -6,6 +6,7 @@ Andibot
 anthropic-ai
 Applebot
 Applebot-Extended
+Awario
 bedrockbot
 Brightbot 1.0
 Bytespider
@@ -19,8 +20,11 @@ cohere-ai
 cohere-training-data-crawler
 Cotoyogi
 Crawlspace
+Datenbank Crawler
+Devin
 Diffbot
 DuckAssistBot
+Echobot Bot
 EchoboxBot
 FacebookBot
 facebookexternalhit
@@ -43,6 +47,7 @@ meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
 Meta-ExternalFetcher
+MistralAI-User
 MistralAI-User/1.0
 MyCentralAIScraperBot
 NovaAct
@@ -73,6 +78,7 @@ Sidetrade indexer bot
 TikTokSpider
 Timpibot
 VelenPublicWebCrawler
+WARDBot
 Webzio-Extended
 wpbot
 YandexAdditional
