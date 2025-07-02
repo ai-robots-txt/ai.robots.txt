@@ -31,6 +31,7 @@ facebookexternalhit
 Factset_spyderbot
 FirecrawlAgent
 FriendlyCrawler
+Gemini-Deep-Research
 Google-CloudVertexBot
 Google-Extended
 GoogleOther
@@ -50,6 +51,7 @@ Meta-ExternalFetcher
 MistralAI-User
 MistralAI-User/1.0
 MyCentralAIScraperBot
+netEstate Imprint Crawler
 NovaAct
 OAI-SearchBot
 omgili
@@ -68,11 +70,7 @@ QuillBot
 quillbot.com
 SBIntuitionsBot
 Scrapy
-SemrushBot
-SemrushBot-BA
-SemrushBot-CT
 SemrushBot-OCOB
-SemrushBot-SI
 SemrushBot-SWA
 Sidetrade indexer bot
 TikTokSpider
