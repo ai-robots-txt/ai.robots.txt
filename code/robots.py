@@ -3,7 +3,6 @@
 import json
 import re
 import requests
-
 from bs4 import BeautifulSoup
 from pathlib import Path
 
@@ -14,14 +13,12 @@ def load_robots_json():
 
 
 def get_agent_soup():
-    """Retrieve current known agents from darkvisitors.com"""
+    """Retrieve current known agents from darkvisitors.com."""
     session = requests.Session()
     try:
         response = session.get("https://darkvisitors.com/agents")
     except requests.exceptions.ConnectionError:
-        print(
-            "ERROR: Could not gather the current agents from https://darkvisitors.com/agents"
-        )
+        print("ERROR: Could not gather the current agents from https://darkvisitors.com/agents")
         return
     return BeautifulSoup(response.text, "html.parser")
 
@@ -34,14 +31,6 @@ def updated_robots_json(soup):
         "AI Assistants",
         "AI Data Scrapers",
         "AI Search Crawlers",
-        # "Archivers",
-        # "Developer Helpers",
-        # "Fetchers",
-        # "Intelligence Gatherers",
-        # "Scrapers",
-        # "Search Engine Crawlers",
-        # "SEO Crawlers",
-        # "Uncategorized",
         "Undocumented AI Agents",
     ]
 
@@ -49,6 +38,7 @@ def updated_robots_json(soup):
         category = section.find("h2").get_text()
         if category not in to_include:
             continue
+
         for agent in section.find_all("a", href=True):
             name = agent.find("div", {"class": "agent-name"}).get_text().strip()
             name = clean_robot_name(name)
@@ -77,19 +67,18 @@ def updated_robots_json(soup):
                 # New field
                 if field not in existing_content[name]:
                     return value
-                # Unclear value
+                # Replace unclear value
                 if (
                     existing_content[name][field] in default_values
                     and value not in default_values
                 ):
                     return value
-                # Existing value
                 return existing_content[name][field]
 
             existing_content[name] = {
                 "operator": consolidate("operator", operator),
                 "respect": consolidate("respect", default_value),
-                "function": consolidate("function", f"{category}"),
+                "function": consolidate("function", category),
                 "frequency": consolidate("frequency", default_value),
                 "description": consolidate(
                     "description",
@@ -99,21 +88,11 @@ def updated_robots_json(soup):
 
     print(f"Total: {len(existing_content)}")
     sorted_keys = sorted(existing_content, key=lambda k: k.lower())
-    sorted_robots = {k: existing_content[k] for k in sorted_keys}
-    return sorted_robots
+    return {k: existing_content[k] for k in sorted_keys}
 
 
 def clean_robot_name(name):
-    """ Clean the robot name by removing some characters that were mangled by html software once. """
-    # This was specifically spotted in "Perplexity-User"
-    # Looks like a non-breaking hyphen introduced by the HTML rendering software
-    # Reading the source page for Perplexity: https://docs.perplexity.ai/guides/bots
-    # You can see the bot is listed several times as "Perplexity-User" with a normal hyphen, 
-    # and it's only the Row-Heading that has the special hyphen
-    # 
-    # Technically, there's no reason there wouldn't someday be a bot that 
-    # actually uses a non-breaking hyphen, but that seems unlikely,
-    # so this solution should be fine for now.
+    """Clean the robot name by removing characters mangled by HTML rendering."""
     result = re.sub(r"\u2011", "-", name)
     if result != name:
         print(f"\tCleaned '{name}' to '{result}' - unicode/html mangled chars normalized.")
@@ -125,117 +104,108 @@ def ingest_darkvisitors():
     soup = get_agent_soup()
     if soup:
         robots_json = updated_robots_json(soup)
-        print(
-            "robots.json is unchanged."
-            if robots_json == old_robots_json
-            else "robots.json got updates."
-        )
-        Path("./robots.json").write_text(
-            json.dumps(robots_json, indent=4), encoding="utf-8"
-        )
+        print("robots.json is unchanged." if robots_json == old_robots_json else "robots.json got updates.")
+        Path("./robots.json").write_text(json.dumps(robots_json, indent=4), encoding="utf-8")
+
+
+def all_user_agents(robot_json):
+    """Expand all main names and their ua-synonyms into a flat list."""
+    return [
+        ua for name, data in robot_json.items()
+        for ua in [name] + data.get("ua-synonyms", [])
+    ]
 
 
 def json_to_txt(robots_json):
     """Compose the robots.txt from the robots.json file."""
-    robots_txt = "\n".join(f"User-agent: {k}" for k in robots_json.keys())
-    robots_txt += "\nDisallow: /\n"
-    return robots_txt
+    lines = [f"User-agent: {ua}" for ua in all_user_agents(robots_json)]
+    lines.append("Disallow: /")
+    return "\n".join(lines)
 
 
 def escape_md(s):
+    """Escape markdown special characters in bot names."""
     return re.sub(r"([]*\\|`(){}<>#+-.!_[])", r"\\\1", s)
 
 
 def json_to_table(robots_json):
-    """Compose a markdown table with the information in robots.json"""
+    """Compose a markdown table with the information in robots.json."""
     table = "| Name | Operator | Respects `robots.txt` | Data use | Visit regularity | Description |\n"
     table += "|------|----------|-----------------------|----------|------------------|-------------|\n"
 
     for name, robot in robots_json.items():
-        table += f'| {escape_md(name)} | {robot["operator"]} | {robot["respect"]} | {robot["function"]} | {robot["frequency"]} | {robot["description"]} |\n'
+        table += (
+            f"| {escape_md(name)} | {robot['operator']} | {robot['respect']} | "
+            f"{robot['function']} | {robot['frequency']} | {robot['description']} |\n"
+        )
 
     return table
 
 
 def list_to_pcre(lst):
-    # Python re is not 100% identical to PCRE which is used by Apache, but it
-    # should probably be close enough in the real world for re.escape to work.
-    formatted = "|".join(map(re.escape, lst))
-    return f"({formatted})"
+    """Convert a list of user agents into a regex pattern."""
+    return f"({'|'.join(map(re.escape, lst))})"
 
 
 def json_to_htaccess(robot_json):
-    # Creates a .htaccess filter file. It uses a regular expression to filter out
-    # User agents that contain any of the blocked values.
-    htaccess = "RewriteEngine On\n"
-    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json.keys())} [NC]\n"
-    htaccess += "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
-    return htaccess
+    """Generate .htaccess content to block bots via user-agent regex."""
+    return (
+        "RewriteEngine On\n"
+        f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(all_user_agents(robot_json))} [NC]\n"
+        "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
+    )
+
 
 def json_to_nginx(robot_json):
-    # Creates an Nginx config file. This config snippet can be included in 
-    # nginx server{} blocks to block AI bots.
-    config = f"if ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    return 403;\n}}"
-    return config
+    """Generate Nginx config snippet to block AI bots."""
+    return (
+        f'if ($http_user_agent ~* "{list_to_pcre(all_user_agents(robot_json))}") {{\n'
+        f'    return 403;\n'
+        f'}}'
+    )
 
 
 def json_to_caddy(robot_json):
-    caddyfile = "@aibots {\n    "
-    caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json.keys())}"'
-    caddyfile += "\n}"
-    return caddyfile
+    """Generate a Caddyfile snippet to block AI bots."""
+    return (
+        "@aibots {\n"
+        f'    header_regexp User-Agent "{list_to_pcre(all_user_agents(robot_json))}"\n'
+        "}"
+    )
+
 
 def json_to_haproxy(robots_json):
-    # Creates a source file for HAProxy. Follow instructions in the README to implement it.
-    txt = "\n".join(f"{k}" for k in robots_json.keys())
-    return txt
-
+    """Generate HAProxy configuration source."""
+    return "\n".join(all_user_agents(robots_json))
 
 
 def update_file_if_changed(file_name, converter):
-    """Update files if newer content is available and log the (in)actions."""
+    """Update output files only if the content has changed."""
     new_content = converter(load_robots_json())
     filepath = Path(file_name)
-    # "touch" will create the file if it doesn't exist yet
     filepath.touch()
     old_content = filepath.read_text(encoding="utf-8")
+
     if old_content == new_content:
         print(f"{file_name} is already up to date.")
     else:
-        Path(file_name).write_text(new_content, encoding="utf-8")
+        filepath.write_text(new_content, encoding="utf-8")
         print(f"{file_name} has been updated.")
 
 
 def conversions():
-    """Triggers the conversions from the json file."""
-    update_file_if_changed(file_name="./robots.txt", converter=json_to_txt)
-    update_file_if_changed(
-        file_name="./table-of-bot-metrics.md",
-        converter=json_to_table,
-    )
-    update_file_if_changed(
-        file_name="./.htaccess",
-        converter=json_to_htaccess,
-    )
-    update_file_if_changed(
-        file_name="./nginx-block-ai-bots.conf",
-        converter=json_to_nginx,
-    )
-    update_file_if_changed(
-        file_name="./Caddyfile",
-        converter=json_to_caddy,
-    )
-      
-    update_file_if_changed(
-        file_name="./haproxy-block-ai-bots.txt",
-        converter=json_to_haproxy,
-    )
+    """Generate all output files from robots.json."""
+    update_file_if_changed("./robots.txt", json_to_txt)
+    update_file_if_changed("./table-of-bot-metrics.md", json_to_table)
+    update_file_if_changed("./.htaccess", json_to_htaccess)
+    update_file_if_changed("./nginx-block-ai-bots.conf", json_to_nginx)
+    update_file_if_changed("./Caddyfile", json_to_caddy)
+    update_file_if_changed("./haproxy-block-ai-bots.txt", json_to_haproxy)
 
 
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser()
     parser = argparse.ArgumentParser(
         prog="ai-robots",
         description="Collects and updates information about web scrapers of AI companies.",
@@ -251,6 +221,7 @@ if __name__ == "__main__":
         action="store_true",
         help="Create the robots.txt and markdown table from robots.json",
     )
+
     args = parser.parse_args()
 
     if not (args.update or args.convert):
@@ -259,5 +230,6 @@ if __name__ == "__main__":
 
     if args.update:
         ingest_darkvisitors()
+
     if args.convert:
         conversions()
