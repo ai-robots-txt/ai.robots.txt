@@ -73,7 +73,9 @@ User-agent: Scrapy
 User-agent: SemrushBot-OCOB
 User-agent: SemrushBot-SWA
 User-agent: Sidetrade indexer bot
+User-agent: SummalyBot
 User-agent: TikTokSpider
+User-agent: Thinkbot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: WARDBot

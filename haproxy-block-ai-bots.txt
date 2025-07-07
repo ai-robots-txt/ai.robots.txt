@@ -73,7 +73,9 @@ Scrapy
 SemrushBot-OCOB
 SemrushBot-SWA
 Sidetrade indexer bot
+SummalyBot
 TikTokSpider
+Thinkbot
 Timpibot
 VelenPublicWebCrawler
 WARDBot
