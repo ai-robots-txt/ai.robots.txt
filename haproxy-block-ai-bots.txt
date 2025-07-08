@@ -74,8 +74,8 @@ SemrushBot-OCOB
 SemrushBot-SWA
 Sidetrade indexer bot
 SummalyBot
-TikTokSpider
 Thinkbot
+TikTokSpider
 Timpibot
 VelenPublicWebCrawler
 WARDBot
