@@ -531,19 +531,19 @@
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time."
     },
-    "TikTokSpider": {
-        "operator": "ByteDance",
-        "respect": "Unclear at this time.",
-        "function": "LLM training.",
-        "frequency": "Unclear at this time.",
-        "description": "Downloads data to train LLMS, as per Bytespider."
-    },
     "Thinkbot": {
         "operator": "[Thinkbot](https://www.thinkbot.agency)",
         "respect": "No",
         "function": "Insights on AI integration and automation.",
         "frequency": "Unclear at this time.",
         "description": "Collects data for analysis on AI usage and automation."
+    },
+    "TikTokSpider": {
+        "operator": "ByteDance",
+        "respect": "Unclear at this time.",
+        "function": "LLM training.",
+        "frequency": "Unclear at this time.",
+        "description": "Downloads data to train LLMS, as per Bytespider."
     },
     "Timpibot": {
         "operator": "[Timpi](https://timpi.io)",
