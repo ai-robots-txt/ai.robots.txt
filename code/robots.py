@@ -169,7 +169,7 @@ def json_to_htaccess(robot_json):
     # User agents that contain any of the blocked values.
     htaccess = "RewriteEngine On\n"
     htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json.keys())} [NC]\n"
-    htaccess += "RewriteRule !^/?robots\\.txt$ - [F,L]\n"
+    htaccess += "RewriteRule !^/?robots\\.txt$ - [F]\n"
     return htaccess
 
 def json_to_nginx(robot_json):
