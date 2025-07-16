@@ -251,6 +251,13 @@
         "frequency": "No information.",
         "description": "Used to train Gemini and Vertex AI generative APIs. Does not impact a site's inclusion or ranking in Google Search."
     },
+    "GoogleAgent-Mariner": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "GoogleAgent-Mariner is an AI agent created by Google that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/googleagent-mariner"
+    },
     "GoogleOther": {
         "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\"",
         "frequency": "No information.",
