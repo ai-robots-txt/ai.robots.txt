@@ -34,6 +34,7 @@ User-agent: FriendlyCrawler
 User-agent: Gemini-Deep-Research
 User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
+User-agent: GoogleAgent-Mariner
 User-agent: GoogleOther
 User-agent: GoogleOther-Image
 User-agent: GoogleOther-Video

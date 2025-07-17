@@ -34,6 +34,7 @@ FriendlyCrawler
 Gemini-Deep-Research
 Google-CloudVertexBot
 Google-Extended
+GoogleAgent-Mariner
 GoogleOther
 GoogleOther-Image
 GoogleOther-Video
