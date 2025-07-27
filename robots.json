@@ -587,6 +587,13 @@
         "frequency": "Unclear at this time.",
         "description": "wpbot is a used to support the functionality of the AI Chatbot for WordPress plugin. It supports the use of customer models, data collection and customer support."
     },
+	"YaK": {
+		"operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
+		"respect": "Unclear at this time.",
+		"function": "By applying AI, data science, and market research expertise to a live feed of global data sources, we transform unstructured data into actionable insights allowing better decision-making."
+		"frequency": "Unclear at this time.",
+		"description": "Retrieves data used for Meltwater's AI enabled consumer intelligence suite"
+	},
     "YandexAdditional": {
         "operator": "[Yandex](https://yandex.ru)",
         "respect": "[Yes](https://yandex.ru/support/webmaster/en/search-appearance/fast.html?lang=en)",
