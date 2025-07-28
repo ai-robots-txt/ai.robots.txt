@@ -531,13 +531,6 @@
         "operator": "[Sidetrade](https://www.sidetrade.com)",
         "respect": "Unclear at this time."
     },
-    "SummalyBot": {
-        "description": "AI input summarization.",
-        "frequency": "No information.",
-        "function": "Extracts data to provide summaries for user; additional usages unclear.",
-        "operator": "Unclear at this time.",
-        "respect": "Unclear at this time."
-    },
     "Thinkbot": {
         "operator": "[Thinkbot](https://www.thinkbot.agency)",
         "respect": "No",
