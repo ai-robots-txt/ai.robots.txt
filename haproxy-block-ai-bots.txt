@@ -82,6 +82,7 @@ VelenPublicWebCrawler
 WARDBot
 Webzio-Extended
 wpbot
+YaK
 YandexAdditional
 YandexAdditionalBot
 YouBot
