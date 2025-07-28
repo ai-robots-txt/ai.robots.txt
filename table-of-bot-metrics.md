@@ -76,7 +76,6 @@
 | SemrushBot\-OCOB | [Semrush](https://www.semrush.com/) | [Yes](https://www.semrush.com/bot/) | Crawls your site for ContentShake AI tool. | Roughly once every 10 seconds. | Data collected is used for the ContentShake AI tool reports. |
 | SemrushBot\-SWA | [Semrush](https://www.semrush.com/) | [Yes](https://www.semrush.com/bot/) | Checks URLs on your site for SEO Writing Assistant. | Roughly once every 10 seconds. | Data collected is used for the SEO Writing Assistant tool to check if URL is accessible. |
 | Sidetrade indexer bot | [Sidetrade](https://www.sidetrade.com) | Unclear at this time. | Extracts data for a variety of uses including training AI. | No information. | AI product training. |
-| SummalyBot | Unclear at this time. | Unclear at this time. | Extracts data to provide summaries for user; additional usages unclear. | No information. | AI input summarization. |
 | Thinkbot | [Thinkbot](https://www.thinkbot.agency) | No | Insights on AI integration and automation. | Unclear at this time. | Collects data for analysis on AI usage and automation. |
 | TikTokSpider | ByteDance | Unclear at this time. | LLM training. | Unclear at this time. | Downloads data to train LLMS, as per Bytespider. |
 | Timpibot | [Timpi](https://timpi.io) | Unclear at this time. | Scrapes data for use in training LLMs. | No information. | Makes data available for training AI models. |
