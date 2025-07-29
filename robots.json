@@ -90,6 +90,13 @@
         "frequency": "Monthly at present.",
         "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers)."
     },
+    "ChatGPT Agent": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "ChatGPT Agent is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/chatgpt-agent"
+    },
     "ChatGPT-User": {
         "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
@@ -580,13 +587,13 @@
         "frequency": "Unclear at this time.",
         "description": "wpbot is a used to support the functionality of the AI Chatbot for WordPress plugin. It supports the use of customer models, data collection and customer support."
     },
-	"YaK": {
-		"operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
-		"respect": "Unclear at this time.",
-		"function": "According to the [Meltwater Consumer Intelligence page](https://www.meltwater.com/en/suite/consumer-intelligence) 'By applying AI, data science, and market research expertise to a live feed of global data sources, we transform unstructured data into actionable insights allowing better decision-making'.",
-		"frequency": "Unclear at this time.",
-		"description": "Retrieves data used for Meltwater's AI enabled consumer intelligence suite"
-	},
+    "YaK": {
+        "operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
+        "respect": "Unclear at this time.",
+        "function": "According to the [Meltwater Consumer Intelligence page](https://www.meltwater.com/en/suite/consumer-intelligence) 'By applying AI, data science, and market research expertise to a live feed of global data sources, we transform unstructured data into actionable insights allowing better decision-making'.",
+        "frequency": "Unclear at this time.",
+        "description": "Retrieves data used for Meltwater's AI enabled consumer intelligence suite"
+    },
     "YandexAdditional": {
         "operator": "[Yandex](https://yandex.ru)",
         "respect": "[Yes](https://yandex.ru/support/webmaster/en/search-appearance/fast.html?lang=en)",
