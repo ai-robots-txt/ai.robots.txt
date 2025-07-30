@@ -11,6 +11,7 @@ bedrockbot
 Brightbot 1.0
 Bytespider
 CCBot
+ChatGPT Agent
 ChatGPT-User
 Claude-SearchBot
 Claude-User

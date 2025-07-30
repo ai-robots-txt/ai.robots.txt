@@ -11,6 +11,7 @@ User-agent: bedrockbot
 User-agent: Brightbot 1.0
 User-agent: Bytespider
 User-agent: CCBot
+User-agent: ChatGPT Agent
 User-agent: ChatGPT-User
 User-agent: Claude-SearchBot
 User-agent: Claude-User
