@@ -1,3 +1,4 @@
+User-agent: AddSearchBot
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: aiHitBot
@@ -8,6 +9,7 @@ User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: Awario
 User-agent: bedrockbot
+User-agent: bigsur.ai
 User-agent: Brightbot 1.0
 User-agent: Bytespider
 User-agent: CCBot
@@ -17,6 +19,7 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
+User-agent: CloudVertexBot
 User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
 User-agent: Cotoyogi
@@ -46,6 +49,7 @@ User-agent: ImagesiftBot
 User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
+User-agent: LinerBot
 User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher

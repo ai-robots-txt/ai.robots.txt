@@ -1,3 +1,4 @@
+AddSearchBot
 AI2Bot
 Ai2Bot-Dolma
 aiHitBot
@@ -8,6 +9,7 @@ Applebot
 Applebot-Extended
 Awario
 bedrockbot
+bigsur.ai
 Brightbot 1.0
 Bytespider
 CCBot
@@ -17,6 +19,7 @@ Claude-SearchBot
 Claude-User
 Claude-Web
 ClaudeBot
+CloudVertexBot
 cohere-ai
 cohere-training-data-crawler
 Cotoyogi
@@ -46,6 +49,7 @@ ImagesiftBot
 img2dataset
 ISSCyberRiskCrawler
 Kangaroo Bot
+LinerBot
 meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
