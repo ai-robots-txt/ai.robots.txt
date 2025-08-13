@@ -105,8 +105,8 @@
         "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers)."
     },
     "ChatGPT Agent": {
-        "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "operator": "[OpenAI](https://openai.com)",
+        "respect": "Yes",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
         "description": "ChatGPT Agent is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/chatgpt-agent"
@@ -446,6 +446,13 @@
         "function": "Data is sold.",
         "operator": "[Webz.io](https://webz.io/)",
         "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)"
+    },
+    "OpenAI": {
+        "operator": "[OpenAI](https://openai.com)",
+        "respect": "Yes",
+        "function": "Unclear at this time.",
+        "frequency": "Unclear at this time.",
+        "description": "The purpose of this bot is unclear at this time but it is a member of OpenAI's suite of crawlers."
     },
     "Operator": {
         "operator": "Unclear at this time.",
