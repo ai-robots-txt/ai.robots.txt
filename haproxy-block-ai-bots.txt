@@ -62,6 +62,7 @@ NovaAct
 OAI-SearchBot
 omgili
 omgilibot
+OpenAI
 Operator
 PanguBot
 Panscient

@@ -62,6 +62,7 @@ User-agent: NovaAct
 User-agent: OAI-SearchBot
 User-agent: omgili
 User-agent: omgilibot
+User-agent: OpenAI
 User-agent: Operator
 User-agent: PanguBot
 User-agent: Panscient
