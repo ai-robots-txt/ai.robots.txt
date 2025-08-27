@@ -279,8 +279,15 @@
         "frequency": "No information.",
         "description": "Used to train Gemini and Vertex AI generative APIs. Does not impact a site's inclusion or ranking in Google Search."
     },
+    "Google-Firebase": {
+        "operator": "Google",
+        "respect": "Unclear at this time.",
+        "function": "Used as part of AI apps developed by users of Google's Firebase AI products.",
+        "frequency": "Unclear at this time.",
+        "description": "Supports Google's Firebase AI products."
+    },
     "GoogleAgent-Mariner": {
-        "operator": "Unclear at this time.",
+        "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
@@ -565,6 +572,13 @@
         "function": "Checks URLs on your site for SEO Writing Assistant.",
         "frequency": "Roughly once every 10 seconds.",
         "description": "Data collected is used for the SEO Writing Assistant tool to check if URL is accessible."
+    },
+    "ShapBot": {
+        "operator": "[Parallel](https://parallel.ai)",
+        "respect": "[Yes](https://docs.parallel.ai/features/crawler)",
+        "function": "Collects data for Parallel's web APIs.",
+        "frequency": "Unclear at this time.",
+        "description": "ShapBot helps discover and index websites for Parallel's web APIs."
     },
     "Sidetrade indexer bot": {
         "description": "AI product training.",
