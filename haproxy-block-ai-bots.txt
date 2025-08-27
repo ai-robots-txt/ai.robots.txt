@@ -38,6 +38,7 @@ FriendlyCrawler
 Gemini-Deep-Research
 Google-CloudVertexBot
 Google-Extended
+Google-Firebase
 GoogleAgent-Mariner
 GoogleOther
 GoogleOther-Image
@@ -79,6 +80,7 @@ SBIntuitionsBot
 Scrapy
 SemrushBot-OCOB
 SemrushBot-SWA
+ShapBot
 Sidetrade indexer bot
 Thinkbot
 TikTokSpider
