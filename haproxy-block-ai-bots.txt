@@ -55,6 +55,7 @@ meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
 Meta-ExternalFetcher
+meta-webindexer
 MistralAI-User
 MistralAI-User/1.0
 MyCentralAIScraperBot
