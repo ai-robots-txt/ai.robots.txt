@@ -54,6 +54,7 @@ User-agent: LinerBot
 User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher
+User-agent: meta-webindexer
 User-agent: Meta-ExternalFetcher
 User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0

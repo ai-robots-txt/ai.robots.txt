@@ -54,6 +54,7 @@ LinerBot
 meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
+meta-webindexer
 Meta-ExternalFetcher
 MistralAI-User
 MistralAI-User/1.0
