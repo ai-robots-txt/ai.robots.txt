@@ -104,6 +104,13 @@
         "frequency": "Monthly at present.",
         "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers)."
     },
+    "TerraCotta": {
+        "operator": "[Ceramic AI](https://ceramic.ai/)",
+        "respect": "[Yes](https://github.com/CeramicTeam/CeramicTerracotta)",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Downloads data to train LLMs."
+    },
     "ChatGPT Agent": {
         "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
