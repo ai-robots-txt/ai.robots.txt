@@ -13,6 +13,7 @@ User-agent: bigsur.ai
 User-agent: Brightbot 1.0
 User-agent: Bytespider
 User-agent: CCBot
+User-agent: TerraCotta
 User-agent: ChatGPT Agent
 User-agent: ChatGPT-User
 User-agent: Claude-SearchBot
@@ -54,8 +55,8 @@ User-agent: LinerBot
 User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher
-User-agent: meta-webindexer
 User-agent: Meta-ExternalFetcher
+User-agent: meta-webindexer
 User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
 User-agent: MyCentralAIScraperBot
