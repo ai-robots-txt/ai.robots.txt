@@ -391,19 +391,19 @@
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
     },
-    "meta-webindexer": {
-        "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
-        "respect": "Unclear at this time.",
-        "function": "AI Assistants",
-        "frequency": "Unhinged, more than 1 per second.",
-        "description": "As per their documentation, \"The Meta-WebIndexer crawler navigates the web to improve Meta AI search result quality for users. In doing so, Meta analyzes online content to enhance the relevance and accuracy of Meta AI. Allowing Meta-WebIndexer in your robots.txt file helps us cite and link to your content in Meta AI's responses.\""
-    },
     "Meta-ExternalFetcher": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
+    },
+    "meta-webindexer": {
+        "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unhinged, more than 1 per second.",
+        "description": "As per their documentation, \"The Meta-WebIndexer crawler navigates the web to improve Meta AI search result quality for users. In doing so, Meta analyzes online content to enhance the relevance and accuracy of Meta AI. Allowing Meta-WebIndexer in your robots.txt file helps us cite and link to your content in Meta AI's responses.\""
     },
     "MistralAI-User": {
         "operator": "Mistral",
