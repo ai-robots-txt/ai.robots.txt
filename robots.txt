@@ -13,7 +13,6 @@ User-agent: bigsur.ai
 User-agent: Brightbot 1.0
 User-agent: Bytespider
 User-agent: CCBot
-User-agent: TerraCotta
 User-agent: ChatGPT Agent
 User-agent: ChatGPT-User
 User-agent: Claude-SearchBot
@@ -84,6 +83,7 @@ User-agent: SemrushBot-OCOB
 User-agent: SemrushBot-SWA
 User-agent: ShapBot
 User-agent: Sidetrade indexer bot
+User-agent: TerraCotta
 User-agent: Thinkbot
 User-agent: TikTokSpider
 User-agent: Timpibot

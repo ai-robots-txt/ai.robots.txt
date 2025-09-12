@@ -13,7 +13,6 @@ bigsur.ai
 Brightbot 1.0
 Bytespider
 CCBot
-TerraCotta
 ChatGPT Agent
 ChatGPT-User
 Claude-SearchBot
@@ -84,6 +83,7 @@ SemrushBot-OCOB
 SemrushBot-SWA
 ShapBot
 Sidetrade indexer bot
+TerraCotta
 Thinkbot
 TikTokSpider
 Timpibot
