@@ -65,6 +65,13 @@ You can subscribe with [Feedly](https://feedly.com/i/subscription/feed/https://g
 
 Alternatively, you can also subscribe to new releases with your GitHub account by clicking the ⬇️ on "Watch" button at the top of this page, clicking "Custom" and selecting "Releases".
 
+## License content with RSL
+
+It is also possible to license your content to AI companies in `robots.txt` using 
+the [Really Simple Licensing](https://rslstandard.org) standard, with an option of 
+collective bargaining. A [plugin](https://github.com/Jameswlepage/rsl-wp) currently
+implements RSL as well as payment processing for WordPress sites.
+
 ## Report abusive crawlers
 
 If you use [Cloudflare's hard block](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click) alongside this list, you can report abusive crawlers that don't respect `robots.txt` [here](https://docs.google.com/forms/d/e/1FAIpQLScbUZ2vlNSdcsb8LyTeSF7uLzQI96s0BKGoJ6wQ6ocUFNOKEg/viewform).
