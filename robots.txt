@@ -25,6 +25,7 @@ User-agent: cohere-training-data-crawler
 User-agent: Cotoyogi
 User-agent: Crawlspace
 User-agent: Datenbank Crawler
+User-agent: DeepSeekBot
 User-agent: Devin
 User-agent: Diffbot
 User-agent: DuckAssistBot

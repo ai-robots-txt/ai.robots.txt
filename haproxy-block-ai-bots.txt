@@ -25,6 +25,7 @@ cohere-training-data-crawler
 Cotoyogi
 Crawlspace
 Datenbank Crawler
+DeepSeekBot
 Devin
 Diffbot
 DuckAssistBot
