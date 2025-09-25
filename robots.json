@@ -188,6 +188,13 @@
         "frequency": "Unclear at this time.",
         "description": "Datenbank Crawler is an AI data scraper operated by Datenbank. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/datenbank-crawler"
     },
+    "DeepSeekBot": {
+        "operator": "DeepSeek",
+        "respect": "Unclear at this time.",
+        "function": "Training language models and improving AI products",
+        "frequency": "Unclear at this time.",
+        "description": "DeepSeekBot is a web crawler used by DeepSeek to train its language models and improve its AI products."
+    },
     "Devin": {
         "operator": "Devin AI",
         "respect": "Unclear at this time.",
