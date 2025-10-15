@@ -293,6 +293,13 @@
         "frequency": "Unclear at this time.",
         "description": "Supports Google's Firebase AI products."
     },
+    "Google-NotebookLM": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Google-NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from their own uploaded sources, such as documents, transcripts, or web content. It can generate summaries, answer questions, and highlight key themes from the materials you provide, acting like a personalized research companion built on Google's Gemini model. Google-NotebookLM fetches source URLs when users add them to their notebooks, enabling the AI to access and analyze those pages for context and insights. More info can be found at https://darkvisitors.com/agents/agents/google-notebooklm"
+    },
     "GoogleAgent-Mariner": {
         "operator": "Google",
         "respect": "Unclear at this time.",
