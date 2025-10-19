@@ -34,12 +34,26 @@
         "frequency": "No information provided.",
         "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
     },
+    "amazon-kendra-": {
+        "operator": "Amazon",
+        "respect": "Yes",
+        "function": "Collects data for AI natural language search",
+        "frequency": "No information provided.",
+        "description": "Amazon Kendra is a highly accurate intelligent search service that enables your users to search unstructured data using natural language. It returns specific answers to questions, giving users an experience that's close to interacting with a human expert. It is highly scalable and capable of meeting performance demands, tightly integrated with other AWS services such as Amazon S3 and Amazon Lex, and offers enterprise-grade security."
+    },
     "Andibot": {
         "operator": "[Andi](https://andisearch.com/)",
         "respect": "Unclear at this time",
         "function": "Search engine using generative AI, AI Search Assistant",
         "frequency": "No information provided.",
         "description": "Scrapes website and provides AI summary."
+    },
+    "Anomura": {
+        "operator": "[Direqt](https://direqt.ai)",
+        "respect": "Yes",
+        "function": "Collects data for AI search",
+        "frequency": "No information provided.",
+        "description": "Anomura is Direqt's search crawler, it discovers and indexes pages their customers websites."
     },
     "anthropic-ai": {
         "operator": "[Anthropic](https://www.anthropic.com)",
@@ -81,7 +95,14 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "bigsur.ai is a web crawler operated by Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for businesses. More info can be found at https://darkvisitors.com/agents/agents/bigsur-ai"
+        "": "bigsur.ai is a web crawler operated by Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for businesses. More info can be found at https://darkvisitors.com/agents/agents/bigsur-ai"
+    },
+    "Bravebot": {
+        "operator": "https://safe.search.brave.com/help/brave-search-crawler",
+        "respect": "Yes",
+        "function": "Collects data for AI search",
+        "frequency": "Unclear at this time.",
+        "description": "Brave search has a crawler to discover new pages and index their content."
     },
     "Brightbot 1.0": {
         "operator": "https://brightdata.com/brightbot",
@@ -146,6 +167,13 @@
         "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
+    "Cloudflare-AutoRAG": {
+        "operator": "[Cloudflare](https://developers.cloudflare.com/autorag)",
+        "respect": "Yes",
+        "function": "Collects data for AI search",
+        "frequency": "Unclear at this time.",
+        "description": "AutoRAG is an all-in-one AI search solution."
+    },
     "CloudVertexBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -190,10 +218,10 @@
     },
     "Devin": {
         "operator": "Devin AI",
-        "respect": "Unclear at this time.",
+        "respect": "Yes",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Devin is an AI assistant operated by Devin AI. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/devin"
+        "description": "Devin is a collaborative AI teammate built to help ambitious engineering teams achieve more."
     },
     "Diffbot": {
         "operator": "[Diffbot](https://www.diffbot.com/)",
