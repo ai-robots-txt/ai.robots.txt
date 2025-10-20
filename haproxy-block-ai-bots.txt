@@ -3,13 +3,16 @@ AI2Bot
 Ai2Bot-Dolma
 aiHitBot
 Amazonbot
+amazon-kendra-
 Andibot
+Anomura
 anthropic-ai
 Applebot
 Applebot-Extended
 Awario
 bedrockbot
 bigsur.ai
+Bravebot
 Brightbot 1.0
 Bytespider
 CCBot
@@ -19,6 +22,7 @@ Claude-SearchBot
 Claude-User
 Claude-Web
 ClaudeBot
+Cloudflare-AutoRAG
 CloudVertexBot
 cohere-ai
 cohere-training-data-crawler
