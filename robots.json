@@ -370,6 +370,13 @@
         "operator": "iAsk",
         "respect": "No"
     },
+    "IbouBot": {
+      "operator": "Ibou",
+      "respect": "Yes",
+      "function": "Search result generation.",
+      "frequency": "Unclear at this time.",
+      "description": "Ibou.io operates a crawler service named IbouBot which fuels and updates their graph representation of the World Wide Web. This database and all the metrics are used to provide a search engine."
+    },
     "ICC-Crawler": {
         "operator": "[NICT](https://nict.go.jp)",
         "respect": "Yes",
