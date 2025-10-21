@@ -51,6 +51,7 @@ GoogleOther-Image
 GoogleOther-Video
 GPTBot
 iaskspider/2.0
+IbouBot
 ICC-Crawler
 ImagesiftBot
 img2dataset
