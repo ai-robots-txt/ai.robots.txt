@@ -2,8 +2,8 @@ User-agent: AddSearchBot
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: aiHitBot
-User-agent: Amazonbot
 User-agent: amazon-kendra-
+User-agent: Amazonbot
 User-agent: Andibot
 User-agent: Anomura
 User-agent: anthropic-ai
@@ -58,6 +58,7 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: LinerBot
+User-agent: Linguee Bot
 User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher

@@ -2,8 +2,8 @@ AddSearchBot
 AI2Bot
 Ai2Bot-Dolma
 aiHitBot
-Amazonbot
 amazon-kendra-
+Amazonbot
 Andibot
 Anomura
 anthropic-ai
@@ -58,6 +58,7 @@ img2dataset
 ISSCyberRiskCrawler
 Kangaroo Bot
 LinerBot
+Linguee Bot
 meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
