@@ -27,19 +27,19 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI systems."
     },
-    "Amazonbot": {
-        "operator": "Amazon",
-        "respect": "Yes",
-        "function": "Service improvement and enabling answers for Alexa users.",
-        "frequency": "No information provided.",
-        "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
-    },
     "amazon-kendra-": {
         "operator": "Amazon",
         "respect": "Yes",
         "function": "Collects data for AI natural language search",
         "frequency": "No information provided.",
         "description": "Amazon Kendra is a highly accurate intelligent search service that enables your users to search unstructured data using natural language. It returns specific answers to questions, giving users an experience that's close to interacting with a human expert. It is highly scalable and capable of meeting performance demands, tightly integrated with other AWS services such as Amazon S3 and Amazon Lex, and offers enterprise-grade security."
+    },
+    "Amazonbot": {
+        "operator": "Amazon",
+        "respect": "Yes",
+        "function": "Service improvement and enabling answers for Alexa users.",
+        "frequency": "No information provided.",
+        "description": "Includes references to crawled website when surfacing answers via Alexa; does not clearly outline other uses."
     },
     "Andibot": {
         "operator": "[Andi](https://andisearch.com/)",
@@ -371,11 +371,11 @@
         "respect": "No"
     },
     "IbouBot": {
-      "operator": "Ibou",
-      "respect": "Yes",
-      "function": "Search result generation.",
-      "frequency": "Unclear at this time.",
-      "description": "Ibou.io operates a crawler service named IbouBot which fuels and updates their graph representation of the World Wide Web. This database and all the metrics are used to provide a search engine."
+        "operator": "Ibou",
+        "respect": "Yes",
+        "function": "Search result generation.",
+        "frequency": "Unclear at this time.",
+        "description": "Ibou.io operates a crawler service named IbouBot which fuels and updates their graph representation of the World Wide Web. This database and all the metrics are used to provide a search engine."
     },
     "ICC-Crawler": {
         "operator": "[NICT](https://nict.go.jp)",
