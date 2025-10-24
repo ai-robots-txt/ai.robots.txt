@@ -419,6 +419,13 @@
         "frequency": "Unclear at this time.",
         "description": "LinerBot is the web crawler used by Liner AI assistant to gather information from academic sources and websites to provide accurate answers with line-by-line source citations for research and scholarly work. More info can be found at https://darkvisitors.com/agents/agents/linerbot"
     },
+    "Linguee Bot": {
+        "operator": "[Linguee](https://www.linguee.com)",
+        "respect": "No",
+        "function": "AI powered translation service",
+        "frequency": "Unclear at this time.",
+        "description": "Linguee Bot is a web crawler used by Linguee to gather training data for its AI powered translation service."
+    },
     "meta-externalagent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
         "respect": "Yes",
