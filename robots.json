@@ -111,6 +111,13 @@
         "frequency": "At least one per minute.",
         "description": "Scrapes data to train LLMs and AI products focused on website customer support, [uses residential IPs and legit-looking user-agents to disguise itself](https://ksol.io/en/blog/posts/brightbot-not-that-bright/)."
     },
+    "BuddyBot": {
+        "operator": "[BuddyBotLearning](https://www.buddybotlearning.com)",
+        "respect": "Unclear at this time.",
+        "function": "AI Learning Companion",
+        "frequency": "Unclear at this time.",
+        "description": "BuddyBot is a voice-controlled AI learning companion targeted at childhooded STEM education."
+    },
     "Bytespider": {
         "operator": "ByteDance",
         "respect": "No",
