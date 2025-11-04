@@ -14,6 +14,7 @@ bedrockbot
 bigsur.ai
 Bravebot
 Brightbot 1.0
+BuddyBot
 Bytespider
 CCBot
 ChatGPT Agent

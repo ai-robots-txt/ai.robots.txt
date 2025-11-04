@@ -14,6 +14,7 @@ User-agent: bedrockbot
 User-agent: bigsur.ai
 User-agent: Bravebot
 User-agent: Brightbot 1.0
+User-agent: BuddyBot
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: ChatGPT Agent
