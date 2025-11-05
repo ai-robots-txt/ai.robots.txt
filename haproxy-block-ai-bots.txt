@@ -2,6 +2,8 @@ AddSearchBot
 AI2Bot
 Ai2Bot-Dolma
 aiHitBot
+AmazonBuyForMe
+atlassian-bot
 amazon-kendra-
 Amazonbot
 Andibot
