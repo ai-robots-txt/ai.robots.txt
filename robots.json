@@ -27,6 +27,20 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI systems."
     },
+    "AmazonBuyForMe": {
+        "operator": "[Amazon](https://amazon.com)",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "No information provided.",
+        "description": "Buy For Me is an AI agent that helps buy products at the direction of customers."
+    },
+    "atlassian-bot": {
+        "operator": "[Atlassian](https://www.atlassian.com)",
+        "respect": "[Yes](https://support.atlassian.com/organization-administration/docs/connect-custom-website-to-rovo/#Editing-your-robots.txt)",
+        "function": "AI search, assistants and agents",
+        "frequency": "No information provided.",
+        "description": "atlassian-bot is a web crawler used to index website content for its AI search, assistants and agents available in its Rovo GenAI product."
+    },
     "amazon-kendra-": {
         "operator": "Amazon",
         "respect": "Yes",
