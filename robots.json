@@ -412,6 +412,13 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
     },
+    "KlaviyoAIBot": {
+        "operator": "[Klaviyo](https://www.klaviyo.com)",
+        "respect": "[Yes](https://help.klaviyo.com/hc/en-us/articles/40496146232219)",
+        "function": "AI Search Crawlers",
+        "frequency": "Indexes based on 'change signals' and user configuration.",
+        "description": "Indexes content to tailor AI experiences, generate content, answers and recommendations."
+    },
     "LinerBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -488,6 +495,13 @@
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "netEstate Imprint Crawler is an AI data scraper operated by netEstate. If you think this is incorrect or can provide additional detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/netestate-imprint-crawler"
+    },
+    "NotebookLM": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from their own uploaded sources, such as documents, transcripts, or web content. It can generate summaries, answer questions, and highlight key themes from the materials you provide, acting like a personalized research companion built on Google's Gemini model. NotebookLM fetches source URLs when users add them to their notebooks, enabling the AI to access and analyze those pages for context and insights. More info can be found at https://darkvisitors.com/agents/agents/google-notebooklm"
     },
     "NovaAct": {
         "operator": "Unclear at this time.",
