@@ -60,6 +60,7 @@ ImagesiftBot
 img2dataset
 ISSCyberRiskCrawler
 Kangaroo Bot
+KlaviyoAIBot
 LinerBot
 Linguee Bot
 meta-externalagent
@@ -71,6 +72,7 @@ MistralAI-User
 MistralAI-User/1.0
 MyCentralAIScraperBot
 netEstate Imprint Crawler
+NotebookLM
 NovaAct
 OAI-SearchBot
 omgili

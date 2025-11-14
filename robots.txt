@@ -60,6 +60,7 @@ User-agent: ImagesiftBot
 User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
+User-agent: KlaviyoAIBot
 User-agent: LinerBot
 User-agent: Linguee Bot
 User-agent: meta-externalagent
@@ -71,6 +72,7 @@ User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
 User-agent: MyCentralAIScraperBot
 User-agent: netEstate Imprint Crawler
+User-agent: NotebookLM
 User-agent: NovaAct
 User-agent: OAI-SearchBot
 User-agent: omgili
