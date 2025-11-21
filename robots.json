@@ -41,7 +41,7 @@
         "frequency": "No information provided.",
         "description": "atlassian-bot is a web crawler used to index website content for its AI search, assistants and agents available in its Rovo GenAI product."
     },
-    "amazon-kendra-": {
+    "amazon-kendra": {
         "operator": "Amazon",
         "respect": "Yes",
         "function": "Collects data for AI natural language search",
