@@ -4,7 +4,7 @@ User-agent: Ai2Bot-Dolma
 User-agent: aiHitBot
 User-agent: AmazonBuyForMe
 User-agent: atlassian-bot
-User-agent: amazon-kendra-
+User-agent: amazon-kendra
 User-agent: Amazonbot
 User-agent: Andibot
 User-agent: Anomura

@@ -4,7 +4,7 @@ Ai2Bot-Dolma
 aiHitBot
 AmazonBuyForMe
 atlassian-bot
-amazon-kendra-
+amazon-kendra
 Amazonbot
 Andibot
 Anomura
