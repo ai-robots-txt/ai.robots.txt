@@ -53,6 +53,18 @@ You can run the tests by [installing](https://www.python.org/about/gettingstarte
 code/tests.py
 ```
 
+## Releasing
+
+Admins may ship a new release `v1.n` (where `n` increments the minor version of the current release) as follows:
+
+* Navigate to the [new release page](https://github.com/ai-robots-txt/ai.robots.txt/releases/new) on GitHub.
+* Click `Select tag`, choose `Create new tag`, enter `v1.n` in the pop-up, and click `Create`.
+* Enter a suitable release title (e.g. `v1.n: adds user-agent1, user-agent2`).
+* Click `Generate release notes`.
+* Click `Publish release`.
+
+A GitHub action will then add the asset `robots.txt` to the release. That's it.
+
 ## Subscribe to updates
 
 You can subscribe to list updates via RSS/Atom with the releases feed:
