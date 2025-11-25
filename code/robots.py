@@ -108,10 +108,10 @@ def clean_robot_name(name):
     # This was specifically spotted in "Perplexity-User"
     # Looks like a non-breaking hyphen introduced by the HTML rendering software
     # Reading the source page for Perplexity: https://docs.perplexity.ai/guides/bots
-    # You can see the bot is listed several times as "Perplexity-User" with a normal hyphen, 
+    # You can see the bot is listed several times as "Perplexity-User" with a normal hyphen,
     # and it's only the Row-Heading that has the special hyphen
-    # 
-    # Technically, there's no reason there wouldn't someday be a bot that 
+    #
+    # Technically, there's no reason there wouldn't someday be a bot that
     # actually uses a non-breaking hyphen, but that seems unlikely,
     # so this solution should be fine for now.
     result = re.sub(r"\u2011", "-", name)
@@ -173,9 +173,9 @@ def json_to_htaccess(robot_json):
     return htaccess
 
 def json_to_nginx(robot_json):
-    # Creates an Nginx config file. This config snippet can be included in 
+    # Creates an Nginx config file. This config snippet can be included in
     # nginx server{} blocks to block AI bots.
-    config = f"if ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    return 403;\n}}"
+    config = f"set $block 0;\n\nif ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    set $block 1;\n}}\n\nif ($request_uri = \"/robots.txt\") {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
     return config
 
 
@@ -225,7 +225,7 @@ def conversions():
         file_name="./Caddyfile",
         converter=json_to_caddy,
     )
-      
+
     update_file_if_changed(
         file_name="./haproxy-block-ai-bots.txt",
         converter=json_to_haproxy,
