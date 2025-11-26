@@ -53,6 +53,8 @@ You can run the tests by [installing](https://www.python.org/about/gettingstarte
 code/tests.py
 ```
 
+The `.editorconfig` file provides standard editor options for this project. See [EditorConfig](https://editorconfig.org/) for more information.
+
 ## Releasing
 
 Admins may ship a new release `v1.n` (where `n` increments the minor version of the current release) as follows:
