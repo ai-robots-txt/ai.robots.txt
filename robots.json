@@ -239,7 +239,7 @@
     },
     "DeepSeekBot": {
         "operator": "DeepSeek",
-        "respect": "Unclear at this time.",
+        "respect": "No",
         "function": "Training language models and improving AI products",
         "frequency": "Unclear at this time.",
         "description": "DeepSeekBot is a web crawler used by DeepSeek to train its language models and improve its AI products."
