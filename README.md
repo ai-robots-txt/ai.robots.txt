@@ -53,7 +53,6 @@ You can run the tests by [installing](https://www.python.org/about/gettingstarte
 ```console
 python code/tests.py
 
-
 ### Installing Dependencies
 
 Before running the tests, install all required Python packages:
