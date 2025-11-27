@@ -51,7 +51,7 @@ A note about contributing: updates should be added/made to `robots.json`. A GitH
 
 You can run the tests by [installing](https://www.python.org/about/gettingstarted/) Python 3, installing the depenendcies, and then issuing:
 ```console
-python code/tests.py
+code/tests.py
 
 ### Installing Dependencies
 
