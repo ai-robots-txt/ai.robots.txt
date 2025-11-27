@@ -49,7 +49,7 @@ file on-the-fly.
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
 
-You can run the tests by [installing Python 3 and issuing:
+You can run the tests by [installing](https://www.python.org/about/gettingstarted/) Python 3, installing the depenendcies, and then issuing:
 ```console
 python code/tests.py
 
