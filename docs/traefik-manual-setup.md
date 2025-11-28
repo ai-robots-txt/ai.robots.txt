@@ -1,7 +1,7 @@
 # Intro
 If you're using Traefik as your reverse proxy in your docker setup, you might want to use it as well to centrally serve the ```/robots.txt``` for all your Traefik fronted services.
 
-This can be achieved by configuring a single lightweight service to service static files and defining a high priority Traefik HTTP Router rule. 
+This can be achieved by configuring a single lightweight service to service static files and defining a high priority Traefik HTTP Router rule.
 
 # Setup
 Define a single service to serve the one robots.txt to rule them all. I'm using a lean nginx:alpine docker image in this example:
@@ -31,7 +31,6 @@ networks:
      external: true
 ```
 
-
-The Traefik HTTP Routers rule explicitly does not contain a Hostname. Traefik will print a warning about this for the TLS setup but it will work. The high priority of 3000 should ensure this rule is evaluated first for incoming requests. 
+The Traefik HTTP Routers rule explicitly does not contain a Hostname. Traefik will print a warning about this for the TLS setup but it will work. The high priority of 3000 should ensure this rule is evaluated first for incoming requests.
 
 Place your robots.txt in the local `./static/` directory and NGINX will serve it for all services behind your Traefik proxy.

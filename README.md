@@ -4,7 +4,7 @@
 
 This list contains AI-related crawlers of all types, regardless of purpose. We encourage you to contribute to and implement this list on your own site. See [information about the listed crawlers](./table-of-bot-metrics.md) and the [FAQ](https://github.com/ai-robots-txt/ai.robots.txt/blob/main/FAQ.md).
 
-A number of these crawlers have been sourced from [Dark Visitors](https://darkvisitors.com) and we appreciate the ongoing effort they put in to track these crawlers. 
+A number of these crawlers have been sourced from [Dark Visitors](https://darkvisitors.com) and we appreciate the ongoing effort they put in to track these crawlers.
 
 If you'd like to add information about a crawler to the list, please make a pull request with the bot name added to `robots.txt`, `ai.txt`, and any relevant details in `table-of-bot-metrics.md` to help people understand what's crawling.
 
@@ -86,8 +86,8 @@ Alternatively, you can also subscribe to new releases with your GitHub account b
 
 ## License content with RSL
 
-It is also possible to license your content to AI companies in `robots.txt` using 
-the [Really Simple Licensing](https://rslstandard.org) standard, with an option of 
+It is also possible to license your content to AI companies in `robots.txt` using
+the [Really Simple Licensing](https://rslstandard.org) standard, with an option of
 collective bargaining. A [plugin](https://github.com/Jameswlepage/rsl-wp) currently
 implements RSL as well as payment processing for WordPress sites.
 
@@ -103,5 +103,3 @@ But even if you don't use Cloudflare's hard block, their list of [verified bots]
 - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
 - [Blocking AI web crawlers](https://underlap.org/blocking-ai-web-crawlers) by Glyn Normington
 - [Block AI Bots from Crawling Websites Using Robots.txt](https://originality.ai/ai-bot-blocking) by Jonathan Gillham, Originality.AI
-
-
