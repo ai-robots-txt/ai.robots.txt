@@ -440,6 +440,13 @@
         "frequency": "Indexes based on 'change signals' and user configuration.",
         "description": "Indexes content to tailor AI experiences, generate content, answers and recommendations."
     },
+    "LAIONDownloader": {
+        "operator": "[Large-scale Artificial Intelligence Open Network](https://laion.ai/)",
+        "respect": "[No](https://laion.ai/faq/)",
+        "function": "AI tools and models for machine learning research.",
+        "frequency": "Unclear at this time.",
+        "description": "LAIONDownloader is a bot by LAION, a non-profit organization that provides datasets, tools and models to liberate machine learning research."
+    }
     "LinerBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
