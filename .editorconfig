@@ -4,3 +4,6 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
+
+[{Caddyfile,haproxy-block-ai-bots.txt,nginx-block-ai-bots.conf}]
+insert_final_newline = false
