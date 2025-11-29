@@ -61,6 +61,7 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: KlaviyoAIBot
+User-agent: LAIONDownloader
 User-agent: LinerBot
 User-agent: Linguee Bot
 User-agent: meta-externalagent

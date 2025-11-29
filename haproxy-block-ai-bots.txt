@@ -61,6 +61,7 @@ img2dataset
 ISSCyberRiskCrawler
 Kangaroo Bot
 KlaviyoAIBot
+LAIONDownloader
 LinerBot
 Linguee Bot
 meta-externalagent
