@@ -2,6 +2,7 @@ name: Updates for AI robots files
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   dark-visitors:
