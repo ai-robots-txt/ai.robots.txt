@@ -524,6 +524,13 @@
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/linkupbot"
     },
+    "Manus-User": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/manus-user"
+    },
     "meta-externalagent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
         "respect": "Yes",
