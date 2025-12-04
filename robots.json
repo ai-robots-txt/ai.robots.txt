@@ -237,6 +237,13 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI training in Japanese language."
     },
+    "Crawl4AI": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Undocumented AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/crawl4ai"
+    },
     "Crawlspace": {
         "operator": "[Crawlspace](https://crawlspace.dev)",
         "respect": "[Yes](https://news.ycombinator.com/item?id=42756654)",
