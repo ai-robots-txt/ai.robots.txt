@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - run: |
           pip install beautifulsoup4 requests
           git config --global user.name "dark-visitors"
@@ -23,6 +23,7 @@ jobs:
           git add -A
           if ! git diff --cached --quiet; then
             git commit -m "Update from Dark Visitors"
+            git rebase origin/main
             git push
           else
             echo "No changes to commit."
