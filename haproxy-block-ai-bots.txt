@@ -1,16 +1,17 @@
 AddSearchBot
 AI2Bot
+AI2Bot-DeepResearchEval
 Ai2Bot-Dolma
 aiHitBot
-AmazonBuyForMe
-atlassian-bot
 amazon-kendra
 Amazonbot
+AmazonBuyForMe
 Andibot
 Anomura
 anthropic-ai
 Applebot
 Applebot-Extended
+atlassian-bot
 Awario
 bedrockbot
 bigsur.ai
@@ -19,6 +20,7 @@ Brightbot 1.0
 BuddyBot
 Bytespider
 CCBot
+ChatGLM-Spider
 ChatGPT Agent
 ChatGPT-User
 Claude-SearchBot
@@ -30,6 +32,7 @@ CloudVertexBot
 cohere-ai
 cohere-training-data-crawler
 Cotoyogi
+Crawl4AI
 Crawlspace
 Datenbank Crawler
 DeepSeekBot
@@ -53,17 +56,25 @@ GoogleOther
 GoogleOther-Image
 GoogleOther-Video
 GPTBot
+iAskBot
+iaskspider
 iaskspider/2.0
 IbouBot
 ICC-Crawler
 ImagesiftBot
+imageSpider
 img2dataset
 ISSCyberRiskCrawler
 Kangaroo Bot
 KlaviyoAIBot
+KunatoCrawler
+laion-huggingface-processor
 LAIONDownloader
+LCC
 LinerBot
 Linguee Bot
+LinkupBot
+Manus-User
 meta-externalagent
 Meta-ExternalAgent
 meta-externalfetcher
@@ -87,6 +98,7 @@ Perplexity-User
 PerplexityBot
 PetalBot
 PhindBot
+Poggio-Citations
 Poseidon Research Crawler
 QualifiedBot
 QuillBot
@@ -97,6 +109,7 @@ SemrushBot-OCOB
 SemrushBot-SWA
 ShapBot
 Sidetrade indexer bot
+Spider
 TerraCotta
 Thinkbot
 TikTokSpider
@@ -104,8 +117,11 @@ Timpibot
 VelenPublicWebCrawler
 WARDBot
 Webzio-Extended
+webzio-extended
 wpbot
+WRTNBot
 YaK
 YandexAdditional
 YandexAdditionalBot
 YouBot
+ZanistaBot
