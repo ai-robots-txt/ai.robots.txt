@@ -153,6 +153,13 @@
         "frequency": "Monthly at present.",
         "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers)."
     },
+    "Channel3Bot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/channel3bot"
+    },
     "ChatGLM-Spider": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -810,6 +817,13 @@
         "function": "Scrapes data for use in training LLMs.",
         "frequency": "No information.",
         "description": "Makes data available for training AI models."
+    },
+    "TwinAgent": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/twinagent"
     },
     "VelenPublicWebCrawler": {
         "operator": "[Velen Crawler](https://velen.io)",
