@@ -20,6 +20,7 @@ Brightbot 1.0
 BuddyBot
 Bytespider
 CCBot
+Channel3Bot
 ChatGLM-Spider
 ChatGPT Agent
 ChatGPT-User
@@ -114,6 +115,7 @@ TerraCotta
 Thinkbot
 TikTokSpider
 Timpibot
+TwinAgent
 VelenPublicWebCrawler
 WARDBot
 Webzio-Extended
