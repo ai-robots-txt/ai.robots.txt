@@ -700,11 +700,11 @@
         "description": "Operated by Huawei to provide search and AI assistant services."
     },
     "PhindBot": {
-        "description": "Company offers an AI agent that uses AI and generate extra web query on the fly",
-        "frequency": "No explicit frequency provided.",
-        "function": "AI-enhanced search engine.",
         "operator": "[phind](https://www.phind.com/)",
-        "respect": "Unclear at this time."
+        "respect": "Unclear at this time.",
+        "function": "AI-enhanced search engine.",
+        "frequency": "No explicit frequency provided.",
+        "description": "Company offers an AI agent that uses AI and generate extra web query on the fly"
     },
     "Poggio-Citations": {
         "operator": "Unclear at this time.",
@@ -789,6 +789,13 @@
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/spider"
+    },
+    "TavilyBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/tavilybot"
     },
     "TerraCotta": {
         "operator": "[Ceramic AI](https://ceramic.ai/)",
