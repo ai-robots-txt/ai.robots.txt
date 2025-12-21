@@ -113,6 +113,7 @@
 | ShapBot | [Parallel](https://parallel.ai) | [Yes](https://docs.parallel.ai/features/crawler) | Collects data for Parallel's web APIs. | Unclear at this time. | ShapBot helps discover and index websites for Parallel's web APIs. |
 | Sidetrade indexer bot | [Sidetrade](https://www.sidetrade.com) | Unclear at this time. | Extracts data for a variety of uses including training AI. | No information. | AI product training. |
 | Spider | Unclear at this time. | Unclear at this time. | AI Data Scrapers | Unclear at this time. | Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/spider |
+| TavilyBot | Unclear at this time. | Unclear at this time. | AI Assistants | Unclear at this time. | Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/tavilybot |
 | TerraCotta | [Ceramic AI](https://ceramic.ai/) | [Yes](https://github.com/CeramicTeam/CeramicTerracotta) | AI Agents | Unclear at this time. | Downloads data to train LLMs. |
 | Thinkbot | [Thinkbot](https://www.thinkbot.agency) | No | Insights on AI integration and automation. | Unclear at this time. | Collects data for analysis on AI usage and automation. |
 | TikTokSpider | ByteDance | Unclear at this time. | LLM training. | Unclear at this time. | Downloads data to train LLMS, as per Bytespider. |

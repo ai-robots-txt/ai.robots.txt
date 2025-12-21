@@ -111,6 +111,7 @@ SemrushBot-SWA
 ShapBot
 Sidetrade indexer bot
 Spider
+TavilyBot
 TerraCotta
 Thinkbot
 TikTokSpider

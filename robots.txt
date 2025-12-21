@@ -111,6 +111,7 @@ User-agent: SemrushBot-SWA
 User-agent: ShapBot
 User-agent: Sidetrade indexer bot
 User-agent: Spider
+User-agent: TavilyBot
 User-agent: TerraCotta
 User-agent: Thinkbot
 User-agent: TikTokSpider
