@@ -36,7 +36,7 @@ Note that, as stated in the [httpd documentation](https://httpd.apache.org/docs/
    ```
    (Note that the path of the `haproxy-block-ai-bots.txt` may be different in your environment.)
 
-`lighttpd-block-ai-bots.conf` can be included with `include "fragments/lighttpd-block-ai-bots.conf"` in your lighttpd configuratio either global or in conditional section.
+`lighttpd-block-ai-bots.conf` can be included with `include "fragments/lighttpd-block-ai-bots.conf"` in your lighttpd configuration either global or in any conditional section.
 
 [Bing uses the data it crawls for AI and training, you may opt out by adding a `meta` tag to the `head` of your site.](./docs/additional-steps/bing.md)
 
