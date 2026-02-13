@@ -55,6 +55,20 @@
         "frequency": "No information provided.",
         "description": "Buy For Me is an AI agent that helps buy products at the direction of customers."
     },
+    "Amzn-SearchBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/amzn-searchbot"
+    },
+    "Amzn-User": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/amzn-user"
+    },
     "Andibot": {
         "operator": "[Andi](https://andisearch.com/)",
         "respect": "Unclear at this time",
@@ -103,6 +117,13 @@
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "Awario is an AI data scraper operated by Awario. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/awario"
+    },
+    "AzureAI-SearchBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/azureai-searchbot"
     },
     "bedrockbot": {
         "operator": "[Amazon](https://amazon.com)",
@@ -474,6 +495,13 @@
         "function": "Scrapes data to train machine learning models.",
         "operator": "[ISS-Corporate](https://iss-cyber.com)",
         "respect": "No"
+    },
+    "kagi-fetcher": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/kagi-fetcher"
     },
     "Kangaroo Bot": {
         "operator": "Unclear at this time.",
