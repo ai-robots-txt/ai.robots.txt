@@ -188,6 +188,13 @@ def json_to_nginx(robot_json):
     return config
 
 
+def json_to_lighttpd(robot_json):
+    # Creates an Lighttpd config file. This config snippet can be included in
+    # Lighttpd configuration global or in $HTTP conditionals to block AI bots.
+    config = f"$HTTP[\"url\"] != \"/robots.txt\" {{ $HTTP[\"user-agent\"] =~ \"{list_to_pcre(robot_json.keys())}\" {{ url.access-deny = ( \"\" ) }} }}"
+    return config
+
+
 def json_to_caddy(robot_json):
     caddyfile = "@aibots {\n    "
     caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json.keys())}"'
@@ -229,6 +236,10 @@ def conversions():
     update_file_if_changed(
         file_name="./nginx-block-ai-bots.conf",
         converter=json_to_nginx,
+    )
+    update_file_if_changed(
+        file_name="./lighttpd-block-ai-bots.conf",
+        converter=json_to_lighttpd,
     )
     update_file_if_changed(
         file_name="./Caddyfile",
