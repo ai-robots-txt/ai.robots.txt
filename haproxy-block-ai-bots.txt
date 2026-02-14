@@ -6,6 +6,8 @@ aiHitBot
 amazon-kendra
 Amazonbot
 AmazonBuyForMe
+Amzn-SearchBot
+Amzn-User
 Andibot
 Anomura
 anthropic-ai
@@ -13,6 +15,7 @@ Applebot
 Applebot-Extended
 atlassian-bot
 Awario
+AzureAI-SearchBot
 bedrockbot
 bigsur.ai
 Bravebot
@@ -66,6 +69,7 @@ ImagesiftBot
 imageSpider
 img2dataset
 ISSCyberRiskCrawler
+kagi-fetcher
 Kangaroo Bot
 KlaviyoAIBot
 KunatoCrawler
