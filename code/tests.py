@@ -4,7 +4,7 @@
 import json
 import unittest
 
-from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_haproxy, json_to_caddy
+from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_haproxy, json_to_caddy, json_to_lighttpd
 
 class RobotsUnittestExtensions:
     def loadJson(self, pathname):
@@ -85,6 +85,16 @@ class TestCaddyfileGeneration(unittest.TestCase, RobotsUnittestExtensions):
     def test_caddyfile_generation(self):
         robots_caddyfile = json_to_caddy(self.robots_dict)
         self.assertEqualsFile("test_files/Caddyfile", robots_caddyfile)
+
+class TestLighttpdConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
+    maxDiff = 8192
+
+    def setUp(self):
+        self.robots_dict = self.loadJson("test_files/robots.json")
+
+    def test_lighttpd_generation(self):
+        robots_lighttpd = json_to_lighttpd(self.robots_dict)
+        self.assertEqualsFile("test_files/lighttpd-block-ai-bots.conf", robots_lighttpd)
 
 
 if __name__ == "__main__":
