@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import re
+import tempfile
 from pathlib import Path
 
 MODULE_PATH = Path(__file__).resolve().parents[1] / "code" / "robots.py"
@@ -84,3 +85,58 @@ def test_json_to_table_renders_expected_row():
     table = robots.json_to_table(robots_json)
     assert table.startswith("| Name | Operator |")
     assert "| BotA | Op | Yes | Crawler | Daily | Desc |" in table
+
+
+def test_json_to_table_escapes_markdown_in_name():
+    robots_json = {
+        "Bot_[A]": {
+            "operator": "Op",
+            "respect": "Yes",
+            "function": "Crawler",
+            "frequency": "Daily",
+            "description": "Desc",
+        }
+    }
+    table = robots.json_to_table(robots_json)
+    assert "Bot\\_\\[A\\]" in table
+
+
+def test_clean_robot_name_normalizes_non_breaking_hyphen():
+    assert robots.clean_robot_name("Perplexity‑User") == "Perplexity-User"
+
+
+def test_clean_robot_name_keeps_regular_names_unchanged():
+    assert robots.clean_robot_name("NormalBot") == "NormalBot"
+
+
+def test_update_file_if_changed_writes_new_content_when_different():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        target = Path(tmpdir) / "robots.txt"
+        target.write_text("old", encoding="utf-8")
+
+        old_loader = robots.load_robots_json
+        try:
+            robots.load_robots_json = lambda: {"BotA": {}}
+            robots.update_file_if_changed(
+                str(target),
+                lambda robots_json: robots.json_to_txt(robots_json),
+            )
+        finally:
+            robots.load_robots_json = old_loader
+
+        assert target.read_text(encoding="utf-8") == "User-agent: BotA\nDisallow: /\n"
+
+
+def test_update_file_if_changed_keeps_file_when_content_same():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        target = Path(tmpdir) / "robots.txt"
+        target.write_text("constant", encoding="utf-8")
+
+        old_loader = robots.load_robots_json
+        try:
+            robots.load_robots_json = lambda: {"ignored": {}}
+            robots.update_file_if_changed(str(target), lambda _robots_json: "constant")
+        finally:
+            robots.load_robots_json = old_loader
+
+        assert target.read_text(encoding="utf-8") == "constant"
