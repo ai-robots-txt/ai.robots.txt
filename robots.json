@@ -90,6 +90,20 @@
         "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
+    "ApifyBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Undocumented AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/apifybot"
+    },
+    "ApifyWebsiteContentCrawler": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Scrapers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/apifywebsitecontentcrawler"
+    },
     "Applebot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -327,6 +341,13 @@
         "function": "Data collection to support AI-powered products.",
         "frequency": "Unclear at this time.",
         "description": "Supports company's AI-powered social and email management products."
+    },
+    "ExaBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/exabot"
     },
     "FacebookBot": {
         "operator": "Meta/Facebook",

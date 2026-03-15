@@ -11,6 +11,8 @@ Amzn-User
 Andibot
 Anomura
 anthropic-ai
+ApifyBot
+ApifyWebsiteContentCrawler
 Applebot
 Applebot-Extended
 atlassian-bot
@@ -45,6 +47,7 @@ Diffbot
 DuckAssistBot
 Echobot Bot
 EchoboxBot
+ExaBot
 FacebookBot
 facebookexternalhit
 Factset_spyderbot
