@@ -124,8 +124,8 @@ def clean_robot_name(name):
     # actually uses a non-breaking hyphen, but that seems unlikely,
     # so this solution should be fine for now.
     result = re.sub(r"\u2011", "-", name)
-    if result != name:
-        print(f"\tCleaned '{name}' to '{result}' - unicode/html mangled chars normalized.")
+    # Normalization is expected for known source quirks (e.g. non-breaking hyphen),
+    # so keep this path quiet to avoid noisy CI output.
     return result
 
 
