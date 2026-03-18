@@ -15,10 +15,11 @@ jobs:
           fetch-depth: 2
       - name: Install dependencies
         run: |
-          pip install -U requests beautifulsoup4
+          pip install -U requests beautifulsoup4 pytest
       - name: Run tests
         run: |
           code/tests.py
+          python -m pytest -q tests
   lint-json:
     runs-on: ubuntu-latest
     steps:
