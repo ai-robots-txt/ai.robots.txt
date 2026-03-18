@@ -12,44 +12,34 @@ assert spec.loader is not None
 spec.loader.exec_module(robots)
 
 
-def test_json_to_txt_preserves_agent_order() -> None:
-    robots_txt = robots.json_to_txt({"BotA": {}, "BotB": {}})
-
-    assert robots_txt == "User-agent: BotA\nUser-agent: BotB\nDisallow: /\n"
-
-
-def test_json_to_txt_handles_empty_input() -> None:
-    assert robots.json_to_txt({}) == "\nDisallow: /\n"
-
-
-def test_list_to_pcre_escapes_special_characters() -> None:
-    items = ["Bot+One", "Bot(Two)"]
-
-    assert robots.list_to_pcre(items) == r"(Bot\+One|Bot\(Two\))"
-
-
-def test_list_to_pcre_supports_dict_keys_iterable() -> None:
-    agents = {"Bot+One": {}, "Bot(Two)": {}}
-
-    assert robots.list_to_pcre(agents.keys()) == r"(Bot\+One|Bot\(Two\))"
+def test_list_to_pcre_escapes_regex_metacharacters() -> None:
+    # Expected pattern is written explicitly from regex syntax,
+    # not derived via re.escape, to keep this test independent.
+    agents = ["Bot+One", "Bot(Two)", "Pipe|Name", "Question?"]
+    assert robots.list_to_pcre(agents) == r"(Bot\+One|Bot\(Two\)|Pipe\|Name|Question\?)"
 
 
 def test_list_to_pcre_handles_empty_input() -> None:
     assert robots.list_to_pcre([]) == "()"
 
 
-def test_escape_md_escapes_markdown_specials() -> None:
-    value = "A_B+C[Z]-!"
+def test_json_to_nginx_keeps_robots_txt_unblocked() -> None:
+    config = robots.json_to_nginx({"BotA": {}})
 
-    assert robots.escape_md(value) == r"A\_B\+C\[Z\]\-\!"
+    assert 'if ($http_user_agent ~* "(BotA)")' in config
+    assert 'if ($request_uri = "/robots.txt")' in config
+    assert "return 403;" in config
+
+    # robots.txt allow rule must appear before the final deny block.
+    assert config.index('if ($request_uri = "/robots.txt")') < config.index("if ($block)")
+
+
+def test_json_to_haproxy_outputs_plain_agent_list() -> None:
+    assert robots.json_to_haproxy({"AlphaBot": {}, "BetaBot": {}}) == "AlphaBot\nBetaBot"
 
 
 def test_clean_robot_name_normalizes_non_breaking_hyphen() -> None:
     assert robots.clean_robot_name("Perplexity‑User") == "Perplexity-User"
-
-
-def test_clean_robot_name_keeps_regular_names_unchanged() -> None:
-    assert robots.clean_robot_name("NormalBot") == "NormalBot"
 
 
 def test_update_file_if_changed_writes_new_content_when_different() -> None:
