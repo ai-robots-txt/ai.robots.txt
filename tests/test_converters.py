@@ -26,9 +26,9 @@ def test_list_to_pcre_handles_empty_input() -> None:
 def test_json_to_nginx_keeps_robots_txt_unblocked() -> None:
     config = robots.json_to_nginx({"BotA": {}})
 
-    assert 'if ($http_user_agent ~* "(BotA)")' in config
-    assert 'if ($request_uri = "/robots.txt")' in config
-    assert "return 403;" in config
+    assert 'if ($http_user_agent ~* "(BotA)") {\n    set $block 1;\n}' in config
+    assert 'if ($request_uri = "/robots.txt") {\n    set $block 0;\n}' in config
+    assert "if ($block) {\n    return 403;\n}" in config
 
     # robots.txt allow rule must appear before the final deny block.
     assert config.index('if ($request_uri = "/robots.txt")') < config.index("if ($block)")
