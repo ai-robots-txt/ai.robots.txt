@@ -93,7 +93,9 @@ meta-webindexer
 MistralAI-User
 MistralAI-User/1.0
 MyCentralAIScraperBot
+NagetBot
 netEstate Imprint Crawler
+newsai
 NotebookLM
 NovaAct
 OAI-SearchBot

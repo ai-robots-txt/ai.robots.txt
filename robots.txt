@@ -93,7 +93,9 @@ User-agent: meta-webindexer
 User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
 User-agent: MyCentralAIScraperBot
+User-agent: NagetBot
 User-agent: netEstate Imprint Crawler
+User-agent: newsai
 User-agent: NotebookLM
 User-agent: NovaAct
 User-agent: OAI-SearchBot
