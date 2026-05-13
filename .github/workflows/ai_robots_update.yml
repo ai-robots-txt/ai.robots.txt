@@ -18,6 +18,8 @@ jobs:
           git config --global user.email "dark-visitors@users.noreply.github.com"
           echo "Updating robots.json with data from darkvisitor.com ..."
           python code/robots.py --update
+          echo "Updating generated files from robots.json ..."
+          python code/robots.py --convert
           echo "... done."
           git --no-pager diff
           git add -A
@@ -29,10 +31,3 @@ jobs:
             echo "No changes to commit."
           fi
         shell: bash
-  convert:
-    name: convert
-    needs: dark-visitors
-    uses: ./.github/workflows/main.yml
-    secrets: inherit
-    with:
-      message: "Update from Dark Visitors"

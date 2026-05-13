@@ -22,6 +22,7 @@ AzureAI-SearchBot
 bedrockbot
 bigsur.ai
 Bravebot
+Brightbot
 Brightbot 1.0
 BuddyBot
 Bytespider
@@ -30,12 +31,14 @@ Channel3Bot
 ChatGLM-Spider
 ChatGPT Agent
 ChatGPT-User
+Claude-Code
 Claude-SearchBot
 Claude-User
 Claude-Web
 ClaudeBot
 Cloudflare-AutoRAG
 CloudVertexBot
+Code
 cohere-ai
 cohere-training-data-crawler
 Cotoyogi
@@ -59,12 +62,14 @@ Google-Agent
 Google-CloudVertexBot
 Google-Extended
 Google-Firebase
+Google-Gemini-CLI
 Google-NotebookLM
 GoogleAgent-Mariner
 GoogleOther
 GoogleOther-Image
 GoogleOther-Video
 GPTBot
+HenkBot
 iAskBot
 iaskspider
 iaskspider/2.0
@@ -102,6 +107,7 @@ OAI-SearchBot
 omgili
 omgilibot
 OpenAI
+opencode
 Operator
 PanguBot
 Panscient
@@ -123,10 +129,12 @@ ShapBot
 Sidetrade indexer bot
 Spider
 TavilyBot
+Terra Cotta
 TerraCotta
 Thinkbot
 TikTokSpider
 Timpibot
+Trae
 TwinAgent
 VelenPublicWebCrawler
 WARDBot
