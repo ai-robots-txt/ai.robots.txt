@@ -167,6 +167,13 @@
         "frequency": "Unclear at this time.",
         "description": "Brave search has a crawler to discover new pages and index their content."
     },
+    "Brightbot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/brightbot"
+    },
     "Brightbot 1.0": {
         "operator": "https://brightdata.com/brightbot",
         "respect": "Unclear at this time.",
@@ -223,6 +230,13 @@
         "frequency": "Only when prompted by a user.",
         "description": "Used by plugins in ChatGPT to answer queries based on user input."
     },
+    "Claude-Code": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/claude-code"
+    },
     "Claude-SearchBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
@@ -264,6 +278,13 @@
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "CloudVertexBot is a Google-operated crawler available to site owners to request targeted crawls of their own sites for AI training purposes on the Vertex AI platform. More info can be found at https://darkvisitors.com/agents/agents/cloudvertexbot"
+    },
+    "Code": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/code"
     },
     "cohere-ai": {
         "operator": "[Cohere](https://cohere.com)",
@@ -426,6 +447,13 @@
         "frequency": "Unclear at this time.",
         "description": "Supports Google's Firebase AI products."
     },
+    "Google-Gemini-CLI": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/google-gemini-cli"
+    },
     "Google-NotebookLM": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -467,6 +495,13 @@
         "function": "Scrapes data to train OpenAI's products.",
         "frequency": "No information.",
         "description": "Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies."
+    },
+    "HenkBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/henkbot"
     },
     "iAskBot": {
         "operator": "Unclear at this time.",
@@ -727,6 +762,13 @@
         "frequency": "Unclear at this time.",
         "description": "The purpose of this bot is unclear at this time but it is a member of OpenAI's suite of crawlers."
     },
+    "opencode": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/opencode"
+    },
     "Operator": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -874,6 +916,13 @@
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/tavilybot"
     },
+    "Terra Cotta": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/terra-cotta"
+    },
     "TerraCotta": {
         "operator": "[Ceramic AI](https://ceramic.ai/)",
         "respect": "[Yes](https://github.com/CeramicTeam/CeramicTerracotta)",
@@ -901,6 +950,13 @@
         "function": "Scrapes data for use in training LLMs.",
         "frequency": "No information.",
         "description": "Makes data available for training AI models."
+    },
+    "Trae": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/trae"
     },
     "TwinAgent": {
         "operator": "Unclear at this time.",
