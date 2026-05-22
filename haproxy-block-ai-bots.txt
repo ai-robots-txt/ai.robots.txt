@@ -125,6 +125,7 @@ SBIntuitionsBot
 Scrapy
 SemrushBot-OCOB
 SemrushBot-SWA
+Shap-User
 ShapBot
 Sidetrade indexer bot
 Spider

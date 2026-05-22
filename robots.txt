@@ -125,6 +125,7 @@ User-agent: SBIntuitionsBot
 User-agent: Scrapy
 User-agent: SemrushBot-OCOB
 User-agent: SemrushBot-SWA
+User-agent: Shap-User
 User-agent: ShapBot
 User-agent: Sidetrade indexer bot
 User-agent: Spider

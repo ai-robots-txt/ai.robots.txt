@@ -888,6 +888,13 @@
         "frequency": "Roughly once every 10 seconds.",
         "description": "Data collected is used for the SEO Writing Assistant tool to check if URL is accessible."
     },
+    "Shap-User": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/shap-user"
+    },
     "ShapBot": {
         "operator": "[Parallel](https://parallel.ai)",
         "respect": "[Yes](https://docs.parallel.ai/features/crawler)",
