@@ -6,6 +6,13 @@
         "frequency": "Unclear at this time.",
         "description": "AddSearchBot is a web crawler that indexes website content for AddSearch's AI-powered site search solution, collecting data to provide fast and accurate search results. More info can be found at https://darkvisitors.com/agents/agents/addsearchbot"
     },
+    "AgentTimes": {
+        "operator": "[The Agent Times](https://theagenttimes.com/about)",
+        "respect": "Unclear at this time.",
+        "function": "Data Scraper from RSS Feeds.",
+        "frequency": "Requests RSS feed every 5-6 minutes.",
+        "description": "Scrapes data for AI news aggregation and republishing."
+    },
     "AI2Bot": {
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes",
@@ -33,13 +40,6 @@
         "function": "A massive, artificial intelligence/machine learning, automated system.",
         "frequency": "No information provided.",
         "description": "Scrapes data for AI systems."
-    },
-    "AgentTimes": {
-        "operator": "[The Agent Times](https://theagenttimes.com/about)",
-        "respect": "Unclear at this time.",
-        "function": "Data Scraper from RSS Feeds.",
-        "frequency": "Requests RSS feed every 5-6 minutes.",
-        "description": "Scrapes data for AI news aggregation and republishing."
     },
     "amazon-kendra": {
         "operator": "Amazon",
