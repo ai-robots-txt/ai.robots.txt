@@ -314,6 +314,13 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI training in Japanese language."
     },
+    "CragCrawler": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/cragcrawler"
+    },
     "Crawl4AI": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -419,6 +426,13 @@
         "operator": "Unknown",
         "respect": "[Yes](https://imho.alex-kunz.com/2024/01/25/an-update-on-friendly-crawler)"
     },
+    "GeistHaus-PageFetcher": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/geisthaus-pagefetcher"
+    },
     "Gemini-Deep-Research": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -474,6 +488,13 @@
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
         "description": "GoogleAgent-Mariner is an AI agent created by Google that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/googleagent-mariner"
+    },
+    "GoogleAgent-URLContext": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/googleagent-urlcontext"
     },
     "GoogleOther": {
         "operator": "Google",
@@ -586,6 +607,13 @@
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
+    },
+    "Kimi-User": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/kimi-user"
     },
     "KlaviyoAIBot": {
         "operator": "[Klaviyo](https://www.klaviyo.com)",
@@ -853,6 +881,20 @@
         "frequency": "No explicit frequency provided.",
         "description": "Operated by Qualified as part of their suite of AI product offerings."
     },
+    "Querit-SearchBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/querit-searchbot"
+    },
+    "QueritBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/queritbot"
+    },
     "QuillBot": {
         "description": "Operated by QuillBot as part of their suite of AI product offerings.",
         "frequency": "No explicit frequency provided.",
@@ -978,6 +1020,13 @@
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/twinagent"
+    },
+    "UseAI": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/useai"
     },
     "VelenPublicWebCrawler": {
         "operator": "[Velen Crawler](https://velen.io)",
