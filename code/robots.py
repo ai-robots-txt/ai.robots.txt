@@ -113,7 +113,7 @@ def updated_robots_json(soup):
                     "description",
                     "{desc} More info can be found at https://darkvisitors.com{path}".format(
                         desc = desc, 
-                        path= agent['href'] if agent['href'].startswith('/') else "/".join("", "agents", agent["href"]
+                        path= agent['href'] if agent['href'].startswith('/') else "/".join("", "agents", agent["href"])
                     ),
                 ),
             }
