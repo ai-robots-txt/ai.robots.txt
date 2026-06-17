@@ -10,13 +10,7 @@ from pathlib import Path
 
 def load_robots_json():
     """Load the robots.json contents into a dictionary."""
-    bots = json.loads(Path("./robots.json").read_text(encoding="utf-8"))
-    for ro in bots:
-        if "description" in ro:
-            # urls in the json have "agents" twice, so let's tidy that up here... 
-            ro["description"] = ro["description"].replace('https://darkvisitors.com/agents/agents/', 'https://darkvisitors.com/agents/') 
-    return bots
-
+    return json.loads(Path("./robots.json").read_text(encoding="utf-8"))
 
 def get_agent_soup():
     """Retrieve current known agents from darkvisitors.com"""
