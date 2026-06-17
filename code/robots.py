@@ -90,11 +90,16 @@ def updated_robots_json(soup):
                 if field not in existing_content[name]:
                     return value
                 # Unclear value
-                if (
-                    existing_content[name][field] in default_values
-                    and value not in default_values
-                ):
+                if ( existing_content[name][field] in default_values
+                    and value not in default_values ):
                     return value
+                
+                # Replace an old non-default value with a new non-default value: 
+                # (you know, so updates happen)
+                if (existing_content[name][field] not in default_values
+                    and value not in default_values ):
+                    return value
+                
                 # Existing value
                 return existing_content[name][field]
 
