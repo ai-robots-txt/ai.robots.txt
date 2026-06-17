@@ -111,7 +111,10 @@ def updated_robots_json(soup):
                 "frequency": consolidate("frequency", default_value),
                 "description": consolidate(
                     "description",
-                    f"{desc} More info can be found at https://darkvisitors.com/agents{agent['href']}",
+                    "{desc} More info can be found at https://darkvisitors.com{path}".format(
+                        desc = desc, 
+                        path= agent['href'] if agent['href'].startswith('/') else "/".join("", "agents", agent["href"]
+                    ),
                 ),
             }
 
