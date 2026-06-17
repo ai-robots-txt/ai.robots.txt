@@ -56,13 +56,9 @@ def updated_robots_json(soup):
             name = agent.find("div", {"class": "agent-name"}).get_text().strip()
             name = clean_robot_name(name)
 
-            # This line below occasionally throws this error: AttributeError: 'NoneType' object has no attribute 'get_text'
-            #desc = agent.find("p").get_text().strip()
-
-            # Attempting a different way to handle to avoid errors:
-            p_tag = agent.find("p")
-            if p_tag is not None:
-                desc = p_tag.get_text().strip()
+            desc_tag = agent.find("div", {"class": "description"})
+            if desc_tag is not None:
+                desc = desc_tag.get_text().strip()
             else:
                 desc = "Description unavailable from darkvisitors.com"
 
