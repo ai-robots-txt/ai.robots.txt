@@ -34,7 +34,7 @@ default_values = {
 }
 default_value = "Unclear at this time."
 
-def consolidate(field: str, value: str) -> str:
+def consolidate(existing_content, name: str, field: str, value: str) -> str:
     # New entry
     if name not in existing_content:
         return value
@@ -93,11 +93,12 @@ def updated_robots_json(soup):
                     print(f"Error: {e}")
 
             existing_content[name] = {
-                "operator": consolidate("operator", operator),
-                "respect": consolidate("respect", default_value),
-                "function": consolidate("function", f"{category}"),
-                "frequency": consolidate("frequency", default_value),
+                "operator": consolidate(existing_content, name, "operator", operator),
+                "respect": consolidate(existing_content, name, "respect", default_value),
+                "function": consolidate(existing_content, name, "function", f"{category}"),
+                "frequency": consolidate(existing_content, name, "frequency", default_value),
                 "description": consolidate(
+                    existing_content, name, 
                     "description",
                     "{desc} More info can be found at https://darkvisitors.com{path}".format(
                         desc = desc, 
