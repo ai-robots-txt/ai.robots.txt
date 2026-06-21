@@ -7,6 +7,47 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
+to_include = [
+    "AI Agents",
+    "AI Assistants",
+    "AI Coding Agents",
+    "AI Data Providers",
+    "AI Data Scrapers",
+    "AI Search Crawlers",
+    # "Archivers",
+    # "Automated Agents",
+    # "Developer Helpers",
+    # "Fetchers",
+    # "Intelligence Gatherers",
+    # "Scrapers",
+    # "Search Engine Crawlers",
+    # "Security Scanners",
+    # "SEO Crawlers",
+    # "Uncategorized",
+    "Undocumented AI Agents",
+]
+default_values = {
+    "Unclear at this time.",
+    "No information provided.",
+    "No information.",
+    "No explicit frequency provided.",
+}
+default_value = "Unclear at this time."
+
+def consolidate(field: str, value: str) -> str:
+    # New entry
+    if name not in existing_content:
+        return value
+    # New field
+    if field not in existing_content[name]:
+        return value
+    
+    # Unclear value
+    if ( value not in default_values ):
+        return value
+    
+    # Existing value
+    return existing_content[name][field]
 
 def load_robots_json():
     """Load the robots.json contents into a dictionary."""
@@ -28,25 +69,6 @@ def get_agent_soup():
 def updated_robots_json(soup):
     """Update AI scraper information with data from darkvisitors."""
     existing_content = load_robots_json()
-    to_include = [
-        "AI Agents",
-        "AI Assistants",
-        "AI Coding Agents",
-        "AI Data Providers",
-        "AI Data Scrapers",
-        "AI Search Crawlers",
-        # "Archivers",
-        # "Automated Agents",
-        # "Developer Helpers",
-        # "Fetchers",
-        # "Intelligence Gatherers",
-        # "Scrapers",
-        # "Search Engine Crawlers",
-        # "Security Scanners",
-        # "SEO Crawlers",
-        # "Uncategorized",
-        "Undocumented AI Agents",
-    ]
 
     for section in soup.find_all("div", {"class": "agent-links-section"}):
         category = section.find("h2").get_text()
@@ -62,14 +84,6 @@ def updated_robots_json(soup):
             else:
                 desc = "Description unavailable from darkvisitors.com"
 
-            default_values = {
-                "Unclear at this time.",
-                "No information provided.",
-                "No information.",
-                "No explicit frequency provided.",
-            }
-            default_value = "Unclear at this time."
-
             # Parse the operator information from the description if possible
             operator = default_value
             if "operated by " in desc:
@@ -77,20 +91,6 @@ def updated_robots_json(soup):
                     operator = desc.split("operated by ", 1)[1].split(".", 1)[0].strip()
                 except Exception as e:
                     print(f"Error: {e}")
-
-            def consolidate(field: str, value: str) -> str:
-                # New entry
-                if name not in existing_content:
-                    return value
-                # New field
-                if field not in existing_content[name]:
-                    return value
-                # Unclear value
-                if ( value not in default_values ):
-                    return value
-                
-                # Existing value
-                return existing_content[name][field]
 
             existing_content[name] = {
                 "operator": consolidate("operator", operator),
