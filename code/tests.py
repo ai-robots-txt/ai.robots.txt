@@ -111,7 +111,7 @@ class TestConsolidate(unittest.TestCase, RobotsUnittestExtensions):
     def test_new_description(self):
         existing = {"rosie": { "description": default_value}}
         self.assertEqual("Rosie is the robot maid from The Jetsons, an American animated sitcom.", 
-                         consolidate(existing, "rosie", "description", "Rosie is the robot maid from The Jetsons, an American animated sitcom")
+                         consolidate(existing, "rosie", "description", "Rosie is the robot maid from The Jetsons, an American animated sitcom"))
 
 if __name__ == "__main__":
     import os
