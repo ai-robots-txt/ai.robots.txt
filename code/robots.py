@@ -7,11 +7,51 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
+to_include = [
+    "AI Agents",
+    "AI Assistants",
+    "AI Coding Agents",
+    "AI Data Providers",
+    "AI Data Scrapers",
+    "AI Search Crawlers",
+    # "Archivers",
+    # "Automated Agents",
+    # "Developer Helpers",
+    # "Fetchers",
+    # "Intelligence Gatherers",
+    # "Scrapers",
+    # "Search Engine Crawlers",
+    # "Security Scanners",
+    # "SEO Crawlers",
+    # "Uncategorized",
+    "Undocumented AI Agents",
+]
+default_values = {
+    "Unclear at this time.",
+    "No information provided.",
+    "No information.",
+    "No explicit frequency provided.",
+}
+default_value = "Unclear at this time."
+
+def consolidate(existing_content, name: str, field: str, value: str) -> str:
+    # New entry
+    if name not in existing_content:
+        return value
+    # New field
+    if field not in existing_content[name]:
+        return value
+    
+    # Unclear value
+    if ( value not in default_values ):
+        return value
+    
+    # Existing value
+    return existing_content[name][field]
 
 def load_robots_json():
     """Load the robots.json contents into a dictionary."""
     return json.loads(Path("./robots.json").read_text(encoding="utf-8"))
-
 
 def get_agent_soup():
     """Retrieve current known agents from darkvisitors.com"""
@@ -29,25 +69,6 @@ def get_agent_soup():
 def updated_robots_json(soup):
     """Update AI scraper information with data from darkvisitors."""
     existing_content = load_robots_json()
-    to_include = [
-        "AI Agents",
-        "AI Assistants",
-        "AI Coding Agents",
-        "AI Data Providers",
-        "AI Data Scrapers",
-        "AI Search Crawlers",
-        # "Archivers",
-        # "Automated Agents",
-        # "Developer Helpers",
-        # "Fetchers",
-        # "Intelligence Gatherers",
-        # "Scrapers",
-        # "Search Engine Crawlers",
-        # "Security Scanners",
-        # "SEO Crawlers",
-        # "Uncategorized",
-        "Undocumented AI Agents",
-    ]
 
     for section in soup.find_all("div", {"class": "agent-links-section"}):
         category = section.find("h2").get_text()
@@ -57,23 +78,11 @@ def updated_robots_json(soup):
             name = agent.find("div", {"class": "agent-name"}).get_text().strip()
             name = clean_robot_name(name)
 
-            # This line below occasionally throws this error: AttributeError: 'NoneType' object has no attribute 'get_text'
-            #desc = agent.find("p").get_text().strip()
-
-            # Attempting a different way to handle to avoid errors:
-            p_tag = agent.find("p")
-            if p_tag is not None:
-                desc = p_tag.get_text().strip()
+            desc_tag = agent.find("div", {"class": "description"})
+            if desc_tag is not None:
+                desc = desc_tag.get_text().strip()
             else:
                 desc = "Description unavailable from darkvisitors.com"
-
-            default_values = {
-                "Unclear at this time.",
-                "No information provided.",
-                "No information.",
-                "No explicit frequency provided.",
-            }
-            default_value = "Unclear at this time."
 
             # Parse the operator information from the description if possible
             operator = default_value
@@ -83,30 +92,18 @@ def updated_robots_json(soup):
                 except Exception as e:
                     print(f"Error: {e}")
 
-            def consolidate(field: str, value: str) -> str:
-                # New entry
-                if name not in existing_content:
-                    return value
-                # New field
-                if field not in existing_content[name]:
-                    return value
-                # Unclear value
-                if (
-                    existing_content[name][field] in default_values
-                    and value not in default_values
-                ):
-                    return value
-                # Existing value
-                return existing_content[name][field]
-
             existing_content[name] = {
-                "operator": consolidate("operator", operator),
-                "respect": consolidate("respect", default_value),
-                "function": consolidate("function", f"{category}"),
-                "frequency": consolidate("frequency", default_value),
+                "operator": consolidate(existing_content, name, "operator", operator),
+                "respect": consolidate(existing_content, name, "respect", default_value),
+                "function": consolidate(existing_content, name, "function", f"{category}"),
+                "frequency": consolidate(existing_content, name, "frequency", default_value),
                 "description": consolidate(
+                    existing_content, name, 
                     "description",
-                    f"{desc} More info can be found at https://darkvisitors.com/agents{agent['href']}",
+                    "{desc} More info can be found at https://darkvisitors.com{path}".format(
+                        desc = desc, 
+                        path= agent['href'] if agent['href'].startswith('/') else "/".join("", "agents", agent["href"])
+                    ),
                 ),
             }
 

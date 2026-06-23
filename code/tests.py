@@ -4,7 +4,7 @@
 import json
 import unittest
 
-from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_haproxy, json_to_caddy, json_to_lighttpd
+from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_haproxy, json_to_caddy, json_to_lighttpd, consolidate, default_values, default_value
 
 class RobotsUnittestExtensions:
     def loadJson(self, pathname):
@@ -96,6 +96,22 @@ class TestLighttpdConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
         robots_lighttpd = json_to_lighttpd(self.robots_dict)
         self.assertEqualsFile("test_files/lighttpd-block-ai-bots.conf", robots_lighttpd)
 
+
+class TestConsolidate(unittest.TestCase, RobotsUnittestExtensions):
+    maxDiff = 8192
+
+    def test_new_item(self):
+        existing = {}
+        self.assertEqual("George Jetson", consolidate(existing, "rosie", "operator", "George Jetson"))
+        
+    def test_ignores_defaults(self):
+        existing = {"rosie": { "operator": "George Jetson"}}
+        self.assertEqual("George Jetson", consolidate(existing, "rosie", "operator", default_value))
+        
+    def test_new_description(self):
+        existing = {"rosie": { "description": default_value}}
+        self.assertEqual("Rosie is the robot maid from The Jetsons, an American animated sitcom", 
+                         consolidate(existing, "rosie", "description", "Rosie is the robot maid from The Jetsons, an American animated sitcom"))
 
 if __name__ == "__main__":
     import os

@@ -21,11 +21,11 @@
         "description": "Explores 'certain domains' to find web content."
     },
     "AI2Bot-DeepResearchEval": {
-        "operator": "Unclear at this time.",
+        "operator": "Ai2, a non-profit AI research institute",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/ai2bot-deepresearcheval"
+        "description": "Ai2Bot-DeepResearchEval is operated by Ai2, a non-profit AI research institute. It's used to collect and scan resources used in deep research queries performed by Ai2's o\u2026 More info can be found at https://darkvisitors.com/agents/ai2bot-deepresearcheval"
     },
     "Ai2Bot-Dolma": {
         "operator": "[Ai2](https://allenai.org/crawler)",
@@ -60,7 +60,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "No information provided.",
-        "description": "Buy For Me is an AI agent that helps buy products at the direction of customers."
+        "description": "AmazonBuyForMe is an Amazon bot that crawls websites as part of the Amazon Buy For Me service. This bot visits product pages and e-commerce websites to gather product inf\u2026 More info can be found at https://darkvisitors.com/agents/amazonbuyforme"
     },
     "Amzn-SearchBot": {
         "operator": "Unclear at this time.",
@@ -70,11 +70,11 @@
         "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/amzn-searchbot"
     },
     "Amzn-User": {
-        "operator": "Unclear at this time.",
+        "operator": "Amazon, used for fetching web content to answer user queries through Alexa and other Amazon AI services",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/amzn-user"
+        "description": "Amzn-User is an AI assistant operated by Amazon, used for fetching web content to answer user queries through Alexa and other Amazon AI services. More info can be found at https://darkvisitors.com/agents/amzn-user"
     },
     "Andibot": {
         "operator": "[Andi](https://andisearch.com/)",
@@ -100,16 +100,16 @@
     "ApifyBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
-        "function": "Undocumented AI Agents",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/apifybot"
+        "description": "ApifyBot is a web scraping and data extraction crawler by Apify that collects website content for use in AI, LLMs, RAG, and automation workflows. More info can be found at https://darkvisitors.com/agents/apifybot"
     },
     "ApifyWebsiteContentCrawler": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
-        "function": "AI Data Scrapers",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/apifywebsitecontentcrawler"
+        "description": "ApifyWebsiteContentCrawler is a web crawler by Apify that extracts and downloads full website content for use in AI, data analysis, and automation workflows. More info can be found at https://darkvisitors.com/agents/apifywebsitecontentcrawler"
     },
     "Applebot": {
         "operator": "Unclear at this time.",
@@ -161,25 +161,25 @@
         "description": "Connects to and crawls URLs that have been selected for use in a user's AWS bedrock application."
     },
     "bigsur.ai": {
-        "operator": "Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for businesses",
+        "operator": "Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for busi\u2026",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "bigsur.ai is a web crawler operated by Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for businesses. More info can be found at https://darkvisitors.com/agents/agents/bigsur-ai"
+        "description": "bigsur.ai is a web crawler operated by Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for busi\u2026 More info can be found at https://darkvisitors.com/agents/bigsur-ai"
     },
     "Bravebot": {
         "operator": "https://safe.search.brave.com/help/brave-search-crawler",
         "respect": "Yes",
-        "function": "Collects data for AI search",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Brave search has a crawler to discover new pages and index their content."
+        "description": "Bravebot is a web crawler by Brave that indexes pages for Brave Search, providing search data and AI-optimized context to power chatbots, agents, and RAG pipelines. More info can be found at https://darkvisitors.com/agents/bravebot"
     },
     "Brightbot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/brightbot"
+        "description": "Brightbot is a web data collection crawler by Bright Data that extracts and structures public website content at scale, providing AI-ready data for model training, RAG pi\u2026 More info can be found at https://darkvisitors.com/agents/brightbot"
     },
     "Brightbot 1.0": {
         "operator": "https://brightdata.com/brightbot",
@@ -228,21 +228,21 @@
         "respect": "Yes",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "ChatGPT Agent is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/chatgpt-agent"
+        "description": "ChatGPT Agent is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf\u2026 More info can be found at https://darkvisitors.com/agents/chatgpt-agent"
     },
     "ChatGPT-User": {
         "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
-        "function": "Takes action based on user prompts.",
+        "function": "AI Assistants",
         "frequency": "Only when prompted by a user.",
-        "description": "Used by plugins in ChatGPT to answer queries based on user input."
+        "description": "ChatGPT-User is OpenAI's web crawler that visits websites when ChatGPT users request information. This enables ChatGPT to include links in its responses. More info can be found at https://darkvisitors.com/agents/chatgpt-user"
     },
     "Claude-Code": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/claude-code"
+        "description": "Claude Code is an AI coding agent by Anthropic that can build, debug, and ship code directly from the terminal, handling tasks like codebase onboarding, multi-file edits,\u2026 More info can be found at https://darkvisitors.com/agents/claude-code"
     },
     "Claude-SearchBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
@@ -254,9 +254,9 @@
     "Claude-User": {
         "operator": "[Anthropic](https://www.anthropic.com)",
         "respect": "[Yes](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)",
-        "function": "Claude-User supports Claude AI users. When individuals ask questions to Claude, it may access websites using a Claude-User agent.",
+        "function": "AI Assistants",
         "frequency": "No information provided.",
-        "description": "Claude-User supports Claude AI users. When individuals ask questions to Claude, it may access websites using a Claude-User agent."
+        "description": "Claude-User is dispatched by Anthropic's Claude AI assistant in response to user prompts, when it needs to fetch content to include in its answers. More info can be found at https://darkvisitors.com/agents/claude-user"
     },
     "Claude-Web": {
         "operator": "Anthropic",
@@ -291,7 +291,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/code"
+        "description": "Code (GitHub Copilot) is an AI coding agent that can autonomously plan, build, and execute development tasks, functioning as a collaborative AI pair programmer. More info can be found at https://darkvisitors.com/agents/code"
     },
     "cohere-ai": {
         "operator": "[Cohere](https://cohere.com)",
@@ -315,11 +315,11 @@
         "description": "Scrapes data for AI training in Japanese language."
     },
     "CragCrawler": {
-        "operator": "Unclear at this time.",
+        "operator": "CragSoftware, a Brazil-based software company specializing in data engineering and AI web scraping services",
         "respect": "Unclear at this time.",
         "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/cragcrawler"
+        "description": "CragCrawler is a web scraping bot operated by CragSoftware, a Brazil-based software company specializing in data engineering and AI web scraping services. The bot is used\u2026 More info can be found at https://darkvisitors.com/agents/cragcrawler"
     },
     "Crawl4AI": {
         "operator": "Unclear at this time.",
@@ -352,23 +352,23 @@
     "Devin": {
         "operator": "Devin AI",
         "respect": "Yes",
-        "function": "AI Assistants",
+        "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Devin is a collaborative AI teammate built to help ambitious engineering teams achieve more."
+        "description": "Devin is a software engineering AI assistant that can browse websites and perform web-based tasks, functioning as a collaborative AI teammate for engineering teams. More info can be found at https://darkvisitors.com/agents/devin"
     },
     "Diffbot": {
         "operator": "[Diffbot](https://www.diffbot.com/)",
         "respect": "At the discretion of Diffbot users.",
-        "function": "Aggregates structured web data for monitoring and AI model training.",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Diffbot is an application used to parse web pages into structured data; this data is used for monitoring or AI model training."
+        "description": "Diffbot is a web crawler that extracts and structures website content using AI-powered visual understanding, providing knowledge graph data for applications like market i\u2026 More info can be found at https://darkvisitors.com/agents/diffbot"
     },
     "DuckAssistBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "DuckAssistBot is used by DuckDuckGo's DuckAssist feature to fetch content and generate realtime AI answers to user searches. More info can be found at https://darkvisitors.com/agents/agents/duckassistbot"
+        "description": "DuckAssistBot is a web crawler that scans websites to collect content for DuckDuckGo's AI-assisted answers feature, which generates brief responses to search queries usin\u2026 More info can be found at https://darkvisitors.com/agents/duckassistbot"
     },
     "Echobot Bot": {
         "operator": "Echobox",
@@ -387,9 +387,9 @@
     "ExaBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
-        "function": "AI Search Crawlers",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/exabot"
+        "description": "ExaBot is a web crawler that indexes web content to power Exa's AI search engine and semantic search APIs for AI applications. More info can be found at https://darkvisitors.com/agents/exabot"
     },
     "FacebookBot": {
         "operator": "Meta/Facebook",
@@ -413,11 +413,11 @@
         "description": "Scrapes data for AI training."
     },
     "FirecrawlAgent": {
-        "operator": "[Firecrawl](https://www.firecrawl.dev/)",
+        "operator": "Firecrawl that extracts web content and converts it into structured data for use in LLM and AI applications",
         "respect": "Yes",
-        "function": "AI scraper and LLM training",
+        "function": "AI Data Providers",
         "frequency": "No information provided.",
-        "description": "Scrapes data for AI systems and LLM training."
+        "description": "FirecrawlAgent is a web crawler operated by Firecrawl that extracts web content and converts it into structured data for use in LLM and AI applications. More info can be found at https://darkvisitors.com/agents/firecrawlagent"
     },
     "FriendlyCrawler": {
         "description": "Unclear who the operator is; but data is used for training/machine learning.",
@@ -427,25 +427,25 @@
         "respect": "[Yes](https://imho.alex-kunz.com/2024/01/25/an-update-on-friendly-crawler)"
     },
     "GeistHaus-PageFetcher": {
-        "operator": "Unclear at this time.",
+        "operator": "GeistHaus, a company developing AI systems for therapy and psychological assessment",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/geisthaus-pagefetcher"
+        "description": "GeistHaus-PageFetcher is a web crawler operated by GeistHaus, a company developing AI systems for therapy and psychological assessment. This bot fetches web pages as part\u2026 More info can be found at https://darkvisitors.com/agents/geisthaus-pagefetcher"
     },
     "Gemini-Deep-Research": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Gemini-Deep-Research is the agent responsible for collecting and scanning resources used in Google Gemini's Deep Research feature, which acts as a personal research assistant. More info can be found at https://darkvisitors.com/agents/agents/gemini-deep-research"
+        "description": "Gemini-Deep-Research is the agent responsible for collecting and scanning resources used in Google Gemini's Deep Research feature, which acts as a personal research assis\u2026 More info can be found at https://darkvisitors.com/agents/gemini-deep-research"
     },
     "Google-Agent": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/google-agent"
+        "description": "Google-Agent is used by agents hosted on Google infrastructure to navigate the web and perform actions upon user request. More info can be found at https://darkvisitors.com/agents/google-agent"
     },
     "Google-CloudVertexBot": {
         "operator": "Google",
@@ -473,28 +473,28 @@
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/google-gemini-cli"
+        "description": "Gemini CLI is an AI coding agent by Google that can query and edit large codebases, generate apps from images or PDFs, and automate complex workflows directly from the te\u2026 More info can be found at https://darkvisitors.com/agents/google-gemini-cli"
     },
     "Google-NotebookLM": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Google-NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from their own uploaded sources, such as documents, transcripts, or web content. It can generate summaries, answer questions, and highlight key themes from the materials you provide, acting like a personalized research companion built on Google's Gemini model. Google-NotebookLM fetches source URLs when users add them to their notebooks, enabling the AI to access and analyze those pages for context and insights. More info can be found at https://darkvisitors.com/agents/agents/google-notebooklm"
+        "description": "Google-NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from uploaded sources like documents, transcripts, or web co\u2026 More info can be found at https://darkvisitors.com/agents/google-notebooklm"
     },
     "GoogleAgent-Mariner": {
         "operator": "Google",
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "GoogleAgent-Mariner is an AI agent created by Google that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/googleagent-mariner"
+        "description": "GoogleAgent-Mariner is an AI agent created by Google that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on \u2026 More info can be found at https://darkvisitors.com/agents/googleagent-mariner"
     },
     "GoogleAgent-URLContext": {
-        "operator": "Unclear at this time.",
+        "operator": "Google that retrieves web content on behalf of Gemini API users",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/googleagent-urlcontext"
+        "description": "GoogleAgent-URLContext is a web fetcher operated by Google that retrieves web content on behalf of Gemini API users. When a developer provides a URL as context in a Gemin\u2026 More info can be found at https://darkvisitors.com/agents/googleagent-urlcontext"
     },
     "GoogleOther": {
         "operator": "Google",
@@ -529,7 +529,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/henkbot"
+        "description": "Henkbot crawls the web on behalf of Valyu, an AI search infrastructure provider that indexes content for use in AI-powered retrieval pipelines. More info can be found at https://darkvisitors.com/agents/henkbot"
     },
     "iAskBot": {
         "operator": "Unclear at this time.",
@@ -595,11 +595,11 @@
         "respect": "No"
     },
     "kagi-fetcher": {
-        "operator": "Unclear at this time.",
+        "operator": "Kagi that fetches web content to answer user queries through Kagi AI, their suite of AI-powered tools including Assistant, Res\u2026",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/kagi-fetcher"
+        "description": "kagi-fetcher is an AI Assistant operated by Kagi that fetches web content to answer user queries through Kagi AI, their suite of AI-powered tools including Assistant, Res\u2026 More info can be found at https://darkvisitors.com/agents/kagi-fetcher"
     },
     "Kangaroo Bot": {
         "operator": "Unclear at this time.",
@@ -609,18 +609,18 @@
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
     },
     "Kimi-User": {
-        "operator": "Unclear at this time.",
+        "operator": "Moonshot AI that fetches web content on behalf of users interacting with Kimi",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/kimi-user"
+        "description": "Kimi-User is a web crawler operated by Moonshot AI that fetches web content on behalf of users interacting with Kimi. When a user asks Kimi to summarize an article or ans\u2026 More info can be found at https://darkvisitors.com/agents/kimi-user"
     },
     "KlaviyoAIBot": {
         "operator": "[Klaviyo](https://www.klaviyo.com)",
         "respect": "[Yes](https://help.klaviyo.com/hc/en-us/articles/40496146232219)",
-        "function": "AI Search Crawlers",
+        "function": "AI Assistants",
         "frequency": "Indexes based on 'change signals' and user configuration.",
-        "description": "Indexes content to tailor AI experiences, generate content, answers and recommendations."
+        "description": "KlaviyoAIBot is Klaviyo's web crawler that fetches publicly available pages from domains explicitly connected to user accounts to power the Kai Customer Agent feature. Th\u2026 More info can be found at https://darkvisitors.com/agents/klaviyoaibot"
     },
     "KunatoCrawler": {
         "operator": "Unclear at this time.",
@@ -655,7 +655,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "LinerBot is the web crawler used by Liner AI assistant to gather information from academic sources and websites to provide accurate answers with line-by-line source citations for research and scholarly work. More info can be found at https://darkvisitors.com/agents/agents/linerbot"
+        "description": "LinerBot is the web crawler used by Liner AI assistant to gather information from academic sources and websites to provide accurate answers with line-by-line source citat\u2026 More info can be found at https://darkvisitors.com/agents/linerbot"
     },
     "Linguee Bot": {
         "operator": "[Linguee](https://www.linguee.com)",
@@ -672,11 +672,11 @@
         "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/linkupbot"
     },
     "Manus-User": {
-        "operator": "Unclear at this time.",
+        "operator": "Butterfly Effect, a company based in China",
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/manus-user"
+        "description": "Manus-User is a browser-enabled AI agent operated by Butterfly Effect, a company based in China. It autonomously navigates websites, interprets content, and carries out m\u2026 More info can be found at https://darkvisitors.com/agents/manus-user"
     },
     "meta-externalagent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
@@ -697,7 +697,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
+        "description": "meta-externalfetcher is used by Meta to perform user-initiated fetches of individual links from AI assistant product functions. More info can be found at https://darkvisitors.com/agents/meta-externalfetcher"
     },
     "Meta-ExternalFetcher": {
         "operator": "Unclear at this time.",
@@ -718,7 +718,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "MistralAI-User is an AI assistant operated by Mistral. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/mistralai-user"
+        "description": "MistralAI-User is Mistral's AI assistant bot that performs web browsing and data gathering tasks for users in Le Chat, including opening web pages and retrieving informat\u2026 More info can be found at https://darkvisitors.com/agents/mistralai-user"
     },
     "MistralAI-User/1.0": {
         "operator": "Mistral AI",
@@ -767,7 +767,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Nova Act is an AI agent created by Amazon that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/novaact"
+        "description": "Nova Act is an AI agent created by Amazon that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a\u2026 More info can be found at https://darkvisitors.com/agents/novaact"
     },
     "OAI-SearchBot": {
         "operator": "[OpenAI](https://openai.com)",
@@ -802,7 +802,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/opencode"
+        "description": "OpenCode is an open-source AI coding agent that helps developers write code from the terminal, IDE, or desktop, supporting multiple LLM providers and local models. More info can be found at https://darkvisitors.com/agents/opencode"
     },
     "Operator": {
         "operator": "Unclear at this time.",
@@ -835,9 +835,9 @@
     "Perplexity-User": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
         "respect": "[No](https://docs.perplexity.ai/guides/bots)",
-        "function": "Used to answer queries at the request of users.",
+        "function": "AI Assistants",
         "frequency": "Only when prompted by a user.",
-        "description": "Visit web pages to help provide an accurate answer and include links to the page in Perplexity response."
+        "description": "Perplexity-User supports user actions within Perplexity. When users ask Perplexity a question, it might visit a web page to help provide an accurate answer and include a \u2026 More info can be found at https://darkvisitors.com/agents/perplexity-user"
     },
     "PerplexityBot": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
@@ -856,16 +856,16 @@
     "PhindBot": {
         "operator": "[phind](https://www.phind.com/)",
         "respect": "Unclear at this time.",
-        "function": "AI-enhanced search engine.",
+        "function": "AI Assistants",
         "frequency": "No explicit frequency provided.",
-        "description": "Company offers an AI agent that uses AI and generate extra web query on the fly"
+        "description": "Phind is an AI-powered answer engine designed for developers, offering technical answers and code examples. It uses real-time web search and specialized AI models to prov\u2026 More info can be found at https://darkvisitors.com/agents/phindbot"
     },
     "Poggio-Citations": {
-        "operator": "Unclear at this time.",
+        "operator": "Poggio, a company that provides AI sales enablement tools for creating tailored narratives, business cases, and account plan\u2026",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/poggio-citations"
+        "description": "Poggio-Citations is a web crawler operated by Poggio, a company that provides AI sales enablement tools for creating tailored narratives, business cases, and account plan\u2026 More info can be found at https://darkvisitors.com/agents/poggio-citations"
     },
     "Poseidon Research Crawler": {
         "operator": "[Poseidon Research](https://www.poseidonresearch.com)",
@@ -877,23 +877,23 @@
     "QualifiedBot": {
         "operator": "[Qualified](https://www.qualified.com)",
         "respect": "Unclear at this time.",
-        "function": "Company offers AI agents and other related products; usage can be assumed to support said products.",
+        "function": "AI Assistants",
         "frequency": "No explicit frequency provided.",
-        "description": "Operated by Qualified as part of their suite of AI product offerings."
+        "description": "QualifiedBot is Qualified's web crawler that analyzes customer websites to provide contextual information for their AI-powered chatbots and conversational marketing platf\u2026 More info can be found at https://darkvisitors.com/agents/qualifiedbot"
     },
     "Querit-SearchBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Querit that indexes web content for their search API service, which is designed to provide real-time search results for larg\u2026",
         "respect": "Unclear at this time.",
         "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/querit-searchbot"
+        "description": "Querit-SearchBot is a web crawler operated by Querit that indexes web content for their search API service, which is designed to provide real-time search results for larg\u2026 More info can be found at https://darkvisitors.com/agents/querit-searchbot"
     },
     "QueritBot": {
-        "operator": "Unclear at this time.",
+        "operator": "Querit, a company providing a search API for large language model integration",
         "respect": "Unclear at this time.",
         "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/queritbot"
+        "description": "QueritBot is a web crawler operated by Querit, a company providing a search API for large language model integration. This bot indexes web content to power the real-time \u2026 More info can be found at https://darkvisitors.com/agents/queritbot"
     },
     "QuillBot": {
         "description": "Operated by QuillBot as part of their suite of AI product offerings.",
@@ -942,14 +942,14 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/shap-user"
+        "description": "Shap-User accesses web content on behalf of users of Parallel Web Systems products. It identifies user-initiated requests rather than automatic web crawling. More info can be found at https://darkvisitors.com/agents/shap-user"
     },
     "ShapBot": {
         "operator": "[Parallel](https://parallel.ai)",
         "respect": "[Yes](https://docs.parallel.ai/features/crawler)",
-        "function": "Collects data for Parallel's web APIs.",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "ShapBot helps discover and index websites for Parallel's web APIs."
+        "description": "ShapBot is a web crawler by Parallel that collects and structures web content to power its search, extraction, and deep research APIs, providing AI agents with high-accur\u2026 More info can be found at https://darkvisitors.com/agents/shapbot"
     },
     "Sidetrade indexer bot": {
         "description": "AI product training.",
@@ -968,23 +968,23 @@
     "TavilyBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
-        "function": "AI Assistants",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/tavilybot"
+        "description": "TavilyBot is a web crawler by Tavily that indexes and extracts content from billions of pages, providing real-time search, extraction, and research data to ground AI agen\u2026 More info can be found at https://darkvisitors.com/agents/tavilybot"
     },
     "Terra Cotta": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/terra-cotta"
+        "description": "Terra Cotta is Ceramic's web crawler that indexes public content to power their web-scale search API for AI and LLMs. More info can be found at https://darkvisitors.com/agents/terra-cotta"
     },
     "TerraCotta": {
         "operator": "[Ceramic AI](https://ceramic.ai/)",
         "respect": "[Yes](https://github.com/CeramicTeam/CeramicTerracotta)",
-        "function": "AI Agents",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Downloads data to train LLMs."
+        "description": "TerraCotta is Ceramic's web crawler that indexes public content to power their web-scale search API for AI and LLMs. More info can be found at https://darkvisitors.com/agents/terracotta"
     },
     "Thinkbot": {
         "operator": "[Thinkbot](https://www.thinkbot.agency)",
@@ -1012,21 +1012,21 @@
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/trae"
+        "description": "Trae is an AI-powered coding agent developed by ByteDance that can understand codebases, fetch web content, and generate code. More info can be found at https://darkvisitors.com/agents/trae"
     },
     "TwinAgent": {
-        "operator": "Unclear at this time.",
+        "operator": "Twin, a platform that creates automated workers to perform tasks by integrating with APIs and controlling web applications through browser automa\u2026",
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/twinagent"
+        "description": "TwinAgent is operated by Twin, a platform that creates automated workers to perform tasks by integrating with APIs and controlling web applications through browser automa\u2026 More info can be found at https://darkvisitors.com/agents/twinagent"
     },
     "UseAI": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from darkvisitors.com More info can be found at https://darkvisitors.com/agents/agents/useai"
+        "description": "UseAI is a web crawler associated with Use AI, a platform that provides an AI workspace where users can chat with AI models, research the web, and perform various tasks. \u2026 More info can be found at https://darkvisitors.com/agents/useai"
     },
     "VelenPublicWebCrawler": {
         "operator": "[Velen Crawler](https://velen.io)",
