@@ -46,6 +46,7 @@ Cotoyogi
 CragCrawler
 Crawl4AI
 Crawlspace
+Cursor
 Datenbank Crawler
 DeepSeekBot
 Devin

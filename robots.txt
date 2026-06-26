@@ -46,6 +46,7 @@ User-agent: Cotoyogi
 User-agent: CragCrawler
 User-agent: Crawl4AI
 User-agent: Crawlspace
+User-agent: Cursor
 User-agent: Datenbank Crawler
 User-agent: DeepSeekBot
 User-agent: Devin

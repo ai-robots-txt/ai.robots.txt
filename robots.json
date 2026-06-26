@@ -335,6 +335,13 @@
         "frequency": "Unclear at this time.",
         "description": "Provides crawling services for any purpose, probably including AI model training."
     },
+    "Cursor": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Cursor is an AI coding agent that helps write, edit, and understand code. More info can be found at https://darkvisitors.com/agents/cursor"
+    },
     "Datenbank Crawler": {
         "operator": "Datenbank",
         "respect": "Unclear at this time.",
