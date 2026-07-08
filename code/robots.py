@@ -54,7 +54,7 @@ def load_robots_json():
     return json.loads(Path("./robots.json").read_text(encoding="utf-8"))
 
 def get_agent_soup():
-    """Retrieve current known agents from knownagents.com"""
+    """Retrieve current agent data from Known Agents."""
     session = requests.Session()
     try:
         response = session.get("https://knownagents.com/agents")
@@ -67,7 +67,7 @@ def get_agent_soup():
 
 
 def updated_robots_json(soup):
-    """Update AI scraper information with data from knownagents."""
+    """Update AI scraper information with data from Known Agents."""
     existing_content = load_robots_json()
 
     for section in soup.find_all("div", {"class": "agent-links-section"}):
@@ -265,7 +265,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--update",
         action="store_true",
-        help="Update the robots.json file with data from knownagents.com/agents",
+        help="Update the robots.json file with data from Known Agents",
     )
     parser.add_argument(
         "--convert",
