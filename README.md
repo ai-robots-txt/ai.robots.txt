@@ -4,7 +4,7 @@
 
 This list contains AI-related crawlers of all types, regardless of purpose. We encourage you to contribute to and implement this list on your own site. See [information about the listed crawlers](./table-of-bot-metrics.md) and the [FAQ](https://github.com/ai-robots-txt/ai.robots.txt/blob/main/FAQ.md).
 
-A number of these crawlers have been sourced from [Dark Visitors](https://darkvisitors.com) and we appreciate the ongoing effort they put in to track these crawlers.
+A number of these crawlers have been sourced from [Known Agents](https://knownagents.com) and we appreciate the ongoing effort they put in to track these crawlers.
 
 If you'd like to add information about a crawler to the list, please make a pull request with the bot name added to `robots.txt`, `ai.txt`, and any relevant details in `table-of-bot-metrics.md` to help people understand what's crawling.
 
