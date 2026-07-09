@@ -4,7 +4,9 @@ AI2Bot
 AI2Bot-DeepResearchEval
 Ai2Bot-Dolma
 aiHitBot
+AIWebIndex
 amazon-kendra
+amazon-QBusiness
 Amazonbot
 AmazonBuyForMe
 Amzn-SearchBot
@@ -143,6 +145,7 @@ TerraCotta
 Thinkbot
 TikTokSpider
 Timpibot
+TongyiBot
 Trae
 TwinAgent
 UseAI
@@ -155,5 +158,6 @@ WRTNBot
 YaK
 YandexAdditional
 YandexAdditionalBot
+YiyanBot
 YouBot
 ZanistaBot
