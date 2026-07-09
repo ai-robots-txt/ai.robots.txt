@@ -105,6 +105,7 @@ Meta-ExternalFetcher
 meta-webindexer
 MistralAI-User
 MistralAI-User/1.0
+Mozilla-Tabstack
 MyCentralAIScraperBot
 NagetBot
 netEstate Imprint Crawler
