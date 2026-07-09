@@ -24,7 +24,7 @@ jobs:
           git --no-pager diff
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "Update from Known Agents"
+            git commit -m "Update from knownagents.com"
             git rebase origin/main
             git push
           else
