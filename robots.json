@@ -4,7 +4,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "AddSearchBot is a web crawler that indexes website content for AddSearch's AI-powered site search solution, collecting data to provide fast and accurate search results. More info can be found at https://knownagents.com/agents/agents/addsearchbot"
+        "description": "AddSearchBot is a web crawler that indexes website content for AddSearch's AI-powered site search solution, collecting data to provide fast and accurate search results. More info can be found at https://knownagents.com/agents/addsearchbot"
     },
     "AgentTimes": {
         "operator": "[The Agent Times](https://theagenttimes.com/about)",
@@ -67,7 +67,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/amzn-searchbot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/amzn-searchbot"
     },
     "Amzn-User": {
         "operator": "Amazon, used for fetching web content to answer user queries through Alexa and other Amazon AI services",
@@ -116,7 +116,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://knownagents.com/agents/agents/applebot"
+        "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://knownagents.com/agents/applebot"
     },
     "Applebot-Extended": {
         "operator": "[Apple](https://support.apple.com/en-us/119829#datausage)",
@@ -130,7 +130,7 @@
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/aranet-searchbot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/aranet-searchbot"
     },
     "atlassian-bot": {
         "operator": "[Atlassian](https://www.atlassian.com)",
@@ -144,14 +144,14 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Awario is an AI data scraper operated by Awario. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/agents/awario"
+        "description": "Awario is an AI data scraper operated by Awario. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/awario"
     },
     "AzureAI-SearchBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/azureai-searchbot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/azureai-searchbot"
     },
     "bedrockbot": {
         "operator": "[Amazon](https://amazon.com)",
@@ -214,14 +214,14 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/channel3bot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/channel3bot"
     },
     "ChatGLM-Spider": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/chatglm-spider"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/chatglm-spider"
     },
     "ChatGPT Agent": {
         "operator": "[OpenAI](https://openai.com)",
@@ -263,7 +263,7 @@
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Claude-Web is an AI-related agent operated by Anthropic. It's currently unclear exactly what it's used for, since there's no official documentation. If you can provide more detail, please contact us. More info can be found at https://knownagents.com/agents/agents/claude-web"
+        "description": "Claude-Web is an AI-related agent operated by Anthropic. It's currently unclear exactly what it's used for, since there's no official documentation. If you can provide more detail, please contact us. More info can be found at https://knownagents.com/agents/claude-web"
     },
     "ClaudeBot": {
         "operator": "[Anthropic](https://www.anthropic.com)",
@@ -284,7 +284,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "CloudVertexBot is a Google-operated crawler available to site owners to request targeted crawls of their own sites for AI training purposes on the Vertex AI platform. More info can be found at https://knownagents.com/agents/agents/cloudvertexbot"
+        "description": "CloudVertexBot is a Google-operated crawler available to site owners to request targeted crawls of their own sites for AI training purposes on the Vertex AI platform. More info can be found at https://knownagents.com/agents/cloudvertexbot"
     },
     "Code": {
         "operator": "Unclear at this time.",
@@ -305,7 +305,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "cohere-training-data-crawler is a web crawler operated by Cohere to download training data for its LLMs (Large Language Models) that power its enterprise AI products. More info can be found at https://knownagents.com/agents/agents/cohere-training-data-crawler"
+        "description": "cohere-training-data-crawler is a web crawler operated by Cohere to download training data for its LLMs (Large Language Models) that power its enterprise AI products. More info can be found at https://knownagents.com/agents/cohere-training-data-crawler"
     },
     "Cotoyogi": {
         "operator": "[ROIS](https://ds.rois.ac.jp/en_center8/en_crawler/)",
@@ -326,7 +326,7 @@
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/crawl4ai"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/crawl4ai"
     },
     "Crawlspace": {
         "operator": "[Crawlspace](https://crawlspace.dev)",
@@ -347,7 +347,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Datenbank Crawler is an AI data scraper operated by Datenbank. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/agents/datenbank-crawler"
+        "description": "Datenbank Crawler is an AI data scraper operated by Datenbank. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/datenbank-crawler"
     },
     "DeepSeekBot": {
         "operator": "DeepSeek",
@@ -382,7 +382,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Echobot Bot is an AI data scraper operated by Echobox. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/agents/echobot-bot"
+        "description": "Echobot Bot is an AI data scraper operated by Echobox. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/echobot-bot"
     },
     "EchoboxBot": {
         "operator": "[Echobox](https://echobox.com)",
@@ -543,14 +543,14 @@
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/iaskbot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/iaskbot"
     },
     "iaskspider": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/iaskspider"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/iaskspider"
     },
     "iaskspider/2.0": {
         "description": "Used to provide answers to user queries.",
@@ -585,7 +585,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/imagespider"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/imagespider"
     },
     "img2dataset": {
         "description": "Downloads large sets of images into datasets for LLM training or other purposes.",
@@ -613,7 +613,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://knownagents.com/agents/agents/kangaroo-bot"
+        "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://knownagents.com/agents/kangaroo-bot"
     },
     "Kimi-User": {
         "operator": "Moonshot AI that fetches web content on behalf of users interacting with Kimi",
@@ -634,14 +634,14 @@
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/kunatocrawler"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/kunatocrawler"
     },
     "laion-huggingface-processor": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/laion-huggingface-processor"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/laion-huggingface-processor"
     },
     "LAIONDownloader": {
         "operator": "[Large-scale Artificial Intelligence Open Network](https://laion.ai/)",
@@ -655,7 +655,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/lcc"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/lcc"
     },
     "LinerBot": {
         "operator": "Unclear at this time.",
@@ -676,7 +676,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/linkupbot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/linkupbot"
     },
     "Manus-User": {
         "operator": "Butterfly Effect, a company based in China",
@@ -697,7 +697,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Meta-ExternalAgent is a web crawler used by Meta to download training data for its AI models and improve its products by indexing content directly. More info can be found at https://knownagents.com/agents/agents/meta-externalagent"
+        "description": "Meta-ExternalAgent is a web crawler used by Meta to download training data for its AI models and improve its products by indexing content directly. More info can be found at https://knownagents.com/agents/meta-externalagent"
     },
     "meta-externalfetcher": {
         "operator": "Unclear at this time.",
@@ -711,7 +711,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://knownagents.com/agents/agents/meta-externalfetcher"
+        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://knownagents.com/agents/meta-externalfetcher"
     },
     "meta-webindexer": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
@@ -753,7 +753,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "netEstate Imprint Crawler is an AI data scraper operated by netEstate. If you think this is incorrect or can provide additional detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/agents/netestate-imprint-crawler"
+        "description": "netEstate Imprint Crawler is an AI data scraper operated by netEstate. If you think this is incorrect or can provide additional detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/netestate-imprint-crawler"
     },
     "newsai": {
         "operator": "Unclear at this time.",
@@ -767,7 +767,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from their own uploaded sources, such as documents, transcripts, or web content. It can generate summaries, answer questions, and highlight key themes from the materials you provide, acting like a personalized research companion built on Google's Gemini model. NotebookLM fetches source URLs when users add them to their notebooks, enabling the AI to access and analyze those pages for context and insights. More info can be found at https://knownagents.com/agents/agents/google-notebooklm"
+        "description": "NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from their own uploaded sources, such as documents, transcripts, or web content. It can generate summaries, answer questions, and highlight key themes from the materials you provide, acting like a personalized research companion built on Google's Gemini model. NotebookLM fetches source URLs when users add them to their notebooks, enabling the AI to access and analyze those pages for context and insights. More info can be found at https://knownagents.com/agents/google-notebooklm"
     },
     "NovaAct": {
         "operator": "Unclear at this time.",
@@ -816,14 +816,14 @@
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Operator is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://knownagents.com/agents/agents/operator"
+        "description": "Operator is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://knownagents.com/agents/operator"
     },
     "PanguBot": {
         "operator": "the Chinese company Huawei",
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "PanguBot is a web crawler operated by the Chinese company Huawei. It's used to download training data for its multimodal LLM (Large Language Model) called PanGu. More info can be found at https://knownagents.com/agents/agents/pangubot"
+        "description": "PanguBot is a web crawler operated by the Chinese company Huawei. It's used to download training data for its multimodal LLM (Large Language Model) called PanGu. More info can be found at https://knownagents.com/agents/pangubot"
     },
     "Panscient": {
         "operator": "[Panscient](https://panscient.com)",
@@ -970,7 +970,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/spider"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/spider"
     },
     "TavilyBot": {
         "operator": "Unclear at this time.",
@@ -1047,21 +1047,21 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "WARDBot is an AI data scraper operated by WEBSPARK. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/agents/wardbot"
+        "description": "WARDBot is an AI data scraper operated by WEBSPARK. It's not currently known to be artificially intelligent or AI-related. If you think that's incorrect or can provide more detail about its purpose, please contact us. More info can be found at https://knownagents.com/agents/wardbot"
     },
     "Webzio-Extended": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Webzio-Extended is a web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models. More info can be found at https://knownagents.com/agents/agents/webzio-extended"
+        "description": "Webzio-Extended is a web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models. More info can be found at https://knownagents.com/agents/webzio-extended"
     },
     "webzio-extended": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/webzio-extended"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/webzio-extended"
     },
     "wpbot": {
         "operator": "[QuantumCloud](https://www.quantumcloud.com)",
@@ -1075,7 +1075,7 @@
         "respect": "Unclear at this time.",
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/wrtnbot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/wrtnbot"
     },
     "YaK": {
         "operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
@@ -1110,6 +1110,6 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/agents/zanistabot"
+        "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/zanistabot"
     }
 }
