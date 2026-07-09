@@ -734,6 +734,13 @@
         "description": "MistralAI-User is for user actions in LeChat. When users ask LeChat a question, it may visit a web page to help answer and include a link to the source in its response.",
         "respect": "Yes"
     },
+    "Mozilla-Tabstack": {
+        "operator": "[Mozilla](https://docs.tabstack.ai/trust/controlling-access)",
+        "respect": "Yes",
+        "function": "AI Data Providers",
+        "frequency": "On demand via API.",
+        "description": "Tabstack is a web intelligence API for AI agents. It extracts structured data from web pages and makes it available to AI agents."
+    },
     "MyCentralAIScraperBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
