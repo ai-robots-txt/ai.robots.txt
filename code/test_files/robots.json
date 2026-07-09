@@ -32,7 +32,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://darkvisitors.com/agents/agents/applebot"
+        "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://knownagents.com/agents/applebot"
     },
     "Applebot-Extended": {
         "operator": "[Apple](https://support.apple.com/en-us/119829#datausage)",
@@ -186,7 +186,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
+        "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://knownagents.com/agents/kangaroo-bot"
     },
     "Meta-ExternalAgent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
@@ -200,7 +200,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
+        "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://knownagents.com/agents/meta-externalfetcher"
     },
     "OAI-SearchBot": {
         "operator": "[OpenAI](https://openai.com)",
@@ -277,7 +277,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
-        "description": "Webzio-Extended is a web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models. More info can be found at https://darkvisitors.com/agents/agents/webzio-extended"
+        "description": "Webzio-Extended is a web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models. More info can be found at https://knownagents.com/agents/webzio-extended"
     },
     "YouBot": {
         "operator": "[You](https://about.you.com/youchat/)",

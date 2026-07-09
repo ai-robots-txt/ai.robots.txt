@@ -54,20 +54,20 @@ def load_robots_json():
     return json.loads(Path("./robots.json").read_text(encoding="utf-8"))
 
 def get_agent_soup():
-    """Retrieve current known agents from darkvisitors.com"""
+    """Retrieve current agent data from knownagents.com."""
     session = requests.Session()
     try:
-        response = session.get("https://darkvisitors.com/agents")
+        response = session.get("https://knownagents.com/agents")
     except requests.exceptions.ConnectionError:
         print(
-            "ERROR: Could not gather the current agents from https://darkvisitors.com/agents"
+            "ERROR: Could not gather the current agents from https://knownagents.com/agents"
         )
         return
     return BeautifulSoup(response.text, "html.parser")
 
 
 def updated_robots_json(soup):
-    """Update AI scraper information with data from darkvisitors."""
+    """Update AI scraper information with data from knownagents.com."""
     existing_content = load_robots_json()
 
     for section in soup.find_all("div", {"class": "agent-links-section"}):
@@ -82,7 +82,7 @@ def updated_robots_json(soup):
             if desc_tag is not None:
                 desc = desc_tag.get_text().strip()
             else:
-                desc = "Description unavailable from darkvisitors.com"
+                desc = "Description unavailable from knownagents.com"
 
             # Parse the operator information from the description if possible
             operator = default_value
@@ -100,7 +100,7 @@ def updated_robots_json(soup):
                 "description": consolidate(
                     existing_content, name, 
                     "description",
-                    "{desc} More info can be found at https://darkvisitors.com{path}".format(
+                    "{desc} More info can be found at https://knownagents.com{path}".format(
                         desc = desc, 
                         path= agent['href'] if agent['href'].startswith('/') else "/".join("", "agents", agent["href"])
                     ),
@@ -130,7 +130,7 @@ def clean_robot_name(name):
     return result
 
 
-def ingest_darkvisitors():
+def ingest_known_agents():
     old_robots_json = load_robots_json()
     soup = get_agent_soup()
     if soup:
@@ -265,7 +265,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--update",
         action="store_true",
-        help="Update the robots.json file with data from darkvisitors.com/agents",
+        help="Update the robots.json file with data from knownagents.com/agents",
     )
     parser.add_argument(
         "--convert",
@@ -279,6 +279,6 @@ if __name__ == "__main__":
         parser.print_help()
 
     if args.update:
-        ingest_darkvisitors()
+        ingest_known_agents()
     if args.convert:
         conversions()
