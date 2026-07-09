@@ -16,7 +16,7 @@ jobs:
           pip install beautifulsoup4 requests
           git config --global user.name "Known Agents"
           git config --global user.email "knownagents@users.noreply.github.com"
-          echo "Updating robots.json with data from Known Agents ..."
+          echo "Updating robots.json with data from knownagents.com ..."
           python code/robots.py --update
           echo "Updating generated files from robots.json ..."
           python code/robots.py --convert
