@@ -67,7 +67,7 @@ def get_agent_soup():
 
 
 def updated_robots_json(soup):
-    """Update AI scraper information with data from Known Agents."""
+    """Update AI scraper information with data from knownagents.com."""
     existing_content = load_robots_json()
 
     for section in soup.find_all("div", {"class": "agent-links-section"}):
