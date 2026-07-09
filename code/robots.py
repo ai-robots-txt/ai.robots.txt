@@ -265,7 +265,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--update",
         action="store_true",
-        help="Update the robots.json file with data from Known Agents",
+        help="Update the robots.json file with data from knownagents.com/agents",
     )
     parser.add_argument(
         "--convert",
