@@ -54,7 +54,7 @@ def load_robots_json():
     return json.loads(Path("./robots.json").read_text(encoding="utf-8"))
 
 def get_agent_soup():
-    """Retrieve current agent data from Known Agents."""
+    """Retrieve current agent data from knownagents.com."""
     session = requests.Session()
     try:
         response = session.get("https://knownagents.com/agents")
