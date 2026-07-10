@@ -345,9 +345,9 @@
     "Crawlspace": {
         "operator": "[Crawlspace](https://crawlspace.dev)",
         "respect": "[Yes](https://news.ycombinator.com/item?id=42756654)",
-        "function": "Scrapes data",
+        "function": "AI Data Providers",
         "frequency": "Unclear at this time.",
-        "description": "Provides crawling services for any purpose, probably including AI model training."
+        "description": "Crawlspace is a web crawler platform that fetches and extracts website content for AI agents, RAG applications, and structured data workflows. More info can be found at https://knownagents.com/agents/crawlspace"
     },
     "Cursor": {
         "operator": "Unclear at this time.",
