@@ -34,6 +34,10 @@ default_values = {
 }
 default_value = "Unclear at this time."
 
+# These agents publish a complete User-Agent value rather than a token that
+# should match within a longer header.
+exact_match_agents = {"Spider"}
+
 def consolidate(existing_content, name: str, field: str, value: str) -> str:
     # New entry
     if name not in existing_content:
@@ -170,7 +174,10 @@ def json_to_table(robots_json):
 def list_to_pcre(lst):
     # Python re is not 100% identical to PCRE which is used by Apache, but it
     # should probably be close enough in the real world for re.escape to work.
-    formatted = "|".join(map(re.escape, lst))
+    formatted = "|".join(
+        f"^{re.escape(agent)}$" if agent in exact_match_agents else re.escape(agent)
+        for agent in lst
+    )
     return f"({formatted})"
 
 

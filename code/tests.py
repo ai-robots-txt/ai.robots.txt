@@ -2,9 +2,22 @@
 """To run these tests just execute this script."""
 
 import json
+import re
 import unittest
 
-from robots import json_to_txt, json_to_table, json_to_htaccess, json_to_nginx, json_to_haproxy, json_to_caddy, json_to_lighttpd, consolidate, default_values, default_value
+from robots import (
+    consolidate,
+    default_value,
+    default_values,
+    json_to_caddy,
+    json_to_haproxy,
+    json_to_htaccess,
+    json_to_lighttpd,
+    json_to_nginx,
+    json_to_table,
+    json_to_txt,
+    list_to_pcre,
+)
 
 class RobotsUnittestExtensions:
     def loadJson(self, pathname):
@@ -49,6 +62,17 @@ class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
     def test_htaccess_generation(self):
         robots_htaccess = json_to_htaccess(self.robots_dict)
         self.assertEqualsFile("test_files/.htaccess", robots_htaccess)
+
+
+class TestUserAgentPatternGeneration(unittest.TestCase):
+    def test_spider_matches_only_the_complete_user_agent(self):
+        pattern = re.compile(list_to_pcre(["Spider", "ExampleBot"]), re.IGNORECASE)
+
+        self.assertIsNotNone(pattern.search("Spider"))
+        self.assertIsNotNone(pattern.search("spider"))
+        self.assertIsNone(pattern.search("Baiduspider"))
+        self.assertIsNone(pattern.search("OurCompanyName Test Spider"))
+        self.assertIsNotNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
 
 class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
     maxDiff = 8192
