@@ -769,6 +769,13 @@
         "frequency": "Unclear at this time.",
         "description": "'Naget revolutionizes content discovery through an AI-powered ecosystem that transforms how we generate, organize, share, and discover valuable content.' (https://naget.com/) User-agent string links https://naget.ai/bot which yields 404."
     },
+    "nbot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Undocumented AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "nbot appears in site traffic logs as a likely AI-related crawler; operator and data use are not clearly documented. Added from community report (issue #244)."
+    },
     "netEstate Imprint Crawler": {
         "operator": "netEstate",
         "respect": "Unclear at this time.",
