@@ -34,10 +34,6 @@ default_values = {
 }
 default_value = "Unclear at this time."
 
-# These agents publish a complete User-Agent value rather than a token that
-# should match within a longer header.
-exact_match_agents = {"Spider"}
-
 def consolidate(existing_content, name: str, field: str, value: str) -> str:
     # New entry
     if name not in existing_content:
@@ -96,7 +92,7 @@ def updated_robots_json(soup):
                 except Exception as e:
                     print(f"Error: {e}")
 
-            existing_content[name] = {
+            robot = {
                 "operator": consolidate(existing_content, name, "operator", operator),
                 "respect": consolidate(existing_content, name, "respect", default_value),
                 "function": consolidate(existing_content, name, "function", f"{category}"),
@@ -110,6 +106,11 @@ def updated_robots_json(soup):
                     ),
                 ),
             }
+            if "has_name_and_version" in existing_content.get(name, {}):
+                robot["has_name_and_version"] = existing_content[name][
+                    "has_name_and_version"
+                ]
+            existing_content[name] = robot
 
     print(f"Total: {len(existing_content)}")
     sorted_keys = sorted(existing_content, key=lambda k: k.lower())
@@ -171,41 +172,44 @@ def json_to_table(robots_json):
     return table
 
 
-def list_to_pcre(lst):
+def list_to_pcre(robots_json):
     # Python re is not 100% identical to PCRE which is used by Apache, but it
     # should probably be close enough in the real world for re.escape to work.
-    formatted = "|".join(
-        f"^{re.escape(agent)}$" if agent in exact_match_agents else re.escape(agent)
-        for agent in lst
+    exact_agents = "|".join(map(re.escape, robots_json))
+    patterns = [f"^({exact_agents})$"]
+    patterns.extend(
+        f"{re.escape(agent)}/[0-9.]+"
+        for agent, config in robots_json.items()
+        if config.get("has_name_and_version", False)
     )
-    return f"({formatted})"
+    return f"({'|'.join(patterns)})"
 
 
 def json_to_htaccess(robot_json):
     # Creates a .htaccess filter file. It uses a regular expression to filter out
     # User agents that contain any of the blocked values.
     htaccess = "RewriteEngine On\n"
-    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json.keys())} [NC]\n"
+    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json)} [NC]\n"
     htaccess += "RewriteRule !^/?robots\\.txt$ - [F]\n"
     return htaccess
 
 def json_to_nginx(robot_json):
     # Creates an Nginx config file. This config snippet can be included in
     # nginx server{} blocks to block AI bots.
-    config = f"set $block 0;\n\nif ($http_user_agent ~* \"{list_to_pcre(robot_json.keys())}\") {{\n    set $block 1;\n}}\n\nif ($request_uri = \"/robots.txt\") {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
+    config = f"set $block 0;\n\nif ($http_user_agent ~* \"{list_to_pcre(robot_json)}\") {{\n    set $block 1;\n}}\n\nif ($request_uri = \"/robots.txt\") {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
     return config
 
 
 def json_to_lighttpd(robot_json):
     # Creates an Lighttpd config file. This config snippet can be included in
     # Lighttpd configuration global or in $HTTP conditionals to block AI bots.
-    config = f"$HTTP[\"url\"] != \"/robots.txt\" {{ $HTTP[\"user-agent\"] =~ \"{list_to_pcre(robot_json.keys())}\" {{ url.access-deny = ( \"\" ) }} }}"
+    config = f"$HTTP[\"url\"] != \"/robots.txt\" {{ $HTTP[\"user-agent\"] =~ \"{list_to_pcre(robot_json)}\" {{ url.access-deny = ( \"\" ) }} }}"
     return config
 
 
 def json_to_caddy(robot_json):
     caddyfile = "@aibots {\n    "
-    caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json.keys())}"'
+    caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json)}"'
     caddyfile += "\n}"
     return caddyfile
 

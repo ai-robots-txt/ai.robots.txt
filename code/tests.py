@@ -65,14 +65,25 @@ class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
 
 
 class TestUserAgentPatternGeneration(unittest.TestCase):
-    def test_spider_matches_only_the_complete_user_agent(self):
-        pattern = re.compile(list_to_pcre(["Spider", "ExampleBot"]), re.IGNORECASE)
+    def test_agents_match_only_the_complete_user_agent_by_default(self):
+        pattern = re.compile(
+            list_to_pcre({"Spider": {}, "ExampleBot": {}}), re.IGNORECASE
+        )
 
         self.assertIsNotNone(pattern.search("Spider"))
         self.assertIsNotNone(pattern.search("spider"))
         self.assertIsNone(pattern.search("Baiduspider"))
         self.assertIsNone(pattern.search("OurCompanyName Test Spider"))
-        self.assertIsNotNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
+        self.assertIsNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
+
+    def test_name_and_version_agents_match_versioned_tokens(self):
+        pattern = re.compile(
+            list_to_pcre({"Code": {"has_name_and_version": True}}), re.IGNORECASE
+        )
+
+        self.assertIsNotNone(pattern.search("Code"))
+        self.assertIsNotNone(pattern.search("Mozilla/5.0 Code/1.2.3"))
+        self.assertIsNone(pattern.search("https://codeberg.org/example"))
 
 class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
     maxDiff = 8192
