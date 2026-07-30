@@ -305,7 +305,8 @@
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Code (GitHub Copilot) is an AI coding agent that can autonomously plan, build, and execute development tasks, functioning as a collaborative AI pair programmer. More info can be found at https://knownagents.com/agents/code"
+        "description": "Code (GitHub Copilot) is an AI coding agent that can autonomously plan, build, and execute development tasks, functioning as a collaborative AI pair programmer. More info can be found at https://knownagents.com/agents/code",
+        "has_name_and_version": true
     },
     "cohere-ai": {
         "operator": "[Cohere](https://cohere.com)",
