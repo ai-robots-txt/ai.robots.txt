@@ -80,7 +80,6 @@ HenkBot
 iAskBot
 iaskspider
 iaskspider/2.0
-IbouBot
 ICC-Crawler
 ImagesiftBot
 imageSpider
