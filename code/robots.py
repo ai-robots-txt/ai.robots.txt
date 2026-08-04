@@ -266,8 +266,7 @@ def conversions():
 
 if __name__ == "__main__":
     import argparse
-
-    parser = argparse.ArgumentParser()
+    
     parser = argparse.ArgumentParser(
         prog="ai-robots",
         description="Collects and updates information about web scrapers of AI companies.",
