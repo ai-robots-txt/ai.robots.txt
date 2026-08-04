@@ -202,7 +202,7 @@ def json_to_htaccess(robot_json):
 def json_to_nginx(robot_json):
     # Creates an Nginx config file. This config snippet can be included in
     # nginx server{} blocks to block AI bots.
-    config = f"set $block 0;\n\nif ($http_user_agent ~* \"{list_to_pcre(robot_json)}\") {{\n    set $block 1;\n}}\n\nif ($request_uri = \"/robots.txt\") {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
+    config = f"set $block 0;\n\nif ($http_user_agent ~ \"{list_to_pcre(robot_json)}\") {{\n    set $block 1;\n}}\n\nif ($request_uri = \"/robots.txt\") {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
     return config
 
 
