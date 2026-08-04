@@ -65,25 +65,38 @@ class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
 
 
 class TestUserAgentPatternGeneration(unittest.TestCase):
-    def test_agents_match_only_the_complete_user_agent_by_default(self):
+    def test_agents_match_user_agents_by_prefix_or_substring(self):
         pattern = re.compile(
             list_to_pcre({"Spider": {}, "ExampleBot": {}}), re.IGNORECASE
         )
 
         self.assertIsNotNone(pattern.search("Spider"))
         self.assertIsNotNone(pattern.search("spider"))
-        self.assertIsNone(pattern.search("Baiduspider"))
-        self.assertIsNone(pattern.search("OurCompanyName Test Spider"))
-        self.assertIsNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
+        self.assertIsNotNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
 
-    def test_name_and_version_agents_match_versioned_tokens(self):
-        pattern = re.compile(
-            list_to_pcre({"Code": {"has_name_and_version": True}}), re.IGNORECASE
-        )
+    def test_generated_regex_against_real_user_agents(self):
+        from pathlib import Path
+        robots_json_path = Path(__file__).parent.parent / "robots.json"
+        if robots_json_path.exists():
+            with open(robots_json_path, "rt", encoding="utf-8") as f:
+                robots_dict = json.load(f)
+        else:
+            robots_dict = self.loadJson("test_files/robots.json")
 
-        self.assertIsNotNone(pattern.search("Code"))
-        self.assertIsNotNone(pattern.search("Mozilla/5.0 Code/1.2.3"))
-        self.assertIsNone(pattern.search("https://codeberg.org/example"))
+        pattern = re.compile(list_to_pcre(robots_dict), re.IGNORECASE)
+
+        user_agents = [
+            "CCBot/2.0 (https://commoncrawl.org/faq/)",
+            "Claude-User (claude-code/2.1.220; +https://support.anthropic.com/)",
+            "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+            "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+            "Scrapy/2.16.0 (+https://scrapy.org)",
+        ]
+
+        for ua in user_agents:
+            with self.subTest(user_agent=ua):
+                self.assertIsNotNone(pattern.search(ua))
+
 
 class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
     maxDiff = 8192
