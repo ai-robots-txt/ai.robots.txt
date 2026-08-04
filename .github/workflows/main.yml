@@ -21,7 +21,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      - run: |
+      - env:
+          INPUT_MESSAGE: ${{ inputs.message }}
+          HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
           pip install beautifulsoup4
           git config --global user.name "ai.robots.txt"
           git config --global user.email "ai.robots.txt@users.noreply.github.com"
@@ -39,10 +42,10 @@ jobs:
             echo "No staged changes to commit. Skipping commit and push."
             exit 0
           fi
-          if [ -n "${{ inputs.message }}" ]; then
-            git commit -m "${{ inputs.message }}"
+          if [ -n "$INPUT_MESSAGE" ]; then
+            git commit -m "$INPUT_MESSAGE"
           else
-            git commit -m "${{ github.event.head_commit.message }}"
+            git commit -m "$HEAD_COMMIT_MESSAGE"
           fi
           git push
         shell: bash
