@@ -191,15 +191,16 @@ def list_to_pcre(robots_json):
         for agent, config in robots_json.items()
         if config.get("sends_full_name", False)
     )
-    patterns = [f"^({exact_agents})$"]
+    patterns.extend( f"^({exact_agents})$" )
 
     # agents who use Name/1.1.3-style elements 
-    patterns.extend(
+    versioned_agents = "|".join(
         f"{re.escape(agent)}/[0-9.]+"
         for agent, config in robots_json.items()
         if config.get("has_name_and_version", False)
     )
-    
+    patterns.extend( versioned_agents )
+        
     return f"({'|'.join(patterns)})"
 
 
