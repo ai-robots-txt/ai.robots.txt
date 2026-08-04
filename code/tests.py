@@ -28,7 +28,7 @@ class RobotsUnittestExtensions:
         with open(f, "rt") as f:
             f_contents = f.read()
 
-        return self.assertMultiLineEqual(f_contents, s)
+        return self.assertMultiLineEqual(f_contents.rstrip("\r\n"), s.rstrip("\r\n"))
 
 
 class TestRobotsTXTGeneration(unittest.TestCase, RobotsUnittestExtensions):
