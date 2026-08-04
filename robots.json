@@ -127,7 +127,7 @@
     },
     "Applebot": {
         "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "respect": "[Yes](https://support.apple.com/en-us/119829#retrieval)",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Applebot is a web crawler used by Apple to index search results that allow the Siri AI Assistant to answer user questions. Siri's answers normally contain references to the website. More info can be found at https://knownagents.com/agents/applebot"
@@ -387,7 +387,7 @@
     },
     "DuckAssistBot": {
         "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "respect": "[Yes](https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot/)",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "DuckAssistBot is a web crawler that scans websites to collect content for DuckDuckGo's AI-assisted answers feature, which generates brief responses to search queries usin\u2026 More info can be found at https://knownagents.com/agents/duckassistbot"
@@ -464,7 +464,7 @@
     },
     "Google-Agent": {
         "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers#google-agent)",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
         "description": "Google-Agent is used by agents hosted on Google infrastructure to navigate the web and perform actions upon user request. More info can be found at https://knownagents.com/agents/google-agent"
@@ -702,21 +702,21 @@
     },
     "Meta-ExternalAgent": {
         "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "respect": "[Yes](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalAgent is a web crawler used by Meta to download training data for its AI models and improve its products by indexing content directly. More info can be found at https://knownagents.com/agents/meta-externalagent"
     },
     "meta-externalfetcher": {
         "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "respect": "[No](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "meta-externalfetcher is used by Meta to perform user-initiated fetches of individual links from AI assistant product functions. More info can be found at https://knownagents.com/agents/meta-externalfetcher"
     },
     "Meta-ExternalFetcher": {
         "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "respect": "[No](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://knownagents.com/agents/meta-externalfetcher"
