@@ -175,13 +175,31 @@ def json_to_table(robots_json):
 def list_to_pcre(robots_json):
     # Python re is not 100% identical to PCRE which is used by Apache, but it
     # should probably be close enough in the real world for re.escape to work.
-    exact_agents = "|".join(map(re.escape, robots_json))
+    patterns = []
+
+    # regular old substring matches:
+    formatted = "|".join(
+        f"{re.escape(agent)}"
+        for agent, config in robots_json.items()
+        if not config.get("sends_full_name", False) and not config.get("has_name_and_version", False)
+    )
+    patterns.extend( f"({formatted})" )
+
+    # agents that just send their names pokemon-style
+    exact_agents = "|".join(
+        f"^{re.escape(agent)}$"
+        for agent, config in robots_json.items()
+        if config.get("sends_full_name", False)
+    )
     patterns = [f"^({exact_agents})$"]
+
+    # agents who use Name/1.1.3-style elements 
     patterns.extend(
         f"{re.escape(agent)}/[0-9.]+"
         for agent, config in robots_json.items()
         if config.get("has_name_and_version", False)
     )
+    
     return f"({'|'.join(patterns)})"
 
 
