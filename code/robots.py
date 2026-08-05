@@ -215,7 +215,10 @@ def json_to_nginx(robot_json):
 def json_to_lighttpd(robot_json):
     # Creates an Lighttpd config file. This config snippet can be included in
     # Lighttpd configuration global or in $HTTP conditionals to block AI bots.
-    config = f"$HTTP['url'] != '/robots.txt' {{ $HTTP['user-agent'] =~ {list_to_pcre(robot_json)!r} {{ url.access-deny = ( '' ) }} }}"
+    # single quotes (as returned by repr) are not valid string delimeters, so we
+    # must manually quote it end ensure no unescaped quotes are inside.
+    escaped_quotes = list_to_pcre(robot_json).replace('"', '\\"')
+    config = f'$HTTP["url"] != "/robots.txt" {{ $HTTP["user-agent"] =~ "{escaped_quotes}" {{ url.access-deny = ( "" ) }} }}'
     return config
 
 
