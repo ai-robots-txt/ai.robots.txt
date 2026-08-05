@@ -65,25 +65,73 @@ class TestHtaccessGeneration(unittest.TestCase, RobotsUnittestExtensions):
 
 
 class TestUserAgentPatternGeneration(unittest.TestCase):
-    def test_agents_match_only_the_complete_user_agent_by_default(self):
+    def test_agents_match_user_agents_by_prefix_or_substring(self):
         pattern = re.compile(
             list_to_pcre({"Spider": {}, "ExampleBot": {}}), re.IGNORECASE
         )
 
         self.assertIsNotNone(pattern.search("Spider"))
         self.assertIsNotNone(pattern.search("spider"))
-        self.assertIsNone(pattern.search("Baiduspider"))
-        self.assertIsNone(pattern.search("OurCompanyName Test Spider"))
-        self.assertIsNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
+        self.assertIsNotNone(pattern.search("Mozilla/5.0 ExampleBot/1.0"))
 
-    def test_name_and_version_agents_match_versioned_tokens(self):
-        pattern = re.compile(
-            list_to_pcre({"Code": {"has_name_and_version": True}}), re.IGNORECASE
-        )
+    def test_generated_regex_against_real_user_agents(self):
+        from pathlib import Path
+        robots_json_path = Path(__file__).parent.parent / "robots.json"
+        if robots_json_path.exists():
+            with open(robots_json_path, "rt", encoding="utf-8") as f:
+                robots_dict = json.load(f)
+        else:
+            robots_dict = self.loadJson("test_files/robots.json")
 
-        self.assertIsNotNone(pattern.search("Code"))
-        self.assertIsNotNone(pattern.search("Mozilla/5.0 Code/1.2.3"))
-        self.assertIsNone(pattern.search("https://codeberg.org/example"))
+        pattern = re.compile(list_to_pcre(robots_dict), re.IGNORECASE)
+
+        user_agents = [
+            "CCBot/2.0 (https://commoncrawl.org/faq/)",
+            "Claude-User (claude-code/2.1.220; +https://support.anthropic.com/)",
+            "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+            "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+            "Scrapy/2.16.0 (+https://scrapy.org)",
+        ]
+
+        for ua in user_agents:
+            with self.subTest(user_agent=ua):
+                self.assertIsNotNone(pattern.search(ua))
+
+    def test_generated_regex_does_not_match_non_ai_user_agents(self):
+        from pathlib import Path
+        robots_json_path = Path(__file__).parent.parent / "robots.json"
+        if robots_json_path.exists():
+            with open(robots_json_path, "rt", encoding="utf-8") as f:
+                robots_dict = json.load(f)
+        else:
+            robots_dict = self.loadJson("test_files/robots.json")
+
+        pattern = re.compile(list_to_pcre(robots_dict), re.IGNORECASE)
+
+        non_ai_user_agents = [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+            "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+            "Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+            "curl/7.68.0",
+            "Wget/1.20.3 (linux-gnu)",
+            "NotCursor/1.0",
+            "CursorNot/1.0",
+            "NotScrapy/2.0",
+            "ScrapyNot/2.0",
+            "NotClaude/1.0",
+            "ClaudeNot/1.0",
+            "NotPerplexity/1.0",
+            "NotAmazonbot/1.0",
+            "NotApplebot/1.0",
+            "NotBytespider/1.0",
+        ]
+
+        for ua in non_ai_user_agents:
+            with self.subTest(user_agent=ua):
+                self.assertIsNone(pattern.search(ua))
+
 
 class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
     maxDiff = 8192

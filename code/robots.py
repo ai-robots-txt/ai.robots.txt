@@ -185,14 +185,7 @@ def list_to_pcre(robots_json):
         return pattern
 
     exact_agents = "|".join(map(escape, robots_json))
-    patterns = [f"^({exact_agents})$"]
-
-    patterns.extend(
-        f"{escape(agent)}/[0-9.]+"
-        for agent, config in robots_json.items()
-        if config.get("has_name_and_version", False)
-    )
-    return '|'.join(patterns)
+    return f"\\b({exact_agents})\\b"
 
 
 def json_to_htaccess(robot_json):
