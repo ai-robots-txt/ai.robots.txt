@@ -175,42 +175,55 @@ def json_to_table(robots_json):
 def list_to_pcre(robots_json):
     # Python re is not 100% identical to PCRE which is used by Apache, but it
     # should probably be close enough in the real world for re.escape to work.
-    exact_agents = "|".join(map(re.escape, robots_json))
-    return f"({exact_agents})"
+    # We additionally un-escape '-' since it only requires escaping within
+    # character classes (which are also escaped and prevented here) and '/'
+    # since this is not used as the regexp delimeter in any server software.
+    def escape(pattern):
+        pattern = re.escape(pattern)
+        for c in "-/":
+            pattern = pattern.replace(fr"\{c}", c)
+        return pattern
 
+    exact_agents = "|".join(map(escape, robots_json))
+    return f"({exact_agents})"
 
 
 def json_to_htaccess(robot_json):
     # Creates a .htaccess filter file. It uses a regular expression to filter out
     # User agents that contain any of the blocked values.
+    # The regular expression is wrapped in parenthesis, so a leading [-!=<>] does
+    # not accidentally change which comparison type is used.
     htaccess = "RewriteEngine On\n"
-    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} {list_to_pcre(robot_json)} [NC]\n"
+    htaccess += f"RewriteCond %{{HTTP_USER_AGENT}} ({list_to_pcre(robot_json)}) [NC]\n"
     htaccess += "RewriteRule !^/?robots\\.txt$ - [F]\n"
     return htaccess
 
 def json_to_nginx(robot_json):
     # Creates an Nginx config file. This config snippet can be included in
     # nginx server{} blocks to block AI bots.
-    config = f"set $block 0;\n\nif ($http_user_agent ~* \"{list_to_pcre(robot_json)}\") {{\n    set $block 1;\n}}\n\nif ($request_uri = \"/robots.txt\") {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
+    config = f"set $block 0;\n\nif ($http_user_agent ~ {list_to_pcre(robot_json)!r}) {{\n    set $block 1;\n}}\n\nif ($request_uri = '/robots.txt') {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
     return config
 
 
 def json_to_lighttpd(robot_json):
     # Creates an Lighttpd config file. This config snippet can be included in
     # Lighttpd configuration global or in $HTTP conditionals to block AI bots.
-    config = f"$HTTP[\"url\"] != \"/robots.txt\" {{ $HTTP[\"user-agent\"] =~ \"{list_to_pcre(robot_json)}\" {{ url.access-deny = ( \"\" ) }} }}"
+    config = f"$HTTP['url'] != '/robots.txt' {{ $HTTP['user-agent'] =~ {list_to_pcre(robot_json)!r} {{ url.access-deny = ( '' ) }} }}"
     return config
 
 
 def json_to_caddy(robot_json):
+    # single quotes (as returned by repr) are not valid string delimeters, so we
+    # must manually quote it end ensure no unescaped quotes are inside.
+    escaped_quotes = list_to_pcre(robot_json).replace('"', '\\"')
     caddyfile = "@aibots {\n    "
-    caddyfile += f'    header_regexp User-Agent "{list_to_pcre(robot_json)}"'
+    caddyfile += f'    header_regexp User-Agent "{escaped_quotes}"'
     caddyfile += "\n}"
     return caddyfile
 
 def json_to_haproxy(robots_json):
     # Creates a source file for HAProxy. Follow instructions in the README to implement it.
-    txt = "\n".join(f"{k}" for k in robots_json.keys())
+    txt = "\n".join(robots_json.keys())
     return txt
 
 
