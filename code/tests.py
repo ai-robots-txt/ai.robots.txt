@@ -116,6 +116,8 @@ class TestUserAgentPatternGeneration(unittest.TestCase):
             "Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)",
             "curl/7.68.0",
             "Wget/1.20.3 (linux-gnu)",
+            "NotCursor/1.0",
+            "CursorNot/1.0",
         ]
 
         for ua in non_ai_user_agents:
