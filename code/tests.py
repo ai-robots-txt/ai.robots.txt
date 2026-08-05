@@ -118,6 +118,14 @@ class TestUserAgentPatternGeneration(unittest.TestCase):
             "Wget/1.20.3 (linux-gnu)",
             "NotCursor/1.0",
             "CursorNot/1.0",
+            "NotScrapy/2.0",
+            "ScrapyNot/2.0",
+            "NotClaude/1.0",
+            "ClaudeNot/1.0",
+            "NotPerplexity/1.0",
+            "NotAmazonbot/1.0",
+            "NotApplebot/1.0",
+            "NotBytespider/1.0",
         ]
 
         for ua in non_ai_user_agents:
