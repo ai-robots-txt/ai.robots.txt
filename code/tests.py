@@ -97,6 +97,31 @@ class TestUserAgentPatternGeneration(unittest.TestCase):
             with self.subTest(user_agent=ua):
                 self.assertIsNotNone(pattern.search(ua))
 
+    def test_generated_regex_does_not_match_non_ai_user_agents(self):
+        from pathlib import Path
+        robots_json_path = Path(__file__).parent.parent / "robots.json"
+        if robots_json_path.exists():
+            with open(robots_json_path, "rt", encoding="utf-8") as f:
+                robots_dict = json.load(f)
+        else:
+            robots_dict = self.loadJson("test_files/robots.json")
+
+        pattern = re.compile(list_to_pcre(robots_dict), re.IGNORECASE)
+
+        non_ai_user_agents = [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+            "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+            "Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+            "curl/7.68.0",
+            "Wget/1.20.3 (linux-gnu)",
+        ]
+
+        for ua in non_ai_user_agents:
+            with self.subTest(user_agent=ua):
+                self.assertIsNone(pattern.search(ua))
+
 
 class TestNginxConfigGeneration(unittest.TestCase, RobotsUnittestExtensions):
     maxDiff = 8192
