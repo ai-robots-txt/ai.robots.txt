@@ -47,6 +47,9 @@ middleware plugin for [Traefik](https://traefik.io/traefik/) to automatically ad
 file on-the-fly.
 
 - Alternatively you can [manually configure Traefik](./docs/traefik-manual-setup.md) to centrally serve a static `robots.txt`.
+
+- [Bot Ledger](https://farrelldan.github.io/ai-bot-directory/): free, static directory of verified AI crawlers with a one-click `robots.txt` and `llms.txt` generator. No signup required.
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
