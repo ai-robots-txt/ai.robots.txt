@@ -57,6 +57,7 @@ DuckAssistBot
 Echobot Bot
 EchoboxBot
 ExaBot
+ExaSearchBot
 FacebookBot
 facebookexternalhit
 Factset_spyderbot

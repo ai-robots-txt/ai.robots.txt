@@ -57,6 +57,7 @@ User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot
 User-agent: ExaBot
+User-agent: ExaSearchBot
 User-agent: FacebookBot
 User-agent: facebookexternalhit
 User-agent: Factset_spyderbot
