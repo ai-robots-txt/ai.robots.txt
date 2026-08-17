@@ -413,6 +413,13 @@
         "frequency": "Unclear at this time.",
         "description": "ExaBot is a web crawler that indexes web content to power Exa's AI search engine and semantic search APIs for AI applications. More info can be found at https://knownagents.com/agents/exabot"
     },
+    "ExaSearchBot": {
+        "operator": "[Exa](https://exa.ai)",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "ExaSearchBot is a web crawler operated by Exa that discovers and indexes public web pages so their content can be found, retrieved, and cited through Exa. More info can be found at https://knownagents.com/agents/exasearchbot"
+    },
     "FacebookBot": {
         "operator": "Meta/Facebook",
         "respect": "[Yes](https://developers.facebook.com/docs/sharing/bot/)",
