@@ -93,6 +93,7 @@ User-agent: KunatoCrawler
 User-agent: laion-huggingface-processor
 User-agent: LAIONDownloader
 User-agent: LCC
+User-agent: Lightpanda
 User-agent: LinerBot
 User-agent: Linguee Bot
 User-agent: LinkupBot

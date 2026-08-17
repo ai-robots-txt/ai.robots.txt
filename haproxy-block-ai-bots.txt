@@ -93,6 +93,7 @@ KunatoCrawler
 laion-huggingface-processor
 LAIONDownloader
 LCC
+Lightpanda
 LinerBot
 Linguee Bot
 LinkupBot
