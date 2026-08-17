@@ -665,6 +665,13 @@
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/lcc"
     },
+    "Lightpanda": {
+        "operator": "Anyone who downloads the Lightpanda client. Possibly being used by a [Grok-adjacent](https://github.com/lightpanda-io/browser/issues/3156#issuecomment-5217843616) organization's botnet.",
+        "respect": "At the [discretion](https://github.com/lightpanda-io/browser/blob/b04c99a9111564ebe06317f644680eda5e3ee83e/src/help.zon#L385) of Lightpanda users.",
+        "function": "AI Data Scrapers",
+        "frequency": "Defined per-user.",
+        "description": "Lightpanda is a custom-built headless browser designed for AI and automation."
+    },
     "LinerBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
