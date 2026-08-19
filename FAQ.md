@@ -32,6 +32,21 @@ Yes, provided the crawlers identify themselves and your application/hosting supp
 
 Some crawlers — [such as Perplexity](https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/) — do not identify themselves via their user agent strings and, as such, are difficult to block.
 
+## Can I use `robots.json` directly in my own tooling?
+
+You're welcome to, with a caveat. `robots.json` isn't intended as a primary
+deliverable of this project — the generated configuration files are. If you consume
+it yourself, note that **the agent names are matched as whole words**, not as
+substrings.
+
+The generated configs wrap the list in `\b(...)\b` for exactly this reason. Without
+word boundaries, short agent names match inside unrelated strings: the listed agent
+`LCC` appears inside `SLCC1`, a Windows licensing component present in the user
+agent of older Internet Explorer and Trident-based browsers. A naive substring match
+would block those real visitors ([#208](https://github.com/ai-robots-txt/ai.robots.txt/issues/208)).
+
+If you build your own matcher from `robots.json`, use word-boundary matching.
+
 ## What can we do if a bot doesn't respect `robots.txt`?
 
 That depends on your stack.
