@@ -126,6 +126,13 @@ class TestUserAgentPatternGeneration(unittest.TestCase):
             "NotAmazonbot/1.0",
             "NotApplebot/1.0",
             "NotBytespider/1.0",
+            # Real-world user agents that embed a listed bot name mid-string.
+            # These older Internet Explorer / Trident agents contain "SLCC1" or
+            # "SLCC2" (a Windows licensing component), which spans the listed
+            # agent "LCC". Reported in #208 and fixed by the word boundaries
+            # added in #260; pinned here so the specific report cannot regress.
+            "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30729)",
+            "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; Media Center PC 6.0)",
         ]
 
         for ua in non_ai_user_agents:
