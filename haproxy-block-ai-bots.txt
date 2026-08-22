@@ -133,6 +133,7 @@ Querit-SearchBot
 QueritBot
 QuillBot
 quillbot.com
+Reflectionbot
 SBIntuitionsBot
 Scrapy
 SemrushBot-OCOB
