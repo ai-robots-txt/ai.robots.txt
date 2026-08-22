@@ -945,6 +945,13 @@
         "operator": "[Quillbot](https://quillbot.com)",
         "respect": "Unclear at this time."
     },
+    "Reflectionbot": {
+        "operator": "[Reflection](https://reflection.ai/)",
+        "respect": "Unclear at this time.",
+        "function": "Undocumented AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "An undocumented crawler whose user agent links to Reflection, a company that builds AI models."
+    },
     "SBIntuitionsBot": {
         "operator": "[SB Intuitions](https://www.sbintuitions.co.jp/en/)",
         "respect": "[Yes](https://www.sbintuitions.co.jp/en/bot/)",
