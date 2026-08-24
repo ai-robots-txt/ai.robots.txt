@@ -42,11 +42,11 @@
         "description": "Scrapes data for AI systems."
     },
     "AIWebIndex": {
-        "operator": "Lyrenth that builds an AI-readable index of web content for AI systems",
-        "respect": "Unclear at this time.",
-        "function": "AI Data Providers",
-        "frequency": "Unclear at this time.",
-        "description": "AIWebIndex is a web crawler operated by Lyrenth that builds an AI-readable index of web content for AI systems. More info can be found at https://knownagents.com/agents/aiwebindex"
+        "operator": "[Lyrenth](https://lyrenth.com)",
+        "respect": "[Yes](https://lyrenth.com/crawler-policy)",
+        "function": "AI Search Crawlers",
+        "frequency": "At most one request per domain every 2 seconds, and slower where robots.txt sets a longer Crawl-delay.",
+        "description": "Builds an index of public pages and serves them to AI agents as extracted, readable text with attribution and a link back to the source. Does not train foundation models on crawled content. Identity can be checked three ways: published IP ranges at https://lyrenth.com/bot/ip-ranges.json, forward-confirmed reverse DNS under lyrenth.com, and Web Bot Auth signatures (RFC 9421). Full policy at https://lyrenth.com/crawler-policy"
     },
     "amazon-kendra": {
         "operator": "Amazon",
