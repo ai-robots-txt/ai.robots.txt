@@ -50,6 +50,8 @@ file on-the-fly.
 
 - [Bot Ledger](https://farrelldan.github.io/ai-bot-directory/): free, static directory of verified AI crawlers with a one-click `robots.txt` and `llms.txt` generator. No signup required.
 
+- [KI-Zugangsindex](https://peppe1337.github.io/ki-zugangsindex/): open dataset on how widely this kind of blocking is actually deployed in the German (`.de`) web, measured on a fixed panel of 600 domains so the same sites can be re-checked over time. First measurement 2026-08-25: of the domains serving a parseable `robots.txt`, 32.8% in the top 300 (77/235) disallow at least one of GPTBot, OAI-SearchBot, ClaudeBot or PerplexityBot, against 14.8% (31/210) of domains outside the top 50,000. All 600 raw responses and the measurement code are included.
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
