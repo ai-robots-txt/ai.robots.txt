@@ -757,11 +757,11 @@
         "respect": "Yes"
     },
     "Mozilla-Tabstack": {
-        "operator": "[Mozilla](https://docs.tabstack.ai/trust/controlling-access)",
+        "operator": "Mozilla that performs programmatic, AI-driven interactions with web content through Tabstack",
         "respect": "Yes",
         "function": "AI Data Providers",
         "frequency": "On demand via API.",
-        "description": "Tabstack is a web intelligence API for AI agents. It extracts structured data from web pages and makes it available to AI agents."
+        "description": "Mozilla-Tabstack is an AI agent operated by Mozilla that performs programmatic, AI-driven interactions with web content through Tabstack. More info can be found at https://knownagents.com/agents/mozilla-tabstack"
     },
     "MyCentralAIScraperBot": {
         "operator": "Unclear at this time.",
