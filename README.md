@@ -50,6 +50,8 @@ file on-the-fly.
 
 - [Bot Ledger](https://farrelldan.github.io/ai-bot-directory/): free, static directory of verified AI crawlers with a one-click `robots.txt` and `llms.txt` generator. No signup required.
 
+- [KI-Zugangsindex](https://peppe1337.github.io/ki-zugangsindex/): open dataset on how widely this kind of blocking is actually deployed in the German (`.de`) web, measured on a fixed panel of 600 domains so the same sites can be re-checked over time.
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
