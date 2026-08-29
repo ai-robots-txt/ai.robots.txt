@@ -53,6 +53,7 @@ User-agent: Datenbank Crawler
 User-agent: DeepSeekBot
 User-agent: Devin
 User-agent: Diffbot
+User-agent: Diffbot-User
 User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot

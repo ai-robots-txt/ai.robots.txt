@@ -53,6 +53,7 @@ Datenbank Crawler
 DeepSeekBot
 Devin
 Diffbot
+Diffbot-User
 DuckAssistBot
 Echobot Bot
 EchoboxBot
