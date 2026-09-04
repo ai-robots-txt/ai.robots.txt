@@ -115,3 +115,4 @@ But even if you don't use Cloudflare's hard block, their list of [verified bots]
 - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
 - [Blocking AI web crawlers](https://underlap.org/blocking-ai-web-crawlers) by Glyn Normington
 - [Block AI Bots from Crawling Websites Using Robots.txt](https://originality.ai/ai-bot-blocking) by Jonathan Gillham, Originality.AI
+- [AI Access Checker: see which AI crawlers a site's robots.txt allows or blocks](https://www.greadme.com/ai-access-checker) by Saar Twito, Greadme
