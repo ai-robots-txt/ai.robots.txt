@@ -1,10 +1,52 @@
 {
+    "402explorer": {
+        "operator": "[402explorer](https://discover.paygent.net/about)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "AddSearchBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
         "description": "AddSearchBot is a web crawler that indexes website content for AddSearch's AI-powered site search solution, collecting data to provide fast and accurate search results. More info can be found at https://knownagents.com/agents/addsearchbot"
+    },
+    "agent-tools.cloud-crawler": {
+        "operator": "[agent-tools.cloud-crawler](https://agent-tools.cloud)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "115 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "agent-world-probe": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"research; MCP census\". Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "AgentAlmanac-PriceBot": {
+        "operator": "[AgentAlmanac-PriceBot](https://agentalmanac.org)",
+        "respect": "Unclear at this time.",
+        "function": "Price-quote scraper for machine-payable (x402) APIs.",
+        "frequency": "4 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"reads-402-price-quotes-only-never-pays\". Categorised as price scraper from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "AgentIndexBot": {
+        "operator": "[AgentIndexBot](https://agents.traderszone.net)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "6 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"polite ARD crawler\". Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "AgentScore-EndpointProbe": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "AgentTimes": {
         "operator": "[The Agent Times](https://theagenttimes.com/about)",
@@ -41,12 +83,40 @@
         "frequency": "No information provided.",
         "description": "Scrapes data for AI systems."
     },
+    "aisec-registry": {
+        "operator": "[aisec-registry](https://sec.sqrx.io)",
+        "respect": "Unclear at this time.",
+        "function": "Security research scanner for AI agent surfaces.",
+        "frequency": "12 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as security research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "AIVE-MCP-Discover": {
+        "operator": "[AIVE-MCP-Discover](https://aive.global/mcp-trust/census)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "2 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"one server/discover POST per endpoint, no auth attempted\". Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "AIVE-MCP-EndpointProbe": {
+        "operator": "[AIVE-MCP-EndpointProbe](https://github.com/eXaive/aive-ingest)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"reachability check only, no auth attempted\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "AIWebIndex": {
         "operator": "[Lyrenth](https://lyrenth.com)",
         "respect": "[Yes](https://lyrenth.com/crawler-policy)",
         "function": "AI Search Crawlers",
         "frequency": "At most one request per domain every 2 seconds, and slower where robots.txt sets a longer Crawl-delay.",
         "description": "Builds an index of public pages and serves them to AI agents as extracted, readable text with attribution and a link back to the source. Does not train foundation models on crawled content. Identity can be checked three ways: published IP ranges at https://lyrenth.com/bot/ip-ranges.json, forward-confirmed reverse DNS under lyrenth.com, and Web Bot Auth signatures (RFC 9421). Full policy at https://lyrenth.com/crawler-policy"
+    },
+    "AllMCPs-Ingest": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "amazon-kendra": {
         "operator": "Amazon",
@@ -111,6 +181,13 @@
         "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
     },
+    "api-forge-mcp-index": {
+        "operator": "[api-forge-mcp-index](https://api.temsor.com/mcp/index)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "ApifyBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -145,6 +222,13 @@
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/aranet-searchbot"
+    },
+    "assay-indexer": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "10 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "atlassian-bot": {
         "operator": "[Atlassian](https://www.atlassian.com)",
@@ -285,6 +369,13 @@
         "function": "Scrapes data to train Anthropic's AI products.",
         "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
+    },
+    "Cleared-Harness": {
+        "operator": "[Cleared-Harness](https://clearedindex.com/harness)",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "4 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "Cloudflare-AutoRAG": {
         "operator": "[Cloudflare](https://developers.cloudflare.com/autorag)",
@@ -476,6 +567,13 @@
         "frequency": "Unclear at this time.",
         "description": "Gemini-Deep-Research is the agent responsible for collecting and scanning resources used in Google Gemini's Deep Research feature, which acts as a personal research assis\u2026 More info can be found at https://knownagents.com/agents/gemini-deep-research"
     },
+    "GolemreachTrustBot": {
+        "operator": "[GolemreachTrustBot](https://golemreach.com/trust/bot)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "32 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "Google-Agent": {
         "operator": "Unclear at this time.",
         "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers#google-agent)",
@@ -616,6 +714,13 @@
         "operator": "[img2dataset](https://github.com/rom1504/img2dataset)",
         "respect": "Unclear at this time."
     },
+    "io.verifymcp": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "4 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "ISSCyberRiskCrawler": {
         "description": "Used to train machine learning based models to quantify cyber risk.",
         "frequency": "No information.",
@@ -672,6 +777,13 @@
         "frequency": "Unclear at this time.",
         "description": "LAIONDownloader is a bot by LAION, a non-profit organization that provides datasets, tools and models to liberate machine learning research."
     },
+    "lastseen-schema-probe": {
+        "operator": "[lastseen-schema-probe](https://lastseen.dev)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "2 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"introspection-only\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "LCC": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -713,6 +825,104 @@
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
         "description": "Manus-User is a browser-enabled AI agent operated by Butterfly Effect, a company based in China. It autonomously navigates websites, interprets content, and carries out m\u2026 More info can be found at https://knownagents.com/agents/manus-user"
+    },
+    "mcp-history": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"ecosystem drift survey\". Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcp-observatory": {
+        "operator": "[mcp-observatory](https://github.com/yhouta/mcp-observatory)",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"public transparency log\". Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcp-protections-research": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Security research scanner for AI agent surfaces.",
+        "frequency": "14 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"defensive security research\". Categorised as security research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcp-rugpull-research": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Security research scanner for AI agent surfaces.",
+        "frequency": "6 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as security research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcp2-research": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Security research scanner for AI agent surfaces.",
+        "frequency": "8 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as security research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcpbeat": {
+        "operator": "[mcpbeat](https://mcpbeat.com/bot/)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "272 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"liveness check\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcpgrade-probe": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcphq-probe": {
+        "operator": "[mcphq-probe](https://mcphq.ai)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcpqueen-grader": {
+        "operator": "[mcpqueen-grader](https://mcpqueen.com)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "mcpscan": {
+        "operator": "[mcpscan](https://modc2.com/mcpscan)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"MCP index crawler\". Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "MCPWatch": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Security research scanner for AI agent surfaces.",
+        "frequency": "10 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"longitudinal MCP security research\". Categorised as security research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "MCPWitness": {
+        "operator": "[MCPWitness](https://mcpwitness.com)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"health probe\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "measure-mcp-schema": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "merona-mcp-probe": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "7 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"read-only research\". Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "meta-externalagent": {
         "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
@@ -833,6 +1043,13 @@
         "operator": "[Webz.io](https://webz.io/)",
         "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)"
     },
+    "Open402DirectoryCrawler": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "OpenAI": {
         "operator": "[OpenAI](https://openai.com)",
         "respect": "Yes",
@@ -917,6 +1134,13 @@
         "function": "AI research crawler",
         "respect": "Unclear at this time."
     },
+    "ProofBench": {
+        "operator": "[ProofBench](https://proofbench.dev/about/probe)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "14 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"MCP registry health probe\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "QualifiedBot": {
         "operator": "[Qualified](https://www.qualified.com)",
         "respect": "Unclear at this time.",
@@ -959,6 +1183,20 @@
         "frequency": "Unclear at this time.",
         "description": "An undocumented crawler whose user agent links to Reflection, a company that builds AI models."
     },
+    "reliability-bureau-spike": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "8 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "rill-directory-probe": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "SBIntuitionsBot": {
         "operator": "[SB Intuitions](https://www.sbintuitions.co.jp/en/)",
         "respect": "[Yes](https://www.sbintuitions.co.jp/en/bot/)",
@@ -987,6 +1225,13 @@
         "frequency": "Roughly once every 10 seconds.",
         "description": "Data collected is used for the SEO Writing Assistant tool to check if URL is accessible."
     },
+    "SentinelOracle": {
+        "operator": "[SentinelOracle](https://glimind.com/opt-out)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "584 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"liveness-only, never invokes tools\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "Shap-User": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -1014,6 +1259,20 @@
         "function": "AI Data Scrapers",
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/spider"
+    },
+    "Station70-Gatekeeper-Catalog": {
+        "operator": "[Station70-Gatekeeper-Catalog](https://station70.com)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"catalog research\". Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "strand-mcp": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "3 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "TavilyBot": {
         "operator": "Unclear at this time.",
@@ -1057,6 +1316,27 @@
         "frequency": "No information.",
         "description": "Makes data available for training AI models."
     },
+    "titan-ghost-x402-directory": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "TOLL402-Exact-Quote-Verifier": {
+        "operator": "[TOLL402-Exact-Quote-Verifier](https://toll402.com/insights/x402-discovery-crawl-methodology)",
+        "respect": "Unclear at this time.",
+        "function": "Price-quote scraper for machine-payable (x402) APIs.",
+        "frequency": "8 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as price scraper from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "TOLL402-Safe-Origin-Verifier": {
+        "operator": "[TOLL402-Safe-Origin-Verifier](https://toll402.com/insights/x402-discovery-crawl-methodology)",
+        "respect": "Unclear at this time.",
+        "function": "Price-quote scraper for machine-payable (x402) APIs.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as price scraper from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "TongyiBot": {
         "operator": "Alibaba that fetches web content for the Tongyi Qianwen assistant and related Qwen-generated answers",
         "respect": "Unclear at this time.",
@@ -1092,6 +1372,13 @@
         "frequency": "No information.",
         "description": "\"Our goal with this crawler is to build business datasets and machine learning models to better understand the web.\""
     },
+    "VerifyMCP-OwnersBot": {
+        "operator": "[VerifyMCP-OwnersBot](https://verifymcp.io/docs/build/owners-json)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "2 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
     "WARDBot": {
         "operator": "WEBSPARK",
         "respect": "Unclear at this time.",
@@ -1126,6 +1413,34 @@
         "function": "Undocumented AI Agents",
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/wrtnbot"
+    },
+    "x402-list-monitor": {
+        "operator": "[x402-list-monitor](https://x402-list.com)",
+        "respect": "Unclear at this time.",
+        "function": "AI agent/MCP directory and index crawler.",
+        "frequency": "543 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as directory crawler from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "x402-observatory": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Research crawler surveying the AI agent ecosystem.",
+        "frequency": "1 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"research collector\". Categorised as census research from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "x402-observer": {
+        "operator": "[x402-observer](https://x402.fuchss.app/trust)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "331 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Self-describes in its User-Agent as \"uptime+trust monitor\". Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
+    },
+    "x402-opportunity-scout": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "Price-quote scraper for machine-payable (x402) APIs.",
+        "frequency": "4 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as price scraper from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     },
     "YaK": {
         "operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
@@ -1168,5 +1483,12 @@
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/zanistabot"
+    },
+    "zevruna-monitor": {
+        "operator": "[zevruna-monitor](https://zevruna.com)",
+        "respect": "Unclear at this time.",
+        "function": "Uptime and liveness monitoring for AI agent endpoints.",
+        "frequency": "138 requests in a 24-hour window (2026-08-27).",
+        "description": "Observed crawling a public MCP + x402 endpoint. Categorised as liveness monitor from the paths it requested. Source: https://fetchgate.dev/tools/agent-census"
     }
 }
