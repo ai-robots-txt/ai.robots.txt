@@ -385,6 +385,13 @@
         "frequency": "Unclear at this time.",
         "description": "Diffbot is a web crawler that extracts and structures website content using AI-powered visual understanding, providing knowledge graph data for applications like market i\u2026 More info can be found at https://knownagents.com/agents/diffbot"
     },
+    "Diffbot-User": {
+        "operator": "[Diffbot](https://www.diffbot.com/)",
+        "respect": "Yes",
+        "function": "AI Assistants",
+        "frequency": "Only when prompted by a user.",
+        "description": "Diffbot-User is used by requests originating on behalf of a human user browsing a URL using Diffbot software, in response to their input. Documented by Diffbot at https://docs.diffbot.com/docs/does-crawl-respect-robotstxt"
+    },
     "DuckAssistBot": {
         "operator": "Unclear at this time.",
         "respect": "[Yes](https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot/)",
