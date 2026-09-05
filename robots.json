@@ -812,6 +812,13 @@
         "frequency": "Unclear at this time.",
         "description": "Nova Act is an AI agent created by Amazon that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a\u2026 More info can be found at https://knownagents.com/agents/novaact"
     },
+    "OAI-AdsBot": {
+        "operator": "[OpenAI](https://openai.com)",
+        "respect": "Unclear at this time.",
+        "function": "Validates and targets ads on ChatGPT.",
+        "frequency": "Only when a page is submitted as an ad.",
+        "description": "OAI-AdsBot visits the landing page of a page submitted as an ad on ChatGPT, to check it against OpenAI's policies and, per OpenAI, to \"determine when it's most relevant to show the ad to users\". OpenAI states it only visits pages submitted as ads and that the data is not used to train foundation models. Documented at https://developers.openai.com/api/docs/bots"
+    },
     "OAI-SearchBot": {
         "operator": "[OpenAI](https://openai.com)",
         "respect": "[Yes](https://platform.openai.com/docs/bots)",
