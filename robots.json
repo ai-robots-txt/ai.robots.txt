@@ -392,6 +392,13 @@
         "frequency": "Only when prompted by a user.",
         "description": "Diffbot-User is used by requests originating on behalf of a human user browsing a URL using Diffbot software, in response to their input. Documented by Diffbot at https://docs.diffbot.com/docs/does-crawl-respect-robotstxt"
     },
+    "DoubaoBot": {
+        "operator": "ByteDance",
+        "respect": "Unclear at this time.",
+        "function": "AI crawler for ByteDance's Doubao AI assistant.",
+        "frequency": "Unclear at this time.",
+        "description": "DoubaoBot is a crawler operated by ByteDance to collect web content for its Doubao AI assistant. Distinct from Bytespider (general/training) and TikTokSpider (video)."
+    },
     "DuckAssistBot": {
         "operator": "Unclear at this time.",
         "respect": "[Yes](https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot/)",
@@ -412,6 +419,13 @@
         "function": "Data collection to support AI-powered products.",
         "frequency": "Unclear at this time.",
         "description": "Supports company's AI-powered social and email management products."
+    },
+    "ERNIEBot": {
+        "operator": "Baidu",
+        "respect": "Unclear at this time.",
+        "function": "Collects public web content for Baidu's ERNIE large language models.",
+        "frequency": "Unclear at this time.",
+        "description": "ERNIEBot is a crawler operated by Baidu to collect public web content used for its ERNIE (Wenxin) large language models."
     },
     "ExaBot": {
         "operator": "Unclear at this time.",
@@ -749,6 +763,13 @@
         "frequency": "Unhinged, more than 1 per second.",
         "description": "As per their documentation, \"The Meta-WebIndexer crawler navigates the web to improve Meta AI search result quality for users. In doing so, Meta analyzes online content to enhance the relevance and accuracy of Meta AI. Allowing Meta-WebIndexer in your robots.txt file helps us cite and link to your content in Meta AI's responses.\""
     },
+    "MistralAI-Index": {
+        "operator": "Mistral AI",
+        "respect": "Yes",
+        "function": "Indexes web content for Mistral AI's search, used to answer questions in Le Chat. Per Mistral, not used for model training.",
+        "frequency": "Unclear at this time.",
+        "description": "MistralAI-Index is Mistral AI's indexing crawler. It collects web content for Mistral's search index (the source behind Le Chat's answers). Mistral states the content is not used for generative AI training. Documented at https://docs.mistral.ai/robots"
+    },
     "MistralAI-User": {
         "operator": "Mistral",
         "respect": "Unclear at this time.",
@@ -951,6 +972,13 @@
         "function": "Company offers AI detection, writing tools and other services.",
         "operator": "[Quillbot](https://quillbot.com)",
         "respect": "Unclear at this time."
+    },
+    "QwenBot": {
+        "operator": "Alibaba",
+        "respect": "Unclear at this time.",
+        "function": "Collects public web content for Alibaba's Qwen (Tongyi Qianwen) large language models.",
+        "frequency": "Unclear at this time.",
+        "description": "QwenBot is a crawler operated by Alibaba to collect public web content for its Qwen (Tongyi Qianwen) large language models. Alibaba also operates TongyiBot."
     },
     "Reflectionbot": {
         "operator": "[Reflection](https://reflection.ai/)",
