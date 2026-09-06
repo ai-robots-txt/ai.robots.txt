@@ -637,12 +637,26 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://knownagents.com/agents/kangaroo-bot"
     },
+    "Kimi-SearchBot": {
+        "operator": "[Moonshot AI](https://www.moonshot.ai)",
+        "respect": "[Yes](https://www.kimi.ai/policies/kimi-crawlers)",
+        "function": "AI Search Crawlers",
+        "frequency": "No information provided.",
+        "description": "Kimi-SearchBot powers Kimi's search features: it analyzes pages for relevance and builds the search index. Documented by Moonshot AI at https://www.kimi.ai/policies/kimi-crawlers"
+    },
     "Kimi-User": {
         "operator": "Moonshot AI that fetches web content on behalf of users interacting with Kimi",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "Kimi-User is a web crawler operated by Moonshot AI that fetches web content on behalf of users interacting with Kimi. When a user asks Kimi to summarize an article or ans\u2026 More info can be found at https://knownagents.com/agents/kimi-user"
+    },
+    "KimiBot": {
+        "operator": "[Moonshot AI](https://www.moonshot.ai)",
+        "respect": "[Yes](https://www.kimi.ai/policies/kimi-crawlers)",
+        "function": "AI Data Scrapers",
+        "frequency": "No information provided.",
+        "description": "KimiBot crawls content potentially used to train Kimi's foundation models. Documented by Moonshot AI at https://www.kimi.ai/policies/kimi-crawlers"
     },
     "KlaviyoAIBot": {
         "operator": "[Klaviyo](https://www.klaviyo.com)",
@@ -748,6 +762,13 @@
         "function": "AI Assistants",
         "frequency": "Unhinged, more than 1 per second.",
         "description": "As per their documentation, \"The Meta-WebIndexer crawler navigates the web to improve Meta AI search result quality for users. In doing so, Meta analyzes online content to enhance the relevance and accuracy of Meta AI. Allowing Meta-WebIndexer in your robots.txt file helps us cite and link to your content in Meta AI's responses.\""
+    },
+    "MistralAI-Training": {
+        "operator": "[Mistral AI](https://mistral.ai)",
+        "respect": "[Yes](https://docs.mistral.ai/robots/)",
+        "function": "AI Data Scrapers",
+        "frequency": "No information provided.",
+        "description": "MistralAI-Training crawls web content to build training datasets. Documented by Mistral at https://docs.mistral.ai/robots/"
     },
     "MistralAI-User": {
         "operator": "Mistral",
