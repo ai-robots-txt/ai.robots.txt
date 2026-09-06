@@ -89,7 +89,9 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: kagi-fetcher
 User-agent: Kangaroo Bot
+User-agent: Kimi-SearchBot
 User-agent: Kimi-User
+User-agent: KimiBot
 User-agent: KlaviyoAIBot
 User-agent: KunatoCrawler
 User-agent: laion-huggingface-processor
@@ -105,6 +107,7 @@ User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher
 User-agent: Meta-ExternalFetcher
 User-agent: meta-webindexer
+User-agent: MistralAI-Training
 User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
 User-agent: Mozilla-Tabstack

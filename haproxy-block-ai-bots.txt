@@ -89,7 +89,9 @@ img2dataset
 ISSCyberRiskCrawler
 kagi-fetcher
 Kangaroo Bot
+Kimi-SearchBot
 Kimi-User
+KimiBot
 KlaviyoAIBot
 KunatoCrawler
 laion-huggingface-processor
@@ -105,6 +107,7 @@ Meta-ExternalAgent
 meta-externalfetcher
 Meta-ExternalFetcher
 meta-webindexer
+MistralAI-Training
 MistralAI-User
 MistralAI-User/1.0
 Mozilla-Tabstack
