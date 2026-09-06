@@ -114,6 +114,7 @@ User-agent: netEstate Imprint Crawler
 User-agent: newsai
 User-agent: NotebookLM
 User-agent: NovaAct
+User-agent: OAI-AdsBot
 User-agent: OAI-SearchBot
 User-agent: omgili
 User-agent: omgilibot
