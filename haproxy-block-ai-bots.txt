@@ -54,9 +54,11 @@ DeepSeekBot
 Devin
 Diffbot
 Diffbot-User
+DoubaoBot
 DuckAssistBot
 Echobot Bot
 EchoboxBot
+ERNIEBot
 ExaBot
 ExaSearchBot
 FacebookBot
@@ -107,6 +109,7 @@ Meta-ExternalAgent
 meta-externalfetcher
 Meta-ExternalFetcher
 meta-webindexer
+MistralAI-Index
 MistralAI-Training
 MistralAI-User
 MistralAI-User/1.0
@@ -138,6 +141,7 @@ Querit-SearchBot
 QueritBot
 QuillBot
 quillbot.com
+QwenBot
 Reflectionbot
 SBIntuitionsBot
 Scrapy
