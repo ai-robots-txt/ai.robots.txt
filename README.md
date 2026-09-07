@@ -56,6 +56,8 @@ file on-the-fly.
 
 - [KI-Zugangsindex](https://peppe1337.github.io/ki-zugangsindex/): open dataset on how widely this kind of blocking is actually deployed in the German (`.de`) web, measured on a fixed panel of 600 domains so the same sites can be re-checked over time.
 
+- [AI Crawler Census](https://ai-visibility.lastminutedealshq.com/data): open dataset measuring which of these crawlers the Tranco top 5,000 sites allow or block, with per-domain results published for each run so the same sites can be compared over time. Raw JSON, CC BY 4.0.
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
