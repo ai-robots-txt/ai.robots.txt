@@ -201,7 +201,9 @@ def json_to_htaccess(robot_json):
 def json_to_nginx(robot_json):
     # Creates an Nginx config file. This config snippet can be included in
     # nginx server{} blocks to block AI bots.
-    config = f"set $block 0;\n\nif ($http_user_agent ~ {list_to_pcre(robot_json)!r}) {{\n    set $block 1;\n}}\n\nif ($request_uri = '/robots.txt') {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
+    # Exact User-agent matching is case-insensitive (RFC 9309 2.2.1), so this uses
+    # nginx's case-insensitive "~*" operator rather than "~".
+    config = f"set $block 0;\n\nif ($http_user_agent ~* {list_to_pcre(robot_json)!r}) {{\n    set $block 1;\n}}\n\nif ($request_uri = '/robots.txt') {{\n    set $block 0;\n}}\n\nif ($block) {{\n    return 403;\n}}"
     return config
 
 
@@ -210,7 +212,9 @@ def json_to_lighttpd(robot_json):
     # Lighttpd configuration global or in $HTTP conditionals to block AI bots.
     # single quotes (as returned by repr) are not valid string delimeters, so we
     # must manually quote it end ensure no unescaped quotes are inside.
-    escaped_quotes = list_to_pcre(robot_json).replace('"', '\\"')
+    # Lighttpd's "=~" is case-sensitive by default; the inline (?i) flag makes it
+    # match the case-insensitive exact matching robots.txt itself requires.
+    escaped_quotes = ("(?i)" + list_to_pcre(robot_json)).replace('"', '\\"')
     config = f'$HTTP["url"] != "/robots.txt" {{ $HTTP["user-agent"] =~ "{escaped_quotes}" {{ url.access-deny = ( "" ) }} }}'
     return config
 
@@ -218,7 +222,8 @@ def json_to_lighttpd(robot_json):
 def json_to_caddy(robot_json):
     # single quotes (as returned by repr) are not valid string delimeters, so we
     # must manually quote it end ensure no unescaped quotes are inside.
-    escaped_quotes = list_to_pcre(robot_json).replace('"', '\\"')
+    # Same case-insensitivity note as lighttpd; Caddy's RE2 engine also honours (?i).
+    escaped_quotes = ("(?i)" + list_to_pcre(robot_json)).replace('"', '\\"')
     caddyfile = "@aibots {\n    "
     caddyfile += f'    header_regexp User-Agent "{escaped_quotes}"'
     caddyfile += "\n}"
