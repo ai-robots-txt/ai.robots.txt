@@ -34,6 +34,25 @@ default_values = {
 }
 default_value = "Unclear at this time."
 
+def existing_key(existing_content, name: str) -> str:
+    """Return the key robots.json already uses for this agent, ignoring case.
+
+    robots.txt user-agent matching is case-insensitive, so two entries whose
+    names differ only in case are the same crawler. knownagents.com has changed
+    the capitalisation of a name before now, and keying off the scraped name
+    added a second entry rather than updating the first, which both duplicated
+    the User-agent line in every generated file and left the curated operator
+    and respect values behind on the old key.
+    """
+    if name in existing_content:
+        return name
+    lowered = name.lower()
+    for key in existing_content:
+        if key.lower() == lowered:
+            return key
+    return name
+
+
 def consolidate(existing_content, name: str, field: str, value: str) -> str:
     # New entry
     if name not in existing_content:
@@ -77,6 +96,7 @@ def updated_robots_json(soup):
         for agent in section.find_all("a", href=True):
             name = agent.find("div", {"class": "agent-name"}).get_text().strip()
             name = clean_robot_name(name)
+            name = existing_key(existing_content, name)
 
             desc_tag = agent.find("div", {"class": "description"})
             if desc_tag is not None:
