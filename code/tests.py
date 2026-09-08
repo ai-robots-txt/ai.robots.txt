@@ -7,6 +7,7 @@ import unittest
 
 from robots import (
     consolidate,
+    existing_key,
     default_value,
     default_values,
     json_to_caddy,
@@ -202,6 +203,19 @@ class TestConsolidate(unittest.TestCase, RobotsUnittestExtensions):
         existing = {"rosie": { "description": default_value}}
         self.assertEqual("Rosie is the robot maid from The Jetsons, an American animated sitcom", 
                          consolidate(existing, "rosie", "description", "Rosie is the robot maid from The Jetsons, an American animated sitcom"))
+
+class TestExistingKey(unittest.TestCase):
+    def test_exact_match_wins(self):
+        existing = {"Rosie": {}, "rosie": {}}
+        self.assertEqual("rosie", existing_key(existing, "rosie"))
+
+    def test_matches_ignoring_case(self):
+        existing = {"Rosie": {"operator": "George Jetson"}}
+        self.assertEqual("Rosie", existing_key(existing, "rosie"))
+
+    def test_unknown_name_is_returned_unchanged(self):
+        self.assertEqual("rosie", existing_key({}, "rosie"))
+
 
 if __name__ == "__main__":
     import os
