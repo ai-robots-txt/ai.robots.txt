@@ -58,6 +58,8 @@ file on-the-fly.
 
 - [AI Crawler Census](https://ai-visibility.lastminutedealshq.com/data): open dataset measuring which of these crawlers the Tranco top 5,000 sites allow or block, with per-domain results published for each run so the same sites can be compared over time. Raw JSON, CC BY 4.0.
 
+- [AI Discovery Radar](https://github.com/flober81/ai-discovery-radar): open dataset on whether the AI opt-out and discovery files exist in the first place, measured monthly on a rotating sample of ~10,700 domains drawn from a fixed frame, so the same routes can be compared over time. In the September 2026 run `robots.txt` was present on 84.7% of observed hosts, while the dedicated opt-out formats each stayed below 1%. Aggregates only, no per-domain results. CSV/JSON, CC BY 4.0, with a published ruleset and a DOI.
+
 ## Contributing
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
