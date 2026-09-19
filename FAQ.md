@@ -2,7 +2,9 @@
 
 ## Why should we block these crawlers?
 
-They're extractive, confer no benefit to the creators of data they're ingesting and also have wide-ranging negative externalities: particularly copyright abuse and environmental impact.
+They're extractive, confer no benefit to the creators of data they're ingesting
+and also have wide-ranging negative externalities, from copyright abuse and
+environmental impacts to the exploitation of labor and use in war.
 
 **[How Tech Giants Cut Corners to Harvest Data for A.I.](https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html?unlocked_article_code=1.ik0.Ofja.L21c1wyW-0xj&ugrp=m)**
 > OpenAI, Google and Meta ignored corporate policies, altered their own rules and discussed skirting copyright law as they sought online information to train their newest artificial intelligence systems.
@@ -15,6 +17,12 @@ They're extractive, confer no benefit to the creators of data they're ingesting 
 
 **[Scientists Predict AI to Generate Millions of Tons of E-Waste](https://www.sciencealert.com/scientists-predict-ai-to-generate-millions-of-tons-of-e-waste)**
 > we could end up with between 1.2 million and 5 million metric tons of additional electronic waste by the end of this decade [the 2020's].
+
+**[Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic](https://time.com/6247678/openai-chatgpt-kenya-workers/)**
+> AI often relies on hidden human labor in the Global South that can often be damaging and exploitative. These invisible workers remain on the margins even as their work contributes to billion-dollar industries.
+
+**[US Military Using Claude to Select Targets in Iran Strikes](https://futurism.com/artificial-intelligence/claude-anthropic-military-iran)**
+> Anthropic’s large language model, Claude, is the key “AI tool” used by US Central Command in the Middle East. Its tasks include assessing intelligence, simulated war games, and even identifying military targets — in short, helping military leaders plan attacks that have already claimed hundreds of lives.
 
 ## How do we know AI companies/bots respect `robots.txt`?
 
