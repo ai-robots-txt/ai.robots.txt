@@ -62,7 +62,7 @@ file on-the-fly.
 
 ## Contributing
 
-Please note that AI and LLM contributions are not permitted.
+Please note that AI-generated contributions are not permitted.
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
 
