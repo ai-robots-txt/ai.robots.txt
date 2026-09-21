@@ -6,23 +6,31 @@ They're extractive, confer no benefit to the creators of data they're ingesting
 and also have wide-ranging negative externalities, from copyright abuse and
 environmental impacts to the exploitation of labor and use in war.
 
-**[How Tech Giants Cut Corners to Harvest Data for A.I.](https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html?unlocked_article_code=1.ik0.Ofja.L21c1wyW-0xj&ugrp=m)**
-> OpenAI, Google and Meta ignored corporate policies, altered their own rules and discussed skirting copyright law as they sought online information to train their newest artificial intelligence systems.
+### References
 
-**[How AI copyright lawsuits could make the whole industry go extinct](https://www.theverge.com/24062159/ai-copyright-fair-use-lawsuits-new-york-times-openai-chatgpt-decoder-podcast)**
-> The New York Times' lawsuit against OpenAI is part of a broader, industry-shaking copyright challenge that could define the future of AI.
+- [How Tech Giants Cut Corners to Harvest Data for A.I.](https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html?unlocked_article_code=1.ik0.Ofja.L21c1wyW-0xj&ugrp=m)
 
-**[Reconciling the contrasting narratives on the environmental impact of large language models](https://www.nature.com/articles/s41598-024-76682-6)**
-> Studies have shown that the training of just one LLM can consume as much energy as five cars do across their lifetimes. The water footprint of AI is also substantial; for example, recent work has highlighted that water consumption associated with AI models involves data centers using millions of gallons of water per day for cooling. Additionally, the energy consumption and carbon emissions of AI are projected to grow quickly in the coming years [...].
+    > OpenAI, Google and Meta ignored corporate policies, altered their own rules and discussed skirting copyright law as they sought online information to train their newest artificial intelligence systems.
 
-**[Scientists Predict AI to Generate Millions of Tons of E-Waste](https://www.sciencealert.com/scientists-predict-ai-to-generate-millions-of-tons-of-e-waste)**
-> we could end up with between 1.2 million and 5 million metric tons of additional electronic waste by the end of this decade [the 2020's].
+- [How AI copyright lawsuits could make the whole industry go extinct](https://www.theverge.com/24062159/ai-copyright-fair-use-lawsuits-new-york-times-openai-chatgpt-decoder-podcast)
 
-**[Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic](https://time.com/6247678/openai-chatgpt-kenya-workers/)**
-> AI often relies on hidden human labor in the Global South that can often be damaging and exploitative. These invisible workers remain on the margins even as their work contributes to billion-dollar industries.
+    > The New York Times' lawsuit against OpenAI is part of a broader, industry-shaking copyright challenge that could define the future of AI.
 
-**[US Military Using Claude to Select Targets in Iran Strikes](https://futurism.com/artificial-intelligence/claude-anthropic-military-iran)**
-> Anthropic’s large language model, Claude, is the key “AI tool” used by US Central Command in the Middle East. Its tasks include assessing intelligence, simulated war games, and even identifying military targets — in short, helping military leaders plan attacks that have already claimed hundreds of lives.
+- [Reconciling the contrasting narratives on the environmental impact of large language models](https://www.nature.com/articles/s41598-024-76682-6)
+
+    > Studies have shown that the training of just one LLM can consume as much energy as five cars do across their lifetimes. The water footprint of AI is also substantial; for example, recent work has highlighted that water consumption associated with AI models involves data centers using millions of gallons of water per day for cooling. Additionally, the energy consumption and carbon emissions of AI are projected to grow quickly in the coming years [...].
+
+- [Scientists Predict AI to Generate Millions of Tons of E-Waste](https://www.sciencealert.com/scientists-predict-ai-to-generate-millions-of-tons-of-e-waste)
+
+    > we could end up with between 1.2 million and 5 million metric tons of additional electronic waste by the end of this decade [the 2020's].
+
+- [Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic](https://time.com/6247678/openai-chatgpt-kenya-workers/)
+
+    > AI often relies on hidden human labor in the Global South that can often be damaging and exploitative. These invisible workers remain on the margins even as their work contributes to billion-dollar industries.
+
+- [US Military Using Claude to Select Targets in Iran Strikes](https://futurism.com/artificial-intelligence/claude-anthropic-military-iran)
+
+    > Anthropic’s large language model, Claude, is the key “AI tool” used by US Central Command in the Middle East. Its tasks include assessing intelligence, simulated war games, and even identifying military targets — in short, helping military leaders plan attacks that have already claimed hundreds of lives.
 
 ## How do we know AI companies/bots respect `robots.txt`?
 
