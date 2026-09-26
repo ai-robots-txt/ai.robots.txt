@@ -6,6 +6,13 @@
         "frequency": "Unclear at this time.",
         "description": "AddSearchBot is a web crawler that indexes website content for AddSearch's AI-powered site search solution, collecting data to provide fast and accurate search results. More info can be found at https://knownagents.com/agents/addsearchbot"
     },
+    "AgentDataBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "AgentDataBot visits public web pages to identify technology stacks, company details, and team members. The data builds AgentData's company-intelligence database for AI ag\u2026 More info can be found at https://knownagents.com/agents/agentdatabot"
+    },
     "AgentTimes": {
         "operator": "[The Agent Times](https://theagenttimes.com/about)",
         "respect": "Unclear at this time.",
@@ -181,6 +188,13 @@
         "frequency": "Unclear at this time.",
         "description": "bigsur.ai is a web crawler operated by Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for busi\u2026 More info can be found at https://knownagents.com/agents/bigsur-ai"
     },
+    "BixelBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "BixelBot collects public company and market signals for Bixel's structured company-data platform, which supplies verified business information to AI agents and developers\u2026 More info can be found at https://knownagents.com/agents/bixelbot"
+    },
     "Bravebot": {
         "operator": "https://safe.search.brave.com/help/brave-search-crawler",
         "respect": "Yes",
@@ -292,6 +306,13 @@
         "function": "Collects data for AI search",
         "frequency": "Unclear at this time.",
         "description": "AutoRAG is an all-in-one AI search solution."
+    },
+    "CloudflareBrowserRenderingCrawler": {
+        "operator": "Cloudflare that returns rendered website content for research, monitoring, and AI data workflows",
+        "respect": "Unclear at this time.",
+        "function": "AI Data Providers",
+        "frequency": "Unclear at this time.",
+        "description": "CloudflareBrowserRenderingCrawler is a web crawler operated by Cloudflare that returns rendered website content for research, monitoring, and AI data workflows. More info can be found at https://knownagents.com/agents/cloudflarebrowserrenderingcrawler"
     },
     "CloudVertexBot": {
         "operator": "Unclear at this time.",
@@ -651,6 +672,13 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://knownagents.com/agents/kangaroo-bot"
     },
+    "Kimi-Agent": {
+        "operator": "Moonshot AI that browses websites while carrying out user-directed research and other tasks",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Kimi-Agent is a browser-enabled AI agent operated by Moonshot AI that browses websites while carrying out user-directed research and other tasks. More info can be found at https://knownagents.com/agents/kimi-agent"
+    },
     "Kimi-SearchBot": {
         "operator": "[Moonshot AI](https://www.moonshot.ai)",
         "respect": "[Yes](https://www.kimi.ai/policies/kimi-crawlers)",
@@ -965,6 +993,13 @@
         "frequency": "No explicit frequency provided.",
         "function": "AI research crawler",
         "respect": "Unclear at this time."
+    },
+    "qodercli": {
+        "operator": "Qoder that helps developers build, debug, and modify software from the terminal",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "qodercli is a command-line AI coding agent operated by Qoder that helps developers build, debug, and modify software from the terminal. More info can be found at https://knownagents.com/agents/qodercli"
     },
     "QualifiedBot": {
         "operator": "[Qualified](https://www.qualified.com)",
