@@ -672,6 +672,14 @@
         "frequency": "Unclear at this time.",
         "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://knownagents.com/agents/kangaroo-bot"
     },
+    "KeenableBot": {
+        "operator": "[Keenable](https://keenable.ai/)",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "KeenableBot is a web crawler operated by Keenable for indexing web content for AI search."
+    },
+
     "Kimi-Agent": {
         "operator": "Moonshot AI that browses websites while carrying out user-directed research and other tasks",
         "respect": "Unclear at this time.",

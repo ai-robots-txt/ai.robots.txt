@@ -94,6 +94,7 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: kagi-fetcher
 User-agent: Kangaroo Bot
+User-agent: KeenableBot
 User-agent: Kimi-Agent
 User-agent: Kimi-SearchBot
 User-agent: Kimi-User
