@@ -94,6 +94,7 @@ img2dataset
 ISSCyberRiskCrawler
 kagi-fetcher
 Kangaroo Bot
+KeenableBot
 Kimi-Agent
 Kimi-SearchBot
 Kimi-User
