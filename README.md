@@ -10,14 +10,16 @@ If you'd like to add an AI-related crawler to the list, please see "Contributing
 
 ## Usage
 
-This repository provides the following files:
+This repository provides the following files in the top-level directory[^root]:
 
-- `robots.txt`
-- `.htaccess`
-- `nginx-block-ai-bots.conf`
-- `Caddyfile`
-- `haproxy-block-ai-bots.txt`
-- `lighttpd-block-ai-bots.conf`
+- [`robots.txt`](./robots.txt)
+- [`.htaccess`](./.htaccess)
+- [`nginx-block-ai-bots.conf`](./nginx-block-ai-bots.conf)
+- [`Caddyfile`](./Caddyfile)
+- [`haproxy-block-ai-bots.txt`](./haproxy-block-ai-bots.txt)
+- [`lighttpd-block-ai-bots.conf`](./lighttpd-block-ai-bots.conf)
+
+[^root]: Other files with similar names appear in the directory `code/test_files`. These files are for test purposes only and you must not use them on your own site.
 
 `robots.txt` implements the Robots Exclusion Protocol ([RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html)).
 
