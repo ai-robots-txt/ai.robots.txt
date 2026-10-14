@@ -1,4 +1,32 @@
 {
+    "nbot": {
+        "operator": "[NBot](https://nbot.ai)",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "NBot uses advanced AI to scan news outlets, industry blogs, newsletters, and social media."
+    },
+    "GrokAppAndroid": {
+        "operator": "[xAI](https://x.ai)",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Grok AI is an advanced AI assistant built by xAI that leverages real-time web and X data to produce context-aware, multimodal responses."
+    },
+    "GrokBot": {
+        "operator": "[xAI](https://x.ai)",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Used to collect publicly available web content to support the training of Grok AI models."
+    },
+    "ExaSearchBot": {
+        "operator": "[EXA AI](https://exa.ai)",
+        "respect": "Unclear at this time.",
+        "function": "AI Search Crawlers",
+        "frequency": "Unclear at this time.",
+        "description": "Search the largest index of public web and private information."
+    },
     "AddSearchBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
