@@ -1,3 +1,7 @@
+nbot
+GrokAppAndroid
+GrokBot
+ExaSearchBot
 AddSearchBot
 AgentDataBot
 AgentTimes
@@ -63,7 +67,6 @@ Echobot Bot
 EchoboxBot
 ERNIEBot
 ExaBot
-ExaSearchBot
 FacebookBot
 facebookexternalhit
 Factset_spyderbot
