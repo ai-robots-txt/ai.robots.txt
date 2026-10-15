@@ -1,7 +1,3 @@
-nbot
-GrokAppAndroid
-GrokBot
-ExaSearchBot
 AddSearchBot
 AgentDataBot
 AgentTimes
@@ -67,6 +63,7 @@ Echobot Bot
 EchoboxBot
 ERNIEBot
 ExaBot
+ExaSearchBot
 FacebookBot
 facebookexternalhit
 Factset_spyderbot
@@ -86,6 +83,8 @@ GoogleOther
 GoogleOther-Image
 GoogleOther-Video
 GPTBot
+GrokAppAndroid
+GrokBot
 HenkBot
 iAskBot
 iaskspider
@@ -124,6 +123,7 @@ MistralAI-User/1.0
 Mozilla-Tabstack
 MyCentralAIScraperBot
 NagetBot
+nbot
 netEstate Imprint Crawler
 newsai
 NotebookLM
