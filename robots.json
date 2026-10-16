@@ -616,6 +616,13 @@
         "frequency": "Unclear at this time.",
         "description": "Henkbot crawls the web on behalf of Valyu, an AI search infrastructure provider that indexes content for use in AI-powered retrieval pipelines. More info can be found at https://knownagents.com/agents/henkbot"
     },
+    "Hunyuan": {
+        "operator": "[Tencent](https://hunyuan.tencent.com)",
+        "respect": "Unclear at this time.",
+        "function": "Hunyuan is a training crawler operated by Tencent.",
+        "frequency": "Unclear at this time.",
+        "description": "Hunyuan is a training crawler operated by Tencent. Its job is to read public web pages and feed that content into a machine-learning pipeline that trains future versions of the model."
+    },
     "iAskBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -853,6 +860,13 @@
         "frequency": "Only when prompted by a user.",
         "description": "MistralAI-User is for user actions in LeChat. When users ask LeChat a question, it may visit a web page to help answer and include a link to the source in its response.",
         "respect": "Yes"
+    },
+    "MoonshotBot": {
+        "operator": "[Kimi](https://www.kimi.ai/)",
+        "respect": "Unclear at this time.",
+        "function": "MoonshotBot is a training crawler.",
+        "frequency": "Unclear at this time.",
+        "description": "MoonshotBot is a training crawler operated by Kimi. Its job is to read public web pages and feed that content into a machine-learning pipeline that trains future versions of the model."
     },
     "Mozilla-Tabstack": {
         "operator": "Mozilla that performs programmatic, AI-driven interactions with web content through Tabstack",
@@ -1246,6 +1260,13 @@
         "frequency": "Unclear at this time.",
         "description": "Description unavailable from knownagents.com More info can be found at https://knownagents.com/agents/wrtnbot"
     },
+    "xAI-Grok": {
+        "operator": "[xAI](https://x.ai/)",
+        "respect": "Unclear at this time.",
+        "function": "xAI-Grok is an xAI crawler token associated with Grok content collection.",
+        "frequency": "Unclear at this time.",
+        "description": "xAI-Grok is an xAI crawler token associated with Grok content collection. It is classified as training because it performs automated collection rather than a user-triggered fetch."
+    },
     "YaK": {
         "operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
         "respect": "Unclear at this time.",
@@ -1266,6 +1287,13 @@
         "function": "Scrapes/analyzes data for the YandexGPT LLM.",
         "frequency": "No information.",
         "description": "Retrieves data used for YandexGPT quick answers features."
+    },
+    "YiBot": {
+        "operator": "[01.ai](https://01.ai/), an AI company founded by Kai-Fu Lee.",
+        "respect": "Unclear at this time.",
+        "function": "This bot crawls the web to gather data and content for indexation and AI model training.",
+        "frequency": "Unclear at this time.",
+        "description": "YiBot/1.0 is an advanced artificial intelligence platform designed to enhance interaction and engagement across various applications. Its architecture allows for seamless integration into websites and applications, providing users with a responsive and intuitive interface."
     },
     "YiyanBot": {
         "operator": "Baidu that fetches web content for the yiyan",
