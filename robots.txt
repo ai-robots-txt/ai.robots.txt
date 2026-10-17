@@ -86,6 +86,7 @@ User-agent: GPTBot
 User-agent: GrokAppAndroid
 User-agent: GrokBot
 User-agent: HenkBot
+User-agent: Hunyuan
 User-agent: iAskBot
 User-agent: iaskspider
 User-agent: iaskspider/2.0
@@ -120,6 +121,7 @@ User-agent: MistralAI-Index
 User-agent: MistralAI-Training
 User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
+User-agent: MoonshotBot
 User-agent: Mozilla-Tabstack
 User-agent: MyCentralAIScraperBot
 User-agent: NagetBot
@@ -176,9 +178,11 @@ User-agent: Webzio-Extended
 User-agent: webzio-extended
 User-agent: wpbot
 User-agent: WRTNBot
+User-agent: xAI-Grok
 User-agent: YaK
 User-agent: YandexAdditional
 User-agent: YandexAdditionalBot
+User-agent: YiBot
 User-agent: YiyanBot
 User-agent: YouBot
 User-agent: ZanistaBot
