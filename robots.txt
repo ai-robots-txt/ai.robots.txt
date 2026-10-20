@@ -45,6 +45,7 @@ User-agent: Cloudflare-AutoRAG
 User-agent: CloudflareBrowserRenderingCrawler
 User-agent: CloudVertexBot
 User-agent: Code
+User-agent: Codex
 User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
 User-agent: Cotoyogi

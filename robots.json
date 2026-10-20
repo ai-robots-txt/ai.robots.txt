@@ -329,6 +329,13 @@
         "description": "Code (GitHub Copilot) is an AI coding agent that can autonomously plan, build, and execute development tasks, functioning as a collaborative AI pair programmer. More info can be found at https://knownagents.com/agents/code",
         "has_name_and_version": true
     },
+    "Codex": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Coding Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Codex is an AI coding agent by OpenAI that helps developers write, review, debug, and ship code. More info can be found at https://knownagents.com/agents/codex"
+    },
     "cohere-ai": {
         "operator": "[Cohere](https://cohere.com)",
         "respect": "Unclear at this time.",

@@ -45,6 +45,7 @@ Cloudflare-AutoRAG
 CloudflareBrowserRenderingCrawler
 CloudVertexBot
 Code
+Codex
 cohere-ai
 cohere-training-data-crawler
 Cotoyogi
