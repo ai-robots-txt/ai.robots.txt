@@ -84,6 +84,7 @@ User-agent: GoogleOther
 User-agent: GoogleOther-Image
 User-agent: GoogleOther-Video
 User-agent: GPTBot
+User-agent: Grok Bot
 User-agent: GrokAppAndroid
 User-agent: GrokBot
 User-agent: HenkBot
@@ -95,6 +96,7 @@ User-agent: ICC-Crawler
 User-agent: ImagesiftBot
 User-agent: imageSpider
 User-agent: img2dataset
+User-agent: Instinct
 User-agent: ISSCyberRiskCrawler
 User-agent: kagi-fetcher
 User-agent: Kangaroo Bot
@@ -124,6 +126,7 @@ User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
 User-agent: MoonshotBot
 User-agent: Mozilla-Tabstack
+User-agent: Muse
 User-agent: MyCentralAIScraperBot
 User-agent: NagetBot
 User-agent: nbot

@@ -602,6 +602,13 @@
         "frequency": "No information.",
         "description": "Data is used to train current and future models, removed paywalled data, PII and data that violates the company's policies."
     },
+    "Grok Bot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Grok Bot is a personal AI agent created by xAI that runs on a persistent cloud computer with a browser, filesystem, and terminal. It completes multi-step tasks across app\u2026 More info can be found at https://knownagents.com/agents/grok-bot"
+    },
     "GrokAppAndroid": {
         "operator": "[xAI](https://x.ai)",
         "respect": "Unclear at this time.",
@@ -678,6 +685,13 @@
         "function": "Scrapes images for use in LLMs.",
         "operator": "[img2dataset](https://github.com/rom1504/img2dataset)",
         "respect": "Unclear at this time."
+    },
+    "Instinct": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Instinct is a personal AI agent that uses a phone and computer to complete everyday tasks such as ordering groceries, booking travel, arranging appointments, and communic\u2026 More info can be found at https://knownagents.com/agents/instinct"
     },
     "ISSCyberRiskCrawler": {
         "description": "Used to train machine learning based models to quantify cyber risk.",
@@ -881,6 +895,13 @@
         "function": "AI Data Providers",
         "frequency": "On demand via API.",
         "description": "Mozilla-Tabstack is an AI agent operated by Mozilla that performs programmatic, AI-driven interactions with web content through Tabstack. More info can be found at https://knownagents.com/agents/mozilla-tabstack"
+    },
+    "Muse": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Muse is a personal AI agent created by Meta that uses a web browser and connected apps to complete multi-step tasks such as filling out forms, booking travel, sending ema\u2026 More info can be found at https://knownagents.com/agents/muse"
     },
     "MyCentralAIScraperBot": {
         "operator": "Unclear at this time.",
