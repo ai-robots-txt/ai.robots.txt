@@ -65,6 +65,7 @@ EchoboxBot
 ERNIEBot
 ExaBot
 ExaSearchBot
+ExaUser
 FacebookBot
 facebookexternalhit
 Factset_spyderbot

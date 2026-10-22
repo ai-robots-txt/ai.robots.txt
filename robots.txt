@@ -65,6 +65,7 @@ User-agent: EchoboxBot
 User-agent: ERNIEBot
 User-agent: ExaBot
 User-agent: ExaSearchBot
+User-agent: ExaUser
 User-agent: FacebookBot
 User-agent: facebookexternalhit
 User-agent: Factset_spyderbot
