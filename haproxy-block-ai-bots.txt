@@ -58,6 +58,7 @@ DeepSeekBot
 Devin
 Diffbot
 Diffbot-User
+Dot
 DoubaoBot
 DuckAssistBot
 Echobot Bot
@@ -88,6 +89,7 @@ GPTBot
 Grok Bot
 GrokAppAndroid
 GrokBot
+HarkBot
 HenkBot
 Hunyuan
 iAskBot

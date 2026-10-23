@@ -58,6 +58,7 @@ User-agent: DeepSeekBot
 User-agent: Devin
 User-agent: Diffbot
 User-agent: Diffbot-User
+User-agent: Dot
 User-agent: DoubaoBot
 User-agent: DuckAssistBot
 User-agent: Echobot Bot
@@ -88,6 +89,7 @@ User-agent: GPTBot
 User-agent: Grok Bot
 User-agent: GrokAppAndroid
 User-agent: GrokBot
+User-agent: HarkBot
 User-agent: HenkBot
 User-agent: Hunyuan
 User-agent: iAskBot

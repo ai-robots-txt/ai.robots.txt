@@ -420,6 +420,13 @@
         "frequency": "Only when prompted by a user.",
         "description": "Diffbot-User is used by requests originating on behalf of a human user browsing a URL using Diffbot software, in response to their input. Documented by Diffbot at https://docs.diffbot.com/docs/does-crawl-respect-robotstxt"
     },
+    "Dot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Dot is an OpenAI AI agent that uses a cloud browser to research websites and carry out ongoing tasks for users. More info can be found at https://knownagents.com/agents/dot"
+    },
     "DoubaoBot": {
         "operator": "ByteDance",
         "respect": "Unclear at this time.",
@@ -629,6 +636,13 @@
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Used to collect publicly available web content to support the training of Grok AI models."
+    },
+    "HarkBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "HarkBot visits web pages on behalf of signed-in Hark users as Hark carries out research, form-filling, and account actions. More info can be found at https://knownagents.com/agents/harkbot"
     },
     "HenkBot": {
         "operator": "Unclear at this time.",
