@@ -1,6 +1,7 @@
 AddSearchBot
 AgentDataBot
 AgentTimes
+AGI Agent
 AI2Bot
 AI2Bot-DeepResearchEval
 Ai2Bot-Dolma
@@ -31,6 +32,7 @@ Brightbot
 Brightbot 1.0
 BuddyBot
 Bytespider
+CartAI Agentic Commerce
 CCBot
 Channel3Bot
 ChatGLM-Spider
@@ -41,6 +43,7 @@ Claude-SearchBot
 Claude-User
 Claude-Web
 ClaudeBot
+CledaraBot
 Cloudflare-AutoRAG
 CloudflareBrowserRenderingCrawler
 CloudVertexBot
@@ -63,6 +66,7 @@ DoubaoBot
 DuckAssistBot
 Echobot Bot
 EchoboxBot
+ElevenlabsBot
 ERNIEBot
 ExaBot
 ExaSearchBot
@@ -147,6 +151,7 @@ Operator
 PanguBot
 Panscient
 panscient.com
+Payhawk Invoice Fetching Agent
 Perplexity-User
 PerplexityBot
 PetalBot

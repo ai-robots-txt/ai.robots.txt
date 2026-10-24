@@ -1,6 +1,7 @@
 User-agent: AddSearchBot
 User-agent: AgentDataBot
 User-agent: AgentTimes
+User-agent: AGI Agent
 User-agent: AI2Bot
 User-agent: AI2Bot-DeepResearchEval
 User-agent: Ai2Bot-Dolma
@@ -31,6 +32,7 @@ User-agent: Brightbot
 User-agent: Brightbot 1.0
 User-agent: BuddyBot
 User-agent: Bytespider
+User-agent: CartAI Agentic Commerce
 User-agent: CCBot
 User-agent: Channel3Bot
 User-agent: ChatGLM-Spider
@@ -41,6 +43,7 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
+User-agent: CledaraBot
 User-agent: Cloudflare-AutoRAG
 User-agent: CloudflareBrowserRenderingCrawler
 User-agent: CloudVertexBot
@@ -63,6 +66,7 @@ User-agent: DoubaoBot
 User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot
+User-agent: ElevenlabsBot
 User-agent: ERNIEBot
 User-agent: ExaBot
 User-agent: ExaSearchBot
@@ -147,6 +151,7 @@ User-agent: Operator
 User-agent: PanguBot
 User-agent: Panscient
 User-agent: panscient.com
+User-agent: Payhawk Invoice Fetching Agent
 User-agent: Perplexity-User
 User-agent: PerplexityBot
 User-agent: PetalBot

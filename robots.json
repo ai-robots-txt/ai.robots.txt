@@ -20,6 +20,13 @@
         "frequency": "Requests RSS feed every 5-6 minutes.",
         "description": "Scrapes data for AI news aggregation and republishing."
     },
+    "AGI Agent": {
+        "operator": "AGI, Inc",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "AGI Agent is an AI assistant operated by AGI, Inc. that navigates websites to complete user-directed tasks, including online purchases and other actions. More info can be found at https://knownagents.com/agents/agi-agent"
+    },
     "AI2Bot": {
         "operator": "[Ai2](https://allenai.org/crawler)",
         "respect": "Yes",
@@ -230,6 +237,13 @@
         "frequency": "Unclear at this time.",
         "description": "Downloads data to train LLMS, including ChatGPT competitors."
     },
+    "CartAI Agentic Commerce": {
+        "operator": "CartAI that accesses online stores to support user-directed shopping and checkout workflows",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "CartAI Agentic Commerce is a signed browser agent operated by CartAI that accesses online stores to support user-directed shopping and checkout workflows. More info can be found at https://knownagents.com/agents/cartai-agentic-commerce"
+    },
     "CCBot": {
         "operator": "[Common Crawl Foundation](https://commoncrawl.org)",
         "respect": "[Yes](https://commoncrawl.org/ccbot)",
@@ -299,6 +313,13 @@
         "function": "Scrapes data to train Anthropic's AI products.",
         "frequency": "No information provided.",
         "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
+    },
+    "CledaraBot": {
+        "operator": "Cledara that visits SaaS providers to complete customer-approved administrative tasks, including invoice collection and user managem\u2026",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "CledaraBot is an AI agent operated by Cledara that visits SaaS providers to complete customer-approved administrative tasks, including invoice collection and user managem\u2026 More info can be found at https://knownagents.com/agents/cledarabot"
     },
     "Cloudflare-AutoRAG": {
         "operator": "[Cloudflare](https://developers.cloudflare.com/autorag)",
@@ -454,6 +475,13 @@
         "function": "Data collection to support AI-powered products.",
         "frequency": "Unclear at this time.",
         "description": "Supports company's AI-powered social and email management products."
+    },
+    "ElevenlabsBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "ElevenlabsBot fetches pages that customers add to or refresh in ElevenLabs agents' knowledge bases, making that content available in conversations. More info can be found at https://knownagents.com/agents/elevenlabsbot"
     },
     "ERNIEBot": {
         "operator": "Baidu",
@@ -1043,6 +1071,13 @@
         "frequency": "The Panscient web crawler will request a page at most once every second from the same domain name or the same IP address.",
         "description": "Compiles data on businesses and business professionals that is structured using AI and machine learning."
     },
+    "Payhawk Invoice Fetching Agent": {
+        "operator": "Payhawk that retrieves invoices from supplier websites for users and attaches them to expense records",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Payhawk Invoice Fetching Agent is a browser agent operated by Payhawk that retrieves invoices from supplier websites for users and attaches them to expense records. More info can be found at https://knownagents.com/agents/payhawk-invoice-fetching-agent"
+    },
     "Perplexity-User": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",
         "respect": "[No](https://docs.perplexity.ai/guides/bots)",
@@ -1069,7 +1104,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "No explicit frequency provided.",
-        "description": "Phind is an AI-powered answer engine designed for developers, offering technical answers and code examples. It uses real-time web search and specialized AI models to prov\u2026 More info can be found at https://knownagents.com/agents/phindbot"
+        "description": "PhindBot retrieves web pages to support Phind's developer-focused search and answer engine, which uses current web information to answer technical questions. More info can be found at https://knownagents.com/agents/phindbot"
     },
     "Poggio-Citations": {
         "operator": "Poggio, a company that provides AI sales enablement tools for creating tailored narratives, business cases, and account plan\u2026",
