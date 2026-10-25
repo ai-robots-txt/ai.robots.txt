@@ -477,11 +477,18 @@
         "description": "Supports company's AI-powered social and email management products."
     },
     "ElevenlabsBot": {
-        "operator": "Unclear at this time.",
-        "respect": "Unclear at this time.",
+        "operator": "[ElevenLabs](https://elevenlabs.io)",
+        "respect": "Yes",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
         "description": "ElevenlabsBot fetches pages that customers add to or refresh in ElevenLabs agents' knowledge bases, making that content available in conversations. More info can be found at https://knownagents.com/agents/elevenlabsbot"
+    },
+    "ElevenlabsCrawler": {
+        "operator": "[ElevenLabs](https://elevenlabs.io)",
+        "respect": "Yes",
+        "function": "AI Data Scraper",
+        "frequency": "Unclear at this time.",
+        "description": "ElevenlabsCrawler is ElevenLabs' web crawler that collects public content that may be used to train its generative AI models. More info can be found at https://knownagents.com/agents/elevenlabscrawler"
     },
     "ERNIEBot": {
         "operator": "Baidu",
