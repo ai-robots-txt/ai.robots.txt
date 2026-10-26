@@ -483,6 +483,13 @@
         "frequency": "Unclear at this time.",
         "description": "ElevenlabsBot fetches pages that customers add to or refresh in ElevenLabs agents' knowledge bases, making that content available in conversations. More info can be found at https://knownagents.com/agents/elevenlabsbot"
     },
+    "ElevenlabsCrawler": {
+        "operator": "ElevenLabs",
+        "respect": "Unclear, but operator indicates yes. See: https://elevenlabs.io/docs/bots - this sentence 'Disallowing ElevenlabsCrawler in robots.txt indicates that a site’s content should not be used for training'",
+        "function": "training",
+        "frequency": "No information",
+        "description": "ElevenlabsCrawler crawls the web to collect content that may be used to train ElevenLabs’ generative AI models. Disallowing ElevenlabsCrawler in robots.txt indicates that a site’s content should not be used for training."
+    },
     "ERNIEBot": {
         "operator": "Baidu",
         "respect": "Unclear at this time.",
