@@ -67,6 +67,7 @@ User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot
 User-agent: ElevenlabsBot
+User-agent: ElevenlabsCrawler
 User-agent: ERNIEBot
 User-agent: ExaBot
 User-agent: ExaSearchBot

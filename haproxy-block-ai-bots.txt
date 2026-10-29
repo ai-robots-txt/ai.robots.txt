@@ -67,6 +67,7 @@ DuckAssistBot
 Echobot Bot
 EchoboxBot
 ElevenlabsBot
+ElevenlabsCrawler
 ERNIEBot
 ExaBot
 ExaSearchBot
