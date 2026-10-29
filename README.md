@@ -62,6 +62,8 @@ file on-the-fly.
 
 - [AI Discovery Radar](https://github.com/flober81/ai-discovery-radar): monthly measurement of how many websites actually publish the files that tell AI systems what they may read or use (`robots.txt`, `llms.txt`, `ai.txt`, `tdmrep.json` and similar), and whether those files can be fetched at all. Open data, CC BY 4.0.
 
+- [State of AI Crawler Access](https://queryrev.com/research/ai-crawler-access): open dataset measuring how the top 9,973 Tranco sites treat 11 AI crawlers in robots.txt and whether they publish a well-formed llms.txt, with per-domain results published for each run. Every figure is reported against three denominators (all sites, sites with a readable robots.txt, sites with AI-specific rules). Open data, CC BY 4.0.
+
 ## Contributing
 
 Please note that AI-generated contributions are not permitted.
