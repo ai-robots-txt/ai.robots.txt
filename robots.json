@@ -1190,6 +1190,13 @@
         "operator": "[Zyte](https://www.zyte.com)",
         "respect": "Unclear at this time."
     },
+    "ScryBot": {
+        "operator": "[Scry](https://scry.io/)",
+        "respect": "Unclear at this time.",
+        "function": "Used with AI agents to scrape data for answers to queries",
+        "frequency": "No information.",
+        "description": "An AI agent companion that allows you to enhance answers by scraping data"
+    },
     "SemrushBot-OCOB": {
         "operator": "[Semrush](https://www.semrush.com/)",
         "respect": "[Yes](https://www.semrush.com/bot/)",
