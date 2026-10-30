@@ -62,6 +62,8 @@ file on-the-fly.
 
 - [AI Discovery Radar](https://github.com/flober81/ai-discovery-radar): monthly measurement of how many websites actually publish the files that tell AI systems what they may read or use (`robots.txt`, `llms.txt`, `ai.txt`, `tdmrep.json` and similar), and whether those files can be fetched at all. Open data, CC BY 4.0.
 
+- [AI Visibility Checker](https://linksthatrank.com/ai-visibility-checker/): checks whether 33 AI crawlers can reach a site, testing `robots.txt`, the CDN and the server, and shows exactly what blocks each one and how to fix it.
+
 ## Contributing
 
 Please note that AI-generated contributions are not permitted.
