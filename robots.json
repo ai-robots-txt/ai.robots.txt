@@ -279,6 +279,13 @@
         "frequency": "Only when prompted by a user.",
         "description": "ChatGPT-User is OpenAI's web crawler that visits websites when ChatGPT users request information. This enables ChatGPT to include links in its responses. More info can be found at https://knownagents.com/agents/chatgpt-user"
     },
+    "Claude-Agent": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "Claude-Agent is Anthropic's cloud browser agent for Claude Duet. It navigates websites and completes multi-step tasks on behalf of users. More info can be found at https://knownagents.com/agents/claude-agent"
+    },
     "Claude-Code": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",

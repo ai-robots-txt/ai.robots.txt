@@ -38,6 +38,7 @@ Channel3Bot
 ChatGLM-Spider
 ChatGPT Agent
 ChatGPT-User
+Claude-Agent
 Claude-Code
 Claude-SearchBot
 Claude-User
