@@ -1,4 +1,11 @@
 {
+    "__usage_ai-training": {
+        "operator": "Not applicable.",
+        "respect": "Yes ([Anthropic](https://mailarchive.ietf.org/arch/msg/ai-control/mddjatOxSR0h6GmLRBWlc839c7w/), [OpenAI](https://openai.com/index/helping-websites-express-ai-training-preferences/), [Google](https://developers.google.com/search/blog/2026/10/ai-training-control), [Microsoft Bing](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/))",
+        "function": "AI Data Scrapers",
+        "frequency": "Not applicable.",
+        "description": "`__usage_ai-training` is a policy token defined in an [Internet Draft](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/) that Anthropic's Kevin Kelley submitted to the AI Preferences working group at the IETF to show a preference against crawling data for AI training."
+    },
     "AddSearchBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
