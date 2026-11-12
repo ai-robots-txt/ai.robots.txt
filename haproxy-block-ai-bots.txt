@@ -86,6 +86,7 @@ Google-CloudVertexBot
 Google-Extended
 Google-Firebase
 Google-Gemini-CLI
+Google-GeminiNotebook
 Google-NotebookLM
 GoogleAgent-Mariner
 GoogleAgent-URLContext
@@ -96,6 +97,7 @@ GPTBot
 Grok Bot
 GrokAppAndroid
 GrokBot
+Haiku-SearchBot
 HarkBot
 HenkBot
 Hunyuan
@@ -121,6 +123,7 @@ laion-huggingface-processor
 LAIONDownloader
 LCC
 Lightpanda
+Liner-User
 LinerBot
 Linguee Bot
 LinkupBot
@@ -130,6 +133,7 @@ Meta-ExternalAgent
 meta-externalfetcher
 Meta-ExternalFetcher
 meta-webindexer
+MiniMaxAgent
 MistralAI-Index
 MistralAI-Training
 MistralAI-User

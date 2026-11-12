@@ -46,7 +46,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Ai2Bot-DeepResearchEval is operated by Ai2, a non-profit AI research institute. It's used to collect and scan resources used in deep research queries performed by Ai2's o\u2026 More info can be found at https://knownagents.com/agents/ai2bot-deepresearcheval"
+        "description": "AI2Bot-DeepResearchEval retrieves resources used to evaluate deep-research queries performed by Ai2's open-source models. More info can be found at https://knownagents.com/agents/ai2bot-deepresearcheval"
     },
     "Ai2Bot-Dolma": {
         "operator": "[Ai2](https://allenai.org/crawler)",
@@ -453,7 +453,7 @@
         "respect": "Yes",
         "function": "AI Assistants",
         "frequency": "Only when prompted by a user.",
-        "description": "Diffbot-User is used by requests originating on behalf of a human user browsing a URL using Diffbot software, in response to their input. Documented by Diffbot at https://docs.diffbot.com/docs/does-crawl-respect-robotstxt"
+        "description": "Diffbot-User fetches URLs on behalf of human users interacting with Diffbot software. More info can be found at https://knownagents.com/agents/diffbot-user"
     },
     "Dot": {
         "operator": "Unclear at this time.",
@@ -616,12 +616,19 @@
         "frequency": "Unclear at this time.",
         "description": "Gemini CLI is an AI coding agent by Google that can query and edit large codebases, generate apps from images or PDFs, and automate complex workflows directly from the te\u2026 More info can be found at https://knownagents.com/agents/google-gemini-cli"
     },
+    "Google-GeminiNotebook": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Google-GeminiNotebook fetches individual URLs that users add as sources in Gemini Notebook so Google can analyze and summarize their content. More info can be found at https://knownagents.com/agents/google-gemininotebook"
+    },
     "Google-NotebookLM": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "Google-NotebookLM is an AI-powered research and note-taking assistant that helps users synthesize information from uploaded sources like documents, transcripts, or web co\u2026 More info can be found at https://knownagents.com/agents/google-notebooklm"
+        "description": "Google-NotebookLM is Google's former Gemini Notebook fetcher identifier that continues to retrieve source URLs users add to their notebooks. More info can be found at https://knownagents.com/agents/google-notebooklm"
     },
     "GoogleAgent-Mariner": {
         "operator": "Google",
@@ -685,6 +692,13 @@
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
         "description": "Used to collect publicly available web content to support the training of Grok AI models."
+    },
+    "Haiku-SearchBot": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Haiku-SearchBot retrieves webpages in response to user requests through Haiku's legal AI services. More info can be found at https://knownagents.com/agents/haiku-searchbot"
     },
     "HarkBot": {
         "operator": "Unclear at this time.",
@@ -861,6 +875,13 @@
         "frequency": "Defined per-user.",
         "description": "Lightpanda is a custom-built headless browser designed for AI and automation."
     },
+    "Liner-User": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Assistants",
+        "frequency": "Unclear at this time.",
+        "description": "Liner-User fetches web content for Liner to answer user questions with cited information. More info can be found at https://knownagents.com/agents/liner-user"
+    },
     "LinerBot": {
         "operator": "Unclear at this time.",
         "respect": "Unclear at this time.",
@@ -923,6 +944,13 @@
         "function": "AI Assistants",
         "frequency": "Unhinged, more than 1 per second.",
         "description": "As per their documentation, \"The Meta-WebIndexer crawler navigates the web to improve Meta AI search result quality for users. In doing so, Meta analyzes online content to enhance the relevance and accuracy of Meta AI. Allowing Meta-WebIndexer in your robots.txt file helps us cite and link to your content in Meta AI's responses.\""
+    },
+    "MiniMaxAgent": {
+        "operator": "Unclear at this time.",
+        "respect": "Unclear at this time.",
+        "function": "AI Agents",
+        "frequency": "Unclear at this time.",
+        "description": "MiniMaxAgent browses and uses online information to complete complex user-directed tasks in MiniMax Agent. More info can be found at https://knownagents.com/agents/minimax-agent"
     },
     "MistralAI-Index": {
         "operator": "Mistral AI",
@@ -1020,7 +1048,7 @@
         "respect": "Unclear at this time.",
         "function": "AI Agents",
         "frequency": "Unclear at this time.",
-        "description": "Nova Act is an AI agent created by Amazon that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a\u2026 More info can be found at https://knownagents.com/agents/novaact"
+        "description": "NovaAct is Amazon's browser-using agent for navigating websites and completing multi-step tasks on behalf of users. More info can be found at https://knownagents.com/agents/novaact"
     },
     "OAI-AdsBot": {
         "operator": "[OpenAI](https://openai.com)",
@@ -1104,7 +1132,7 @@
         "respect": "[No](https://docs.perplexity.ai/guides/bots)",
         "function": "AI Assistants",
         "frequency": "Only when prompted by a user.",
-        "description": "Perplexity-User supports user actions within Perplexity. When users ask Perplexity a question, it might visit a web page to help provide an accurate answer and include a \u2026 More info can be found at https://knownagents.com/agents/perplexity-user"
+        "description": "Perplexity-User retrieves webpages in response to user requests so Perplexity can answer questions using current information from those pages. More info can be found at https://knownagents.com/agents/perplexity-user"
     },
     "PerplexityBot": {
         "operator": "[Perplexity](https://www.perplexity.ai/)",

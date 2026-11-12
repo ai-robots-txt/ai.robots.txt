@@ -86,6 +86,7 @@ User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
 User-agent: Google-Firebase
 User-agent: Google-Gemini-CLI
+User-agent: Google-GeminiNotebook
 User-agent: Google-NotebookLM
 User-agent: GoogleAgent-Mariner
 User-agent: GoogleAgent-URLContext
@@ -96,6 +97,7 @@ User-agent: GPTBot
 User-agent: Grok Bot
 User-agent: GrokAppAndroid
 User-agent: GrokBot
+User-agent: Haiku-SearchBot
 User-agent: HarkBot
 User-agent: HenkBot
 User-agent: Hunyuan
@@ -121,6 +123,7 @@ User-agent: laion-huggingface-processor
 User-agent: LAIONDownloader
 User-agent: LCC
 User-agent: Lightpanda
+User-agent: Liner-User
 User-agent: LinerBot
 User-agent: Linguee Bot
 User-agent: LinkupBot
@@ -130,6 +133,7 @@ User-agent: Meta-ExternalAgent
 User-agent: meta-externalfetcher
 User-agent: Meta-ExternalFetcher
 User-agent: meta-webindexer
+User-agent: MiniMaxAgent
 User-agent: MistralAI-Index
 User-agent: MistralAI-Training
 User-agent: MistralAI-User
