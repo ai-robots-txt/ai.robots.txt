@@ -64,6 +64,8 @@ file on-the-fly.
 
 - [AI Visibility Checker](https://linksthatrank.com/ai-visibility-checker/): checks whether various AI crawlers can reach a site, testing `robots.txt`, the CDN and the server, and shows exactly what blocks each one and how to fix it.
 
+- [AI Crawler Access Checker](https://anobee.com/tools/ai-crawler-checker): checks which AI crawlers can access your website through robots.txt, shows which bots are allowed or blocked, identifies the exact rules responsible, and explains how your settings affect AI search, answers, and model training. 
+
 ## Contributing
 
 Please note that AI-generated contributions are not permitted.
