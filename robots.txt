@@ -99,6 +99,7 @@ User-agent: GrokAppAndroid
 User-agent: GrokBot
 User-agent: Haiku-SearchBot
 User-agent: HarkBot
+User-agent: HatchFeed
 User-agent: HenkBot
 User-agent: Hunyuan
 User-agent: iAskBot

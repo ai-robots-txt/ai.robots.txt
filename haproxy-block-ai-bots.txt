@@ -99,6 +99,7 @@ GrokAppAndroid
 GrokBot
 Haiku-SearchBot
 HarkBot
+HatchFeed
 HenkBot
 Hunyuan
 iAskBot
