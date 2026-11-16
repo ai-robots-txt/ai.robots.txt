@@ -712,7 +712,7 @@
         "respect": "No",
         "function": "AI Assistants",
         "frequency": "Unclear at this time.",
-        "description": "HatchFeed is the link-preview fetcher of Meta's Muse AI agent; https://agent.meta.ai in its user agent redirects to muse.ai. It fetches a page and its Open Graph images when Muse needs them for a user. It did not request robots.txt in over 7,000 observed requests. Example user agent: HatchFeed/1.0 (+https://agent.meta.ai; link preview). More info can be found at https://tin.computer/blog/meta-muse-hatchfeed-user-agent"
+        "description": "HatchFeed is the link-preview fetcher of Meta's Muse AI agent; https://agent.meta.ai in its user agent redirects to muse.ai. It fetches a page and its Open Graph images when Muse needs them for a user."
     },
     "HenkBot": {
         "operator": "Unclear at this time.",
