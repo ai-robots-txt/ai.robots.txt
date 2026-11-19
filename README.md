@@ -66,6 +66,8 @@ file on-the-fly.
 
 - [AI Crawler Access Checker](https://anobee.com/tools/ai-crawler-checker): checks which AI crawlers can access your website through robots.txt, shows which bots are allowed or blocked, identifies the exact rules responsible, and explains how your settings affect AI search, answers, and model training. 
 
+- [InvolvePro AI Crawler Study](https://involvepro.com/insights/geo/ai-crawlers-robots-txt-study/): A look at how popular websites are blocking AI crawlers right now and what the data shows.
+
 ## Contributing
 
 Please note that AI-generated contributions are not permitted.
