@@ -575,7 +575,7 @@
         "description": "GeistHaus-PageFetcher is a web crawler operated by GeistHaus, a company developing AI systems for therapy and psychological assessment. This bot fetches web pages as part\u2026 More info can be found at https://knownagents.com/agents/geisthaus-pagefetcher"
     },
     "GeneralRetrievalBot": {
-        "operator": "AxionOrbital Space Inc, search index for AI-agent search",
+        "operator": "AxionOrbital Space Inc.",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
         "description": "GeneralRetrievalBot collects public web pages for General Retrieval, a search service for AI agents.",
