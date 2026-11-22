@@ -80,6 +80,7 @@ User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler
 User-agent: GeistHaus-PageFetcher
+User-agent: GeneralRetrievalBot
 User-agent: Gemini-Deep-Research
 User-agent: Google-Agent
 User-agent: Google-CloudVertexBot
