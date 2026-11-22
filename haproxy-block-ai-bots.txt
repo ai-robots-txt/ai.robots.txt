@@ -80,8 +80,8 @@ Factset_spyderbot
 FirecrawlAgent
 FriendlyCrawler
 GeistHaus-PageFetcher
-GeneralRetrievalBot
 Gemini-Deep-Research
+GeneralRetrievalBot
 Google-Agent
 Google-CloudVertexBot
 Google-Extended
