@@ -578,7 +578,7 @@
         "operator": "AxionOrbital Space Inc, search index for AI-agent search",
         "function": "AI Search Crawlers",
         "frequency": "Unclear at this time.",
-        "description": "GeneralRetrievalBot collects public web pages for General Retrieval, a search service for software agents.",
+        "description": "GeneralRetrievalBot collects public web pages for General Retrieval, a search service for AI agents.",
         "respect": "[Yes](https://generalretrieval.com/bot)"
     },
     "Gemini-Deep-Research": {
