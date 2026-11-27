@@ -66,7 +66,7 @@
         "operator": "[Lyrenth](https://lyrenth.com)",
         "respect": "[Yes](https://lyrenth.com/crawler-policy)",
         "function": "AI Search Crawlers",
-        "frequency": "At most one request per domain every 2 seconds, and slower where robots.txt sets a longer Crawl-delay.",
+        "frequency": "At most one page per site every 2 seconds, or slower where robots.txt sets a longer Crawl-delay. Pages that need a browser are rendered at most once every 10 seconds per site, loading only the scripts and data requests robots.txt allows, never images, media or trackers.",
         "description": "Builds an index of public pages and serves them to AI agents as extracted, readable text with attribution and a link back to the source. Does not train foundation models on crawled content. Identity can be checked three ways: published IP ranges at https://lyrenth.com/bot/ip-ranges.json, forward-confirmed reverse DNS under lyrenth.com, and Web Bot Auth signatures (RFC 9421). Full policy at https://lyrenth.com/crawler-policy"
     },
     "amazon-kendra": {
